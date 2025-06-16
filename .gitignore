@@ -9,8 +9,9 @@ wheels/
 # Mac OS files
 .DS_Store
 
-# Virtual environments
+# Environment
 .venv
+.env
 
 excel_generator
 output
