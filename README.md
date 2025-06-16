@@ -14,7 +14,7 @@ WATSONX_PROJECT_ID=
 
 ### Dependencies
 
-```setup
+```bash
 pip install uv
 uv venv
 uv sync
