@@ -1,0 +1,14 @@
+You are given an example of a question from a dataset along with a short description of the dataset:
+
+[[ dataset description ]]
+{dataset_description}
+
+[[ example question ]]
+{example_question}
+
+
+I am trying to reformat my dataset in the format of chain of thoughts instruction. In order to do so, I will need some kind of high level structure that will contain the following:
+You should start with a sentence or two that describe the task in the dataset, then write a list of steps (the desired structure) - each step should be one line. Finally, if needed, provide general instructions that apply to all steps.
+The template should be to the point, without unnecessary explanations and steps.
+
+In your output, simply provide the task description, the list of steps, and the general instructions (if any). No other explanations needed.
