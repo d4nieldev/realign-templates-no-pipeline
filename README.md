@@ -23,3 +23,5 @@ uv sync
 ## UI
 
 To activate the UI run: `uv run src/ui.py`
+
+Open the UI: [http://127.0.0.1:7860/]
