@@ -1,6 +1,18 @@
 # ReAlign Template Generator
 
-## Installation
+## Setup
+
+### Environment
+
+Create a `.env` file with the following variables:
+
+```env
+WATSONX_URL=
+WATSONX_APIKEY=
+WATSONX_PROJECT_ID=
+```
+
+### Dependencies
 
 ```setup
 pip install uv
