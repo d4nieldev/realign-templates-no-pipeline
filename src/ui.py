@@ -16,8 +16,7 @@ client = APIClient(credentials=creds, project_id=os.getenv("WATSONX_PROJECT_ID")
 models = ["openai/gpt-4.1"] + [e.value for e in client.foundation_models.TextModels]
 
 DEFAULT_MODEL = "openai/gpt-4.1"
-PROMPTS_DIR = "prompts"
-DEFAULT_PROMPT_FILE =  "default.txt"
+DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/default.txt"
 
 
 def highlight_placeholders(prompt_text):
@@ -27,7 +26,7 @@ def highlight_placeholders(prompt_text):
 def preview_prompt(prompt_file):
     if prompt_file is None:
         return ""
-    prompt_text = Path(PROMPTS_DIR+"/"+prompt_file).read_text()
+    prompt_text = Path(prompt_file).read_text()
     highlighted = highlight_placeholders(prompt_text)
     # Make line breaks visible in HTML
     highlighted = highlighted.replace('\n', '<br>')
