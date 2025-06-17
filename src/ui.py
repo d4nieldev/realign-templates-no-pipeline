@@ -226,10 +226,10 @@ def sample_examples(dataset: str, task: str, n: int) -> list[list]:
     file_path = TASKS_PATH / dataset / f"{task}.json"
     items = json.loads(file_path.read_text())
     sample = random.sample(items, min(n, len(items)))
-    return [[False, ex["instruction"], ex["output"]] for ex in sample]   # checkbox off by default
+    return [[True, ex["instruction"], ex["output"]] for ex in sample]   # checkbox off by default
 
 
-def select_all(df):
+def deselect_all(df):
     """Toggle all 'selected' boxes to True."""
     if isinstance(df, pd.DataFrame):
         df = df.copy()
@@ -238,7 +238,7 @@ def select_all(df):
         return df
 
     # Fallback: plain list-of-lists
-    return [[True, *row[1:]] for row in df]
+    return [[False, *row[1:]] for row in df]
 
 
 def table_to_markdown(table) -> str:
@@ -295,7 +295,7 @@ with gr.Blocks() as demo:
             wrap=True,
             label="Example Pool")
 
-    select_all_btn = gr.Button("Select all") 
+    deselect_all_btn = gr.Button("Deselect all") 
     
     gr.Markdown("## Create Template")
     with gr.Row():
@@ -346,8 +346,8 @@ with gr.Blocks() as demo:
     )
 
     # one-tap “select all”
-    select_all_btn.click(
-        select_all, inputs=examples_df, outputs=examples_df
+    deselect_all_btn.click(
+        deselect_all, inputs=examples_df, outputs=examples_df
     )
 
     examples_df.change(
