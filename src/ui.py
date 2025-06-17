@@ -6,6 +6,7 @@ from pathlib import Path
 import subprocess
 import shlex
 
+import pandas as pd
 import gradio as gr
 from dotenv import load_dotenv
 from ibm_watsonx_ai import APIClient, Credentials
@@ -43,20 +44,22 @@ def preview_prompt(prompt_file):
     return f"<h2>Template Generation Prompt Preview</h2><div style='font-family: monospace; font-size: 1em; background-color: azure'>{highlighted}</div>"
 
 
-def generate_template(model_id: str, prompt_path: str, dataset_description: str, example_question: str) -> str:
+def generate_template(model_id: str, prompt_path: str, dataset_description: str, examples_table: list[list]) -> str:
     if not model_id:
         raise gr.Error("⚠️ Model ID is required!")
     if not prompt_path:
         raise gr.Error("⚠️ Prompt file is required!")
     if not dataset_description:
         raise gr.Error("⚠️ Dataset description is required!")
-    if not example_question:
-        raise gr.Error("⚠️ Example question is required!")
+    
+    examples_questions = table_to_markdown(examples_table)
+    if not examples_questions:
+        raise gr.Error("⚠️ Please tick at least one example.")
     
     prompt_template = Path(prompt_path).read_text()
     prompt = prompt_template.format(
         dataset_description=dataset_description,
-        example_question=example_question
+        example_questions=examples_questions
     )
     
     if model_id.startswith("openai/"):
@@ -215,6 +218,65 @@ seed_datastore:
     )
 
 
+def sample_examples(dataset: str, task: str, n: int) -> list[list]:
+    """
+    Return an n-row table ready for gr.Dataframe:
+    [selected?, instruction, response]
+    """
+    file_path = TASKS_PATH / dataset / f"{task}.json"
+    items = json.loads(file_path.read_text())
+    sample = random.sample(items, min(n, len(items)))
+    return [[False, ex["instruction"], ex["output"]] for ex in sample]   # checkbox off by default
+
+
+def select_all(df):
+    """Toggle all 'selected' boxes to True."""
+    if isinstance(df, pd.DataFrame):
+        df = df.copy()
+        if not df.empty:
+            df.iloc[:, 0] = True          # first col is the checkbox
+        return df
+
+    # Fallback: plain list-of-lists
+    return [[True, *row[1:]] for row in df]
+
+
+def table_to_markdown(table) -> str:
+    # Convert to a uniform list-of-lists first
+    if isinstance(table, pd.DataFrame):
+        rows = table.values.tolist()
+    else:
+        rows = table
+
+    picked = [r[1] for r in rows if r[0]]
+    if not picked:
+        return "No examples provided."
+    return "\n\n--\n\n".join(picked)
+
+
+def first_checked(table):
+    """
+    Return (instruction, response) from the first row whose
+    checkbox == True.  Works whether `table` is a list-of-lists
+    or a pandas.DataFrame (Gradio sends a DataFrame once the
+    user edits it).  Raises gr.Error if nothing is checked.
+    """
+    # normalise → list-of-lists
+    rows = table.values.tolist() if isinstance(table, pd.DataFrame) else table
+
+    for checked, instr, resp in rows:
+        if checked:
+            return instr, resp
+    raise gr.Error("⚠️ Please tick at least one example before running ReAlign.")
+
+
+def push_first_selected(table):
+    try:
+        return first_checked(table)
+    except gr.Error:
+        return "", "" 
+
+
 
 with gr.Blocks() as demo:
     gr.Markdown("# WatsonX Prompt Generator with Template Preview")
@@ -223,11 +285,17 @@ with gr.Blocks() as demo:
     with gr.Row():
         dataset = gr.Dropdown(choices=list(ds_to_task.keys()), label="Dataset", value=list(ds_to_task.keys())[0])
         task = gr.Dropdown(choices=ds_to_task[dataset.value], label="Task", value=ds_to_task[dataset.value][0], interactive=True)
-    with gr.Row():
-        instruction  = gr.Textbox(label="Instruction", lines=4, interactive=False, show_copy_button=True)
-        response   = gr.Textbox(label="Response",    lines=4, interactive=False, show_copy_button=True)
-    with gr.Row():
-        get_example_btn = gr.Button("Show random example")
+    num_examples = gr.Slider(0, 10, step=1, value=1, label="Number of random examples to sample")
+    sample_btn = gr.Button("Sample")
+    
+    examples_df = gr.Dataframe(
+            headers=["Select", "Instruction", "Response"],
+            datatype=["bool", "str", "str"],
+            interactive=True,
+            wrap=True,
+            label="Example Pool")
+
+    select_all_btn = gr.Button("Select all") 
     
     gr.Markdown("## Create Template")
     with gr.Row():
@@ -242,9 +310,12 @@ with gr.Blocks() as demo:
 
     gr.Markdown("## Run ReAlign Pipeline")
     with gr.Row():
+        instruction = gr.Textbox(label="Instruction", placeholder="Instruction for ReAlign...")
+        response = gr.Textbox(label="Response", placeholder="Response for ReAlign...")
+    with gr.Row():
         with gr.Column(scale=1):
             is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
-            grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...", lines=2)
+            grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
             run_dgt_btn = gr.Button("RuAlign", variant="primary")
         with gr.Column(scale=1):
             realigned_response = gr.Textbox(label="Realigned Response")
@@ -260,7 +331,7 @@ with gr.Blocks() as demo:
     # When user clicks the button, generate output
     generate_btn.click(
         generate_template,
-        inputs=[model_id, prompt_file, task_description, instruction],
+        inputs=[model_id, prompt_file, task_description, examples_df],
         outputs=template
     )
 
@@ -268,9 +339,20 @@ with gr.Blocks() as demo:
     dataset.change(update_tasks, inputs=dataset, outputs=task)
 
     # When the dataset and task are selected, get a random example
-    get_example_btn.click(
-        get_example,
-        inputs=[dataset, task],
+    sample_btn.click(
+        sample_examples,
+        inputs=[dataset, task, num_examples],
+        outputs=examples_df
+    )
+
+    # one-tap “select all”
+    select_all_btn.click(
+        select_all, inputs=examples_df, outputs=examples_df
+    )
+
+    examples_df.change(
+        push_first_selected,
+        inputs=examples_df,
         outputs=[instruction, response]
     )
 

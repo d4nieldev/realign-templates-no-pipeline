@@ -1,14 +1,23 @@
-You are given an example of a question from a dataset along with a short description of the dataset:
+You are given a short description of the dataset together with (optionally) examples from the dataset (separated by "--"):
 
 [[ dataset description ]]
 {dataset_description}
 
-[[ example question ]]
-{example_question}
+[[ example questions ]]
+{example_questions}
 
 
-I am trying to reformat my dataset in the format of chain of thoughts instruction. In order to do so, I will need some kind of high level structure that will contain the following:
-You should start with a sentence or two that describe the task in the dataset, then write a list of steps (the desired structure) - each step should be one line. Finally, if needed, provide general instructions that apply to all steps.
-The template should be to the point, without unnecessary explanations and steps.
+--
 
-In your output, simply provide the task description, the list of steps, and the general instructions (if any). No other explanations needed.
+
+Task:
+We aim to reformat this dataset so that each response follows a chain-of-thought reasoning style. Your goal is to produce a template that structures the response as follows:
+	1.	Task Introduction: Start by introducing the core task given by the dataset description.
+	2.	Response Structure: List the logical steps or stages required to solve the type of task given by the dataset description. Each step should be a single, clear sentence. 
+	The steps should encourage explicit, structured reasoning (chain-of-thought). 
+	3.	General Instructions: If applicable, add any overarching instructions that should be applied to all steps or to the overall reasoning process.
+
+Guidelines:
+	•	Focus on clarity, structure, and brevity.
+	•	The template you output should only include the task introduction, the list of steps, and any general instructions. Do not include any extra explanations or comments.
+	•	If provided with examples from the dataset, you can use them to understand how the questions look like to build the template.
