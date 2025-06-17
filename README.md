@@ -20,6 +20,7 @@ OPENAI_API_KEY=
 
 Install DiGiT dependencies:
 ```bash
+git clone -b rag-block https://github.ibm.com/DGT/fms-dgt.git
 cd fms-fgt
 uv pip install "."
 uv pip install ".[realign]"
