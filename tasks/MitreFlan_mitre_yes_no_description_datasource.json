@@ -1,0 +1,557 @@
+[
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource Windows Registry: Windows Registry Key Deletion (DS0025) accurately described in the following description:\n\nInfrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs",
+    "context": "",
+    "output": "No",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Windows Registry: Windows Registry Key Deletion (DS0025) accurately described in the following description:\n\nInfrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs",
+      "yes/no": "No",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Instances of computer programs that are being executed by at least one thread. Processes have memory space for process executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures.\n\nIs the following description related to datasource Process (DS0009)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Instances of computer programs that are being executed by at least one thread. Processes have memory space for process executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures.\n\nIs the following description related to datasource Process (DS0009)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource Domain Name: Passive DNS (DS0018) accurately described in the following description:\n\nA network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
+    "context": "",
+    "output": "No.\nThe provided context is related to Firewall",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Domain Name: Passive DNS (DS0018) accurately described in the following description:\n\nA network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
+      "yes/no": "No.\nThe provided context is related to Firewall",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource File: File Modification (DS0011) accurately described in the following description:\n\nExecutable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is related to Module",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource File: File Modification (DS0011) accurately described in the following description:\n\nExecutable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries",
+      "yes/no": "No.\nThe provided context is related to Module",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - A malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims.\n\nIs the following description related to datasource Persona (DS0021).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims.\n\nIs the following description related to datasource Persona (DS0021)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Firmware (DS0001) accurately described in the following description:\n\nComputer software that provides low-level control for the hardware and device(s) of a host, such as BIOS or UEFI/EFI.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Firmware (DS0001) accurately described in the following description:\n\nComputer software that provides low-level control for the hardware and device(s) of a host, such as BIOS or UEFI/EFI",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - A digital document, which highlights information such as the owner's identity, used to instill trust in public keys used while encrypting network communications.\n\nIs the following description related to datasource Firmware (DS0037).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Certificate",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A digital document, which highlights information such as the owner's identity, used to instill trust in public keys used while encrypting network communications.\n\nIs the following description related to datasource Firmware (DS0037)",
+      "yes/no": "No.\nThe provided context is correlated with Certificate",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Information from host telemetry providing insights about system status, errors, or other notable functional activity.\n\nIs the following description related to datasource Volume: Volume Deletion (DS0013)",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Sensor Health",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Information from host telemetry providing insights about system status, errors, or other notable functional activity.\n\nIs the following description related to datasource Volume: Volume Deletion (DS0013)",
+      "yes/no": "No.\nThe provided context is correlated with Sensor Health",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - A non-volatile data storage device (hard drive, floppy disk, USB flash drive) with at least one formatted partition, typically mounted to the file system and/or assigned a drive letter.\n\nIs the following description related to datasource Active Directory: Active Directory Credential Request (DS0016)",
+    "context": "",
+    "output": "No.\nThe provided context is related to Drive",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A non-volatile data storage device (hard drive, floppy disk, USB flash drive) with at least one formatted partition, typically mounted to the file system and/or assigned a drive letter.\n\nIs the following description related to datasource Active Directory: Active Directory Credential Request (DS0016)",
+      "yes/no": "No.\nThe provided context is related to Drive",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Active Directory (DS0026) accurately described in the following description:\n\nA database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Active Directory (DS0026) accurately described in the following description:\n\nA database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Data transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP).\n\nIs the following description related to datasource Volume: Volume Deletion (DS0029).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is related to Network Traffic",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Data transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP).\n\nIs the following description related to datasource Volume: Volume Deletion (DS0029)",
+      "yes/no": "No.\nThe provided context is related to Network Traffic",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - A computer program that operates or controls a particular type of device that is attached to a computer. Provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used.\n\nIs the following description related to datasource Driver: Driver Load (DS0027)",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Driver",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A computer program that operates or controls a particular type of device that is attached to a computer. Provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used.\n\nIs the following description related to datasource Driver: Driver Load (DS0027)",
+      "yes/no": "No.\nThe provided context is correlated with Driver",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - A virtual server environment which runs workloads, hosted on-premise or by third-party cloud providers.\n\nIs the following description related to datasource Instance (DS0030).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A virtual server environment which runs workloads, hosted on-premise or by third-party cloud providers.\n\nIs the following description related to datasource Instance (DS0030)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Container (DS0032) accurately described in the following description:\n\nA standard unit of virtualized software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Container (DS0032) accurately described in the following description:\n\nA standard unit of virtualized software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource Application Log (DS0015) accurately described in the following description:\n\nEvents collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Application Log (DS0015) accurately described in the following description:\n\nEvents collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components.\n\nIs the following description related to datasource Snapshot: Snapshot Modification (DS0008).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe correct answer is Kernel",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components.\n\nIs the following description related to datasource Snapshot: Snapshot Modification (DS0008)",
+      "yes/no": "No.\nThe correct answer is Kernel",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Internet Scan: Response Metadata (DS0022) accurately described in the following description:\n\nA computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media)..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is related to File",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Internet Scan: Response Metadata (DS0022) accurately described in the following description:\n\nA computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).",
+      "yes/no": "No.\nThe provided context is related to File",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Mechanisms that allow inter-process communication locally or over the network. A named pipe is usually found as a file and processes attach to it.\n\nIs the following description related to datasource Named Pipe (DS0023).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Mechanisms that allow inter-process communication locally or over the network. A named pipe is usually found as a file and processes attach to it.\n\nIs the following description related to datasource Named Pipe (DS0023)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Service: Service Modification (DS0024) accurately described in the following description:\n\nA Windows OS hierarchical database that stores much of the information and settings for software programs, hardware devices, user preferences, and operating-system configurations.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe correct answer is Windows Registry",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Service: Service Modification (DS0024) accurately described in the following description:\n\nA Windows OS hierarchical database that stores much of the information and settings for software programs, hardware devices, user preferences, and operating-system configurations",
+      "yes/no": "No.\nThe correct answer is Windows Registry",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource Instance: Instance Enumeration (DS0007) accurately described in the following description:\n\nA single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Image",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Instance: Instance Enumeration (DS0007) accurately described in the following description:\n\nA single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment",
+      "yes/no": "No.\nThe provided context is correlated with Image",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource Cloud Storage (DS0034) accurately described in the following description:\n\nBlock object storage hosted on-premise or by third-party providers, typically made available to resources as virtualized hard drives",
+    "context": "",
+    "output": "No.\nThe provided context is related to Volume",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Cloud Storage (DS0034) accurately described in the following description:\n\nBlock object storage hosted on-premise or by third-party providers, typically made available to resources as virtualized hard drives",
+      "yes/no": "No.\nThe provided context is related to Volume",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Sensor Health (DS0019) accurately described in the following description:\n\nA computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Sensor Health (DS0019) accurately described in the following description:\n\nA computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in",
+      "yes/no": "No",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Domain Name (DS0038) accurately described in the following description:\n\nInformation obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Domain Name (DS0038) accurately described in the following description:\n\nInformation obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Snapshot (DS0020) accurately described in the following description:\n\nA point-in-time copy of cloud volumes (files, settings, etc.) that can be created and/or deployed in cloud environments.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Snapshot (DS0020) accurately described in the following description:\n\nA point-in-time copy of cloud volumes (files, settings, etc.) that can be created and/or deployed in cloud environments",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights.\n\nIs the following description related to datasource Group (DS0036).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights.\n\nIs the following description related to datasource Group (DS0036)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Internet Scan (DS0035) accurately described in the following description:\n\nInformation obtained (commonly via active network traffic probes or web crawling) regarding various types of resources and servers connected to the public Internet.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Internet Scan (DS0035) accurately described in the following description:\n\nInformation obtained (commonly via active network traffic probes or web crawling) regarding various types of resources and servers connected to the public Internet",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource Domain Name: Passive DNS (DS0033) accurately described in the following description:\n\nA storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
+    "context": "",
+    "output": "No.\nThe provided context is related to Network Share",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Domain Name: Passive DNS (DS0033) accurately described in the following description:\n\nA storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
+      "yes/no": "No.\nThe provided context is related to Network Share",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Logon occurring on a system or resource (local, domain, or cloud) to which a user/device is gaining access after successful authentication and authorization.\n\nIs the following description related to datasource Named Pipe (DS0028)",
+    "context": "",
+    "output": "No.\nThe provided context is related to Logon Session",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Logon occurring on a system or resource (local, domain, or cloud) to which a user/device is gaining access after successful authentication and authorization.\n\nIs the following description related to datasource Named Pipe (DS0028)",
+      "yes/no": "No.\nThe provided context is related to Logon Session",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Malware Repository (DS0004) accurately described in the following description:\n\nInformation obtained (via shared or submitted samples) regarding malicious software (droppers, backdoors, etc.) used by adversaries.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Malware Repository (DS0004) accurately described in the following description:\n\nInformation obtained (via shared or submitted samples) regarding malicious software (droppers, backdoors, etc.) used by adversaries",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource WMI (DS0005) accurately described in the following description:\n\nThe infrastructure for management data and operations that enables local and remote management of Windows personal computers and servers.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource WMI (DS0005) accurately described in the following description:\n\nThe infrastructure for management data and operations that enables local and remote management of Windows personal computers and servers",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource Drive: Drive Access (DS0010) accurately described in the following description:\n\nData object storage infrastructure hosted on-premise or by third-party providers, made available to users through network connections and/or APIs",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Cloud Storage",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Drive: Drive Access (DS0010) accurately described in the following description:\n\nData object storage infrastructure hosted on-premise or by third-party providers, made available to users through network connections and/or APIs",
+      "yes/no": "No.\nThe provided context is correlated with Cloud Storage",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - A file or stream containing a list of commands, allowing them to be launched in sequence.\n\nIs the following description related to datasource Script (DS0012)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A file or stream containing a list of commands, allowing them to be launched in sequence.\n\nIs the following description related to datasource Script (DS0012)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task.\n\nIs the following description related to datasource File: File Deletion (DS0017).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe correct answer is Command",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task.\n\nIs the following description related to datasource File: File Deletion (DS0017)",
+      "yes/no": "No.\nThe correct answer is Command",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Credential material, such as session cookies or tokens, used to authenticate to web applications and services.\n\nIs the following description related to datasource Snapshot: Snapshot Enumeration (DS0006).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is related to Web Credential",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Credential material, such as session cookies or tokens, used to authenticate to web applications and services.\n\nIs the following description related to datasource Snapshot: Snapshot Enumeration (DS0006)",
+      "yes/no": "No.\nThe provided context is related to Web Credential",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Is datasource Web Credential (DS0014) accurately described in the following description:\n\nA single unit of shared resources within a cluster, comprised of one or more containers.\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Pod",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource Web Credential (DS0014) accurately described in the following description:\n\nA single unit of shared resources within a cluster, comprised of one or more containers",
+      "yes/no": "No.\nThe provided context is correlated with Pod",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Automated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS).\n\nIs the following description related to datasource Firewall (DS0003).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Automated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS).\n\nIs the following description related to datasource Firewall (DS0003)",
+      "yes/no": "No",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is datasource User Account (DS0002) accurately described in the following description:\n\nA profile representing a user, device, service, or application used to authenticate and access resources",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_datasource",
+    "parsed_raw_data": {
+      "question": "Is datasource User Account (DS0002) accurately described in the following description:\n\nA profile representing a user, device, service, or application used to authenticate and access resources",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_datasource"
+    }
+  }
+]

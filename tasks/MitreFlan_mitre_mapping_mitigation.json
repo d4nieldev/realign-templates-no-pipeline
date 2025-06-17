@@ -1,0 +1,542 @@
+[
+  {
+    "instruction": "Which Mitre mitigation does the below description refers to: Block execution of code on a system through application control, and/or script blocking.?",
+    "context": "",
+    "output": "mitigation: Execution Prevention (M1038)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation does the below description refers to: Block execution of code on a system through application control, and/or script blocking.",
+      "answer": "mitigation: Execution Prevention (M1038)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+    "context": "",
+    "output": "The mitigation that meets the above description is User Training (M1017)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+      "answer": "The mitigation that meets the above description is User Training (M1017)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+    "context": "",
+    "output": "The mitigation that refer to the above description is Privileged Account Management (M1026)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+      "answer": "The mitigation that refer to the above description is Privileged Account Management (M1026)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK mitigation meets the following description: Block users or groups from installing unapproved software.?",
+    "context": "",
+    "output": "The mitigation that meets the above description is Limit Software Installation (M1033)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK mitigation meets the following description: Block users or groups from installing unapproved software.",
+      "answer": "The mitigation that meets the above description is Limit Software Installation (M1033)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation does the below description refers to: Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to the mitigation.",
+    "context": "",
+    "output": "mitigation: Filter Network Traffic (M1037)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation does the below description refers to: Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to the mitigation.",
+      "answer": "mitigation: Filter Network Traffic (M1037)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.\n\nTo which MITRE mitigation the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Software Configuration (M1054)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Software Configuration (M1054)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Restrict execution of code to a virtual environment on or in transit to an endpoint system.\n\nTo which MITRE mitigation the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Application Isolation and Sandboxing (M1048)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Restrict execution of code to a virtual environment on or in transit to an endpoint system.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Application Isolation and Sandboxing (M1048)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Set and enforce secure the mitigation for accounts.\n\nTo which MITRE mitigation the given description refers",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Password Policies (M1027)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Set and enforce secure the mitigation for accounts.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Password Policies (M1027)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.?",
+    "context": "",
+    "output": "The mitigation that meets the above description is Restrict File and Directory Permissions (M1022)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
+      "answer": "The mitigation that meets the above description is Restrict File and Directory Permissions (M1022)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation does the below description refers to: Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
+    "context": "",
+    "output": "mitigation: Active Directory Configuration (M1015)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation does the below description refers to: Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
+      "answer": "mitigation: Active Directory Configuration (M1015)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation does the below description refers to: Use two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
+    "context": "",
+    "output": "mitigation: Multi-factor Authentication (M1032)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation does the below description refers to: Use two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
+      "answer": "mitigation: Multi-factor Authentication (M1032)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: Prevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.?",
+    "context": "",
+    "output": "The mitigation that refer to the above description is Limit Access to Resource Over Network (M1035)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: Prevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
+      "answer": "The mitigation that refer to the above description is Limit Access to Resource Over Network (M1035)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK mitigation meets the following description: Configure Windows The mitigation to mitigate risk of adversaries obtaining elevated process access.?",
+    "context": "",
+    "output": "The mitigation that meets the above description is User Account Control (M1052)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK mitigation meets the following description: Configure Windows The mitigation to mitigate risk of adversaries obtaining elevated process access.",
+      "answer": "The mitigation that meets the above description is User Account Control (M1052)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK mitigation meets the following description: Prevent modification of environment variables by unauthorized users and groups.",
+    "context": "",
+    "output": "The mitigation that meets the above description is Environment Variable Permissions (M1039)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK mitigation meets the following description: Prevent modification of environment variables by unauthorized users and groups.",
+      "answer": "The mitigation that meets the above description is Environment Variable Permissions (M1039)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation does the below description refers to: A the mitigation helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.?",
+    "context": "",
+    "output": "mitigation: Threat Intelligence Program (M1019)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation does the below description refers to: A the mitigation helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.",
+      "answer": "mitigation: Threat Intelligence Program (M1019)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Use capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+    "context": "",
+    "output": "The mitigation that meets the above description is Exploit Protection (M1050)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Use capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+      "answer": "The mitigation that meets the above description is Exploit Protection (M1050)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Configure features related to account use like login attempt lockouts, specific login times, etc.\n\nTo which MITRE mitigation the given description refers",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Account Use Policies (M1036)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Configure features related to account use like login attempt lockouts, specific login times, etc.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Account Use Policies (M1036)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK mitigation meets the following description: Prevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
+    "context": "",
+    "output": "The mitigation that meets the above description is Restrict Library Loading (M1044)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK mitigation meets the following description: Prevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
+      "answer": "The mitigation that meets the above description is Restrict Library Loading (M1044)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK mitigation meets the following description: This category is to associate techniques that mitigation might increase risk of compromise and therefore mitigation is not recommended.",
+    "context": "",
+    "output": "The mitigation that meets the above description is Do Not Mitigate (M1055)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK mitigation meets the following description: This category is to associate techniques that mitigation might increase risk of compromise and therefore mitigation is not recommended.",
+      "answer": "The mitigation that meets the above description is Do Not Mitigate (M1055)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Use signatures or heuristics to detect malicious software.\n\nTo which MITRE mitigation the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Antivirus/Antimalware (M1049)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Use signatures or heuristics to detect malicious software.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Antivirus/Antimalware (M1049)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Use a the mitigation (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.\n\nTo which MITRE mitigation the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Data Loss Prevention (M1057)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Use a the mitigation (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Data Loss Prevention (M1057)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Perform the mitigations or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+    "context": "",
+    "output": "The mitigation that meets the above description is Audit (M1047)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Perform the mitigations or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+      "answer": "The mitigation that meets the above description is Audit (M1047)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: Use capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
+    "context": "",
+    "output": "The mitigation that refer to the above description is Credential Access Protection (M1043)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: Use capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
+      "answer": "The mitigation that refer to the above description is Credential Access Protection (M1043)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Make configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.\n\nTo which MITRE mitigation the given description refers",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Operating System Configuration (M1028)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Make configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Operating System Configuration (M1028)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Use intrusion detection signatures to block traffic at network boundaries.\n\nTo which MITRE mitigation the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Network Intrusion Prevention (M1031)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Use intrusion detection signatures to block traffic at network boundaries.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Network Intrusion Prevention (M1031)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Perform regular software updates to mitigate exploitation risk.?",
+    "context": "",
+    "output": "The mitigation that meets the above description is Update Software (M1051)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Perform regular software updates to mitigate exploitation risk.",
+      "answer": "The mitigation that meets the above description is Update Software (M1051)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Block users or groups from installing or using unapproved hardware on systems, including USB devices.",
+    "context": "",
+    "output": "The mitigation that meets the above description is Limit Hardware Installation (M1034)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Block users or groups from installing or using unapproved hardware on systems, including USB devices.",
+      "answer": "The mitigation that meets the above description is Limit Hardware Installation (M1034)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
+    "context": "",
+    "output": "The mitigation that refer to the above description is Boot Integrity (M1046)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
+      "answer": "The mitigation that refer to the above description is Boot Integrity (M1046)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.?",
+    "context": "",
+    "output": "The mitigation that meets the above description is SSL/TLS Inspection (M1020)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.",
+      "answer": "The mitigation that meets the above description is SSL/TLS Inspection (M1020)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: This mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
+    "context": "",
+    "output": "The mitigation that refer to the above description is Application Developer Guidance (M1013)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: This mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
+      "answer": "The mitigation that refer to the above description is Application Developer Guidance (M1013)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation does the below description refers to: Protect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
+    "context": "",
+    "output": "mitigation: Privileged Process Integrity (M1025)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation does the below description refers to: Protect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
+      "answer": "mitigation: Privileged Process Integrity (M1025)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK mitigation meets the following description: Remove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.?",
+    "context": "",
+    "output": "The mitigation that meets the above description is Disable or Remove Feature or Program (M1042)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK mitigation meets the following description: Remove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+      "answer": "The mitigation that meets the above description is Disable or Remove Feature or Program (M1042)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation does the below description refers to: Restrict the ability to modify certain hives or keys in the Windows Registry.?",
+    "context": "",
+    "output": "mitigation: Restrict Registry Permissions (M1024)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation does the below description refers to: Restrict the ability to modify certain hives or keys in the Windows Registry.",
+      "answer": "mitigation: Restrict Registry Permissions (M1024)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK mitigation meets the following description: Restrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.",
+    "context": "",
+    "output": "The mitigation that meets the above description is Restrict Web-Based Content (M1021)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK mitigation meets the following description: Restrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.",
+      "answer": "The mitigation that meets the above description is Restrict Web-Based Content (M1021)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Take and store the mitigations from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.\n\nTo which MITRE mitigation the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Data Backup (M1053)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Take and store the mitigations from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Data Backup (M1053)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Use remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information.\n\nTo which MITRE mitigation the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK mitigation that is related to the given description is: 'Remote Data Storage (M1029)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Use remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information.\n\nTo which MITRE mitigation the given description refers",
+      "answer": "The MITRE ATT&CK mitigation that is related to the given description is: 'Remote Data Storage (M1029)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation"
+    }
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "instruction": "Answer based on context:\n\n\n\nAn administrator has been working within an organization for over 10 years. He has moved between different IT divisions within the company and has retained privileges from each of the jobs that he\u2019s had during his tenure. Recently, he has been admonished for making unauthorized changes to systems. He once again made an unauthorized change and this change resulted in an unexpected outage. Management decided to terminate his employment at the company. He was allowed to come back to work the following day to clean out his desk and belongings, and during this time he installed a malicious script that was scheduled to run as a logic bomb on the first day of the following month. The script will change administrator passwords, delete files, and shut down over 100 servers in the data center\n\n\nWhat could have discovered problems with this user\u2019s account while he was employed?\nA. Policy requiring strong authentication\n- B. Multifactor authentication\n- C. Logging",
+    "context": "",
+    "output": "D.\n\nExplanation:  Account review can discover when users have more privileges than they need and could have been used to discover that this employee had permissions from several positions. Strong authentication methods (including multifactor authentication) would not have prevented the problems in this scenario. Logging could have recorded activity, but a review is necessary to discover the problems.",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What could have discovered problems with this user\u2019s account while he was employed?",
+      "options_": [
+        "A. Policy requiring strong authentication",
+        "B. Multifactor authentication",
+        "C. Logging"
+      ],
+      "context": "\n\nAn administrator has been working within an organization for over 10 years. He has moved between different IT divisions within the company and has retained privileges from each of the jobs that he\u2019s had during his tenure. Recently, he has been admonished for making unauthorized changes to systems. He once again made an unauthorized change and this change resulted in an unexpected outage. Management decided to terminate his employment at the company. He was allowed to come back to work the following day to clean out his desk and belongings, and during this time he installed a malicious script that was scheduled to run as a logic bomb on the first day of the following month. The script will change administrator passwords, delete files, and shut down over 100 servers in the data center\n",
+      "answer": "D.\n\nExplanation:  Account review can discover when users have more privileges than they need and could have been used to discover that this employee had permissions from several positions. Strong authentication methods (including multifactor authentication) would not have prevented the problems in this scenario. Logging could have recorded activity, but a review is necessary to discover the problems."
+    }
+  },
+  {
+    "instruction": "\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n\n\nA. Remediation and review\n* B. Detection\n* C. Response\n\nWhat was missed completely in this incident?",
+    "context": "",
+    "output": "A.\n\nExplanation:  The administrator did not report the incident so there was no opportunity for remediation and review. It could be the incident occurred because of a vulnerability on the server, but without an examination the exact cause won\u2019t be known unless the attack is repeated. The administrator detected the event and responded (though inappropriately). Rebooting the server can be considered a recovery step. It\u2019s worth mentioning that the incident response plan was kept secret and the server administrator didn\u2019t have access to it and so likely does not know what the proper response should be.",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What was missed completely in this incident?",
+      "options_": [
+        "A. Remediation and review",
+        "B. Detection",
+        "C. Response"
+      ],
+      "context": "\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n",
+      "answer": "A.\n\nExplanation:  The administrator did not report the incident so there was no opportunity for remediation and review. It could be the incident occurred because of a vulnerability on the server, but without an examination the exact cause won\u2019t be known unless the attack is repeated. The administrator detected the event and responded (though inappropriately). Rebooting the server can be considered a recovery step. It\u2019s worth mentioning that the incident response plan was kept secret and the server administrator didn\u2019t have access to it and so likely does not know what the proper response should be."
+    }
+  },
+  {
+    "instruction": "\n\nAn administrator has been working within an organization for over 10 years. He has moved between different IT divisions within the company and has retained privileges from each of the jobs that he\u2019s had during his tenure. Recently, he has been admonished for making unauthorized changes to systems. He once again made an unauthorized change and this change resulted in an unexpected outage. Management decided to terminate his employment at the company. He was allowed to come back to work the following day to clean out his desk and belongings, and during this time he installed a malicious script that was scheduled to run as a logic bomb on the first day of the following month. The script will change administrator passwords, delete files, and shut down over 100 servers in the data center\n\n\nA. Provisioning\n* B. Separation of duties\n* C. Revocation\n* D. Authentication methods\n\nWhich of the following concepts was not adequately addressed for the identity and access provisioning life cycle?",
+    "context": "",
+    "output": "C.\n\nExplanation:  The life cycle of accounts includes provisioning, review, and revocation, and his account should have been disabled as soon as his employment was terminated to ensure that his access was revoked. If his account was disabled, he could not have installed a malicious script. Provisioning creates the account and grants appropriate privileges. There is no indication whether separation of duties was addressed or not, but the scenario does not indicate that the administrator controlled any single process. Authentication wasn\u2019t addressed in the scenario",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "Which of the following concepts was not adequately addressed for the identity and access provisioning life cycle?",
+      "options_": [
+        "A. Provisioning",
+        "B. Separation of duties",
+        "C. Revocation",
+        "D. Authentication methods"
+      ],
+      "context": "\n\nAn administrator has been working within an organization for over 10 years. He has moved between different IT divisions within the company and has retained privileges from each of the jobs that he\u2019s had during his tenure. Recently, he has been admonished for making unauthorized changes to systems. He once again made an unauthorized change and this change resulted in an unexpected outage. Management decided to terminate his employment at the company. He was allowed to come back to work the following day to clean out his desk and belongings, and during this time he installed a malicious script that was scheduled to run as a logic bomb on the first day of the following month. The script will change administrator passwords, delete files, and shut down over 100 servers in the data center\n",
+      "answer": "C.\n\nExplanation:  The life cycle of accounts includes provisioning, review, and revocation, and his account should have been disabled as soon as his employment was terminated to ensure that his access was revoked. If his account was disabled, he could not have installed a malicious script. Provisioning creates the account and grants appropriate privileges. There is no indication whether separation of duties was addressed or not, but the scenario does not indicate that the administrator controlled any single process. Authentication wasn\u2019t addressed in the scenario"
+    }
+  },
+  {
+    "instruction": "Answer based on context:\n\n\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n\n\nWhat should have been done before the web server was rebooted?\nA. Review the incident\n- B. Perform remediation steps\n- C. Recovery\n- D. Gather evidence",
+    "context": "",
+    "output": "D.\n\nExplanation:  Evidence should have been gathered that could be used against the attacker at a later time if necessary. The first response after an incident is detected and verified is to contain the incident, but it could have been contained without rebooting the server. Review and remediation are done as the last stage. Recovery is done after reporting the incident, but the administrator did not report the incident and instead rebooted the system, which may have been required for a full recovery",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What should have been done before the web server was rebooted?",
+      "options_": [
+        "A. Review the incident",
+        "B. Perform remediation steps",
+        "C. Recovery",
+        "D. Gather evidence"
+      ],
+      "context": "\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n",
+      "answer": "D.\n\nExplanation:  Evidence should have been gathered that could be used against the attacker at a later time if necessary. The first response after an incident is detected and verified is to contain the incident, but it could have been contained without rebooting the server. Review and remediation are done as the last stage. Recovery is done after reporting the incident, but the administrator did not report the incident and instead rebooted the system, which may have been required for a full recovery"
+    }
+  },
+  {
+    "instruction": "\n\nAn organization has a data center manned 24 hours a day that processes highly sensitive information. The data center includes email servers, and email older than six months is regularly purged. Access to the data center is controlled, and all systems that process sensitive information are marked. Administrators routinely back up data processed in the data center. They keep a copy of the backups on site and also keep a copy off site on unmarked media at one of their warehouses. The media is organized at the offsite location by date and includes backups from the last 20 years. Employees work at the warehouse during the day and it is locked at night and on weekends. Recently a theft at the warehouse resulted in the loss of all of the offsite backup tapes. Later, copies of their data, including sensitive emails from years ago, began appearing on Internet sites exposing the organization\u2019s internal sensitive data\n\n\nA. Mark the media kept off site.\n- B. Don\u2019t store data off site.\n- C. Destroy the backups off site.\n- D. Use a secure offsite storage facility.\n\nOf the following choices, what would have prevented this loss without sacrificing security?",
+    "context": "",
+    "output": "D.\n\nExplanation:  Backup media should be protected with the same level of protection afforded the data it contains, and using a secure offsite storage facility would ensure this. The media should be marked, but that won\u2019t protect it if it is stored in an unmanned warehouse. A copy of backups should be stored off site to ensure availability if a catastrophe affects the primary location. If copies of data are not stored off site, or offsite backups are destroyed, security is sacrificed by risking availability",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "Of the following choices, what would have prevented this loss without sacrificing security?",
+      "options_": [
+        "A. Mark the media kept off site.",
+        "B. Don\u2019t store data off site.",
+        "C. Destroy the backups off site.",
+        "D. Use a secure offsite storage facility."
+      ],
+      "context": "\n\nAn organization has a data center manned 24 hours a day that processes highly sensitive information. The data center includes email servers, and email older than six months is regularly purged. Access to the data center is controlled, and all systems that process sensitive information are marked. Administrators routinely back up data processed in the data center. They keep a copy of the backups on site and also keep a copy off site on unmarked media at one of their warehouses. The media is organized at the offsite location by date and includes backups from the last 20 years. Employees work at the warehouse during the day and it is locked at night and on weekends. Recently a theft at the warehouse resulted in the loss of all of the offsite backup tapes. Later, copies of their data, including sensitive emails from years ago, began appearing on Internet sites exposing the organization\u2019s internal sensitive data\n",
+      "answer": "D.\n\nExplanation:  Backup media should be protected with the same level of protection afforded the data it contains, and using a secure offsite storage facility would ensure this. The media should be marked, but that won\u2019t protect it if it is stored in an unmanned warehouse. A copy of backups should be stored off site to ensure availability if a catastrophe affects the primary location. If copies of data are not stored off site, or offsite backups are destroyed, security is sacrificed by risking availability"
+    }
+  },
+  {
+    "instruction": "\n\nAn organization has recently suffered a series of security breaches that have significantly damaged its reputation. Several successful attacks have stolen customer database files accessible via one of the company\u2019s web servers. Additionally, an employee had access to secret data from previous job assignments. This employee made copies of the data and sold it to competitors. The organization has hired a security consultant to help them reduce their risk from future attacks\n\n\nA. Asset valuation\n- B. Threat modeling\n- C. Vulnerability analysis\n\nWhat could have prevented the employee from stealing and selling the secret data?",
+    "context": "",
+    "output": "D.\n\nExplanation:  A user entitlement review can detect when employees have excessive privileges. Asset valuation identifies the value of assets. Threat modeling identifies threats to valuable assets. Vulnerability analysis detects vulnerabilities or weaknesses that can be exploited by threats.",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What could have prevented the employee from stealing and selling the secret data?",
+      "options_": [
+        "A. Asset valuation",
+        "B. Threat modeling",
+        "C. Vulnerability analysis"
+      ],
+      "context": "\n\nAn organization has recently suffered a series of security breaches that have significantly damaged its reputation. Several successful attacks have stolen customer database files accessible via one of the company\u2019s web servers. Additionally, an employee had access to secret data from previous job assignments. This employee made copies of the data and sold it to competitors. The organization has hired a security consultant to help them reduce their risk from future attacks\n",
+      "answer": "D.\n\nExplanation:  A user entitlement review can detect when employees have excessive privileges. Asset valuation identifies the value of assets. Threat modeling identifies threats to valuable assets. Vulnerability analysis detects vulnerabilities or weaknesses that can be exploited by threats."
+    }
+  },
+  {
+    "instruction": "Answer based on context:\n\n\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n\n\nWhat is the most serious mistake made by the server administrator in this incident?\nA. Rebooting the server\n* B. Not reporting the incident\n* C. Attacking the IP address\n* D. Resetting the connection",
+    "context": "",
+    "output": "C.\n\nExplanation:  Attacking the IP address was the most serious mistake because it is illegal in most locations. Additionally, because attackers often use spoofing techniques, it probably isn\u2019t the actual IP address of the attacker. Rebooting the server without gathering evidence and not reporting the incident were mistakes but won\u2019t have a potential lasting negative effect on the organization. Resetting the connection to isolate the incident would have been a good step if it was done without rebooting the server",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What is the most serious mistake made by the server administrator in this incident?",
+      "options_": [
+        "A. Rebooting the server",
+        "B. Not reporting the incident",
+        "C. Attacking the IP address",
+        "D. Resetting the connection"
+      ],
+      "context": "\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n",
+      "answer": "C.\n\nExplanation:  Attacking the IP address was the most serious mistake because it is illegal in most locations. Additionally, because attackers often use spoofing techniques, it probably isn\u2019t the actual IP address of the attacker. Rebooting the server without gathering evidence and not reporting the incident were mistakes but won\u2019t have a potential lasting negative effect on the organization. Resetting the connection to isolate the incident would have been a good step if it was done without rebooting the server"
+    }
+  },
+  {
+    "instruction": "\n\nAn organization has recently suffered a series of security breaches that have significantly damaged its reputation. Several successful attacks have stolen customer database files accessible via one of the company\u2019s web servers. Additionally, an employee had access to secret data from previous job assignments. This employee made copies of the data and sold it to competitors. The organization has hired a security consultant to help them reduce their risk from future attacks\n\n\nA. Asset valuation\n* B. Threat modeling\n* C. Vulnerability analysis\n* D. Access review and audit\nGiven those answer options, answer this question: What would the consultant use to identify potential attackers?",
+    "context": "",
+    "output": "B.\n\nExplanation:  Threat modeling helps identify, understand, and categorize potential threats. Asset valuation identifies the value of assets, and vulnerability analysis identifies weaknesses that can be exploited by threats. An access review and audit ensure that account management practices support the security policy",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What would the consultant use to identify potential attackers?",
+      "options_": [
+        "A. Asset valuation",
+        "B. Threat modeling",
+        "C. Vulnerability analysis",
+        "D. Access review and audit"
+      ],
+      "context": "\n\nAn organization has recently suffered a series of security breaches that have significantly damaged its reputation. Several successful attacks have stolen customer database files accessible via one of the company\u2019s web servers. Additionally, an employee had access to secret data from previous job assignments. This employee made copies of the data and sold it to competitors. The organization has hired a security consultant to help them reduce their risk from future attacks\n",
+      "answer": "B.\n\nExplanation:  Threat modeling helps identify, understand, and categorize potential threats. Asset valuation identifies the value of assets, and vulnerability analysis identifies weaknesses that can be exploited by threats. An access review and audit ensure that account management practices support the security policy"
+    }
+  },
+  {
+    "instruction": "Answer based on context:\n\n\n\nAn organization has a data center manned 24 hours a day that processes highly sensitive information. The data center includes email servers, and email older than six months is regularly purged. Access to the data center is controlled, and all systems that process sensitive information are marked. Administrators routinely back up data processed in the data center. They keep a copy of the backups on site and also keep a copy off site on unmarked media at one of their warehouses. The media is organized at the offsite location by date and includes backups from the last 20 years. Employees work at the warehouse during the day and it is locked at night and on weekends. Recently a theft at the warehouse resulted in the loss of all of the offsite backup tapes. Later, copies of their data, including sensitive emails from years ago, began appearing on Internet sites exposing the organization\u2019s internal sensitive data\n\n\nWhat should have been done with the backup tapes before they left the data center that may have prevented the incident?\nA. Mark the tapes.\nB. Purge the tapes before backing up data to them.\nC. Degauss the tapes before backing up data to them.\nD. Add the tapes to an asset management database.",
+    "context": "",
+    "output": "A.\n\nExplanation:  If the tapes were marked before they left the data center, employees would recognize their value and it is more likely someone would challenge their storage in an unmanned warehouse. Purging or degaussing the tapes before using them will erase previously held data but won\u2019t help if sensitive information is backed up to the tapes after they are purged or degaussed. Adding the tapes to an asset management database will help track them but wouldn\u2019t prevent this incident",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What should have been done with the backup tapes before they left the data center that may have prevented the incident?",
+      "options_": [
+        "A. Mark the tapes.",
+        "B. Purge the tapes before backing up data to them.",
+        "C. Degauss the tapes before backing up data to them.",
+        "D. Add the tapes to an asset management database."
+      ],
+      "context": "\n\nAn organization has a data center manned 24 hours a day that processes highly sensitive information. The data center includes email servers, and email older than six months is regularly purged. Access to the data center is controlled, and all systems that process sensitive information are marked. Administrators routinely back up data processed in the data center. They keep a copy of the backups on site and also keep a copy off site on unmarked media at one of their warehouses. The media is organized at the offsite location by date and includes backups from the last 20 years. Employees work at the warehouse during the day and it is locked at night and on weekends. Recently a theft at the warehouse resulted in the loss of all of the offsite backup tapes. Later, copies of their data, including sensitive emails from years ago, began appearing on Internet sites exposing the organization\u2019s internal sensitive data\n",
+      "answer": "A.\n\nExplanation:  If the tapes were marked before they left the data center, employees would recognize their value and it is more likely someone would challenge their storage in an unmanned warehouse. Purging or degaussing the tapes before using them will erase previously held data but won\u2019t help if sensitive information is backed up to the tapes after they are purged or degaussed. Adding the tapes to an asset management database will help track them but wouldn\u2019t prevent this incident"
+    }
+  },
+  {
+    "instruction": "Answer based on context:\n\n\n\nAn organization has a data center manned 24 hours a day that processes highly sensitive information. The data center includes email servers, and email older than six months is regularly purged. Access to the data center is controlled, and all systems that process sensitive information are marked. Administrators routinely back up data processed in the data center. They keep a copy of the backups on site and also keep a copy off site on unmarked media at one of their warehouses. The media is organized at the offsite location by date and includes backups from the last 20 years. Employees work at the warehouse during the day and it is locked at night and on weekends. Recently a theft at the warehouse resulted in the loss of all of the offsite backup tapes. Later, copies of their data, including sensitive emails from years ago, began appearing on Internet sites exposing the organization\u2019s internal sensitive data\n\n\nOf the following choices, what policy was not applied to the backup media?\nA. Media destruction\n* B. Record retention\n* C. Configuration management",
+    "context": "",
+    "output": "B.\n\nExplanation:  The scenario states that onsite email older than six months is purged, but offsite backups included backups for the last 20 years, indicating record retention policies are applied on site but not to the backup media. Media destruction policies should be followed when the media is no longer needed, but some backups are needed. Configuration management ensures that systems are configured correctly using a baseline, but this does not apply to backup media. Versioning is applied to applications, not backup tapes.",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "Of the following choices, what policy was not applied to the backup media?",
+      "options_": [
+        "A. Media destruction",
+        "B. Record retention",
+        "C. Configuration management"
+      ],
+      "context": "\n\nAn organization has a data center manned 24 hours a day that processes highly sensitive information. The data center includes email servers, and email older than six months is regularly purged. Access to the data center is controlled, and all systems that process sensitive information are marked. Administrators routinely back up data processed in the data center. They keep a copy of the backups on site and also keep a copy off site on unmarked media at one of their warehouses. The media is organized at the offsite location by date and includes backups from the last 20 years. Employees work at the warehouse during the day and it is locked at night and on weekends. Recently a theft at the warehouse resulted in the loss of all of the offsite backup tapes. Later, copies of their data, including sensitive emails from years ago, began appearing on Internet sites exposing the organization\u2019s internal sensitive data\n",
+      "answer": "B.\n\nExplanation:  The scenario states that onsite email older than six months is purged, but offsite backups included backups for the last 20 years, indicating record retention policies are applied on site but not to the backup media. Media destruction policies should be followed when the media is no longer needed, but some backups are needed. Configuration management ensures that systems are configured correctly using a baseline, but this does not apply to backup media. Versioning is applied to applications, not backup tapes."
+    }
+  },
+  {
+    "instruction": "Answer based on context:\n\n\n\nAn organization has recently suffered a series of security breaches that have significantly damaged its reputation. Several successful attacks have stolen customer database files accessible via one of the company\u2019s web servers. Additionally, an employee had access to secret data from previous job assignments. This employee made copies of the data and sold it to competitors. The organization has hired a security consultant to help them reduce their risk from future attacks\n\n\nWhat would need to be completed to ensure that the consultant has the correct focus?\nA. Asset valuation\nB. Threat modeling\nC. Vulnerability analysis\nD. Creation of audit trails",
+    "context": "",
+    "output": "A.\n\nExplanation:  Asset valuation identifies the actual value of assets so that they can be prioritized. This will ensure that the consultant focuses on high-value assets. Threat modeling identifies threats, but asset valuation should be done first so that the focus is on threats to high-value assets. Vulnerability analysis identifies weaknesses but should be focused on high-value assets. Audit trails are useful to recreate events leading up to an incident, but if they aren\u2019t already created, creating them now won\u2019t help unless the organization is attacked again",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "What would need to be completed to ensure that the consultant has the correct focus?",
+      "options_": [
+        "A. Asset valuation",
+        "B. Threat modeling",
+        "C. Vulnerability analysis",
+        "D. Creation of audit trails"
+      ],
+      "context": "\n\nAn organization has recently suffered a series of security breaches that have significantly damaged its reputation. Several successful attacks have stolen customer database files accessible via one of the company\u2019s web servers. Additionally, an employee had access to secret data from previous job assignments. This employee made copies of the data and sold it to competitors. The organization has hired a security consultant to help them reduce their risk from future attacks\n",
+      "answer": "A.\n\nExplanation:  Asset valuation identifies the actual value of assets so that they can be prioritized. This will ensure that the consultant focuses on high-value assets. Threat modeling identifies threats, but asset valuation should be done first so that the focus is on threats to high-value assets. Vulnerability analysis identifies weaknesses but should be focused on high-value assets. Audit trails are useful to recreate events leading up to an incident, but if they aren\u2019t already created, creating them now won\u2019t help unless the organization is attacked again"
+    }
+  },
+  {
+    "instruction": "\n\nAn administrator has been working within an organization for over 10 years. He has moved between different IT divisions within the company and has retained privileges from each of the jobs that he\u2019s had during his tenure. Recently, he has been admonished for making unauthorized changes to systems. He once again made an unauthorized change and this change resulted in an unexpected outage. Management decided to terminate his employment at the company. He was allowed to come back to work the following day to clean out his desk and belongings, and during this time he installed a malicious script that was scheduled to run as a logic bomb on the first day of the following month. The script will change administrator passwords, delete files, and shut down over 100 servers in the data center\n\n\nBased on the above information, select the correct answer to the question. Which of the following basic principles was violated while the administrator was employed?\n\nA. Implicit deny\nB. Loss of availability\nC. Defensive privileges\nD. Least privilege",
+    "context": "",
+    "output": "D.\n\nExplanation:  The principle of least privilege was violated because he retained privileges from all his previous administrator positions in different divisions. Implicit deny ensures that only access that is explicitly granted is allowed, but the administrator was explicitly granted privileges. While the administrator\u2019s actions could have caused loss of availability, loss of availability isn\u2019t a basic principle. Defense in depth is a principle that may not have been applied to accounts, but defensive privileges aren\u2019t a valid security principle",
+    "category": "CISSFlan",
+    "instruction_type": "retrieval1_multiple_choice",
+    "parsed_raw_data": {
+      "question": "Which of the following basic principles was violated while the administrator was employed?",
+      "options_": [
+        "A. Implicit deny",
+        "B. Loss of availability",
+        "C. Defensive privileges",
+        "D. Least privilege"
+      ],
+      "context": "\n\nAn administrator has been working within an organization for over 10 years. He has moved between different IT divisions within the company and has retained privileges from each of the jobs that he\u2019s had during his tenure. Recently, he has been admonished for making unauthorized changes to systems. He once again made an unauthorized change and this change resulted in an unexpected outage. Management decided to terminate his employment at the company. He was allowed to come back to work the following day to clean out his desk and belongings, and during this time he installed a malicious script that was scheduled to run as a logic bomb on the first day of the following month. The script will change administrator passwords, delete files, and shut down over 100 servers in the data center\n",
+      "answer": "D.\n\nExplanation:  The principle of least privilege was violated because he retained privileges from all his previous administrator positions in different divisions. Implicit deny ensures that only access that is explicitly granted is allowed, but the administrator was explicitly granted privileges. While the administrator\u2019s actions could have caused loss of availability, loss of availability isn\u2019t a basic principle. Defense in depth is a principle that may not have been applied to accounts, but defensive privileges aren\u2019t a valid security principle"
+    }
+  }
+]

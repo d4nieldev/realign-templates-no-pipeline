@@ -1,0 +1,405 @@
+[
+  {
+    "instruction": "context: Intrusion Detection System: A network infrastructure to detect intrusion by hackers, Flags invasion as threads, Detects port scanners, malware, and other violations.\nIntrusion Prevention System: A network infrastructure to prevent intrusions by hackers, Denies the malicious traffic from threads, Does not deliver malicious packets if the traffic is from known threats in databases\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What is the difference between IDS and IPS?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is the difference between IDS and IPS?",
+      "answer": "Intrusion Detection System: A network infrastructure to detect intrusion by hackers, Flags invasion as threads, Detects port scanners, malware, and other violations.\nIntrusion Prevention System: A network infrastructure to prevent intrusions by hackers, Denies the malicious traffic from threads, Does not deliver malicious packets if the traffic is from known threats in databases"
+    }
+  },
+  {
+    "instruction": "A while back, the IT folks got a number of complaints that one of our campus computers was sending out Viagra spam. They checked it out, and the reports were true: a hacker had installed a program on the computer that made it automatically send out tons of spam email without the computer owner\u2019s knowledge.\n\nAnswer this question based on the above context: How do you think the hacker got into the computer to set this up?",
+    "context": "",
+    "output": "This was actually the result of a hacked password. Using passwords that can\u2019t be easily guessed, and protecting your passwords by not sharing them or writing them down can help to prevent this. Passwords should be at least 8 characters in length and use a mixture of upper and lower case letters, numbers, and symbols.\n\nEven though in this case it was a hacked password, other things that could possibly lead to this are:\n\nOut of date patches/updates\nNo anti-virus software or out of date anti-virus software",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "A while back, the IT folks got a number of complaints that one of our campus computers was sending out Viagra spam. They checked it out, and the reports were true: a hacker had installed a program on the computer that made it automatically send out tons of spam email without the computer owner\u2019s knowledge.",
+      "question": "How do you think the hacker got into the computer to set this up?",
+      "answer": "This was actually the result of a hacked password. Using passwords that can\u2019t be easily guessed, and protecting your passwords by not sharing them or writing them down can help to prevent this. Passwords should be at least 8 characters in length and use a mixture of upper and lower case letters, numbers, and symbols.\n\nEven though in this case it was a hacked password, other things that could possibly lead to this are:\n\nOut of date patches/updates\nNo anti-virus software or out of date anti-virus software"
+    }
+  },
+  {
+    "instruction": "There is this case that happened in my computer lab. A friend of mine used their yahoo account at a computer lab on campus. She ensured that her account was not left open before she left the lab. Someone came after her and used the same browser to re-access her account. and they started sending emails from it.\n\nQ: What do you think might be going on here?",
+    "context": "",
+    "output": "A: The first person probably didn\u2019t log out of her account, so the new person could just go to history and access her account.\n\nAnother possibility is that she did log out, but didn\u2019t clear her web cache. (This is done through the browser menu to clear pages that the browser has saved for future use.)",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "There is this case that happened in my computer lab. A friend of mine used their yahoo account at a computer lab on campus. She ensured that her account was not left open before she left the lab. Someone came after her and used the same browser to re-access her account. and they started sending emails from it.",
+      "question": "What do you think might be going on here?",
+      "answer": "The first person probably didn\u2019t log out of her account, so the new person could just go to history and access her account.\n\nAnother possibility is that she did log out, but didn\u2019t clear her web cache. (This is done through the browser menu to clear pages that the browser has saved for future use.)"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What are the process states in Linux?",
+    "context": "",
+    "output": "The process states in Linux are:\n\nReady: In this state, the process is created and is ready to run.\nRunning: Here, the process is being executed.\nBlocked or wait: In this state, the process is waiting for input from the user.\nCompleted or Terminated: Here, either the process completed execution or was terminated by the OS.\nZombie: In this state, the process is terminated, but the process table still holds the information.\nLet's go to the next section of this article on cybersecurity interview questions.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What are the process states in Linux?",
+      "answer": "The process states in Linux are:\n\nReady: In this state, the process is created and is ready to run.\nRunning: Here, the process is being executed.\nBlocked or wait: In this state, the process is waiting for input from the user.\nCompleted or Terminated: Here, either the process completed execution or was terminated by the OS.\nZombie: In this state, the process is terminated, but the process table still holds the information.\nLet's go to the next section of this article on cybersecurity interview questions."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is security misconfiguration?",
+    "context": "",
+    "output": "Security misconfiguration is a vulnerability that could happen if an application/network/device is susceptible to attack due to an insecure configuration option. It can be as simple as keeping the default username/password unchanged.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is security misconfiguration?",
+      "answer": "Security misconfiguration is a vulnerability that could happen if an application/network/device is susceptible to attack due to an insecure configuration option. It can be as simple as keeping the default username/password unchanged."
+    }
+  },
+  {
+    "instruction": "context: 1xx \u2013 Informational responses, 2xx \u2013 Success, 3xx \u2013 Redirection, 4xx \u2013 Client-side error, 5xx \u2013 Server-side error\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What are the response codes that can be received from a Web Application?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What are the response codes that can be received from a Web Application?",
+      "answer": "1xx \u2013 Informational responses, 2xx \u2013 Success, 3xx \u2013 Redirection, 4xx \u2013 Client-side error, 5xx \u2013 Server-side error"
+    }
+  },
+  {
+    "instruction": "context: HTTP response codes indicate a server\u2019s response when a client makes a request to the server. It shows whether an HTTP request is completed or not. \n1xx: Informational\nThe request is received, and the process continues. Some example codes are:\n100 (continue)\n101 (switching protocol)\n102 (processing)\n103 (early hints)\n2xx: Success \nThe action is received, understood, and accepted successfully. A few example codes for this are:\n200 (OK)\n202 (accepted)\n205 (reset content)\n208 (already reported)\n3xx: Redirection \nTo complete the request, further action is required to take place. Example codes:\n300 (multiple choice)\n302 (found)\n308 (permanent redirect)\n4xx: Client Error \nThe request has incorrect syntax, or it is not fulfilled. Here are the example codes for this:\n400 (bad request)\n403 (forbidden)\n404 (not found)\n5xx: Server Error \nThe server fails to complete a valid request. Example codes for this are:\n500 (internal server error)\n502 (bad gateway)\n511 (network authentication required)\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What is a response code? List them.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a response code? List them.",
+      "answer": "HTTP response codes indicate a server\u2019s response when a client makes a request to the server. It shows whether an HTTP request is completed or not. \n1xx: Informational\nThe request is received, and the process continues. Some example codes are:\n100 (continue)\n101 (switching protocol)\n102 (processing)\n103 (early hints)\n2xx: Success \nThe action is received, understood, and accepted successfully. A few example codes for this are:\n200 (OK)\n202 (accepted)\n205 (reset content)\n208 (already reported)\n3xx: Redirection \nTo complete the request, further action is required to take place. Example codes:\n300 (multiple choice)\n302 (found)\n308 (permanent redirect)\n4xx: Client Error \nThe request has incorrect syntax, or it is not fulfilled. Here are the example codes for this:\n400 (bad request)\n403 (forbidden)\n404 (not found)\n5xx: Server Error \nThe server fails to complete a valid request. Example codes for this are:\n500 (internal server error)\n502 (bad gateway)\n511 (network authentication required)"
+    }
+  },
+  {
+    "instruction": "One of the staff members in XYZ subscribes to many free magazines. Now, to activate her subscriptions one of the magazines asked for her month of birth, second asked for her year of birth, the other one asked for her maiden name.\nQuestion: What do you infer from this situation? Justify.",
+    "context": "",
+    "output": "Answer: All three newsletters probably have the same parent company or are distributed through the same service. The parent company or service can combine individual pieces of seemingly-harmless information and use or sell it for identity theft\n\nIt is even possible that there is a fourth newsletter that asks for a day of birth as one of the activation questions\n\nOften questions about personal information are optional. In addition to being suspicious about situations like the one described here, never provide personal information when it is not legitimately necessary, or to people or companies, you don\u2019t personally know.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "One of the staff members in XYZ subscribes to many free magazines. Now, to activate her subscriptions one of the magazines asked for her month of birth, second asked for her year of birth, the other one asked for her maiden name.",
+      "question": "What do you infer from this situation? Justify.",
+      "answer": "All three newsletters probably have the same parent company or are distributed through the same service. The parent company or service can combine individual pieces of seemingly-harmless information and use or sell it for identity theft\n\nIt is even possible that there is a fourth newsletter that asks for a day of birth as one of the activation questions\n\nOften questions about personal information are optional. In addition to being suspicious about situations like the one described here, never provide personal information when it is not legitimately necessary, or to people or companies, you don\u2019t personally know."
+    }
+  },
+  {
+    "instruction": "Context: Here\u2019s a situation- You receive the following email from the help desk:\n\nDear XYZ Email user,To create space for more users we\u2019re deleting all inactive email accounts. Here\u2019s what you have to send to save your account from getting deleted:\n\nName (first and last):\nEmail Login:\nPassword:\nDate of birth:\nAlternate email\nIf we don\u2019t receive the above information from you by the end of the week, your email account will be terminated.\nAnswer this question: If you\u2019re a user what do you do? Justify your answer.",
+    "context": "",
+    "output": "This email is a classic example of \u201cphishing\u201d \u2013 trying to trick you into \u201cbiting\u201d. The justification is the generalized way of addressing the receiver which is used in mass spam emails.\n\nAbove that, a corporate company will never ask for personal details on mail.\n\nThey want your information. Don\u2019t respond to email, instant messages (IM), texts, phone calls, etc., asking you for your password or other private information.\n\nYou should never disclose your password to anyone, even if they say they work for UCSC, ITS, or other campus organizations.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "Here\u2019s a situation- You receive the following email from the help desk:\n\nDear XYZ Email user,To create space for more users we\u2019re deleting all inactive email accounts. Here\u2019s what you have to send to save your account from getting deleted:\n\nName (first and last):\nEmail Login:\nPassword:\nDate of birth:\nAlternate email\nIf we don\u2019t receive the above information from you by the end of the week, your email account will be terminated.",
+      "question": "If you\u2019re a user what do you do? Justify your answer.",
+      "answer": "This email is a classic example of \u201cphishing\u201d \u2013 trying to trick you into \u201cbiting\u201d. The justification is the generalized way of addressing the receiver which is used in mass spam emails.\n\nAbove that, a corporate company will never ask for personal details on mail.\n\nThey want your information. Don\u2019t respond to email, instant messages (IM), texts, phone calls, etc., asking you for your password or other private information.\n\nYou should never disclose your password to anyone, even if they say they work for UCSC, ITS, or other campus organizations."
+    }
+  },
+  {
+    "instruction": "context: Your online activities are protected from the risks of a public internet connection by a virtual private network, or VPN, which establishes a private and secure network. You may protect tasks like sending emails, making online payments, and conducting e-commerce by utilizing a VPN to increase your anonymity and privacy.\nWorking of VPN\nWhen you make a VPN connection, your device routes the internet connection to the VPN\u2019s private server, instead of your Internet Service Provider (ISP). \nDuring this transmission, your data is encrypted and sent through another point on the internet.\nWhen it reaches the server, the data is decrypted.\nThe response from the server reaches the VPN where it is encrypted, and it will be decrypted by another point in the VPN.\nAt last, the data, which is decrypted, reaches you.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What is a VPN?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a VPN?",
+      "answer": "Your online activities are protected from the risks of a public internet connection by a virtual private network, or VPN, which establishes a private and secure network. You may protect tasks like sending emails, making online payments, and conducting e-commerce by utilizing a VPN to increase your anonymity and privacy.\nWorking of VPN\nWhen you make a VPN connection, your device routes the internet connection to the VPN\u2019s private server, instead of your Internet Service Provider (ISP). \nDuring this transmission, your data is encrypted and sent through another point on the internet.\nWhen it reaches the server, the data is decrypted.\nThe response from the server reaches the VPN where it is encrypted, and it will be decrypted by another point in the VPN.\nAt last, the data, which is decrypted, reaches you."
+    }
+  },
+  {
+    "instruction": "Context: Two different offices on campus are working to straighten out an error in an employee\u2019s bank account due to a direct deposit mistake.Office #1 emails the correct account and deposit information to office #2, which promptly fixes the problem.\n\nThe employee confirms with the bank that everything has, indeed, been straightened out.\n\nQuestion: What is wrong here?\n\nAnswer:",
+    "context": "",
+    "output": "Account and deposit information is sensitive data that could be used for identity theft. Sending this or any kind of sensitive information by email is very risky because email is typically not private or secure. Anyone who knows how can access it anywhere along its route.\n\nAs an alternative, the two offices could have called each other or worked with ITS to send the information a more secure way.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "Two different offices on campus are working to straighten out an error in an employee\u2019s bank account due to a direct deposit mistake.Office #1 emails the correct account and deposit information to office #2, which promptly fixes the problem.\n\nThe employee confirms with the bank that everything has, indeed, been straightened out.",
+      "question": "What is wrong here?",
+      "answer": "Account and deposit information is sensitive data that could be used for identity theft. Sending this or any kind of sensitive information by email is very risky because email is typically not private or secure. Anyone who knows how can access it anywhere along its route.\n\nAs an alternative, the two offices could have called each other or worked with ITS to send the information a more secure way."
+    }
+  },
+  {
+    "instruction": "A friend of yours sends an e-card to your mail. You have to click on the attachment to get the card\n\nWhat do you do? Justify your answer",
+    "context": "",
+    "output": "A: There are four risks here:\n\nSome attachments contain viruses or other malicious programs, so just in general, it\u2019s risky to open unknown or unsolicited attachments.\nAlso, in some cases just clicking on a malicious link can infect a computer, so unless you are sure a link is safe, don\u2019t click on it.\nEmail addresses can be faked, so just because the email says it is from someone you know, you can\u2019t be certain of this without checking with the person.\nFinally, some websites and links look legitimate, but they\u2019re really hoaxes designed to steal your information.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "A friend of yours sends an e-card to your mail. You have to click on the attachment to get the card",
+      "question": "What do you do? Justify your answer",
+      "answer": "There are four risks here:\n\nSome attachments contain viruses or other malicious programs, so just in general, it\u2019s risky to open unknown or unsolicited attachments.\nAlso, in some cases just clicking on a malicious link can infect a computer, so unless you are sure a link is safe, don\u2019t click on it.\nEmail addresses can be faked, so just because the email says it is from someone you know, you can\u2019t be certain of this without checking with the person.\nFinally, some websites and links look legitimate, but they\u2019re really hoaxes designed to steal your information."
+    }
+  },
+  {
+    "instruction": "context: When two users have the same password, it will result in the creation of the same password hashes. In such a case, an attacker can easily crack the password by performing a dictionary or brute-force attack. To avoid this, a salted hash is implemented.\nA salted hash is used to randomize hashes by prepending or appending a random string (salt) to the password before hashing. This results in the creation of two completely different hashes, which can be employed to protect the users\u2019 passwords in the database against the attacker.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What are salted hashes?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What are salted hashes?",
+      "answer": "When two users have the same password, it will result in the creation of the same password hashes. In such a case, an attacker can easily crack the password by performing a dictionary or brute-force attack. To avoid this, a salted hash is implemented.\nA salted hash is used to randomize hashes by prepending or appending a random string (salt) to the password before hashing. This results in the creation of two completely different hashes, which can be employed to protect the users\u2019 passwords in the database against the attacker."
+    }
+  },
+  {
+    "instruction": "context: Almost all Cybersecurity Interview Questions will have this question included. VPN stands for Virtual Private Network. It is used to create a safe and encrypted connection. When you use a VPN, the data from the client is sent to a point in the VPN where it is encrypted and then sent through the internet to another point. At this point, the data is decrypted and sent to the server. When the server sends a response, the response is sent to a point in the VPN where it is encrypted and this encrypted data is sent to another point in the VPN where it is decrypted. And finally, the decrypted data is sent to the client. The whole point of using a VPN is to ensure encrypted data transfer.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What is a VPN?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a VPN?",
+      "answer": "Almost all Cybersecurity Interview Questions will have this question included. VPN stands for Virtual Private Network. It is used to create a safe and encrypted connection. When you use a VPN, the data from the client is sent to a point in the VPN where it is encrypted and then sent through the internet to another point. At this point, the data is decrypted and sent to the server. When the server sends a response, the response is sent to a point in the VPN where it is encrypted and this encrypted data is sent to another point in the VPN where it is decrypted. And finally, the decrypted data is sent to the client. The whole point of using a VPN is to ensure encrypted data transfer."
+    }
+  },
+  {
+    "instruction": "In our computing labs, print billing is often tied to the user\u2019s login. Sometimes people call to complain about bills for printing they never did only to find out that the bills are, indeed, correct.\nQuestion: What do you infer from this situation? Justify.",
+    "context": "",
+    "output": "Answer: Sometimes they realize they loaned their account to a friend who couldn\u2019t remember his/her password, and the friend did the printing. Thus the charges. It\u2019s also possible that somebody came in behind them and used their account\n\nThis is an issue with shared or public computers in general. If you don\u2019t log out of the computer properly when you leave, someone else can come in behind you and retrieve what you were doing, use your accounts, etc. Always log out of all accounts, quit programs, and close browser windows before you walk away.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "In our computing labs, print billing is often tied to the user\u2019s login. Sometimes people call to complain about bills for printing they never did only to find out that the bills are, indeed, correct.",
+      "question": "What do you infer from this situation? Justify.",
+      "answer": "Sometimes they realize they loaned their account to a friend who couldn\u2019t remember his/her password, and the friend did the printing. Thus the charges. It\u2019s also possible that somebody came in behind them and used their account\n\nThis is an issue with shared or public computers in general. If you don\u2019t log out of the computer properly when you leave, someone else can come in behind you and retrieve what you were doing, use your accounts, etc. Always log out of all accounts, quit programs, and close browser windows before you walk away."
+    }
+  },
+  {
+    "instruction": "context: SQL Injection (SQLi) is a code injection attack where an attacker manipulates the data being sent to the server to execute malicious SQL statements to control a web application\u2019s database server, thereby accessing, modifying and deleting unauthorized data. This attack is mainly used to take over database servers.\n\nYou can prevent SQL Injection attacks by using the following practices:\n\nUse prepared statements\nUse Stored Procedures\nValidate user input\n\nAsk a question about this context.",
+    "context": "",
+    "output": "Explain SQL Injection and how to prevent it?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain SQL Injection and how to prevent it?",
+      "answer": "SQL Injection (SQLi) is a code injection attack where an attacker manipulates the data being sent to the server to execute malicious SQL statements to control a web application\u2019s database server, thereby accessing, modifying and deleting unauthorized data. This attack is mainly used to take over database servers.\n\nYou can prevent SQL Injection attacks by using the following practices:\n\nUse prepared statements\nUse Stored Procedures\nValidate user input"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain the main difference between Diffie-Hellman and RSA.",
+    "context": "",
+    "output": "Diffie-Hellman is a protocol used while exchanging key between two parties while RSA is an algorithm that works on the basis two keys called private and public key.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain the main difference between Diffie-Hellman and RSA.",
+      "answer": "Diffie-Hellman is a protocol used while exchanging key between two parties while RSA is an algorithm that works on the basis two keys called private and public key."
+    }
+  },
+  {
+    "instruction": "context: Security auditing is an internal inspection of applications and operating systems for security flaws. An audit can also be done via line by line inspection of code.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What is a security auditing?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a security auditing?",
+      "answer": "Security auditing is an internal inspection of applications and operating systems for security flaws. An audit can also be done via line by line inspection of code."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Name common types of non-physical threats",
+    "context": "",
+    "output": "Following are various types of non-physical threats:\n\nTrojans\nAdware\nWorms\nSpyware\nDenial of Service Attacks\nDistributed Denial of Service Attacks\nVirus\nKey loggers\nUnauthorized access to computer systems resources\nPhishing",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Name common types of non-physical threats",
+      "answer": "Following are various types of non-physical threats:\n\nTrojans\nAdware\nWorms\nSpyware\nDenial of Service Attacks\nDistributed Denial of Service Attacks\nVirus\nKey loggers\nUnauthorized access to computer systems resources\nPhishing"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is the abbreviation of CSRF?",
+    "context": "",
+    "output": "CSRF stands for Cross-Site Request Forgery.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is the abbreviation of CSRF?",
+      "answer": "CSRF stands for Cross-Site Request Forgery."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain port scanning.",
+    "context": "",
+    "output": "A port scan helps you determine the ports that are open, listening, or closed on a network. Administrators use this to test network security and the system\u2019s firewall strength. For hackers, it is a popular reconnaissance tool to identify the weak point to break into a system.\nSome of the common basic port scanning techniques are:\nUDP\nPing scan\nTCP connect\nTCP half-open\nStealth scanning",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain port scanning.",
+      "answer": "A port scan helps you determine the ports that are open, listening, or closed on a network. Administrators use this to test network security and the system\u2019s firewall strength. For hackers, it is a popular reconnaissance tool to identify the weak point to break into a system.\nSome of the common basic port scanning techniques are:\nUDP\nPing scan\nTCP connect\nTCP half-open\nStealth scanning"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is the main purpose of Hashing?",
+    "context": "",
+    "output": "Hashing is required when we have to compare a huge amount of data. We can create different hash values for different data, and we can compare hashes too.\n\nFollowing is a list of some most important usage of Hashing:\n\nHashing facilitates us to keep and find records of hashed data.\nHashing can be used in cryptographic applications such as a digital signature.\nWith the use of hashing, we can create random strings to avoid data duplication.\nGeometric hashing is a type of hashing used in computer graphics to help find proximity issues in planes.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is the main purpose of Hashing?",
+      "answer": "Hashing is required when we have to compare a huge amount of data. We can create different hash values for different data, and we can compare hashes too.\n\nFollowing is a list of some most important usage of Hashing:\n\nHashing facilitates us to keep and find records of hashed data.\nHashing can be used in cryptographic applications such as a digital signature.\nWith the use of hashing, we can create random strings to avoid data duplication.\nGeometric hashing is a type of hashing used in computer graphics to help find proximity issues in planes."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is 2FA and how can it be implemented for public websites?",
+    "context": "",
+    "output": "An extra layer of security that is known as \u201cmulti-factor authentication\u201c.\nRequires not only a password and username but also something that only, and only, that user has on them, i.e. a piece of information only they should know or have immediately to hand \u2013 such as a physical token.\nAuthenticator apps replace the need to obtain a verification code via text, voice call or email.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is 2FA and how can it be implemented for public websites?",
+      "answer": "An extra layer of security that is known as \u201cmulti-factor authentication\u201c.\nRequires not only a password and username but also something that only, and only, that user has on them, i.e. a piece of information only they should know or have immediately to hand \u2013 such as a physical token.\nAuthenticator apps replace the need to obtain a verification code via text, voice call or email."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What do you mean by Authenticode?",
+    "context": "",
+    "output": "Authenticode is a technology that identifies the publisher of Authenticode sign software. It allows users to ensure that the software is genuine and not contain any malicious program.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What do you mean by Authenticode?",
+      "answer": "Authenticode is a technology that identifies the publisher of Authenticode sign software. It allows users to ensure that the software is genuine and not contain any malicious program."
+    }
+  },
+  {
+    "instruction": "context: BIOS (Basic Input or Output System) is a firmware located on a memory chip, often in a computer\u2019s motherboard or system board. A typical BIOS security feature is a user password that must be entered to boot up a device. If you wish to reset a password-protected BIOS configuration, you\u2019ll need to turn off your device, locate a password reset jumper on the system board, remove the jumper plug from the password jumper-pins, and turn on the device without the jumper plug to clear the password. This will reset the BIOS to default factory settings.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "Can You Reset a Password-Protected BIOS Configuration?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Can You Reset a Password-Protected BIOS Configuration?",
+      "answer": "BIOS (Basic Input or Output System) is a firmware located on a memory chip, often in a computer\u2019s motherboard or system board. A typical BIOS security feature is a user password that must be entered to boot up a device. If you wish to reset a password-protected BIOS configuration, you\u2019ll need to turn off your device, locate a password reset jumper on the system board, remove the jumper plug from the password jumper-pins, and turn on the device without the jumper plug to clear the password. This will reset the BIOS to default factory settings."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is a traceroute? Mention its uses.",
+    "context": "",
+    "output": "Traceroute is a network diagnostic tool that helps track the route taken by a packet sent across the IP network. It also shows the IP addresses of all the routers it pinged between the source and the destination.\nUses: \nIt shows the time taken by the packet for each hop during the transmission. \nWhen the packet is lost during the transmission, the traceroute will identify the point of failure.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a traceroute? Mention its uses.",
+      "answer": "Traceroute is a network diagnostic tool that helps track the route taken by a packet sent across the IP network. It also shows the IP addresses of all the routers it pinged between the source and the destination.\nUses: \nIt shows the time taken by the packet for each hop during the transmission. \nWhen the packet is lost during the transmission, the traceroute will identify the point of failure."
+    }
+  },
+  {
+    "instruction": "context: Salt is a random data. When a properly protected password system receives a new password, it creates a hash value of that password, a random salt value, and then the combined value is stored in its database. This helps to defend against dictionary attacks and known hash attacks.\nExample: If someone uses the same password on two different systems and they are being used using the same hashing algorithm, the hash value would be same, however, if even one of the system uses salt with the hashes, the value will be different.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What are salted hashes?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What are salted hashes?",
+      "answer": "Salt is a random data. When a properly protected password system receives a new password, it creates a hash value of that password, a random salt value, and then the combined value is stored in its database. This helps to defend against dictionary attacks and known hash attacks.\nExample: If someone uses the same password on two different systems and they are being used using the same hashing algorithm, the hash value would be same, however, if even one of the system uses salt with the hashes, the value will be different."
+    }
+  },
+  {
+    "instruction": "context: A sniffing attack is similar to stealing or intercepting data. The attacker does this by using a sniffer, such as Wireshark, to capture network traffic.\n\nIf the data isn't encrypted when it's being transferred across the network, the attacker can read the data in the network packet using the sniffer.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "Explain to me what a sniffing attack is",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain to me what a sniffing attack is",
+      "answer": "A sniffing attack is similar to stealing or intercepting data. The attacker does this by using a sniffer, such as Wireshark, to capture network traffic.\n\nIf the data isn't encrypted when it's being transferred across the network, the attacker can read the data in the network packet using the sniffer."
+    }
+  },
+  {
+    "instruction": "context: Generally, system hardening refers to a combination of tools and techniques for controlling vulnerabilities in systems, applications, firmware, and more in an organization. \nThe purpose of system hardening is to decrease the security risks by reducing the potential attacks and condensing the system\u2019s attack surface.\nThe following are the various types of system hardening:\n\nDatabase hardening\nOperating system hardening\nApplication hardening\nServer hardening\nNetwork hardening\n\nAsk a question about this context.",
+    "context": "",
+    "output": "Explain System hardening?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain System hardening?",
+      "answer": "Generally, system hardening refers to a combination of tools and techniques for controlling vulnerabilities in systems, applications, firmware, and more in an organization. \nThe purpose of system hardening is to decrease the security risks by reducing the potential attacks and condensing the system\u2019s attack surface.\nThe following are the various types of system hardening:\n\nDatabase hardening\nOperating system hardening\nApplication hardening\nServer hardening\nNetwork hardening"
+    }
+  },
+  {
+    "instruction": "context: DNS (Domain Name System) is a service that is used for converting user-friendly domain names into a computer-friendly IP address. It allows websites under a particular domain name that is easy to remember.\nDNS monitoring is nothing but monitoring DNS records to ensure does it route traffic properly to your website, electronic communication, services, and more.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What is the need for DNS monitoring?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is the need for DNS monitoring?",
+      "answer": "DNS (Domain Name System) is a service that is used for converting user-friendly domain names into a computer-friendly IP address. It allows websites under a particular domain name that is easy to remember.\nDNS monitoring is nothing but monitoring DNS records to ensure does it route traffic properly to your website, electronic communication, services, and more."
+    }
+  },
+  {
+    "instruction": "context: The following ways will help you to keep up with the latest cybersecurity updates:\n\nFollow news websites and blogs from security experts. \nBrowse security-related social media topics.\nCheck vulnerability alert feeds and advisory sites.\nAttend cybersecurity live events.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "How will you keep yourself updated with the latest cybersecurity news?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "How will you keep yourself updated with the latest cybersecurity news?",
+      "answer": "The following ways will help you to keep up with the latest cybersecurity updates:\n\nFollow news websites and blogs from security experts. \nBrowse security-related social media topics.\nCheck vulnerability alert feeds and advisory sites.\nAttend cybersecurity live events."
+    }
+  },
+  {
+    "instruction": "context: A brute-force attack is when a hacker attempts to uncover a target's password using a permutation or fuzzing process. This type of attack takes a long time and process. And it's because of that, that attackers use software such as Hydra or Fuzzer to automate the password creation process.\n\nTo prevent a brute force attack, you'll need to carry out one or more of the following options:\n\n1)  Use strong passwords for your public server or web app: Include numbers, small and capital letters, and special characters to create a long and strong password.\n\n2)  Limit the number of login attempts: Either use a plugin to reduce the number of logins allowed per user. If users add their password incorrectly two or three times, they'll be banned from accessing their account for some time.\n\n3)  Keep an eye on IP addresses: This can be considered an extension of point #2. Monitoring IP addresses allows you to see where potential hackers for a brute force attack are coming from. It also indicates suspicious activity. This step is important for businesses whose employees work remotely.\n\n4)  Use two-factor authentication: You'll notice that many social media apps are beginning to rely on this add-security method. Google is one of those websites that uses a two-factor authentication method for when you log in for the first time via a new browser.\n\n5)  Use CAPTCHAs: An acronym for \"Completely Automated Public Turing test to tell Computers and Humans Apart,\" a CAPTCHA is a challenge that involves clicking certain images or writing certain letters and numbers to indicate that the person on the other end is, in fact, a person and no AI.\n\nAsk a question about this context.",
+    "context": "",
+    "output": "Explain to me what a brute-force attack is and how you can avoid it or mitigate it",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain to me what a brute-force attack is and how you can avoid it or mitigate it",
+      "answer": "A brute-force attack is when a hacker attempts to uncover a target's password using a permutation or fuzzing process. This type of attack takes a long time and process. And it's because of that, that attackers use software such as Hydra or Fuzzer to automate the password creation process.\n\nTo prevent a brute force attack, you'll need to carry out one or more of the following options:\n\n1)  Use strong passwords for your public server or web app: Include numbers, small and capital letters, and special characters to create a long and strong password.\n\n2)  Limit the number of login attempts: Either use a plugin to reduce the number of logins allowed per user. If users add their password incorrectly two or three times, they'll be banned from accessing their account for some time.\n\n3)  Keep an eye on IP addresses: This can be considered an extension of point #2. Monitoring IP addresses allows you to see where potential hackers for a brute force attack are coming from. It also indicates suspicious activity. This step is important for businesses whose employees work remotely.\n\n4)  Use two-factor authentication: You'll notice that many social media apps are beginning to rely on this add-security method. Google is one of those websites that uses a two-factor authentication method for when you log in for the first time via a new browser.\n\n5)  Use CAPTCHAs: An acronym for \"Completely Automated Public Turing test to tell Computers and Humans Apart,\" a CAPTCHA is a challenge that involves clicking certain images or writing certain letters and numbers to indicate that the person on the other end is, in fact, a person and no AI."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is Backdoor?",
+    "context": "",
+    "output": "It is a malware type in which security mechanism is bypassed to access a system.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is Backdoor?",
+      "answer": "It is a malware type in which security mechanism is bypassed to access a system."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain WAF",
+    "context": "",
+    "output": "WAF stands for Web Application Firewall. WAF is used to protect the application by filtering and monitoring incoming and outgoing traffic between web application and the internet.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain WAF",
+      "answer": "WAF stands for Web Application Firewall. WAF is used to protect the application by filtering and monitoring incoming and outgoing traffic between web application and the internet."
+    }
+  },
+  {
+    "instruction": "context: Active reconnaissance is a type of computer assault in which an intruder interacts with the target system in order to gather information about weaknesses.\nPort scanning is commonly used by attackers to detect vulnerable ports, after which they exploit the vulnerabilities of services linked with open ports.\nThis could be done using automatic scanning or manual testing with tools like ping, traceroute, and netcat, among others. This sort of recon necessitates interaction between the attacker and the victim. This recon is faster and more precise, but it generates far more noise. Because the attacker must engage with the target in order to obtain information, the recon is more likely to be detected by a firewall or other network security device\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What do you mean by Active reconnaissance?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What do you mean by Active reconnaissance?",
+      "answer": "Active reconnaissance is a type of computer assault in which an intruder interacts with the target system in order to gather information about weaknesses.\nPort scanning is commonly used by attackers to detect vulnerable ports, after which they exploit the vulnerabilities of services linked with open ports.\nThis could be done using automatic scanning or manual testing with tools like ping, traceroute, and netcat, among others. This sort of recon necessitates interaction between the attacker and the victim. This recon is faster and more precise, but it generates far more noise. Because the attacker must engage with the target in order to obtain information, the recon is more likely to be detected by a firewall or other network security device"
+    }
+  },
+  {
+    "instruction": "context: Following are some common cyber attacks that could adversely affect your system. Malware\nPhishing\nPassword Attacks\nDDoS\nMan in the Middle\nDrive-By Downloads\nMalvertising\nRogue Software\n\nAsk a question about this context.",
+    "context": "",
+    "output": "What are some of the common Cyberattacks?",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What are some of the common Cyberattacks?",
+      "answer": "Following are some common cyber attacks that could adversely affect your system. Malware\nPhishing\nPassword Attacks\nDDoS\nMan in the Middle\nDrive-By Downloads\nMalvertising\nRogue Software"
+    }
+  }
+]

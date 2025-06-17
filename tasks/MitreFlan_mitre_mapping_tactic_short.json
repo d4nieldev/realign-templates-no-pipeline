@@ -1,0 +1,32 @@
+[
+  {
+    "instruction": "Which Mitre tactic meets the following description: The adversary is trying to gather data of interest to their goal.\n\nThe tactic consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common the tactic methods include capturing screenshots and keyboard input.",
+    "context": "",
+    "output": "Name: Collection, ID: TA0009",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_tactic_short",
+    "parsed_raw_data": {
+      "question": "Which Mitre tactic meets the following description: The adversary is trying to gather data of interest to their goal.\n\nThe tactic consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common the tactic methods include capturing screenshots and keyboard input.",
+      "answer": "Name: Collection, ID: TA0009",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_tactic_short"
+    }
+  },
+  {
+    "instruction": "Which Mitre tactic meets the following description: The adversary is trying to maintain their foothold.\n\nThe tactic consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for the tactic include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.?",
+    "context": "",
+    "output": "Name: Persistence, ID: TA0003",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_tactic_short",
+    "parsed_raw_data": {
+      "question": "Which Mitre tactic meets the following description: The adversary is trying to maintain their foothold.\n\nThe tactic consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for the tactic include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.",
+      "answer": "Name: Persistence, ID: TA0003",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_tactic_short"
+    }
+  }
+]

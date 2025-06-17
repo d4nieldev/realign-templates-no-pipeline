@@ -1,0 +1,77 @@
+[
+  {
+    "instruction": "To which Mitre campaign does the following description refers: The campaign was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During The campaign Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
+    "context": "",
+    "output": "Name: C0027, ID: C0027",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_campaign_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre campaign does the following description refers: The campaign was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During The campaign Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
+      "answer": "Name: C0027, ID: C0027",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_campaign_short"
+    }
+  },
+  {
+    "instruction": "To which Mitre campaign does the following description refers: The campaign was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.?",
+    "context": "",
+    "output": "Name: Frankenstein, ID: C0001",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_campaign_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre campaign does the following description refers: The campaign was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.",
+      "answer": "Name: Frankenstein, ID: C0001",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_campaign_short"
+    }
+  },
+  {
+    "instruction": "To which Mitre campaign does the following description refers: The campaign was a suspected hacker-for-hire cyber espionage campaign that targeted multiple industries worldwide, with a large number being financial institutions. The campaign actors targeted organizations in Europe, the Americas, Asia, Australia, and Africa, with a large concentration in South Asia (especially India, Bangladesh, and Singapore), using custom malware, open source tools, and a complex network of proxies and SSH tunnels.?",
+    "context": "",
+    "output": "Name: CostaRicto, ID: C0004",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_campaign_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre campaign does the following description refers: The campaign was a suspected hacker-for-hire cyber espionage campaign that targeted multiple industries worldwide, with a large number being financial institutions. The campaign actors targeted organizations in Europe, the Americas, Asia, Australia, and Africa, with a large concentration in South Asia (especially India, Bangladesh, and Singapore), using custom malware, open source tools, and a complex network of proxies and SSH tunnels.",
+      "answer": "Name: CostaRicto, ID: C0004",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_campaign_short"
+    }
+  },
+  {
+    "instruction": "To which Mitre campaign does the following description refers: The campaign was a cyber espionage campaign targeting technology and manufacturing companies in East Asia, Western Europe, and North America since at least 2019. Security researchers noted the goal of The campaign, which was still ongoing as of May 2022, was likely the theft of proprietary information, research and development documents, source code, and blueprints for various technologies. Researchers assessed The campaign was conducted by actors affiliated with Winnti Group, APT41, and BARIUM.",
+    "context": "",
+    "output": "Name: Operation CuckooBees, ID: C0012",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_campaign_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre campaign does the following description refers: The campaign was a cyber espionage campaign targeting technology and manufacturing companies in East Asia, Western Europe, and North America since at least 2019. Security researchers noted the goal of The campaign, which was still ongoing as of May 2022, was likely the theft of proprietary information, research and development documents, source code, and blueprints for various technologies. Researchers assessed The campaign was conducted by actors affiliated with Winnti Group, APT41, and BARIUM.",
+      "answer": "Name: Operation CuckooBees, ID: C0012",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_campaign_short"
+    }
+  },
+  {
+    "instruction": "To which Mitre campaign does the following description refers: The campaign was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the The campaign threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nThe campaign threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea.",
+    "context": "",
+    "output": "Name: Operation Dust Storm, ID: C0016",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_campaign_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre campaign does the following description refers: The campaign was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the The campaign threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nThe campaign threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea.",
+      "answer": "Name: Operation Dust Storm, ID: C0016",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_campaign_short"
+    }
+  }
+]

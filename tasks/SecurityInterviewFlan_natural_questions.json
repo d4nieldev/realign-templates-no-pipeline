@@ -1,0 +1,1531 @@
+[
+  {
+    "instruction": "Q: Explain the differences between risk, vulnerability, and a threat",
+    "context": "",
+    "output": " A: Vulnerability is a weakness or gap in a companfy's security efforts, while a threat is a hacker who has noticed this weakness and exploits it. A risk, on the other hand, is a measure of how much the vulnerability has been exploited",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain the differences between risk, vulnerability, and a threat",
+      "answer": "Vulnerability is a weakness or gap in a companfy's security efforts, while a threat is a hacker who has noticed this weakness and exploits it. A risk, on the other hand, is a measure of how much the vulnerability has been exploited"
+    }
+  },
+  {
+    "instruction": "What is traceroute? Why is it used?",
+    "context": "",
+    "output": "Traceroute is a tool that shows the path of a packet. It lists all the points (mainly routers) that the packet passes through. This is used mostly when the packet is not reaching its destination. Traceroute is used to check where the connection stops or breaks to identify the point of failure.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is traceroute? Why is it used?",
+      "answer": "Traceroute is a tool that shows the path of a packet. It lists all the points (mainly routers) that the packet passes through. This is used mostly when the packet is not reaching its destination. Traceroute is used to check where the connection stops or breaks to identify the point of failure."
+    }
+  },
+  {
+    "instruction": "Please answer this question: What do you mean by SRM?",
+    "context": "",
+    "output": "SRM stands for Security Reference Monitor provides routines for computer drivers to grant access rights to object",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What do you mean by SRM?",
+      "answer": "SRM stands for Security Reference Monitor provides routines for computer drivers to grant access rights to object"
+    }
+  },
+  {
+    "instruction": "What is the main difference between SSL and TLS?",
+    "context": "",
+    "output": "The main difference between these two is that SSL verifies the identity of the sender. SSL helps you to track the person you are communicating to. TLS offers a secure channel between two clients.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the main difference between SSL and TLS?",
+      "answer": "The main difference between these two is that SSL verifies the identity of the sender. SSL helps you to track the person you are communicating to. TLS offers a secure channel between two clients."
+    }
+  },
+  {
+    "instruction": "What are various WEP cracking tools?",
+    "context": "",
+    "output": "Well known WEP cracking tools are:\n\nAircrack\nWebDecrypt\nKismet\nWEPCrack",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are various WEP cracking tools?",
+      "answer": "Well known WEP cracking tools are:\n\nAircrack\nWebDecrypt\nKismet\nWEPCrack"
+    }
+  },
+  {
+    "instruction": "Q: How do you decide the placement of the encryption function?",
+    "context": "",
+    "output": " A: We must decide what to encrypt and where the encryption mechanism should be situated if encryption is to be used to counter attacks on confidentiality. Link and end-to-end encryption are the two main ways of encryption placement.\nEnd-to-end encryption, or E2EE, is a secure data transfer system in which data is encrypted and decrypted only at the endpoints, regardless of how many points it passes through in the middle of its virtual journey. This sort of encryption is an excellent technique to communicate in a secure and confidential manner. Because no one else has the key to decode it, no one in the middle will be able to read it.\nThe primary difference between link encryption and end-to-end encryption is that link encryption encrypts and decrypts all traffic at all points, not just at the endpoints. All data is encrypted as it travels along the communication line with this approach. When it reaches a router or another intermediary device, however, it is decrypted so that the intermediator can determine which direction to send it next.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How do you decide the placement of the encryption function?",
+      "answer": "We must decide what to encrypt and where the encryption mechanism should be situated if encryption is to be used to counter attacks on confidentiality. Link and end-to-end encryption are the two main ways of encryption placement.\nEnd-to-end encryption, or E2EE, is a secure data transfer system in which data is encrypted and decrypted only at the endpoints, regardless of how many points it passes through in the middle of its virtual journey. This sort of encryption is an excellent technique to communicate in a secure and confidential manner. Because no one else has the key to decode it, no one in the middle will be able to read it.\nThe primary difference between link encryption and end-to-end encryption is that link encryption encrypts and decrypts all traffic at all points, not just at the endpoints. All data is encrypted as it travels along the communication line with this approach. When it reaches a router or another intermediary device, however, it is decrypted so that the intermediator can determine which direction to send it next."
+    }
+  },
+  {
+    "instruction": "Q: What is the difference between a data leak and a data breach?",
+    "context": "",
+    "output": " A: A data leak is when unauthorized information is released either through an unauthorized person or because the information was accessed by a hacker. A data breach is part of a cyberattack and involves a cybercriminal attacking a system, server, or email.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between a data leak and a data breach?",
+      "answer": "A data leak is when unauthorized information is released either through an unauthorized person or because the information was accessed by a hacker. A data breach is part of a cyberattack and involves a cybercriminal attacking a system, server, or email."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is impersonation?",
+    "context": "",
+    "output": "It is a mechanism of assigning the user account to an unknown user.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is impersonation?",
+      "answer": "It is a mechanism of assigning the user account to an unknown user."
+    }
+  },
+  {
+    "instruction": "Q: What is Nmap?",
+    "context": "",
+    "output": " A: Nmap is a tool which is used for finding networks and in security auditing",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is Nmap?",
+      "answer": "Nmap is a tool which is used for finding networks and in security auditing"
+    }
+  },
+  {
+    "instruction": "Please answer this question: What are the disadvantages of penetration testing?",
+    "context": "",
+    "output": "Disadvantages of penetration testing are:\n\nPenetration testing cannot find all vulnerabilities in the system.\nThere are limitations of time, budget, scope, skills of penetration testers.\nData loss and corruption\nDown Time is high which increase costs",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the disadvantages of penetration testing?",
+      "answer": "Disadvantages of penetration testing are:\n\nPenetration testing cannot find all vulnerabilities in the system.\nThere are limitations of time, budget, scope, skills of penetration testers.\nData loss and corruption\nDown Time is high which increase costs"
+    }
+  },
+  {
+    "instruction": "Q: What is Cognitive Cybersecurity?",
+    "context": "",
+    "output": " A: Cognitive Cybersecurity is an application of AI technologies patterned on human thought processes to detect threats and protect physical and digital systems.\nSelf-learning security systems use data mining, pattern recognition, and natural language processing to simulate the human brain, albeit in a high-powered computer model.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is Cognitive Cybersecurity?",
+      "answer": "Cognitive Cybersecurity is an application of AI technologies patterned on human thought processes to detect threats and protect physical and digital systems.\nSelf-learning security systems use data mining, pattern recognition, and natural language processing to simulate the human brain, albeit in a high-powered computer model."
+    }
+  },
+  {
+    "instruction": "Q: What are the different scheduling algorithms?",
+    "context": "",
+    "output": " A: Listed below are the different scheduling algorithms:\n\nFirst come, first serve: The process which requests the CPU first gets the CPU allocation first.\nShortest job first: Here, the process with the shortest execution time should be selected for execution next.\nPriority scheduling: Here, the scheduler selects the tasks to work as per the priority.\nMultiple level queues: Processes are assigned to a queue based on a specific property like the process priority, size of the memory, etc.\nShortest remaining time: Here, the process will be allocated to the task, which is closest to its completion. \nRound Robin: Each process that comes, in turn, gets an equal share of time.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the different scheduling algorithms?",
+      "answer": "Listed below are the different scheduling algorithms:\n\nFirst come, first serve: The process which requests the CPU first gets the CPU allocation first.\nShortest job first: Here, the process with the shortest execution time should be selected for execution next.\nPriority scheduling: Here, the scheduler selects the tasks to work as per the priority.\nMultiple level queues: Processes are assigned to a queue based on a specific property like the process priority, size of the memory, etc.\nShortest remaining time: Here, the process will be allocated to the task, which is closest to its completion. \nRound Robin: Each process that comes, in turn, gets an equal share of time."
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - Define Spyware\n\n",
+    "context": "",
+    "output": "Spyware is a malware that aims to steal data about the organization or person. This malware can damage the organization\u2019s computer system",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Define Spyware",
+      "answer": "Spyware is a malware that aims to steal data about the organization or person. This malware can damage the organization\u2019s computer system"
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nWhat is a three-way handshake?",
+    "context": "",
+    "output": "It is a process that happens in a TCP/IP network when you make a connection between a local host and the server. It is a three-step process to negotiate the acknowledgment and synchronization of packets before communication starts.\nStep 1: The client makes a connection with the server with SYN.\nStep 2: The server responds to the client\u2019s request with SYN+ACK.\nStep 3: The client acknowledges the server\u2019s response with ACK, and the actual data transmission begins.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a three-way handshake?",
+      "answer": "It is a process that happens in a TCP/IP network when you make a connection between a local host and the server. It is a three-step process to negotiate the acknowledgment and synchronization of packets before communication starts.\nStep 1: The client makes a connection with the server with SYN.\nStep 2: The server responds to the client\u2019s request with SYN+ACK.\nStep 3: The client acknowledges the server\u2019s response with ACK, and the actual data transmission begins."
+    }
+  },
+  {
+    "instruction": "Please answer this question: How can you strengthen user authentication in the company?",
+    "context": "",
+    "output": "To enhance user authentication, I'd use two-factor authentication or, depending on the company's needs, a non-repudiation approach. After that, I'd use these two methods with the network for failsafe authentication.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How can you strengthen user authentication in the company?",
+      "answer": "To enhance user authentication, I'd use two-factor authentication or, depending on the company's needs, a non-repudiation approach. After that, I'd use these two methods with the network for failsafe authentication."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nList security vulnerabilities as per Open Web Application Security Project (OWASP)",
+    "context": "",
+    "output": "A: Security vulnerabilities as per open web application security project are as follows:\n\nSQL Injection\nCross-site request forgery\nInsecure cryptographic storage\nBroken authentication and session management\nInsufficient transport layer protection\nUnvalidated redirects and forwards\nFailure to restrict URL access",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "List security vulnerabilities as per Open Web Application Security Project (OWASP)",
+      "answer": "Security vulnerabilities as per open web application security project are as follows:\n\nSQL Injection\nCross-site request forgery\nInsecure cryptographic storage\nBroken authentication and session management\nInsufficient transport layer protection\nUnvalidated redirects and forwards\nFailure to restrict URL access"
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - Distinguish between HIDS and NIDS.\n\n",
+    "context": "",
+    "output": "Host Intrusion Detection System: Detects the attacks that involve hosts, Analyzes what a particular host/application is doing, Discovers hackers only after the machine is breached.\nNetwork Intrusion Detection System: Detects attacks that involve networks, Examines the network traffic of all devices, Discovers hackers at the time they generate unauthorized attacks.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Distinguish between HIDS and NIDS.",
+      "answer": "Host Intrusion Detection System: Detects the attacks that involve hosts, Analyzes what a particular host/application is doing, Discovers hackers only after the machine is breached.\nNetwork Intrusion Detection System: Detects attacks that involve networks, Examines the network traffic of all devices, Discovers hackers at the time they generate unauthorized attacks."
+    }
+  },
+  {
+    "instruction": "Question: What is the difference between HIDS and NIDS?",
+    "context": "",
+    "output": "Answer: HIDS(Host IDS) and NIDS(Network IDS) are both Intrusion Detection System and work for the same purpose i.e., to detect the intrusions. The only difference is that the HIDS is set up on a particular host/device. It monitors the traffic of a particular device and suspicious system activities. On the other hand, NIDS is set up on a network. It monitors traffic of all device of the network.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between HIDS and NIDS?",
+      "answer": "HIDS(Host IDS) and NIDS(Network IDS) are both Intrusion Detection System and work for the same purpose i.e., to detect the intrusions. The only difference is that the HIDS is set up on a particular host/device. It monitors the traffic of a particular device and suspicious system activities. On the other hand, NIDS is set up on a network. It monitors traffic of all device of the network."
+    }
+  },
+  {
+    "instruction": "Please answer this question: How would you advise other employees in the organization to avoid identity theft?",
+    "context": "",
+    "output": " I would offer them the following tips:\n\n- Make sure you use a strong password including letters, numbers, and special characters\n\n- Only shop via popular and trusted websites\n\n- Don't share any passwords with anyone\n\n- Install advanced spyware and malware protection tools on your computers\n\n- Keep your system and software up-to-date\n\n- Don't share confidential information online or on social media\n\n- Make sure your browser is up-to-date",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How would you advise other employees in the organization to avoid identity theft?",
+      "answer": " I would offer them the following tips:\n\n- Make sure you use a strong password including letters, numbers, and special characters\n\n- Only shop via popular and trusted websites\n\n- Don't share any passwords with anyone\n\n- Install advanced spyware and malware protection tools on your computers\n\n- Keep your system and software up-to-date\n\n- Don't share confidential information online or on social media\n\n- Make sure your browser is up-to-date"
+    }
+  },
+  {
+    "instruction": "Q: What is an ARP and how does it work?",
+    "context": "",
+    "output": " A: Address Resolution Protocol (ARP)is a protocol for mapping an Internet Protocol address (IP address) to a physical machine address that is recognized in the local network.\n\nWhen an incoming packet destined for a host machine on a particular local area network arrives at a gateway, the gateway asks the ARP program to find a physical host or MAC address that matches the IP address.\n\nThe ARP program looks in the ARP cache and, if it finds the address, provides it so that the packet can be converted to the right packet length and format and sent to the machine.\n\nIf no entry is found for the IP address, ARP broadcasts a request packet in a special format to all the machines on the LAN to see if one machine knows that it has that IP address associated with it.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is an ARP and how does it work?",
+      "answer": "Address Resolution Protocol (ARP)is a protocol for mapping an Internet Protocol address (IP address) to a physical machine address that is recognized in the local network.\n\nWhen an incoming packet destined for a host machine on a particular local area network arrives at a gateway, the gateway asks the ARP program to find a physical host or MAC address that matches the IP address.\n\nThe ARP program looks in the ARP cache and, if it finds the address, provides it so that the packet can be converted to the right packet length and format and sent to the machine.\n\nIf no entry is found for the IP address, ARP broadcasts a request packet in a special format to all the machines on the LAN to see if one machine knows that it has that IP address associated with it."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat are the main transmission modes between devices in a computer network?",
+    "context": "",
+    "output": "The three transmission modes are the Simplex Mode, the Half-Duplex Mode, and the Full-Duplex Mode.\nIn the Simplex Mode, data can be sent in only one direction. That is, the message cannot be sent back to the sender.\nIn a Half-Duplex Mode, the data can be transmitted in two directions using a signal carrier. However, the transmission cannot be done in both directions at the same time.\nIn the Full-Duplex Mode, the data is bidirectional, that is, it can be sent in both directions at the same time.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the main transmission modes between devices in a computer network?",
+      "answer": "The three transmission modes are the Simplex Mode, the Half-Duplex Mode, and the Full-Duplex Mode.\nIn the Simplex Mode, data can be sent in only one direction. That is, the message cannot be sent back to the sender.\nIn a Half-Duplex Mode, the data can be transmitted in two directions using a signal carrier. However, the transmission cannot be done in both directions at the same time.\nIn the Full-Duplex Mode, the data is bidirectional, that is, it can be sent in both directions at the same time."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nExplain the DDoS attack. How to prevent it?",
+    "context": "",
+    "output": "Distributed denial-of-service attack overwhelms the target website, system, or network with huge traffic, more than the server\u2019s capacity. The aim is to make the server/website inaccessible to its intended users. A DDoS attack happens in the below two ways:\nFlooding attacks: This is the most commonly occurring type of DDoS attack. Flooding attacks stop the system when the server is accumulated with massive amounts of traffic that it cannot handle. The attacker sends packets continuously with the help of automated software.\nCrash attacks: This is the least common DDoS attack where the attacker exploits a bug in the targeted system to cause a system crash. It prevents legitimate users from accessing email, websites, banking accounts, and gaming sites. \nTo prevent a DDoS attack, you have to:\nConfigure firewalls and routers\nRecognize the spike in traffic\nConsider front-end hardware \nEmpower the server with scalability and load balancing\nUse anti-DDoS software",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain the DDoS attack. How to prevent it?",
+      "answer": "Distributed denial-of-service attack overwhelms the target website, system, or network with huge traffic, more than the server\u2019s capacity. The aim is to make the server/website inaccessible to its intended users. A DDoS attack happens in the below two ways:\nFlooding attacks: This is the most commonly occurring type of DDoS attack. Flooding attacks stop the system when the server is accumulated with massive amounts of traffic that it cannot handle. The attacker sends packets continuously with the help of automated software.\nCrash attacks: This is the least common DDoS attack where the attacker exploits a bug in the targeted system to cause a system crash. It prevents legitimate users from accessing email, websites, banking accounts, and gaming sites. \nTo prevent a DDoS attack, you have to:\nConfigure firewalls and routers\nRecognize the spike in traffic\nConsider front-end hardware \nEmpower the server with scalability and load balancing\nUse anti-DDoS software"
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhich is more secure SSL or HTTPS?",
+    "context": "",
+    "output": "SSL (Secure Sockets Layer) is a secure protocol that provides safer conversations between two or more parties across the internet. It works on top of the HTTP to provide security.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL to provide a safer browsing experience with encryption.\nIn terms of security, SSL is more secure than HTTPS.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Which is more secure SSL or HTTPS?",
+      "answer": "SSL (Secure Sockets Layer) is a secure protocol that provides safer conversations between two or more parties across the internet. It works on top of the HTTP to provide security.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL to provide a safer browsing experience with encryption.\nIn terms of security, SSL is more secure than HTTPS."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nList out various methods of session hijacking",
+    "context": "",
+    "output": "A: Various methods of session hijacking are:\n\nUsing packet Sniffers\nCross-Site Scripting (XSS Attack)\nIP Spoofing\nBlind Attack",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "List out various methods of session hijacking",
+      "answer": "Various methods of session hijacking are:\n\nUsing packet Sniffers\nCross-Site Scripting (XSS Attack)\nIP Spoofing\nBlind Attack"
+    }
+  },
+  {
+    "instruction": "Q: How would you prevent a MITM attack?",
+    "context": "",
+    "output": " A: To prevent a MITM attack, I'd log onto the company's VPN and use a strong WPA or WEP encryption. After that, I'd use an IDS to review potential risk factors. Then, I'd set up the PKI infrastructure for public key pair-based authentication.\n\nNever miss an opportunity to briefly share your experience with one or more defensive methods against attacks.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How would you prevent a MITM attack?",
+      "answer": "To prevent a MITM attack, I'd log onto the company's VPN and use a strong WPA or WEP encryption. After that, I'd use an IDS to review potential risk factors. Then, I'd set up the PKI infrastructure for public key pair-based authentication.\n\nNever miss an opportunity to briefly share your experience with one or more defensive methods against attacks."
+    }
+  },
+  {
+    "instruction": "Please answer this question: Define WEP cracking",
+    "context": "",
+    "output": "It is a method used for a security breach in wireless networks. There are two types of WEP cracking: 1) Active cracking and 2) Passive cracking",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Define WEP cracking",
+      "answer": "It is a method used for a security breach in wireless networks. There are two types of WEP cracking: 1) Active cracking and 2) Passive cracking"
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Explain the concept of session hijacking",
+    "context": "",
+    "output": "answer: TCP session hijacking is the misuse of a valid computer session. IP spoofing is the most common method of session hijacking. In this method, attackers use IP packets to insert a command between two nodes of the network",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain the concept of session hijacking",
+      "answer": "TCP session hijacking is the misuse of a valid computer session. IP spoofing is the most common method of session hijacking. In this method, attackers use IP packets to insert a command between two nodes of the network"
+    }
+  },
+  {
+    "instruction": "When should you do patch management, and how often?",
+    "context": "",
+    "output": "Immediate action is required to perform patch management as soon as software updates are released. It is crucial that all network devices within the organization undergo patch management within a timeframe of one month or less.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "When should you do patch management, and how often?",
+      "answer": "Immediate action is required to perform patch management as soon as software updates are released. It is crucial that all network devices within the organization undergo patch management within a timeframe of one month or less."
+    }
+  },
+  {
+    "instruction": "Please answer this question: What is a remote desktop protocol?",
+    "context": "",
+    "output": "Remote Desktop Protocol (RDP) is developed by Microsoft, which provides GUI to connect two devices over a network.\n\nThe user uses RDP client software to serve this purpose while other device must run RDP server software. This protocol is specifically designed for remote management and to access virtual PCs, applications, and terminal server.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a remote desktop protocol?",
+      "answer": "Remote Desktop Protocol (RDP) is developed by Microsoft, which provides GUI to connect two devices over a network.\n\nThe user uses RDP client software to serve this purpose while other device must run RDP server software. This protocol is specifically designed for remote management and to access virtual PCs, applications, and terminal server."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat is port blocking within LAN?",
+    "context": "",
+    "output": "A: Port blocking within LAN involves the act of preventing users from accessing a specific set of services within the local area network. The primary objective is to halt the source\u2019s capability to grant access to destination nodes through ports. As all applications operate on ports, it becomes crucial to obstruct these ports in order to limit unauthorized access, which could potentially exploit security vulnerabilities within the network infrastructure.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is port blocking within LAN?",
+      "answer": "Port blocking within LAN involves the act of preventing users from accessing a specific set of services within the local area network. The primary objective is to halt the source\u2019s capability to grant access to destination nodes through ports. As all applications operate on ports, it becomes crucial to obstruct these ports in order to limit unauthorized access, which could potentially exploit security vulnerabilities within the network infrastructure."
+    }
+  },
+  {
+    "instruction": "Question: Name various types of cyberattacks.",
+    "context": "",
+    "output": "Answer: Here is a list of common cyberattacks aimed at inflicting damage to a system. \nMan in the Middle attack: The attacker puts himself in the communication between the sender and the receiver. This is done to eavesdrop and impersonate to steal data. \nPhishing: Here, the attacker will act as a trusted entity to perform malicious activities such as getting usernames, passwords, and credit card numbers.\nRogue Software: It is a fraudulent attack where the attacker fakes a virus on the target device and offers an anti-virus tool to remove the malware. This is done to install malicious software into the system. \nMalware: Malware is software that is designed to attack the target system. The software can be a virus, worm, ransomware, spyware, and so on.\nDrive-by Downloads: The hacker takes advantage of the lack of updates on the OS, app, or browser, which automatically downloads malicious code to the system.\nDDoS: This is done to overwhelm the target network with massive traffic, making it impossible for the website or the service to be operable.\nMalvertising: Malvertising refers to the injections of maleficent code to legitimate advertising networks, which redirect users to unintended websites.\nPassword Attacks:  As the name suggests, here, the hacker obtain credentials like passwords.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Name various types of cyberattacks.",
+      "answer": "Here is a list of common cyberattacks aimed at inflicting damage to a system. \nMan in the Middle attack: The attacker puts himself in the communication between the sender and the receiver. This is done to eavesdrop and impersonate to steal data. \nPhishing: Here, the attacker will act as a trusted entity to perform malicious activities such as getting usernames, passwords, and credit card numbers.\nRogue Software: It is a fraudulent attack where the attacker fakes a virus on the target device and offers an anti-virus tool to remove the malware. This is done to install malicious software into the system. \nMalware: Malware is software that is designed to attack the target system. The software can be a virus, worm, ransomware, spyware, and so on.\nDrive-by Downloads: The hacker takes advantage of the lack of updates on the OS, app, or browser, which automatically downloads malicious code to the system.\nDDoS: This is done to overwhelm the target network with massive traffic, making it impossible for the website or the service to be operable.\nMalvertising: Malvertising refers to the injections of maleficent code to legitimate advertising networks, which redirect users to unintended websites.\nPassword Attacks:  As the name suggests, here, the hacker obtain credentials like passwords."
+    }
+  },
+  {
+    "instruction": "Please answer this question: How is Encryption different from Hashing?",
+    "context": "",
+    "output": "Both Encryption and Hashing are used to convert readable data into an unreadable format. The difference is that the encrypted data can be converted back to original data by the process of decryption but the hashed data cannot be converted back to original data.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How is Encryption different from Hashing?",
+      "answer": "Both Encryption and Hashing are used to convert readable data into an unreadable format. The difference is that the encrypted data can be converted back to original data by the process of decryption but the hashed data cannot be converted back to original data."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: What is an ARP, and how does it work?",
+    "context": "",
+    "output": "answer: Address Resolution Protocol is a communication protocol of the network layer in the OSI model. Its function is to find the MAC address for the given IP address of the system. It converts the IPv4 address, which is 32-bit, into a 48-bit MAC address.\nHow ARP works:\nIt sends an ARP request that broadcasts frames to the entire network.\nAll nodes on the network receive the ARP request.\nThe nodes check whether the request matches with the ARP table to find the target\u2019s MAC address.\nIf it does not match, then the nodes silently discard the packet.\nIf it matches, the target will send an ARP response back to the original sender via unicast.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is an ARP, and how does it work?",
+      "answer": "Address Resolution Protocol is a communication protocol of the network layer in the OSI model. Its function is to find the MAC address for the given IP address of the system. It converts the IPv4 address, which is 32-bit, into a 48-bit MAC address.\nHow ARP works:\nIt sends an ARP request that broadcasts frames to the entire network.\nAll nodes on the network receive the ARP request.\nThe nodes check whether the request matches with the ARP table to find the target\u2019s MAC address.\nIf it does not match, then the nodes silently discard the packet.\nIf it matches, the target will send an ARP response back to the original sender via unicast."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is Data encapsulation in networking?",
+    "context": "",
+    "output": "Data encapsulation is the process of adding headers and trailers to data. The data link layer binds each packet into a frame that consists of the hardware address of the source and the destination computer.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is Data encapsulation in networking?",
+      "answer": "Data encapsulation is the process of adding headers and trailers to data. The data link layer binds each packet into a frame that consists of the hardware address of the source and the destination computer."
+    }
+  },
+  {
+    "instruction": "How to reset a password-protected BIOS configuration?",
+    "context": "",
+    "output": "There are various ways to reset BIOS password. Some of them are as follows:\n\nRemove CMOS battery.\nBy utilizing the software.\nBy utilizing a motherboard jumper.\nBy utilizing MS-DOS.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How to reset a password-protected BIOS configuration?",
+      "answer": "There are various ways to reset BIOS password. Some of them are as follows:\n\nRemove CMOS battery.\nBy utilizing the software.\nBy utilizing a motherboard jumper.\nBy utilizing MS-DOS."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: What is Data Encryption? Why it is important in network security?",
+    "context": "",
+    "output": "answer: Data encryption is a technique in which the sender converts the message into a code. It allows only authorized user to gain access.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is Data Encryption? Why it is important in network security?",
+      "answer": "Data encryption is a technique in which the sender converts the message into a code. It allows only authorized user to gain access."
+    }
+  },
+  {
+    "instruction": "Question: List out web-based attacks",
+    "context": "",
+    "output": "Answer: Some web-based attacks are: 1) SQL Injection attacks, 2) Phishing, 3) Brute Force, 4) DNS Spoofing, 4) Denial of Service, and 5) Dictionary attacks.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "List out web-based attacks",
+      "answer": "Some web-based attacks are: 1) SQL Injection attacks, 2) Phishing, 3) Brute Force, 4) DNS Spoofing, 4) Denial of Service, and 5) Dictionary attacks."
+    }
+  },
+  {
+    "instruction": "Please answer this question: Explain the XSS attack. How to prevent it?",
+    "context": "",
+    "output": "Cross-site scripting also known as XSS attack allows the attacker to pretend as a victimised user to carry out the actions that the user can perform, in turn, stealing any of the user\u2019s data. If the attacker can masquerade as a privileged victimised user, one can gain full control over all the application\u2019s data and functionality. Here, the attacker injects malicious client-side code into web services to steal information, run destructive code, take control of a user\u2019s session, and perform a phishing scam.\nHere are the ways to prevent an XSS attack:\nCross-check the user\u2019s input\nSanitize HTML \nEmploy anti-XSS tools\nUse encoding \nCheck for regular updates of the software\n",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain the XSS attack. How to prevent it?",
+      "answer": "Cross-site scripting also known as XSS attack allows the attacker to pretend as a victimised user to carry out the actions that the user can perform, in turn, stealing any of the user\u2019s data. If the attacker can masquerade as a privileged victimised user, one can gain full control over all the application\u2019s data and functionality. Here, the attacker injects malicious client-side code into web services to steal information, run destructive code, take control of a user\u2019s session, and perform a phishing scam.\nHere are the ways to prevent an XSS attack:\nCross-check the user\u2019s input\nSanitize HTML \nEmploy anti-XSS tools\nUse encoding \nCheck for regular updates of the software\n"
+    }
+  },
+  {
+    "instruction": "What are the test levels in software testing?",
+    "context": "",
+    "output": "The test levels in software testing are:\n\nModule testing: It checks subprograms, procedures, routines, and subroutines in a program.\nIntegration testing: Here, the combined parts of an application of software are tested to check if they function correctly or not.\nSystem testing: System testing tests the entire system or software or any application.\nAcceptance testing: The quality assurance team does this testing to check if the clients' requirements are met or not.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the test levels in software testing?",
+      "answer": "The test levels in software testing are:\n\nModule testing: It checks subprograms, procedures, routines, and subroutines in a program.\nIntegration testing: Here, the combined parts of an application of software are tested to check if they function correctly or not.\nSystem testing: System testing tests the entire system or software or any application.\nAcceptance testing: The quality assurance team does this testing to check if the clients' requirements are met or not."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat are the types of threats a company can face?",
+    "context": "",
+    "output": "There are several threats that a company can face; on a broader scale, we can classify them as:\n\nNatural Threats: These include natural disasters beyond human control, threats like a tornado, fire, floods, etc.\nMan-made: These are threats where humans are the cause, like theft, hacking, etc.\nTechnical: These threats could be either a software bug or a server fail, or any technical failure.\nSupply System: Any electric outage or short circuit kind of problem falls under this category",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the types of threats a company can face?",
+      "answer": "There are several threats that a company can face; on a broader scale, we can classify them as:\n\nNatural Threats: These include natural disasters beyond human control, threats like a tornado, fire, floods, etc.\nMan-made: These are threats where humans are the cause, like theft, hacking, etc.\nTechnical: These threats could be either a software bug or a server fail, or any technical failure.\nSupply System: Any electric outage or short circuit kind of problem falls under this category"
+    }
+  },
+  {
+    "instruction": "What is a Firewall and why is it used?",
+    "context": "",
+    "output": "A Firewall is a network security system set on the boundaries of the system/network that monitors and controls network traffic. Firewalls are mainly used to protect the system/network from viruses, worms, malware, etc. Firewalls can also be to prevent remote access and content filtering.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a Firewall and why is it used?",
+      "answer": "A Firewall is a network security system set on the boundaries of the system/network that monitors and controls network traffic. Firewalls are mainly used to protect the system/network from viruses, worms, malware, etc. Firewalls can also be to prevent remote access and content filtering."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Explain what SNMP is",
+    "context": "",
+    "output": "answer: SNMP stands for simple network management protocol, which is considered an internet standard protocol and application layer protocol.\nThe SNMP is used to collect and organize information for managed devices on IP networks. It's also used to modify that information so you can change the device's behavior.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain what SNMP is",
+      "answer": "SNMP stands for simple network management protocol, which is considered an internet standard protocol and application layer protocol.\nThe SNMP is used to collect and organize information for managed devices on IP networks. It's also used to modify that information so you can change the device's behavior."
+    }
+  },
+  {
+    "instruction": "Q: What do you understand by Unicasting, Multicasting, and Broadcasting? What is the difference between them?",
+    "context": "",
+    "output": " A: Unicasting, Multicasting, and Broadcasting are the three methods used to transmit data over a network.\n\nUnicasting: Unicasting is used to send information from a single user to a single receiver. This method is used for point-to-point communications.\nMulticasting: Multicasting is used to send data from one or more sources to multiple destinations.\nBroadcasting: Broadcasting is also known as one-to-all. In this method, a single sender sends the data over multiple receivers. I.e. the communication is done between a single user and several receivers. The best example of broadcasting is radio or TV broadcasting, where a single sender sends signals to multiple receivers.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What do you understand by Unicasting, Multicasting, and Broadcasting? What is the difference between them?",
+      "answer": "Unicasting, Multicasting, and Broadcasting are the three methods used to transmit data over a network.\n\nUnicasting: Unicasting is used to send information from a single user to a single receiver. This method is used for point-to-point communications.\nMulticasting: Multicasting is used to send data from one or more sources to multiple destinations.\nBroadcasting: Broadcasting is also known as one-to-all. In this method, a single sender sends the data over multiple receivers. I.e. the communication is done between a single user and several receivers. The best example of broadcasting is radio or TV broadcasting, where a single sender sends signals to multiple receivers."
+    }
+  },
+  {
+    "instruction": "Question: Explain MITM attack and how to prevent it?",
+    "context": "",
+    "output": "Answer: A MITM(Man-in-the-Middle) attack is a type of attack where the hacker places himself in between the communication of two parties and steal the information. Suppose there are two parties A and B having a communication. Then the hacker joins this communication. He impersonates as party B to A and impersonates as party A in front of B. The data from both the parties are sent to the hacker and the hacker redirects the data to the destination party after stealing the data required. While the two parties think that they are communicating with each other, in reality, they are communicating with the hacker.\nYou can prevent MITM attack by using the following practices:\nUse VPN\nUse strong WEP/WPA encryption\nUse Intrusion Detection Systems\nForce HTTPS\nPublic Key Pair Based Authentication",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain MITM attack and how to prevent it?",
+      "answer": "A MITM(Man-in-the-Middle) attack is a type of attack where the hacker places himself in between the communication of two parties and steal the information. Suppose there are two parties A and B having a communication. Then the hacker joins this communication. He impersonates as party B to A and impersonates as party A in front of B. The data from both the parties are sent to the hacker and the hacker redirects the data to the destination party after stealing the data required. While the two parties think that they are communicating with each other, in reality, they are communicating with the hacker.\nYou can prevent MITM attack by using the following practices:\nUse VPN\nUse strong WEP/WPA encryption\nUse Intrusion Detection Systems\nForce HTTPS\nPublic Key Pair Based Authentication"
+    }
+  },
+  {
+    "instruction": "Please answer this question:  How does the Public Key Infrastructure (PKI) work?",
+    "context": "",
+    "output": "The working of Public Key Infrastructure (PKI) at a macro level is as follows:\n\nFirstly, the request for the Digital Certificate is sent to the appropriate CA (Certificate Authority).\nOnce the request is processed, the Digital Certificate is issued to the person requesting it.\nAfter that, the Digital Certificate gets signed by confirming the identity of the person.\nNow, the Digital Certificate can be used to encrypt the cleartext into a ciphertext, which is sent from the sending party to the other party.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": " How does the Public Key Infrastructure (PKI) work?",
+      "answer": "The working of Public Key Infrastructure (PKI) at a macro level is as follows:\n\nFirstly, the request for the Digital Certificate is sent to the appropriate CA (Certificate Authority).\nOnce the request is processed, the Digital Certificate is issued to the person requesting it.\nAfter that, the Digital Certificate gets signed by confirming the identity of the person.\nNow, the Digital Certificate can be used to encrypt the cleartext into a ciphertext, which is sent from the sending party to the other party."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: What are the risks associated with public Wi-Fi?",
+    "context": "",
+    "output": "answer: Public Wi-Fi has many security issues. Wi-Fi attacks include karma attack, sniffing, war-driving, brute force attack, etc.\n\nPublic Wi-Fi may identify data that is passed through a network device like emails, browsing history, passwords, and credit card data.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the risks associated with public Wi-Fi?",
+      "answer": "Public Wi-Fi has many security issues. Wi-Fi attacks include karma attack, sniffing, war-driving, brute force attack, etc.\n\nPublic Wi-Fi may identify data that is passed through a network device like emails, browsing history, passwords, and credit card data."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat do you mean by Chain of Custody?",
+    "context": "",
+    "output": "A: Chain of custody refers to the probability of data provided as originally acquired and has not been changed before admission into evidence.\nIn legal terms, it\u2019s a chronological documentation/paper trail that records a proper sequence of custody, control, analysis, and disposition of electronic or physical evidence.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What do you mean by Chain of Custody?",
+      "answer": "Chain of custody refers to the probability of data provided as originally acquired and has not been changed before admission into evidence.\nIn legal terms, it\u2019s a chronological documentation/paper trail that records a proper sequence of custody, control, analysis, and disposition of electronic or physical evidence."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: What is the difference between the Red Team and the Blue team?",
+    "context": "",
+    "output": "answer: The red team and blue team refer to cyberwarfare. Many organizations split the security team into two groups as red team and blue team.\nThe red team refers to an attacker who exploits weaknesses in an organization's security.\nThe blue team refers to a defender who identifies and patches vulnerabilities into successful breaches.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between the Red Team and the Blue team?",
+      "answer": "The red team and blue team refer to cyberwarfare. Many organizations split the security team into two groups as red team and blue team.\nThe red team refers to an attacker who exploits weaknesses in an organization's security.\nThe blue team refers to a defender who identifies and patches vulnerabilities into successful breaches."
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - What do you understand by Risk, Vulnerability & Threat in a network?\n\n",
+    "context": "",
+    "output": "Threat: Someone with the potential to harm a system or an organization\nVulnerability: Weakness in a system that can be exploited by a potential hacker\nRisk: Potential for loss or damage when threat exploits a vulnerability",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What do you understand by Risk, Vulnerability & Threat in a network?",
+      "answer": "Threat: Someone with the potential to harm a system or an organization\nVulnerability: Weakness in a system that can be exploited by a potential hacker\nRisk: Potential for loss or damage when threat exploits a vulnerability"
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: What are the different types of networks?",
+    "context": "",
+    "output": "answer: The types of networks are LAN, WAN, WLAN, system area network, storage area network, personal area network, and Metropolitan.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the different types of networks?",
+      "answer": "The types of networks are LAN, WAN, WLAN, system area network, storage area network, personal area network, and Metropolitan."
+    }
+  },
+  {
+    "instruction": "What is Cryptography?",
+    "context": "",
+    "output": "Cryptography is the practice and study of techniques for securing information and communication mainly to protect the data from third parties that the data is not intended for.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is Cryptography?",
+      "answer": "Cryptography is the practice and study of techniques for securing information and communication mainly to protect the data from third parties that the data is not intended for."
+    }
+  },
+  {
+    "instruction": "Define Forward Secrecy",
+    "context": "",
+    "output": "Forward Secrecy is a security measure that ensures the integrity of unique session key in event that long term key is compromised.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Define Forward Secrecy",
+      "answer": "Forward Secrecy is a security measure that ensures the integrity of unique session key in event that long term key is compromised."
+    }
+  },
+  {
+    "instruction": "Please answer this question: Explain SSL and TLS",
+    "context": "",
+    "output": "SSL is meant to verify the sender\u2019s identity but it doesn\u2019t search for anything more than that. SSL can help you track the person you are talking to but that can also be tricked at times.\nTLS is also an identification tool just like SSL, but it offers better security features. It provides additional protection to the data and hence SSL and TLS are often used together for better protection.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain SSL and TLS",
+      "answer": "SSL is meant to verify the sender\u2019s identity but it doesn\u2019t search for anything more than that. SSL can help you track the person you are talking to but that can also be tricked at times.\nTLS is also an identification tool just like SSL, but it offers better security features. It provides additional protection to the data and hence SSL and TLS are often used together for better protection."
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - What is SSL and how is it used?\n\n",
+    "context": "",
+    "output": "SSL stands for Secure Sockets Layer. It's a type of technology used to protect the information in online payments and transactions by creating and using encrypted connections between a web browser and a web server. SSL certificates are used to provide data privacy.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is SSL and how is it used?",
+      "answer": "SSL stands for Secure Sockets Layer. It's a type of technology used to protect the information in online payments and transactions by creating and using encrypted connections between a web browser and a web server. SSL certificates are used to provide data privacy."
+    }
+  },
+  {
+    "instruction": "What is the difference between IDS and IPS?",
+    "context": "",
+    "output": "IDS is Intrusion Detection System and it only detects intrusions and the administrator has to take care of preventing the intrusion. Whereas, in IPS i.e., Intrusion Prevention System, the system detects the intrusion and also takes actions to prevent the intrusion.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between IDS and IPS?",
+      "answer": "IDS is Intrusion Detection System and it only detects intrusions and the administrator has to take care of preventing the intrusion. Whereas, in IPS i.e., Intrusion Prevention System, the system detects the intrusion and also takes actions to prevent the intrusion."
+    }
+  },
+  {
+    "instruction": "Please answer this question: Explain CIA triad",
+    "context": "",
+    "output": "CIA stands for Confidentiality, Integrity, and Availability. CIA is a model that is designed to guide policies for Information Security. It is one of the most popular models used by organizations.\nConfidentiality: The information should be accessible and readable only to authorized personnel. It should not be accessible by unauthorized personnel. The information should be strongly encrypted just in case someone uses hacking to access the data so that even if the data is accessed, it is not readable or understandable.\nIntegrity: Making sure the data has not been modified by an unauthorized entity. Integrity ensures that data is not corrupted or modified by unauthorized personnel. If an authorized individual/system is trying to modify the data and the modification wasn\u2019t successful, then the data should be reversed back and should not be corrupted.\nAvailability: The data should be available to the user whenever the user requires it. Maintaining of Hardware, upgrading regularly, Data Backups and Recovery, Network Bottlenecks should be taken care of.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain CIA triad",
+      "answer": "CIA stands for Confidentiality, Integrity, and Availability. CIA is a model that is designed to guide policies for Information Security. It is one of the most popular models used by organizations.\nConfidentiality: The information should be accessible and readable only to authorized personnel. It should not be accessible by unauthorized personnel. The information should be strongly encrypted just in case someone uses hacking to access the data so that even if the data is accessed, it is not readable or understandable.\nIntegrity: Making sure the data has not been modified by an unauthorized entity. Integrity ensures that data is not corrupted or modified by unauthorized personnel. If an authorized individual/system is trying to modify the data and the modification wasn\u2019t successful, then the data should be reversed back and should not be corrupted.\nAvailability: The data should be available to the user whenever the user requires it. Maintaining of Hardware, upgrading regularly, Data Backups and Recovery, Network Bottlenecks should be taken care of."
+    }
+  },
+  {
+    "instruction": "Explain the MITM attack. How to prevent it?",
+    "context": "",
+    "output": "In the Man-in-the-Middle attack, the hacker eavesdrops on the communication between two parties. The individual then impersonates another person and makes the data transmission look normal for the other parties. The intent is to alter the data, steal personal information, or get login credentials for sabotaging communication.\nThese are a few ways to prevent a MITM attack:\nPublic key pair based authentication\nVirtual private network\nStrong router login credentials\nImplement a well-built Intrusion Detection Systems (IDS) like firewalls. \nStrong WEP/WPA encryption on access points",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain the MITM attack. How to prevent it?",
+      "answer": "In the Man-in-the-Middle attack, the hacker eavesdrops on the communication between two parties. The individual then impersonates another person and makes the data transmission look normal for the other parties. The intent is to alter the data, steal personal information, or get login credentials for sabotaging communication.\nThese are a few ways to prevent a MITM attack:\nPublic key pair based authentication\nVirtual private network\nStrong router login credentials\nImplement a well-built Intrusion Detection Systems (IDS) like firewalls. \nStrong WEP/WPA encryption on access points"
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Explain ARP Poisoning",
+    "context": "",
+    "output": "answer: ARP (Address Resolution Protocol) Poisoning is a type of cyber-attack which is used to convert IP address to physical addresses on a network device. The host sends an ARP broadcast on the network, and the recipient computer responds back with its physical address.\n\nARP poisoning is sending fake addresses to the switch so that it can associate the fake addresses with the IP address of a genuine computer on a network and hijack the traffic.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain ARP Poisoning",
+      "answer": "ARP (Address Resolution Protocol) Poisoning is a type of cyber-attack which is used to convert IP address to physical addresses on a network device. The host sends an ARP broadcast on the network, and the recipient computer responds back with its physical address.\n\nARP poisoning is sending fake addresses to the switch so that it can associate the fake addresses with the IP address of a genuine computer on a network and hijack the traffic."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat protocols fall under TCP/IP internet layer?",
+    "context": "",
+    "output": "NFS, NIS+, DNS, telnet, ftp, rlogin, rsh, rcp, RIP, RDISC, SNMP,  TCP, UDP,  IP, ARP, ICMP, PPP, IEEE 802.2, Ethernet (IEEE 802.3) Token ring, RS-232, others",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What protocols fall under TCP/IP internet layer?",
+      "answer": "NFS, NIS+, DNS, telnet, ftp, rlogin, rsh, rcp, RIP, RDISC, SNMP,  TCP, UDP,  IP, ARP, ICMP, PPP, IEEE 802.2, Ethernet (IEEE 802.3) Token ring, RS-232, others"
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - What is a data leak? How can you detect it and prevent it?\n\n",
+    "context": "",
+    "output": "A data leak is when a company's or organization's private data is released to the public in an unauthorized manner. Data leaks can come in many ways such as hacked emails and networks, stolen or lost laptops, or released photos.\n\nTo prevent a data leak, a company needs to restrict internet uploads, add restrictions to email servers, and restrict the printing of confidential information and data.\n\nTo detect a data leak, you'll need to:\n\n1) Monitor access to all your networks\n\n2) Evaluate the risk of third-parties\n\n3) Identify and secure sensitive data\n\n4) Encrypt data\n\n5) Secure all endpoints\n\n6) Evaluate permissions across the organization\n\n7) Use cybersecurity risk assessments",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a data leak? How can you detect it and prevent it?",
+      "answer": "A data leak is when a company's or organization's private data is released to the public in an unauthorized manner. Data leaks can come in many ways such as hacked emails and networks, stolen or lost laptops, or released photos.\n\nTo prevent a data leak, a company needs to restrict internet uploads, add restrictions to email servers, and restrict the printing of confidential information and data.\n\nTo detect a data leak, you'll need to:\n\n1) Monitor access to all your networks\n\n2) Evaluate the risk of third-parties\n\n3) Identify and secure sensitive data\n\n4) Encrypt data\n\n5) Secure all endpoints\n\n6) Evaluate permissions across the organization\n\n7) Use cybersecurity risk assessments"
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is a three-way handshake process?",
+    "context": "",
+    "output": "A three-way handshake process is used in TCP (Transmission Control Protocol) network for the transmission of data in a reliable way between the host and the client.\n\nIt\u2019s called a three-way handshake because three segments are exchanged between the server and the client. \n\nSYN: The client wants to establish a connection with the server, and sends a segment with SYN(Synchronize Sequence Number) to the server if the server is up and has open ports.\nSYN + ACK: The server responds to the client request with SYN-ACK signal bits set if it has open ports.\nACK: The client acknowledges the response of a server and sends an ACK(Acknowledgment) packet back to the server.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a three-way handshake process?",
+      "answer": "A three-way handshake process is used in TCP (Transmission Control Protocol) network for the transmission of data in a reliable way between the host and the client.\n\nIt\u2019s called a three-way handshake because three segments are exchanged between the server and the client. \n\nSYN: The client wants to establish a connection with the server, and sends a segment with SYN(Synchronize Sequence Number) to the server if the server is up and has open ports.\nSYN + ACK: The server responds to the client request with SYN-ACK signal bits set if it has open ports.\nACK: The client acknowledges the response of a server and sends an ACK(Acknowledgment) packet back to the server."
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nExplain what SSDP is",
+    "context": "",
+    "output": "SSDP stands for Simple Service Discovery Protocol, which is a network protocol that uses the internet protocol suite to discover network services and information and for advertisement purposes.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain what SSDP is",
+      "answer": "SSDP stands for Simple Service Discovery Protocol, which is a network protocol that uses the internet protocol suite to discover network services and information and for advertisement purposes."
+    }
+  },
+  {
+    "instruction": "Please answer this question: What are the ways to reset a password-protected BIOS configuration?",
+    "context": "",
+    "output": "BIOS being hardware, setting it up with a password locks the operating system. There are three ways to reset the BIOS password:\n you need to unplug the PC and remove the CMOS battery in the cabinet for 15\u201330 minutes. Then, you can put it back.\nYou can use third-party software such as CmosPwd and Kiosk.\nYou can run the below commands from the MS-DOS prompt with the help of the debug tool. For this method to work, you need to have access to the OS installed.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the ways to reset a password-protected BIOS configuration?",
+      "answer": "BIOS being hardware, setting it up with a password locks the operating system. There are three ways to reset the BIOS password:\n you need to unplug the PC and remove the CMOS battery in the cabinet for 15\u201330 minutes. Then, you can put it back.\nYou can use third-party software such as CmosPwd and Kiosk.\nYou can run the below commands from the MS-DOS prompt with the help of the debug tool. For this method to work, you need to have access to the OS installed."
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nWhat are the different layers of the OSI model?",
+    "context": "",
+    "output": "The OSI model was introduced by the International Organization for Standardization for different computer systems to communicate with each other using standard protocols.\nBelow are the various layers of the OSI model:\nPhysical layer: This layer allows the transmission of raw data bits over a physical medium.\nData Link layer: This layer determines the format of the data in the network.\nNetwork layer: It tells which path the data will take.\nTransport layer: This layer allows the transmission of data using TCP/UDP protocols.\nSession layer: It controls sessions and ports to maintain the connections in the network.\nPresentation layer: Data encryptions happen in this layer, and it ensures that the data is in a usable/presentable format.\nApplication layer: This is where the user interacts with the application.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the different layers of the OSI model?",
+      "answer": "The OSI model was introduced by the International Organization for Standardization for different computer systems to communicate with each other using standard protocols.\nBelow are the various layers of the OSI model:\nPhysical layer: This layer allows the transmission of raw data bits over a physical medium.\nData Link layer: This layer determines the format of the data in the network.\nNetwork layer: It tells which path the data will take.\nTransport layer: This layer allows the transmission of data using TCP/UDP protocols.\nSession layer: It controls sessions and ports to maintain the connections in the network.\nPresentation layer: Data encryptions happen in this layer, and it ensures that the data is in a usable/presentable format.\nApplication layer: This is where the user interacts with the application."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nDefine an access token",
+    "context": "",
+    "output": "A: An access token is a credential which is used by the system to check whether the API should be granted to a particular object or not.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Define an access token",
+      "answer": "An access token is a credential which is used by the system to check whether the API should be granted to a particular object or not."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is the difference between VA(Vulnerability Assessment) and PT(Penetration Testing)?",
+    "context": "",
+    "output": "Vulnerability Assessment is the process of finding flaws on the target. Here, the organization knows that their system/network has flaws or weaknesses and want to find these flaws and prioritize the flaws for fixing.\nPenetration Testing is the process of finding vulnerabilities on the target. In this case, the organization would have set up all the security measures they could think of and would want to test if there is any other way that their system/network can be hacked.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between VA(Vulnerability Assessment) and PT(Penetration Testing)?",
+      "answer": "Vulnerability Assessment is the process of finding flaws on the target. Here, the organization knows that their system/network has flaws or weaknesses and want to find these flaws and prioritize the flaws for fixing.\nPenetration Testing is the process of finding vulnerabilities on the target. In this case, the organization would have set up all the security measures they could think of and would want to test if there is any other way that their system/network can be hacked."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is SSL encryption?",
+    "context": "",
+    "output": "The Secure Socket Layer (SSL) functions as a security protocol utilized for encryption, enabling network privacy, data integrity, and authentication, particularly in scenarios like online transactions.\nTo establish SSL encryption, the following steps are undertaken in an active tone:\nThe browser initiates a connection with an SSL-secured web server.\nThe browser requests the server\u2019s public key while providing its own private key.\nUpon confirming the server\u2019s trustworthiness, the browser proceeds to establish an encrypted connection with the web server.\nThe web server acknowledges the request and commences an SSL-encrypted connection.\nSSL communication takes place between the browser and the web server.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is SSL encryption?",
+      "answer": "The Secure Socket Layer (SSL) functions as a security protocol utilized for encryption, enabling network privacy, data integrity, and authentication, particularly in scenarios like online transactions.\nTo establish SSL encryption, the following steps are undertaken in an active tone:\nThe browser initiates a connection with an SSL-secured web server.\nThe browser requests the server\u2019s public key while providing its own private key.\nUpon confirming the server\u2019s trustworthiness, the browser proceeds to establish an encrypted connection with the web server.\nThe web server acknowledges the request and commences an SSL-encrypted connection.\nSSL communication takes place between the browser and the web server."
+    }
+  },
+  {
+    "instruction": "What are common tools used to secure a standard network?",
+    "context": "",
+    "output": "Tools include firewalls, password managers, IDS and IPS, end-point antiviruses, as well as security policies and procedures",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are common tools used to secure a standard network?",
+      "answer": "Tools include firewalls, password managers, IDS and IPS, end-point antiviruses, as well as security policies and procedures"
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat is MAC spoofing?",
+    "context": "",
+    "output": "A: The MAC address is virtually etched to the hardware by the device manufacturer, which means users cannot change or rewrite the MAC address. However, it's possible to mask the address on the software side. This masking is called MAC spoofing.\nHackers use MAC spoofing to hide their identity and imitate others. In network terminology, spoofing is manipulating or infiltrating the address system in computer networks. Other targets that hackers can spoof or manipulate are internet protocol (IP), address resolution protocol (ARP), and the domain name system (DNS).",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is MAC spoofing?",
+      "answer": "The MAC address is virtually etched to the hardware by the device manufacturer, which means users cannot change or rewrite the MAC address. However, it's possible to mask the address on the software side. This masking is called MAC spoofing.\nHackers use MAC spoofing to hide their identity and imitate others. In network terminology, spoofing is manipulating or infiltrating the address system in computer networks. Other targets that hackers can spoof or manipulate are internet protocol (IP), address resolution protocol (ARP), and the domain name system (DNS)."
+    }
+  },
+  {
+    "instruction": "Q: What is the difference between information protection and information assurance?",
+    "context": "",
+    "output": " A: Information protection: It protects the data using encryption, security software, etc., from unauthorized access.\nInformation Assurance: It keeps the data reliable by ensuring availability, authentication, confidentiality, etc.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between information protection and information assurance?",
+      "answer": "Information protection: It protects the data using encryption, security software, etc., from unauthorized access.\nInformation Assurance: It keeps the data reliable by ensuring availability, authentication, confidentiality, etc."
+    }
+  },
+  {
+    "instruction": "Question: What is the Blowfish algorithm?",
+    "context": "",
+    "output": "Answer: It is a 64-bit symmetric encryption algorithm. The same secret key is used for encrypting and decrypting. Here, the operations are based on exclusive ors and additions on 32bit words. The key has a maximum length of 448 bits; it is variable. It is also used to generate several subkey arrays.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the Blowfish algorithm?",
+      "answer": "It is a 64-bit symmetric encryption algorithm. The same secret key is used for encrypting and decrypting. Here, the operations are based on exclusive ors and additions on 32bit words. The key has a maximum length of 448 bits; it is variable. It is also used to generate several subkey arrays."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nDefine Exfiltration",
+    "context": "",
+    "output": "Data exfiltration refers to the unauthorized transfer of data from a computer system. This transmission may be manual and carried out by anyone having physical access to a computer.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Define Exfiltration",
+      "answer": "Data exfiltration refers to the unauthorized transfer of data from a computer system. This transmission may be manual and carried out by anyone having physical access to a computer."
+    }
+  },
+  {
+    "instruction": "What kind of cookie can be used in a spyware attack?",
+    "context": "",
+    "output": "Tracking cookies are most commonly-used in spyware attacks because they can last through multiple sessions, unlike the session cookie which lasts for only one session.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What kind of cookie can be used in a spyware attack?",
+      "answer": "Tracking cookies are most commonly-used in spyware attacks because they can last through multiple sessions, unlike the session cookie which lasts for only one session."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nExplain honeypot and its Types",
+    "context": "",
+    "output": "A: Honeypot is a decoy computer system which records all the transactions, interactions, and actions with users.\n\nHoneypot is classified into two categories: 1) Production honeypot and 2) Research honeypot.\n\nProduction honeypot: It is designed to capture real information for the administrator to access vulnerabilities. They are generally placed inside production networks to increase their security.\nResearch Honeypot: It is used by educational institutions and organizations for the sole purpose of researching the motives and tactics of the back-hat community for targeting different networks.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain honeypot and its Types",
+      "answer": "Honeypot is a decoy computer system which records all the transactions, interactions, and actions with users.\n\nHoneypot is classified into two categories: 1) Production honeypot and 2) Research honeypot.\n\nProduction honeypot: It is designed to capture real information for the administrator to access vulnerabilities. They are generally placed inside production networks to increase their security.\nResearch Honeypot: It is used by educational institutions and organizations for the sole purpose of researching the motives and tactics of the back-hat community for targeting different networks."
+    }
+  },
+  {
+    "instruction": "Differentiate between spear phishing and phishing?",
+    "context": "",
+    "output": "Spear phishing is a type of phishing assault that targets a small number of high-value targets, usually just one. Phishing usually entails sending a bulk email or message to a big group of people. It implies that spear-phishing will be much more personalized and perhaps more well-researched (for the individual), whereas phishing will be more like a real fishing trip where whoever eats the hook is caught",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Differentiate between spear phishing and phishing?",
+      "answer": "Spear phishing is a type of phishing assault that targets a small number of high-value targets, usually just one. Phishing usually entails sending a bulk email or message to a big group of people. It implies that spear-phishing will be much more personalized and perhaps more well-researched (for the individual), whereas phishing will be more like a real fishing trip where whoever eats the hook is caught"
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is VLAN? And what are the differences between a VPN and a VLAN?",
+    "context": "",
+    "output": "The VPN is a remote access network with an encrypted and secured tunnel. A VPN prevents hackers from accessing the network and doesn't allow people to capture the data packets.\nMeanwhile, the virtual LAN (VLAN) is a broadcast domain that is isolated within a computer network at the data link layer. Using a VLAN, we can group work stations that aren't found in the same location as the broadcast network. A VLAN doesn't require or involve encryption and it can divide networks without physically segregating the switches.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is VLAN? And what are the differences between a VPN and a VLAN?",
+      "answer": "The VPN is a remote access network with an encrypted and secured tunnel. A VPN prevents hackers from accessing the network and doesn't allow people to capture the data packets.\nMeanwhile, the virtual LAN (VLAN) is a broadcast domain that is isolated within a computer network at the data link layer. Using a VLAN, we can group work stations that aren't found in the same location as the broadcast network. A VLAN doesn't require or involve encryption and it can divide networks without physically segregating the switches."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat is the difference between stored and reflected XSS?",
+    "context": "",
+    "output": "A: Stored XSS Attacks - The attacks where the injected scripts are stored on the target servers permanently. In this, the victim retrieves the malicious script from the server when requests the stored information.\nReflected XSS Attacks - In this, the user has to send the request first, then it will start running on the victim\u2019s browser and reflects results from the browser to the user who sent the request.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between stored and reflected XSS?",
+      "answer": "Stored XSS Attacks - The attacks where the injected scripts are stored on the target servers permanently. In this, the victim retrieves the malicious script from the server when requests the stored information.\nReflected XSS Attacks - In this, the user has to send the request first, then it will start running on the victim\u2019s browser and reflects results from the browser to the user who sent the request."
+    }
+  },
+  {
+    "instruction": "Q: Explain a buffer overflow attack.",
+    "context": "",
+    "output": " A: Buffer overflow attack is an attack that takes advantage of a process that attempts to write more data to a fixed-length memory block.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain a buffer overflow attack.",
+      "answer": "Buffer overflow attack is an attack that takes advantage of a process that attempts to write more data to a fixed-length memory block."
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nMention the steps used for configuring a firewall.",
+    "context": "",
+    "output": "The steps mentioned below need to be followed to set up a password:\nUsername/password: Alter the default password of a firewall device.\nRemote Administration: Always disable the Remote Administration feature.\nPort Forward: For the web server, FTP, and other applications to work properly, configure appropriate ports.\nDHCP Server: Disable the DHCP server when you install a firewall to avoid conflicts.\nLogging: Enable logs to view the firewall troubleshoots and to view logs.\nPolicies: Configure strong security policies with the firewall.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Mention the steps used for configuring a firewall.",
+      "answer": "The steps mentioned below need to be followed to set up a password:\nUsername/password: Alter the default password of a firewall device.\nRemote Administration: Always disable the Remote Administration feature.\nPort Forward: For the web server, FTP, and other applications to work properly, configure appropriate ports.\nDHCP Server: Disable the DHCP server when you install a firewall to avoid conflicts.\nLogging: Enable logs to view the firewall troubleshoots and to view logs.\nPolicies: Configure strong security policies with the firewall."
+    }
+  },
+  {
+    "instruction": "Question: What is the difference between Symmetric and Asymmetric encryption?",
+    "context": "",
+    "output": "Answer: Encryption key: Symmetric Encryption has the same key for encryption & decryption while Asymmetric Encryption has different keys for encryption & decryption.\n Performance: Symmetric Encryption is fast but more vulnerable, Asymmetric Encryption is slow due to high computation.\nPurpose: Symmetric encryption is used for bulk data transmission while Asymmetric encryption often used for securely exchanging secret keys.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between Symmetric and Asymmetric encryption?",
+      "answer": "Encryption key: Symmetric Encryption has the same key for encryption & decryption while Asymmetric Encryption has different keys for encryption & decryption.\n Performance: Symmetric Encryption is fast but more vulnerable, Asymmetric Encryption is slow due to high computation.\nPurpose: Symmetric encryption is used for bulk data transmission while Asymmetric encryption often used for securely exchanging secret keys."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat is a firewall? Mention its uses.",
+    "context": "",
+    "output": "A: In cybersecurity, a firewall refers to a type of network security system that blocks malicious traffic from hackers and hence maintains the data privacy. This includes bots, phishing links, worms viruses, malware, trojan viruses, etc.\nUses: \nThe firewall monitors the inbound and outbound network traffic. It permits or allows only data packets agreeable to the set of security guidelines the server owner sets.\nA firewall acts as a barrier between the internal network and the inbound traffic from external sources like the Internet.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a firewall? Mention its uses.",
+      "answer": "In cybersecurity, a firewall refers to a type of network security system that blocks malicious traffic from hackers and hence maintains the data privacy. This includes bots, phishing links, worms viruses, malware, trojan viruses, etc.\nUses: \nThe firewall monitors the inbound and outbound network traffic. It permits or allows only data packets agreeable to the set of security guidelines the server owner sets.\nA firewall acts as a barrier between the internal network and the inbound traffic from external sources like the Internet."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nExplain social engineering and its attacks",
+    "context": "",
+    "output": "A: Social engineering is the term used to convince people to reveal confidential information.\n\nThere are mainly three types of social engineering attacks: 1) Human-based, 2) Mobile-based, and 3) Computer-based.\n\nHuman-based attack: They may pretend like a genuine user who requests higher authority to reveal private and confidential information of the organization.\nComputer-based attack: In this attack, attackers send fake emails to harm the computer. They ask people to forward such email.\nMobile-based attack: Attacker may send SMS to others and collect important information. If any user downloads a malicious app, then it can be misused to access authentication information.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain social engineering and its attacks",
+      "answer": "Social engineering is the term used to convince people to reveal confidential information.\n\nThere are mainly three types of social engineering attacks: 1) Human-based, 2) Mobile-based, and 3) Computer-based.\n\nHuman-based attack: They may pretend like a genuine user who requests higher authority to reveal private and confidential information of the organization.\nComputer-based attack: In this attack, attackers send fake emails to harm the computer. They ask people to forward such email.\nMobile-based attack: Attacker may send SMS to others and collect important information. If any user downloads a malicious app, then it can be misused to access authentication information."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is Port Scanning?",
+    "context": "",
+    "output": "Port Scanning is the technique used to identify open ports and service available on a host. Hackers use port scanning to find information that can be helpful to exploit vulnerabilities. Administrators use Port Scanning to verify the security policies of the network. Some of the common Port Scanning Techniques are: Ping Scan\nTCP Half-Open\nTCP Connect\nUDP\nStealth Scanning",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is Port Scanning?",
+      "answer": "Port Scanning is the technique used to identify open ports and service available on a host. Hackers use port scanning to find information that can be helpful to exploit vulnerabilities. Administrators use Port Scanning to verify the security policies of the network. Some of the common Port Scanning Techniques are: Ping Scan\nTCP Half-Open\nTCP Connect\nUDP\nStealth Scanning"
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat are some common Hashing functions/algorithms?",
+    "context": "",
+    "output": "Following is the list of some common and most used hashing functions/algorithms:\n\nMessage-Digest Algorithm (MD5)\n\nMessage-Digest Algorithm or MD5 is the latest and advanced form of MD4. It was introduced after finding severe security issues in MD4. MD5 is used to generate 128-bit outputs for a variable length of inputs.\n\nMD5 is the advanced version and the successor to MD4. It covers a lot of security threats but fails to provide full data security services. It is one of the most widely used algorithms, but the main issue with using MD5 is its vulnerability and collisions.\n\nSecure Hashing Algorithm (SHA)\nSecure Hashing Algorithm, or SHA, was developed by the National Security Agency. Later it was updated repeatedly to improve the security flaws in the old genre. Its latest and advanced version is SHA-2 that many firms are using for cryptographic purposes.\n\nTiger Cipher Algorithm\n\nTiger cypher algorithm is a faster and more efficient algorithm compared to Message Digest (MD5) and Secure Hashing Algorithm. It is mostly used in new generation computers and has a 192-bit hashing system. Its latest and advanced version is the Tiger2 algorithm which is more powerful than the Tiger algorithm.\n\nRIPMEND Algorithm\n\nHans Dobbertin designed RIPMEND cryptographic hashing algorithm. It is created using the EU project RIPE framework and has a 164-bit digest.\n\nWHIRLPOOL Algorithm\n\nVincent Rijmenand Paul Barreto designed the WHIRLPOOL algorithm. It accepts any messages of a length less than 2256 bits and returns a 512-bit message digest. Its first version was whirlpool-0, the second version was named Whirlpool-T, and the latest and most advanced version is Whirlpool.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are some common Hashing functions/algorithms?",
+      "answer": "Following is the list of some common and most used hashing functions/algorithms:\n\nMessage-Digest Algorithm (MD5)\n\nMessage-Digest Algorithm or MD5 is the latest and advanced form of MD4. It was introduced after finding severe security issues in MD4. MD5 is used to generate 128-bit outputs for a variable length of inputs.\n\nMD5 is the advanced version and the successor to MD4. It covers a lot of security threats but fails to provide full data security services. It is one of the most widely used algorithms, but the main issue with using MD5 is its vulnerability and collisions.\n\nSecure Hashing Algorithm (SHA)\nSecure Hashing Algorithm, or SHA, was developed by the National Security Agency. Later it was updated repeatedly to improve the security flaws in the old genre. Its latest and advanced version is SHA-2 that many firms are using for cryptographic purposes.\n\nTiger Cipher Algorithm\n\nTiger cypher algorithm is a faster and more efficient algorithm compared to Message Digest (MD5) and Secure Hashing Algorithm. It is mostly used in new generation computers and has a 192-bit hashing system. Its latest and advanced version is the Tiger2 algorithm which is more powerful than the Tiger algorithm.\n\nRIPMEND Algorithm\n\nHans Dobbertin designed RIPMEND cryptographic hashing algorithm. It is created using the EU project RIPE framework and has a 164-bit digest.\n\nWHIRLPOOL Algorithm\n\nVincent Rijmenand Paul Barreto designed the WHIRLPOOL algorithm. It accepts any messages of a length less than 2256 bits and returns a 512-bit message digest. Its first version was whirlpool-0, the second version was named Whirlpool-T, and the latest and most advanced version is Whirlpool."
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - Which are the best Patch management tools or software? Why are they used?\n\n",
+    "context": "",
+    "output": "Patch management tools or software are used to ensure that the components of a company's software and IT infrastructure are up to date. The patch management tools work by tracking updates of various software and middleware solutions, and then they alert users to make necessary updates or execute updates automatically.\n\nFollowing is a list of the top 10 best patch management software or tools:\n\nAtera\nNinjaRMM\nAcronis Cyber Protect Cloud\nAcronis Cyber Protect\nPDQ Deploy\nManageEngine Patch Manager Plus\nMicrosoft System Center\nAutomox\nSmartDeploy\nSolarWinds Patch Manager",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Which are the best Patch management tools or software? Why are they used?",
+      "answer": "Patch management tools or software are used to ensure that the components of a company's software and IT infrastructure are up to date. The patch management tools work by tracking updates of various software and middleware solutions, and then they alert users to make necessary updates or execute updates automatically.\n\nFollowing is a list of the top 10 best patch management software or tools:\n\nAtera\nNinjaRMM\nAcronis Cyber Protect Cloud\nAcronis Cyber Protect\nPDQ Deploy\nManageEngine Patch Manager Plus\nMicrosoft System Center\nAutomox\nSmartDeploy\nSolarWinds Patch Manager"
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is black box testing and white box testing?",
+    "context": "",
+    "output": "Black box testing: It is a software testing method in which the internal structure or program code is hidden.\nWhite box testing: A software testing method in which internal structure or program is known by tester.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is black box testing and white box testing?",
+      "answer": "Black box testing: It is a software testing method in which the internal structure or program code is hidden.\nWhite box testing: A software testing method in which internal structure or program is known by tester."
+    }
+  },
+  {
+    "instruction": "Please answer this question: Name some common types of cyberattacks",
+    "context": "",
+    "output": "The most widely-seen cyberattacks are:\n- Malware\n- Password attacks\n- Phishing\n- Malvertising\n- Man in the Middle (MITM)\n- DDoS\n- Drive-by Downloads\n- Rogue software",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Name some common types of cyberattacks",
+      "answer": "The most widely-seen cyberattacks are:\n- Malware\n- Password attacks\n- Phishing\n- Malvertising\n- Man in the Middle (MITM)\n- DDoS\n- Drive-by Downloads\n- Rogue software"
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - What do you mean by System Hardening?\n\n",
+    "context": "",
+    "output": "In general, system hardening refers to a set of tools and procedures for managing vulnerabilities in an organization's systems, applications, firmware, and other components.\nThe goal of system hardening is to lower security risks by lowering potential attacks and compressing the system's attack surface.\nThe many types of system hardening are as follows:\n\nHardening of databases\nHardening of the operating system\nHardening of the application\nHardening the server\nHardening the network",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What do you mean by System Hardening?",
+      "answer": "In general, system hardening refers to a set of tools and procedures for managing vulnerabilities in an organization's systems, applications, firmware, and other components.\nThe goal of system hardening is to lower security risks by lowering potential attacks and compressing the system's attack surface.\nThe many types of system hardening are as follows:\n\nHardening of databases\nHardening of the operating system\nHardening of the application\nHardening the server\nHardening the network"
+    }
+  },
+  {
+    "instruction": "What is the difference between vulnerability assessment (VA) and penetration testing (PT)?",
+    "context": "",
+    "output": "Vulnerability Assessment (VA): Identifies the vulnerabilities in a network, Tells how susceptible the network is, Conducted at regular intervals when there is a change in the system or network. Penetration Testing (PT): Identifies vulnerabilities to exploit them to penetrate the system, Tells whether the detected vulnerability is genuine, Conducted annually when there are significant changes introduced into the system.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the difference between vulnerability assessment (VA) and penetration testing (PT)?",
+      "answer": "Vulnerability Assessment (VA): Identifies the vulnerabilities in a network, Tells how susceptible the network is, Conducted at regular intervals when there is a change in the system or network. Penetration Testing (PT): Identifies vulnerabilities to exploit them to penetrate the system, Tells whether the detected vulnerability is genuine, Conducted annually when there are significant changes introduced into the system."
+    }
+  },
+  {
+    "instruction": "Q: What is data leakage?",
+    "context": "",
+    "output": " A: Data leakage is the term used to describe the unauthorized release of data from a business to a third party. The internet, email, mobile data, as well as storage devices like USB keys, laptops, and optical discs, are just a few of the routes via which this transmission may take place.\nTypes of data leakage:\nAccidental leakage: The authorized entity sends data to an unauthorized entity accidentally.\nMalicious insiders: The authorized entity intentionally sends data to an unauthorized entity.\nElectronic communication: Hackers make use of hacking tools to intrude the system.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is data leakage?",
+      "answer": "Data leakage is the term used to describe the unauthorized release of data from a business to a third party. The internet, email, mobile data, as well as storage devices like USB keys, laptops, and optical discs, are just a few of the routes via which this transmission may take place.\nTypes of data leakage:\nAccidental leakage: The authorized entity sends data to an unauthorized entity accidentally.\nMalicious insiders: The authorized entity intentionally sends data to an unauthorized entity.\nElectronic communication: Hackers make use of hacking tools to intrude the system."
+    }
+  },
+  {
+    "instruction": "What is Trojan virus?",
+    "context": "",
+    "output": "Trojan is a malware employed by hackers and cyber-thieves to gain access to any computer. Here attackefrs use social engineering techniques to execute the trojan on the system.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is Trojan virus?",
+      "answer": "Trojan is a malware employed by hackers and cyber-thieves to gain access to any computer. Here attackefrs use social engineering techniques to execute the trojan on the system."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nHow can identity theft be prevented?",
+    "context": "",
+    "output": "Here\u2019s what you can do to prevent identity theft:\nEnsure strong and unique password\nAvoid sharing confidential information online, especially on social media\nShop from known and trusted websites,\nUse the latest version of the browsers\nInstall advanced malware and spyware tools\nUse specialized security solutions against financial data\nAlways update your system and the software\nProtect your SSN (Social Security Number).",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How can identity theft be prevented?",
+      "answer": "Here\u2019s what you can do to prevent identity theft:\nEnsure strong and unique password\nAvoid sharing confidential information online, especially on social media\nShop from known and trusted websites,\nUse the latest version of the browsers\nInstall advanced malware and spyware tools\nUse specialized security solutions against financial data\nAlways update your system and the software\nProtect your SSN (Social Security Number)."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Give examples of System-based attacks",
+    "context": "",
+    "output": "answer: Examples of system-based attacks are:\n\nVirus\nBackdoors\nBots\nWorm\n",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Give examples of System-based attacks",
+      "answer": "Examples of system-based attacks are:\n\nVirus\nBackdoors\nBots\nWorm\n"
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Give some examples of a symmetric encryption algorithm",
+    "context": "",
+    "output": "answer: Following are some examples of symmetric encryption algorithm.\n\nRCx\nBlowfish\nRijndael (AES)\nDES",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Give some examples of a symmetric encryption algorithm",
+      "answer": "Following are some examples of symmetric encryption algorithm.\n\nRCx\nBlowfish\nRijndael (AES)\nDES"
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat are the steps to set up a firewall?",
+    "context": "",
+    "output": "A: Following are the steps to set up a firewall: 1) Username/password: modify the default password for a firewall device 2) Remote administration: Disable the feature of the remote administration 3) Port forwarding: Configure appropriate port forwarding for certain applications to work properly, such as a web server or FTP server 4) DHCP server: Installing a firewall on a network with an existing DHCP server will cause conflict unless the firewall\u2019s DHCP is disabled 5) Logging: To troubleshoot firewall issues or potential attacks, ensure that logging is enabled and understand how to view logs 6) Policies: You should have solid security policies in place and make sure that the firewall is configured to enforce those policies.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the steps to set up a firewall?",
+      "answer": "Following are the steps to set up a firewall: 1) Username/password: modify the default password for a firewall device 2) Remote administration: Disable the feature of the remote administration 3) Port forwarding: Configure appropriate port forwarding for certain applications to work properly, such as a web server or FTP server 4) DHCP server: Installing a firewall on a network with an existing DHCP server will cause conflict unless the firewall\u2019s DHCP is disabled 5) Logging: To troubleshoot firewall issues or potential attacks, ensure that logging is enabled and understand how to view logs 6) Policies: You should have solid security policies in place and make sure that the firewall is configured to enforce those policies."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat are the differences between symmetric and asymmetric encryption? And which is better?",
+    "context": "",
+    "output": "A: Symmetric encryption is a type of encryption that uses a single key, a secret key, to both encrypt and decrypt electronic information. Entities communicating via symmetric encryption must exchange the key so they can be used in the decryption process.\n\nOn the other hand, Asymmetric encryption uses two keys, one public and one private, to encrypt and decrypt messages.\n\nWhile the symmetric encryption is faster, the key needs to be transferred using an unencrypted channel, the asymmetric encryption is slower but more secure.\n\nEach has its pros and cons, which means a better approach is to combine the two types of encryption. This means we'll need to set up a channel with asymmetric encryption and send the data using a symmetric process.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the differences between symmetric and asymmetric encryption? And which is better?",
+      "answer": "Symmetric encryption is a type of encryption that uses a single key, a secret key, to both encrypt and decrypt electronic information. Entities communicating via symmetric encryption must exchange the key so they can be used in the decryption process.\n\nOn the other hand, Asymmetric encryption uses two keys, one public and one private, to encrypt and decrypt messages.\n\nWhile the symmetric encryption is faster, the key needs to be transferred using an unencrypted channel, the asymmetric encryption is slower but more secure.\n\nEach has its pros and cons, which means a better approach is to combine the two types of encryption. This means we'll need to set up a channel with asymmetric encryption and send the data using a symmetric process."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat do you understand by risk, vulnerability, and threat in a network?",
+    "context": "",
+    "output": "A cyber security threat possesses the potential to harm an organization\u2019s assets by exploiting vulnerabilities, whether intentional or accidental.\nA vulnerability represents a security system weakness or gap that can be exploited by malicious hackers.\nRisk emerges when a threat successfully exploits a vulnerability, leading to loss, destruction, or damage to assets.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What do you understand by risk, vulnerability, and threat in a network?",
+      "answer": "A cyber security threat possesses the potential to harm an organization\u2019s assets by exploiting vulnerabilities, whether intentional or accidental.\nA vulnerability represents a security system weakness or gap that can be exploited by malicious hackers.\nRisk emerges when a threat successfully exploits a vulnerability, leading to loss, destruction, or damage to assets."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: What is a Brute Force Attack? How can you prevent it?",
+    "context": "",
+    "output": "answer: Brute Force is a way of finding out the right credentials by repetitively trying all the permutations and combinations of possible credentials. In most cases, brute force attacks are automated where the tool/software automatically tries to login with a list of credentials. There are various ways to prevent Brute Force attacks. Some of them are: Password Length: You can set a minimum length for password. The lengthier the password, the harder it is to find.\nPassword Complexity: Including different formats of characters in the password makes brute force attacks harder. Using alpha-numeric passwords along with special characters, and upper and lower case characters increase the password complexity making it difficult to be cracked.\nLimiting Login Attempts: Set a limit on login failures. For example, you can set the limit on login failures as 3. So, when there are 3 consecutive login failures, restrict the user from logging in for some time, or send an Email or OTP to use to log in the next time. Because brute force is an automated process, limiting login attempts will break the brute force process.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a Brute Force Attack? How can you prevent it?",
+      "answer": "Brute Force is a way of finding out the right credentials by repetitively trying all the permutations and combinations of possible credentials. In most cases, brute force attacks are automated where the tool/software automatically tries to login with a list of credentials. There are various ways to prevent Brute Force attacks. Some of them are: Password Length: You can set a minimum length for password. The lengthier the password, the harder it is to find.\nPassword Complexity: Including different formats of characters in the password makes brute force attacks harder. Using alpha-numeric passwords along with special characters, and upper and lower case characters increase the password complexity making it difficult to be cracked.\nLimiting Login Attempts: Set a limit on login failures. For example, you can set the limit on login failures as 3. So, when there are 3 consecutive login failures, restrict the user from logging in for some time, or send an Email or OTP to use to log in the next time. Because brute force is an automated process, limiting login attempts will break the brute force process."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nHow do you prevent identity theft?",
+    "context": "",
+    "output": "To prevent identity theft, you can take the following measures:\nProtect your personal records.\nAvoid online sharing of confidential information.\nProtect your AADHAR/Social Security Number.\nUse strong passwords, and change them at regular intervals.\nDo not provide your bank information on untrustworthy websites.\nProtect your system with advanced firewall and spyware tools.\nKeep your browsers, system, and software updated.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How do you prevent identity theft?",
+      "answer": "To prevent identity theft, you can take the following measures:\nProtect your personal records.\nAvoid online sharing of confidential information.\nProtect your AADHAR/Social Security Number.\nUse strong passwords, and change them at regular intervals.\nDo not provide your bank information on untrustworthy websites.\nProtect your system with advanced firewall and spyware tools.\nKeep your browsers, system, and software updated."
+    }
+  },
+  {
+    "instruction": "Explain phishing.",
+    "context": "",
+    "output": "It is a technique used to obtain a username, password, and credit card details from other users.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain phishing.",
+      "answer": "It is a technique used to obtain a username, password, and credit card details from other users."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is the CIA triad?",
+    "context": "",
+    "output": "CIA Triad is a security model to ensure IT security. CIA stands for confidentiality, integrity, and availability.\nConfidentiality: To protect sensitive information from unauthorized access.\nIntegrity: To protect data from deletion or modification by an unintended person.\nAvailability: To confirm the availability of the data whenever needed.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the CIA triad?",
+      "answer": "CIA Triad is a security model to ensure IT security. CIA stands for confidentiality, integrity, and availability.\nConfidentiality: To protect sensitive information from unauthorized access.\nIntegrity: To protect data from deletion or modification by an unintended person.\nAvailability: To confirm the availability of the data whenever needed."
+    }
+  },
+  {
+    "instruction": "Which shells are used in Linux?",
+    "context": "",
+    "output": "The shells used in Linux are:\n\nbash: Bourne again shell is the default for Linux distributions\nksh: Korn shell is a high-level programming shell that supports associative arrays and built-in operations\ncsh: C shell does spelling corrections and job control\nzsh: Z shell provides unique features like filename generation, startup files, etc.\nfish: Friendly interactive shell which provides features like auto-suggestions, configurations, etc.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Which shells are used in Linux?",
+      "answer": "The shells used in Linux are:\n\nbash: Bourne again shell is the default for Linux distributions\nksh: Korn shell is a high-level programming shell that supports associative arrays and built-in operations\ncsh: C shell does spelling corrections and job control\nzsh: Z shell provides unique features like filename generation, startup files, etc.\nfish: Friendly interactive shell which provides features like auto-suggestions, configurations, etc."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nExplain brute force attacks and the ways to prevent them.",
+    "context": "",
+    "output": "A brute force attack is a hack where the attacker tries to guess the target password by trial and error. It is mostly implemented with the help of automated software used to login with credentials.\nHere are some ways to prevent a brute force attack:\nSet a lengthy password\nSet a high-complexity password\nSet a limit for login failures",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain brute force attacks and the ways to prevent them.",
+      "answer": "A brute force attack is a hack where the attacker tries to guess the target password by trial and error. It is mostly implemented with the help of automated software used to login with credentials.\nHere are some ways to prevent a brute force attack:\nSet a lengthy password\nSet a high-complexity password\nSet a limit for login failures"
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nExplain DDOS attack and how to prevent it?",
+    "context": "",
+    "output": "This again is an important Cybersecurity Interview Question. A DDOS(Distributed Denial of Service) attack is a cyberattack that causes the servers to refuse to provide services to genuine clients. DDOS attack can be classified into two types: Flooding attacks: In this type, the hacker sends a huge amount of traffic to the server which the server can not handle. And hence, the server stops functioning. This type of attack is usually executed by using automated programs that continuously send packets to the server.\nCrash attacks: In this type, the hackers exploit a bug on the server resulting in the system to crash and hence the server is not able to provide service to the clients.\nYou can prevent DDOS attacks by using the following practices:\n\nUse Anti-DDOS services\nConfigure Firewalls and Routers\nUse Front-End Hardware\nUse Load Balancing\nHandle Spikes in Traffic",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain DDOS attack and how to prevent it?",
+      "answer": "This again is an important Cybersecurity Interview Question. A DDOS(Distributed Denial of Service) attack is a cyberattack that causes the servers to refuse to provide services to genuine clients. DDOS attack can be classified into two types: Flooding attacks: In this type, the hacker sends a huge amount of traffic to the server which the server can not handle. And hence, the server stops functioning. This type of attack is usually executed by using automated programs that continuously send packets to the server.\nCrash attacks: In this type, the hackers exploit a bug on the server resulting in the system to crash and hence the server is not able to provide service to the clients.\nYou can prevent DDOS attacks by using the following practices:\n\nUse Anti-DDOS services\nConfigure Firewalls and Routers\nUse Front-End Hardware\nUse Load Balancing\nHandle Spikes in Traffic"
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nWhat are the different layers of the OSI model?",
+    "context": "",
+    "output": "An OSI model is a reference model for how applications communicate over a network. The purpose of an OSI reference is to guide vendors and developers so the digital communication products and software programs can interoperate.\nFollowing are the OSI layers:\nPhysical Layer: Responsible for transmission of digital data from sender to receiver through the communication media, Data Link Layer: Handles the movement of data to and from the physical link. It is also responsible for encoding and decoding of data bits.Network Layer: Responsible for packet forwarding and providing routing paths for network communication. Transport Layer: Responsible for end-to-end communication over the network. It splits the data from the above layer and passes it to the Network Layer and then ensures that all the data has successfully reached at the receiver\u2019s end.Session Layer: Controls connection between the sender and the receiver. It is responsible for starting, ending, and managing the session and establishing, maintaining and synchronizing interaction between the sender and the receiver. Presentation Layer: It deals with presenting the data in a proper format and data structure instead of sending raw datagrams or packets. Application Layer: It provides an interface between the application and the network. It focuses on process-to-process communication and provides a communication interface.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the different layers of the OSI model?",
+      "answer": "An OSI model is a reference model for how applications communicate over a network. The purpose of an OSI reference is to guide vendors and developers so the digital communication products and software programs can interoperate.\nFollowing are the OSI layers:\nPhysical Layer: Responsible for transmission of digital data from sender to receiver through the communication media, Data Link Layer: Handles the movement of data to and from the physical link. It is also responsible for encoding and decoding of data bits.Network Layer: Responsible for packet forwarding and providing routing paths for network communication. Transport Layer: Responsible for end-to-end communication over the network. It splits the data from the above layer and passes it to the Network Layer and then ensures that all the data has successfully reached at the receiver\u2019s end.Session Layer: Controls connection between the sender and the receiver. It is responsible for starting, ending, and managing the session and establishing, maintaining and synchronizing interaction between the sender and the receiver. Presentation Layer: It deals with presenting the data in a proper format and data structure instead of sending raw datagrams or packets. Application Layer: It provides an interface between the application and the network. It focuses on process-to-process communication and provides a communication interface."
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nWhat countermeasures will you take to secure a server?",
+    "context": "",
+    "output": "A server that is secured uses the Secure Socket Layer (SSL) protocol to encrypt and decrypt data to protect it from unauthorized access.\nBelow are the four steps to secure a server:\nStep 1: Secure the root and administrator users with a password\nStep 2: Create new users who will manage the system\nStep 3: Do not give remote access to administrator/default root accounts\nStep 4: Configure firewall rules for remote access",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What countermeasures will you take to secure a server?",
+      "answer": "A server that is secured uses the Secure Socket Layer (SSL) protocol to encrypt and decrypt data to protect it from unauthorized access.\nBelow are the four steps to secure a server:\nStep 1: Secure the root and administrator users with a password\nStep 2: Create new users who will manage the system\nStep 3: Do not give remote access to administrator/default root accounts\nStep 4: Configure firewall rules for remote access"
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nHow to prevent CSRF attacks?",
+    "context": "",
+    "output": "CSRF is referred to as Cross-site Request Forgery, where an attacker tricks a victim into performing actions on their behalf.\n\nCSRF attacks can be prevented by using the following ways:\n\nEmploying the latest antivirus software which helps in blocking malicious scripts.\nWhile authenticating to your banking site or performing any financial transactions on any other website do not browse other sites or open any emails, which helps in executing malicious scripts while being authenticated to a financial site.\nNever save your login/password within your browser for financial transactions.\nDisable scripting in your browser.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How to prevent CSRF attacks?",
+      "answer": "CSRF is referred to as Cross-site Request Forgery, where an attacker tricks a victim into performing actions on their behalf.\n\nCSRF attacks can be prevented by using the following ways:\n\nEmploying the latest antivirus software which helps in blocking malicious scripts.\nWhile authenticating to your banking site or performing any financial transactions on any other website do not browse other sites or open any emails, which helps in executing malicious scripts while being authenticated to a financial site.\nNever save your login/password within your browser for financial transactions.\nDisable scripting in your browser."
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nHow would you reset a password-protected BIOS configuration?",
+    "context": "",
+    "output": "Since BIOS is a pre-boot system it has its own storage mechanism for settings and preferences. A simple way to reset is by popping out the CMOS battery so that the memory storing the settings lose its power supply and as a result, it will lose its setting.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How would you reset a password-protected BIOS configuration?",
+      "answer": "Since BIOS is a pre-boot system it has its own storage mechanism for settings and preferences. A simple way to reset is by popping out the CMOS battery so that the memory storing the settings lose its power supply and as a result, it will lose its setting."
+    }
+  },
+  {
+    "instruction": "Please answer this question: What is the abbreviation of ECB and CBC?",
+    "context": "",
+    "output": "The full form of ECB is Electronic Codebook, and the full form of CBC is Cipher Block Chaining.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the abbreviation of ECB and CBC?",
+      "answer": "The full form of ECB is Electronic Codebook, and the full form of CBC is Cipher Block Chaining."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nHow would you secure the company's server?",
+    "context": "",
+    "output": "A: To secure the company's server, I'll first need to ensure that all of the company's passwords \u2013 for both root and administrative users \u2013 are secure.\n\nAfter that, I'd create new users that I'll use to manage the system and take away remote access from root accounts and the default administrator.\n\nAfter completing this step, I'd create firewall boundaries for remote access.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How would you secure the company's server?",
+      "answer": "To secure the company's server, I'll first need to ensure that all of the company's passwords \u2013 for both root and administrative users \u2013 are secure.\n\nAfter that, I'd create new users that I'll use to manage the system and take away remote access from root accounts and the default administrator.\n\nAfter completing this step, I'd create firewall boundaries for remote access."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat is the importance of penetration testing in an enterprise?",
+    "context": "",
+    "output": "A: Here are two common application of Penetration testing.\n\nFinancial sectors like stock trading exchanges, investment banking, want their data to be secured, and penetration testing is essential to ensure security.\nIn case if the software system is already hacked and the organization would like to determine whether any threats are still present in the system to avoid future hacks.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the importance of penetration testing in an enterprise?",
+      "answer": "Here are two common application of Penetration testing.\n\nFinancial sectors like stock trading exchanges, investment banking, want their data to be secured, and penetration testing is essential to ensure security.\nIn case if the software system is already hacked and the organization would like to determine whether any threats are still present in the system to avoid future hacks."
+    }
+  },
+  {
+    "instruction": "Question: What is a Botnet?",
+    "context": "",
+    "output": "Answer: A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a Botnet?",
+      "answer": "A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack."
+    }
+  },
+  {
+    "instruction": "What are Polymorphic viruses?",
+    "context": "",
+    "output": "Polymorphic viruses are sophisticated file infectors that may build changed versions of themselves in order to avoid detection while maintaining the same fundamental behaviors after each infection. Polymorphic viruses encrypt their programming and employ various encryption keys each time to alter their physical file makeup throughout each infection.\nMutation engines are used by polymorphic viruses to change their decryption routines every time they infect a machine. Because typical security solutions do not use a static, unchanging code, traditional security solutions may miss them. They are considerably more difficult to detect because they use complicated mutation engines that generate billions of decryption routines.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are Polymorphic viruses?",
+      "answer": "Polymorphic viruses are sophisticated file infectors that may build changed versions of themselves in order to avoid detection while maintaining the same fundamental behaviors after each infection. Polymorphic viruses encrypt their programming and employ various encryption keys each time to alter their physical file makeup throughout each infection.\nMutation engines are used by polymorphic viruses to change their decryption routines every time they infect a machine. Because typical security solutions do not use a static, unchanging code, traditional security solutions may miss them. They are considerably more difficult to detect because they use complicated mutation engines that generate billions of decryption routines."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Name some tools used for packet sniffing",
+    "context": "",
+    "output": "answer: Following are some tools used for packet sniffing.\n\nTcpdump\nKismet\nWireshark\nNetworkMiner\nDsniff",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Name some tools used for packet sniffing",
+      "answer": "Following are some tools used for packet sniffing.\n\nTcpdump\nKismet\nWireshark\nNetworkMiner\nDsniff"
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nList out the types of sniffing attacks.",
+    "context": "",
+    "output": "A: Various types of sniffing attacks are:\n\nProtocol Sniffing\nWeb password sniffing\nApplication-level sniffing\nTCP Session stealing\nLAN Sniffing\nARP Sniffing",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "List out the types of sniffing attacks.",
+      "answer": "Various types of sniffing attacks are:\n\nProtocol Sniffing\nWeb password sniffing\nApplication-level sniffing\nTCP Session stealing\nLAN Sniffing\nARP Sniffing"
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nWhat steps will you take to secure a server?",
+    "context": "",
+    "output": "Secure servers use the Secure Sockets Layer (SSL) protocol for data encryption and decryption to protect data from unauthorized interception. Here are four simple ways to secure server:\nStep 1: Make sure you have a secure password for your root and administrator users\nStep 2: The next thing you need to do is make new users on your system. These will be the users you use to manage the system\nStep 3: Remove remote access from the default root/administrator accounts\n Step 4: The next step is to configure your firewall rules for remote access",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What steps will you take to secure a server?",
+      "answer": "Secure servers use the Secure Sockets Layer (SSL) protocol for data encryption and decryption to protect data from unauthorized interception. Here are four simple ways to secure server:\nStep 1: Make sure you have a secure password for your root and administrator users\nStep 2: The next thing you need to do is make new users on your system. These will be the users you use to manage the system\nStep 3: Remove remote access from the default root/administrator accounts\n Step 4: The next step is to configure your firewall rules for remote access"
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Explain Phishing and how to prevent it?",
+    "context": "",
+    "output": "answer: Phishing is a Cyberattack in which a hacker disguises as a trustworthy person or business and attempt to steal sensitive financial or personal information through fraudulent email or instant message.\n\nYou can prevent Phishing attacks by using the following practices:\n\nDon\u2019t enter sensitive information in the webpages that you don\u2019t trust\nVerify the site\u2019s security\nUse Firewalls\nUse AntiVirus Software that has Internet Security\nUse Anti-Phishing Toolbar",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain Phishing and how to prevent it?",
+      "answer": "Phishing is a Cyberattack in which a hacker disguises as a trustworthy person or business and attempt to steal sensitive financial or personal information through fraudulent email or instant message.\n\nYou can prevent Phishing attacks by using the following practices:\n\nDon\u2019t enter sensitive information in the webpages that you don\u2019t trust\nVerify the site\u2019s security\nUse Firewalls\nUse AntiVirus Software that has Internet Security\nUse Anti-Phishing Toolbar"
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - What is cryptography?\n\n",
+    "context": "",
+    "output": "Cryptography refers to the domain of cyber security that serves the purpose of safeguarding information from individuals known as adversaries, thereby ensuring that the data is exclusively accessed by only senders and intended recipients.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is cryptography?",
+      "answer": "Cryptography refers to the domain of cyber security that serves the purpose of safeguarding information from individuals known as adversaries, thereby ensuring that the data is exclusively accessed by only senders and intended recipients."
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - You receive an email from your bank telling you there is a problem with your account. The email provides instructions and a link so you can log into your account and fix the problem.\n\nWhat should you do?\n\n",
+    "context": "",
+    "output": "Delete the email. Better yet, use the web client (e.g. gmail, yahoo mail, etc.) and report it as spam or phishing, then delete it.\n\nAny unsolicited email or phone call asking you to enter your account information, disclose your password, financial account information, social security number, or other personal or private information is suspicious \u2013 even if it appears to be from a company you are familiar with. Always contact the sender using a method you know is legitimate to verify that the message is from them.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "You receive an email from your bank telling you there is a problem with your account. The email provides instructions and a link so you can log into your account and fix the problem.\n\nWhat should you do?",
+      "answer": "Delete the email. Better yet, use the web client (e.g. gmail, yahoo mail, etc.) and report it as spam or phishing, then delete it.\n\nAny unsolicited email or phone call asking you to enter your account information, disclose your password, financial account information, social security number, or other personal or private information is suspicious \u2013 even if it appears to be from a company you are familiar with. Always contact the sender using a method you know is legitimate to verify that the message is from them."
+    }
+  },
+  {
+    "instruction": "Please answer this question: What are the elements of cybersecurity?",
+    "context": "",
+    "output": "Major elements of cybersecurity are:\n\nInformation security\nNetwork security\nOperational security\nApplication security\nEnd-user education\nBusiness continuity planning",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are the elements of cybersecurity?",
+      "answer": "Major elements of cybersecurity are:\n\nInformation security\nNetwork security\nOperational security\nApplication security\nEnd-user education\nBusiness continuity planning"
+    }
+  },
+  {
+    "instruction": "Q: What is port blocking within LAN?",
+    "context": "",
+    "output": " A: Restricting the users from accessing a set of services within the local area network is called port blocking.\nStopping the source to not to access the destination node via ports. As the application works on the ports, so ports are blocked to restricts the access filling up the security holes in the network infrastructure.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is port blocking within LAN?",
+      "answer": "Restricting the users from accessing a set of services within the local area network is called port blocking.\nStopping the source to not to access the destination node via ports. As the application works on the ports, so ports are blocked to restricts the access filling up the security holes in the network infrastructure."
+    }
+  },
+  {
+    "instruction": "Please answer this question: What do you understand by Shoulder Surfing?",
+    "context": "",
+    "output": "Shoulder surfing is a form of physical assault used by fraudsters by physically peering at people's screens to cheat while they type sensitive information in a semi-public area",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What do you understand by Shoulder Surfing?",
+      "answer": "Shoulder surfing is a form of physical assault used by fraudsters by physically peering at people's screens to cheat while they type sensitive information in a semi-public area"
+    }
+  },
+  {
+    "instruction": "Please answer this question: What is a botnet?",
+    "context": "",
+    "output": "A botnet, also called a robot network, is a malware that infects networks of computers and gets them under the control of a single attacker who is called a \u2018bot herder.\u2019 A bot is an individual machine that is under the control of bot herders. The attacker acts as a central party who can command every bot to perform simultaneous and coordinated criminal actions.\nA botnet is usually always responsible for large-scale attacks since a bot herder can control millions of bots at a time. All the bot can receive updates from the attacker to change their behavior in no time.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a botnet?",
+      "answer": "A botnet, also called a robot network, is a malware that infects networks of computers and gets them under the control of a single attacker who is called a \u2018bot herder.\u2019 A bot is an individual machine that is under the control of bot herders. The attacker acts as a central party who can command every bot to perform simultaneous and coordinated criminal actions.\nA botnet is usually always responsible for large-scale attacks since a bot herder can control millions of bots at a time. All the bot can receive updates from the attacker to change their behavior in no time."
+    }
+  },
+  {
+    "instruction": "Q: Which is more reliable: SSL or HTTPS?",
+    "context": "",
+    "output": " A: SSL (Secure Sockets Layer) is a secure technology that allows two or more parties to communicate securely over the internet. To provide security, it works on top of HTTP. It works at the Presentation layer.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL that uses encryption to create a more secure surfing experience. The working of HTTPS involves the top 4 layers of the OSI model, i.e, Application Layer, Presentation Layer, Session Layer, and Transport Layer.\nSSL is more secure than HTTPS in terms of security. ",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Which is more reliable: SSL or HTTPS?",
+      "answer": "SSL (Secure Sockets Layer) is a secure technology that allows two or more parties to communicate securely over the internet. To provide security, it works on top of HTTP. It works at the Presentation layer.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL that uses encryption to create a more secure surfing experience. The working of HTTPS involves the top 4 layers of the OSI model, i.e, Application Layer, Presentation Layer, Session Layer, and Transport Layer.\nSSL is more secure than HTTPS in terms of security. "
+    }
+  },
+  {
+    "instruction": "Define SQL Injection",
+    "context": "",
+    "output": "It is an attack that poisons malicious SQL statements to database. It helps you to take benefit of the design flaws in poorly designed web applications to exploit SQL statements to execute malicious SQL code. In many situations, an attacker can escalate SQL injection attack in order to perform other attack, i.e. denial-of-service attack.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Define SQL Injection",
+      "answer": "It is an attack that poisons malicious SQL statements to database. It helps you to take benefit of the design flaws in poorly designed web applications to exploit SQL statements to execute malicious SQL code. In many situations, an attacker can escalate SQL injection attack in order to perform other attack, i.e. denial-of-service attack."
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nWhat is the use of EtterPeak tool?",
+    "context": "",
+    "output": "A: EtterPeak is a network analysis tool that is used for sniffing packets of network traffic.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is the use of EtterPeak tool?",
+      "answer": "EtterPeak is a network analysis tool that is used for sniffing packets of network traffic."
+    }
+  },
+  {
+    "instruction": "Answer the question below.\nHow often should you perform Patch management?",
+    "context": "",
+    "output": "Patch management should be done as soon as it is released. For windows, once the patch is released it should be applied to all machines, not later than one month. Same goes for network devices, patch it as soon as it is released. Proper patch management should be followed.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "How often should you perform Patch management?",
+      "answer": "Patch management should be done as soon as it is released. For windows, once the patch is released it should be applied to all machines, not later than one month. Same goes for network devices, patch it as soon as it is released. Proper patch management should be followed."
+    }
+  },
+  {
+    "instruction": "What is the answer to this question - Explain steps to secure web server.\n\n",
+    "context": "",
+    "output": "Follow the following steps to secure your web server:\n\nUpdate ownership of file.\nKeep your webserver updated.\nDisable extra modules in the webserver.\nDelete default scripts.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain steps to secure web server.",
+      "answer": "Follow the following steps to secure your web server:\n\nUpdate ownership of file.\nKeep your webserver updated.\nDisable extra modules in the webserver.\nDelete default scripts."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nExplain the concept of IV in encryption",
+    "context": "",
+    "output": "IV stands for the initial vector is an arbitrary number that is used to ensures that identical text encrypted to different ciphertexts. Encryption program uses this number only once per session.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain the concept of IV in encryption",
+      "answer": "IV stands for the initial vector is an arbitrary number that is used to ensures that identical text encrypted to different ciphertexts. Encryption program uses this number only once per session."
+    }
+  },
+  {
+    "instruction": "Please answer this question: What is port blocking within LAN?",
+    "context": "",
+    "output": "Port blocking in LAN means restricting users' access to several services within the local area network.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is port blocking within LAN?",
+      "answer": "Port blocking in LAN means restricting users' access to several services within the local area network."
+    }
+  },
+  {
+    "instruction": "What is a distributed denial-of-service attack (DDoS)?",
+    "context": "",
+    "output": "It is an attack in which multiple computers attack website, server, or any network resource.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a distributed denial-of-service attack (DDoS)?",
+      "answer": "It is an attack in which multiple computers attack website, server, or any network resource."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: What are black hat, white hat and grey hat hackers?",
+    "context": "",
+    "output": "answer: Black hat hackers are known for having vast knowledge about breaking into computer networks. They can write malware which can be used to gain access to these systems. This type of hackers misuse their skills to steal information or use the hacked system for malicious purpose.\nWhite hat hackers use their powers for good deeds and so they are also called Ethical Hackers. Look out for our Ethical Hacking Course to learn more about the Ethical Hacking. These are mostly hired by companies as a security specialist that attempts to find and fix vulnerabilities and security holes in the systems. They use their skills to help make the security better.\nGrey hat hackers are an amalgamation of a white hat and black hat hacker. They look for system vulnerabilities without the owner\u2019s permission. If they find any vulnerabilities, they report it to the owner. Unlike Black hat hackers, they do not exploit the vulnerabilities found.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What are black hat, white hat and grey hat hackers?",
+      "answer": "Black hat hackers are known for having vast knowledge about breaking into computer networks. They can write malware which can be used to gain access to these systems. This type of hackers misuse their skills to steal information or use the hacked system for malicious purpose.\nWhite hat hackers use their powers for good deeds and so they are also called Ethical Hackers. Look out for our Ethical Hacking Course to learn more about the Ethical Hacking. These are mostly hired by companies as a security specialist that attempts to find and fix vulnerabilities and security holes in the systems. They use their skills to help make the security better.\nGrey hat hackers are an amalgamation of a white hat and black hat hacker. They look for system vulnerabilities without the owner\u2019s permission. If they find any vulnerabilities, they report it to the owner. Unlike Black hat hackers, they do not exploit the vulnerabilities found."
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Explain XSS attack and how to prevent it?",
+    "context": "",
+    "output": "answer: XSS(Cross-Site Scripting) is a cyberattack that enables hackers to inject malicious client-side scripts into web pages. XSS can be used to hijack sessions and steal cookies, modify DOM, remote code execution, crash the server etc.\nYou can prevent XSS attacks by using the following practices:\nValidate user inputs\nSanitize user inputs\nEncode special characters\nUse Anti-XSS services/tools\nUse XSS  HTML Filter",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain XSS attack and how to prevent it?",
+      "answer": "XSS(Cross-Site Scripting) is a cyberattack that enables hackers to inject malicious client-side scripts into web pages. XSS can be used to hijack sessions and steal cookies, modify DOM, remote code execution, crash the server etc.\nYou can prevent XSS attacks by using the following practices:\nValidate user inputs\nSanitize user inputs\nEncode special characters\nUse Anti-XSS services/tools\nUse XSS  HTML Filter"
+    }
+  },
+  {
+    "instruction": "Answer this question:\n\nExplain Data Leakage",
+    "context": "",
+    "output": "A: Data Leakage is an intentional or unintentional transmission of data from within the organization to an external unauthorized destination. It is the disclosure of confidential information to an unauthorized entity. Data Leakage can be divided into 3 categories based on how it happens: 1. Accidental Breach: An entity unintentionally send data to an unauthorized person due to a fault or a blunder. 2. Intentional Breach: The authorized entity sends data to an unauthorized entity on purpose 3. System Hack: Hacking techniques are used to cause data leakage. Data Leakage can be prevented by using tools, software, and strategies known as DLP(Data Leakage Prevention) Tools.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain Data Leakage",
+      "answer": "Data Leakage is an intentional or unintentional transmission of data from within the organization to an external unauthorized destination. It is the disclosure of confidential information to an unauthorized entity. Data Leakage can be divided into 3 categories based on how it happens: 1. Accidental Breach: An entity unintentionally send data to an unauthorized person due to a fault or a blunder. 2. Intentional Breach: The authorized entity sends data to an unauthorized entity on purpose 3. System Hack: Hacking techniques are used to cause data leakage. Data Leakage can be prevented by using tools, software, and strategies known as DLP(Data Leakage Prevention) Tools."
+    }
+  },
+  {
+    "instruction": "Question: Explain SSL Encryption",
+    "context": "",
+    "output": "Answer: SSL(Secure Sockets Layer) is the industry-standard security technology creating encrypted connections between Web Server and a Browser. This is used to maintain data privacy and to protect the information in online transactions. The steps for establishing an SSL connection is as follows: a) A browser tries to connect to the webserver secured with SSL b) The browser sends a copy of its SSL certificate to the browser c) The browser checks if the SSL certificate is trustworthy or not. If it is trustworthy, then the browser sends a message to the web server requesting to establish an encrypted connection d) The web server sends an acknowledgment to start an SSL encrypted connection e) SSL encrypted communication takes place between the browser and the web server",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain SSL Encryption",
+      "answer": "SSL(Secure Sockets Layer) is the industry-standard security technology creating encrypted connections between Web Server and a Browser. This is used to maintain data privacy and to protect the information in online transactions. The steps for establishing an SSL connection is as follows: a) A browser tries to connect to the webserver secured with SSL b) The browser sends a copy of its SSL certificate to the browser c) The browser checks if the SSL certificate is trustworthy or not. If it is trustworthy, then the browser sends a message to the web server requesting to establish an encrypted connection d) The web server sends an acknowledgment to start an SSL encrypted connection e) SSL encrypted communication takes place between the browser and the web server"
+    }
+  },
+  {
+    "instruction": "What is the answer to this question -  What is a computer virus?\n\n",
+    "context": "",
+    "output": "A virus is a malicious software that is executed without the user\u2019s consent. Viruses can consume computer resources, such as CPU time and memory. Sometimes, the virus makes changes in other computer programs and insert its own code to harm the computer system.\n\nA computer virus may be used to:\n\nAccess private data like user id and passwords\nDisplay annoying messages to the user\nCorrupt data in your computer\nLog the user\u2019s keystrokes\n",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": " What is a computer virus?",
+      "answer": "A virus is a malicious software that is executed without the user\u2019s consent. Viruses can consume computer resources, such as CPU time and memory. Sometimes, the virus makes changes in other computer programs and insert its own code to harm the computer system.\n\nA computer virus may be used to:\n\nAccess private data like user id and passwords\nDisplay annoying messages to the user\nCorrupt data in your computer\nLog the user\u2019s keystrokes\n"
+    }
+  },
+  {
+    "instruction": "Can you tell me the answer to: Explain SSL and TLS.",
+    "context": "",
+    "output": "answer: Secure Sockets Layer (SSL)\nIt employs encryption algorithms to keep any sensitive data that is sent between a client and a server by scrambling the data in transit. This helps prevent hackers from reading any data, such as credit card details and personal and other financial information; it is done by keeping the internet connection secure.\nTransport Layer Security (TLS)\nTLS is the successor of SSL. It is an improved protocol version that works just like SSL to protect information transfer. However, to provide better security, both TLS and SSL are often implemented together.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "Explain SSL and TLS.",
+      "answer": "Secure Sockets Layer (SSL)\nIt employs encryption algorithms to keep any sensitive data that is sent between a client and a server by scrambling the data in transit. This helps prevent hackers from reading any data, such as credit card details and personal and other financial information; it is done by keeping the internet connection secure.\nTransport Layer Security (TLS)\nTLS is the successor of SSL. It is an improved protocol version that works just like SSL to protect information transfer. However, to provide better security, both TLS and SSL are often implemented together."
+    }
+  },
+  {
+    "instruction": "Answer the following question:\n\nWhat is network sniffing?",
+    "context": "",
+    "output": "Network sniffing is a tool used for analyzing data packets sent over a network. This can be done by the specialized software program or hardware equipment. Sniffing can be used to:\n\nCapture sensitive data such as password.\nEavesdrop on chat messages\nMonitor data package over a network",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is network sniffing?",
+      "answer": "Network sniffing is a tool used for analyzing data packets sent over a network. This can be done by the specialized software program or hardware equipment. Sniffing can be used to:\n\nCapture sensitive data such as password.\nEavesdrop on chat messages\nMonitor data package over a network"
+    }
+  },
+  {
+    "instruction": "Question: What is a three-way handshake?",
+    "context": "",
+    "output": "Answer: A three-way handshake is a method used in a TCP/IP network to create a connection between a host and a client. It\u2019s called a three-way handshake because it is a three-step method in which the client and server exchanges packets. The three steps are as follows: \n1) The client sends a SYN(Synchronize) packet to the server check if the server is up or has open ports\n3) The server sends SYN-ACK packet to the client if it has open ports\n3)The client acknowledges this and sends an ACK(Acknowledgment) packet back to the server",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "natural_questions",
+    "parsed_raw_data": {
+      "question": "What is a three-way handshake?",
+      "answer": "A three-way handshake is a method used in a TCP/IP network to create a connection between a host and a client. It\u2019s called a three-way handshake because it is a three-step method in which the client and server exchanges packets. The three steps are as follows: \n1) The client sends a SYN(Synchronize) packet to the server check if the server is up or has open ports\n3) The server sends SYN-ACK packet to the client if it has open ports\n3)The client acknowledges this and sends an ACK(Acknowledgment) packet back to the server"
+    }
+  }
+]

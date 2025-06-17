@@ -1,0 +1,107 @@
+[
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Manage the creation, modification, use, and permissions associated to user accounts.?",
+    "context": "",
+    "output": "Name: User Account Management, ID: M1018",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation_short",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Manage the creation, modification, use, and permissions associated to user accounts.",
+      "answer": "Name: User Account Management, ID: M1018",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation_short"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: Enforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
+    "context": "",
+    "output": "Name: Code Signing, ID: M1045",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: Enforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
+      "answer": "Name: Code Signing, ID: M1045",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation_short"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
+    "context": "",
+    "output": "Name: Network Segmentation, ID: M1030",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation_short",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
+      "answer": "Name: Network Segmentation, ID: M1030",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation_short"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Protect sensitive information with strong encryption.?",
+    "context": "",
+    "output": "Name: Encrypt Sensitive Information, ID: M1041",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation_short",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Protect sensitive information with strong encryption.",
+      "answer": "Name: Encrypt Sensitive Information, ID: M1041",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation_short"
+    }
+  },
+  {
+    "instruction": "Which Mitre mitigation meets the following description: Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.?",
+    "context": "",
+    "output": "Name: Vulnerability Scanning, ID: M1016",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation_short",
+    "parsed_raw_data": {
+      "question": "Which Mitre mitigation meets the following description: Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
+      "answer": "Name: Vulnerability Scanning, ID: M1016",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation_short"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
+    "context": "",
+    "output": "Name: Behavior Prevention on Endpoint, ID: M1040",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
+      "answer": "Name: Behavior Prevention on Endpoint, ID: M1040",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation_short"
+    }
+  },
+  {
+    "instruction": "To which Mitre mitigation does the following description refers: This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
+    "context": "",
+    "output": "Name: Pre-compromise, ID: M1056",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_mitigation_short",
+    "parsed_raw_data": {
+      "question": "To which Mitre mitigation does the following description refers: This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
+      "answer": "Name: Pre-compromise, ID: M1056",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_mitigation_short"
+    }
+  }
+]
