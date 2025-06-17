@@ -311,15 +311,15 @@ with gr.Blocks() as demo:
 
     gr.Markdown("## Run ReAlign Pipeline")
     with gr.Row():
-        instruction = gr.Textbox(label="Instruction", placeholder="Instruction for ReAlign...")
-        response = gr.Textbox(label="Original Response", placeholder="Response for ReAlign...")
+        instruction = gr.Textbox(label="Instruction", placeholder="Instruction for ReAlign...", show_copy_button=True)
+        response = gr.Textbox(label="Original Response", placeholder="Response for ReAlign...", show_copy_button=True)
     with gr.Row():
         with gr.Column(scale=1):
             is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
             grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
             run_dgt_btn = gr.Button("RuAlign", variant="primary")
         with gr.Column(scale=1):
-            realigned_response = gr.Textbox(label="Realigned Response")
+            realigned_response = gr.Textbox(label="Realigned Response", show_copy_button=True)
             preferred = gr.Checkbox(label="Realign Preferred")
             factuality_score = gr.Slider(1, 10, step=1, label="Factuality Score")
             search_results_slider = gr.Slider(0, 0, step=1, label="Search Query Index")
