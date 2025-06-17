@@ -6,16 +6,18 @@ import gradio as gr
 from dotenv import load_dotenv
 from ibm_watsonx_ai import APIClient, Credentials
 from ibm_watsonx_ai.foundation_models import ModelInference
+from openai import OpenAI
 
 load_dotenv()
 
 creds = Credentials(url=os.getenv("WATSONX_URL"), api_key=os.getenv("WATSONX_APIKEY"))
 client = APIClient(credentials=creds, project_id=os.getenv("WATSONX_PROJECT_ID"))
 
-models = [e.value for e in client.foundation_models.TextModels]
+models = ["openai/gpt-4.1"] + [e.value for e in client.foundation_models.TextModels]
 
-DEFAULT_MODEL = "mistralai/mistral-medium-2505"
-DEFAULT_PROMPT_FILE =  "prompts/default.txt"
+DEFAULT_MODEL = "openai/gpt-4.1"
+PROMPTS_DIR = "prompts"
+DEFAULT_PROMPT_FILE =  "default.txt"
 
 
 def highlight_placeholders(prompt_text):
@@ -25,7 +27,7 @@ def highlight_placeholders(prompt_text):
 def preview_prompt(prompt_file):
     if prompt_file is None:
         return ""
-    prompt_text = Path(prompt_file).read_text()
+    prompt_text = Path(PROMPTS_DIR+"/"+prompt_file).read_text()
     highlighted = highlight_placeholders(prompt_text)
     # Make line breaks visible in HTML
     highlighted = highlighted.replace('\n', '<br>')
@@ -42,25 +44,37 @@ def generate_template(model_id: str, prompt_path: str, dataset_description: str,
     if not example_question:
         raise gr.Error("⚠️ Example question is required!")
     
-    model = ModelInference(
-        model_id=model_id,
-        credentials=creds,
-        project_id=os.getenv("WATSONX_PROJECT_ID")
-    )
-
     prompt_template = Path(prompt_path).read_text()
     prompt = prompt_template.format(
         dataset_description=dataset_description,
         example_question=example_question
     )
+    
+    if model_id.startswith("openai/"):
+        client = OpenAI(
+            # This is the default and can be omitted
+            api_key=os.environ.get("OPENAI_API_KEY"),
+        )
+        response = client.responses.create(
+            model=model_id.replace("openai/", ""),
+            instructions="You are a helpful assistant.",
+            input=prompt,
+        ).output_text
+    else:
+        model = ModelInference(
+            model_id=model_id,
+            credentials=creds,
+            project_id=os.getenv("WATSONX_PROJECT_ID")
+        )
+        response = model.chat(
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt}
+            ],
+            params={"max_tokens": 4096}
+        )['choices'][0]['message']['content']
 
-    return model.chat(
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        params={"max_tokens": 4096}
-    )['choices'][0]['message']['content']
+    return response
 
 
 with gr.Blocks() as demo:
