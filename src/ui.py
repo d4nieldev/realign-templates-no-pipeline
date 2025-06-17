@@ -285,8 +285,9 @@ with gr.Blocks() as demo:
     with gr.Row():
         dataset = gr.Dropdown(choices=list(ds_to_task.keys()), label="Dataset", value=list(ds_to_task.keys())[0])
         task = gr.Dropdown(choices=ds_to_task[dataset.value], label="Task", value=ds_to_task[dataset.value][0], interactive=True)
-    num_examples = gr.Slider(0, 10, step=1, value=1, label="Number of random examples to sample")
-    sample_btn = gr.Button("Sample")
+    with gr.Row():
+        num_examples = gr.Slider(0, 10, step=1, value=1, label="Number of random examples to sample")
+        sample_btn = gr.Button("Sample")
     
     examples_df = gr.Dataframe(
             headers=["Select", "Instruction", "Response"],
@@ -311,7 +312,7 @@ with gr.Blocks() as demo:
     gr.Markdown("## Run ReAlign Pipeline")
     with gr.Row():
         instruction = gr.Textbox(label="Instruction", placeholder="Instruction for ReAlign...")
-        response = gr.Textbox(label="Response", placeholder="Response for ReAlign...")
+        response = gr.Textbox(label="Original Response", placeholder="Response for ReAlign...")
     with gr.Row():
         with gr.Column(scale=1):
             is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
