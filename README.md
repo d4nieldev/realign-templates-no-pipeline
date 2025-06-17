@@ -18,6 +18,15 @@ OPENAI_API_KEY=
 
 ### Dependencies
 
+Install DiGiT dependencies:
+```bash
+cd fms-fgt
+uv pip install "."
+uv pip install ".[realign]"
+cd ..
+```
+
+Install UI dependencies:
 ```bash
 pip install uv
 uv venv
