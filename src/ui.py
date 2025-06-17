@@ -59,6 +59,7 @@ def generate_template(model_id: str, prompt_path: str, dataset_description: str,
             model=model_id.replace("openai/", ""),
             instructions="You are a helpful assistant.",
             input=prompt,
+            tools=[{"type": "web_search_preview"}]
         ).output_text
     else:
         model = ModelInference(
