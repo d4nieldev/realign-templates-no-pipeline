@@ -274,4 +274,4 @@ with gr.Blocks() as demo:
         outputs=[realigned_response, preferred, factuality_score, search_results]
     )
 
-demo.launch(share=True)
+demo.launch()
