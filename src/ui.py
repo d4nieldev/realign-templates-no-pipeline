@@ -1,5 +1,7 @@
 import os
 import re
+import json
+import random
 from pathlib import Path
 
 import gradio as gr
@@ -10,14 +12,20 @@ from openai import OpenAI
 
 load_dotenv()
 
+TASKS_PATH = Path("tasks")
+DEFAULT_MODEL = "openai/gpt-4.1"
+DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/default.txt"
+
+
 creds = Credentials(url=os.getenv("WATSONX_URL"), api_key=os.getenv("WATSONX_APIKEY"))
 client = APIClient(credentials=creds, project_id=os.getenv("WATSONX_PROJECT_ID"))
 
 models = ["openai/gpt-4.1"] + [e.value for e in client.foundation_models.TextModels]
 
-DEFAULT_MODEL = "openai/gpt-4.1"
-DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/default.txt"
-
+ds_to_task = {
+    ds_path.name: [task_path.stem for task_path in ds_path.iterdir()]
+    for ds_path in TASKS_PATH.iterdir()
+}
 
 def highlight_placeholders(prompt_text):
     # Highlight {placeholders} in yellow
@@ -77,8 +85,33 @@ def generate_template(model_id: str, prompt_path: str, dataset_description: str,
     return response
 
 
+def update_tasks(dataset_choice):
+        tasks = ds_to_task[dataset_choice]
+        return gr.update(choices=tasks, value=tasks[0])
+    
+
+def get_example(dataset: str, task: str) -> tuple[str, str]:
+    file_path = TASKS_PATH / dataset / f"{task}.json"
+
+    try:
+        items = json.loads(file_path.read_text())
+    except json.JSONDecodeError:
+        raise gr.Error("⚠️ JSON file could not be parsed.")
+
+    if not items:
+        raise gr.Error("⚠️ No entries in this file.")
+
+    ex = random.choice(items)
+    instr = ex["instruction"]
+    resp  = ex["output"]
+
+    return instr, resp
+
+
 with gr.Blocks() as demo:
     gr.Markdown("# WatsonX Prompt Generator with Template Preview")
+    
+    gr.Markdown("## Create Template")
     with gr.Row():
         model_id = gr.Dropdown(choices=models, label="Model ID", value=DEFAULT_MODEL)
         prompt_file = gr.FileExplorer(label="Prompt Template", root_dir="prompts", file_count="single", value=lambda: DEFAULT_PROMPT_FILE)
@@ -89,16 +122,34 @@ with gr.Blocks() as demo:
             example_question = gr.Textbox(label="Example Question", placeholder="An example question to guide the model...")
         with gr.Column(scale=1):
             output = gr.Textbox(label="Model Output", show_copy_button=True)
+            generate_btn = gr.Button("Generate")
     
+    gr.Markdown("## View Examples")
+    with gr.Row():
+        with gr.Column(scale=1):
+            dataset = gr.Dropdown(choices=list(ds_to_task.keys()), label="Dataset", value=list(ds_to_task.keys())[0])
+            task = gr.Dropdown(choices=ds_to_task[dataset.value], label="Task", value=ds_to_task[dataset.value][0], interactive=True)
+            get_example_btn = gr.Button("Show random example")
+        with gr.Column():
+            instr_box  = gr.Textbox(label="Instruction", lines=4, interactive=False, show_copy_button=True)
+            resp_box   = gr.Textbox(label="Response",    lines=4, interactive=False, show_copy_button=True)
+
     # When the prompt_file changes, show the preview
     prompt_file.change(preview_prompt, inputs=prompt_file, outputs=prompt_preview)
 
     # When user clicks the button, generate output
-    generate_btn = gr.Button("Generate")
     generate_btn.click(
         generate_template,
         inputs=[model_id, prompt_file, dataset_description, example_question],
         outputs=output
+    )
+
+    dataset.change(update_tasks, inputs=dataset, outputs=task)
+
+    get_example_btn.click(
+        get_example,
+        inputs=[dataset, task],
+        outputs=[instr_box, resp_box]
     )
 
 demo.launch()
