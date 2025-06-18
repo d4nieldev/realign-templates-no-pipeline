@@ -1,4 +1,4 @@
-You are given a short description of the dataset together with (optionally) examples from the dataset (separated by "--"):
+You are given a short description of the dataset together with examples from the dataset (separated by "--"):
 
 [[ dataset description ]]
 {dataset_description}
