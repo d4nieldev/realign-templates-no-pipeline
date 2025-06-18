@@ -1,7 +1,7 @@
 [project]
 name = "realign-templates"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple UI to help generate templates for existing datasets for ReAlign."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
