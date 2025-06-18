@@ -1,0 +1,15 @@
+You are given an example of a question from a dataset and a short description of the dataset:
+
+[[ Dataset Description ]]
+{dataset_description}
+
+Task:
+We aim to reformat this dataset so that each response follows a chain-of-thought reasoning style. Your goal is to produce a template that structures the response as follows:
+	1.	Task Introduction: Start by introducing the core task given by the dataset description.
+	2.	Response Structure: List the logical steps or stages required to solve the type of task given by the dataset description. Each step should be a single, clear sentence. 
+	The steps should encourage explicit, structured reasoning (chain-of-thought). 
+	3.	General Instructions: If applicable, add any overarching instructions that should be applied to all steps or to the overall reasoning process.
+
+Guidelines:
+	•	Focus on clarity, structure, and brevity.
+	•	The template you output should only include the task introduction, the list of steps, and any general instructions. Do not include any extra explanations or comments.

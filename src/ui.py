@@ -17,7 +17,7 @@ load_dotenv()
 
 TASKS_PATH = Path("tasks")
 DEFAULT_MODEL = "mistralai/mistral-medium-2505"
-DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/default.txt"
+DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/fewshot.txt"
 
 
 creds = Credentials(url=os.getenv("WATSONX_URL"), api_key=os.getenv("WATSONX_API_KEY"))
@@ -53,8 +53,8 @@ def generate_template(model_id: str, prompt_path: str, dataset_description: str,
         raise gr.Error("⚠️ Dataset description is required!")
     
     examples_questions = table_to_markdown(examples_table)
-    if not examples_questions:
-        raise gr.Error("⚠️ Please tick at least one example.")
+    if examples_questions == "No examples provided." and 'fewshot' in prompt_path:
+        raise gr.Error("⚠️ Please tick at least one example for fewshot!")
     
     prompt_template = Path(prompt_path).read_text()
     prompt = prompt_template.format(
