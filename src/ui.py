@@ -16,7 +16,7 @@ from openai import OpenAI
 load_dotenv()
 
 TASKS_PATH = Path("tasks")
-DEFAULT_MODEL = "mistralai/mistral-medium-2505"
+DEFAULT_MODEL = "openai/gpt-4.1"
 DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/fewshot.txt"
 
 
