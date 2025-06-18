@@ -26,7 +26,7 @@ client = APIClient(credentials=creds, project_id=os.getenv("WATSONX_PROJECT_ID")
 models = ["openai/gpt-4.1"] + [e.value for e in client.foundation_models.TextModels]
 
 ds_to_task = {
-    ds_path.name: [task_path.stem for task_path in ds_path.iterdir() if task_path.is_file() and task_path.suffix == '.json']
+    ds_path.name: sorted([task_path.stem for task_path in ds_path.iterdir() if task_path.is_file() and task_path.suffix == '.json'])
     for ds_path in TASKS_PATH.iterdir() if ds_path.is_dir()
 }
 
@@ -200,7 +200,7 @@ seed_datastore:
         if proc.stdout is None:
             raise gr.Error("⚠️ Failed to run the DGT command. Please check the logs.")
         for line in proc.stdout:                    # stream live output
-            print("\033[34m"+line, end="\033[0m", flush=True)
+            print("\033[32m"+line, end="\033[0m", flush=True)
     
     exit_code = proc.wait()
     if exit_code != 0:
@@ -283,7 +283,7 @@ with gr.Blocks() as demo:
 
     gr.Markdown("## View Data")
     with gr.Row():
-        dataset = gr.Dropdown(choices=list(ds_to_task.keys()), label="Dataset", value=list(ds_to_task.keys())[0])
+        dataset = gr.Dropdown(choices=sorted(ds_to_task.keys()), label="Dataset", value=sorted(ds_to_task.keys())[0])
         task = gr.Dropdown(choices=ds_to_task[dataset.value], label="Task", value=ds_to_task[dataset.value][0], interactive=True)
     with gr.Row():
         num_examples = gr.Slider(0, 10, step=1, value=1, label="Number of random examples to sample")
@@ -317,7 +317,7 @@ with gr.Blocks() as demo:
         with gr.Column(scale=1):
             is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
             grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
-            run_dgt_btn = gr.Button("RuAlign", variant="primary")
+            run_dgt_btn = gr.Button("Re-Align", variant="primary")
         with gr.Column(scale=1):
             realigned_response = gr.Textbox(label="Realigned Response", show_copy_button=True)
             preferred = gr.Checkbox(label="Realign Preferred")
