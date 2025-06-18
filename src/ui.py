@@ -26,7 +26,7 @@ client = APIClient(credentials=creds, project_id=os.getenv("WATSONX_PROJECT_ID")
 models = ["openai/gpt-4.1"] + [e.value for e in client.foundation_models.TextModels]
 
 ds_to_task = {
-    ds_path.name: [task_path.stem for task_path in ds_path.iterdir()]
+    ds_path.name: [task_path.stem for task_path in ds_path.iterdir() if task_path.is_file() and task_path.suffix == '.json']
     for ds_path in TASKS_PATH.iterdir()
 }
 
@@ -234,7 +234,7 @@ def deselect_all(df):
     if isinstance(df, pd.DataFrame):
         df = df.copy()
         if not df.empty:
-            df.iloc[:, 0] = True          # first col is the checkbox
+            df.iloc[:, 0] = False          # first col is the checkbox
         return df
 
     # Fallback: plain list-of-lists
