@@ -27,7 +27,7 @@ models = ["openai/gpt-4.1"] + [e.value for e in client.foundation_models.TextMod
 
 ds_to_task = {
     ds_path.name: [task_path.stem for task_path in ds_path.iterdir() if task_path.is_file() and task_path.suffix == '.json']
-    for ds_path in TASKS_PATH.iterdir()
+    for ds_path in TASKS_PATH.iterdir() if ds_path.is_dir()
 }
 
 def highlight_placeholders(prompt_text):
