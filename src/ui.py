@@ -142,7 +142,7 @@ data_builder: realign
 task_description: Reformats the responses of a general instruction dataset (the one used in the original paper of ReAlign) into a format that better aligns with pre-established criteria and collected evidence.
 retriever:
   type: duckduckgo_search
-  limit: 5
+  limit: 4
   process_webpages: True
   deduplicate_sources: True
   reorder_organic: True
