@@ -1,13 +1,13 @@
 [
   {
-    "instruction": "Consider the following description: A single unit of shared resources within a cluster, comprised of one or more containers\n\nTo which MITRE datasource the given description refers?",
+    "instruction": "To which Mitre datasource does the following description refers: Automated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)",
     "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Pod (DS0014)'",
+    "output": "The datasource that refer to the above description is Scheduled Job (DS0003)",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Consider the following description: A single unit of shared resources within a cluster, comprised of one or more containers\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Pod (DS0014)'",
+      "question": "To which Mitre datasource does the following description refers: Automated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)",
+      "answer": "The datasource that refer to the above description is Scheduled Job (DS0003)",
       "category": [
         "MITREFlan"
       ],
@@ -15,14 +15,14 @@
     }
   },
   {
-    "instruction": "Consider the following description: A database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)\n\nTo which MITRE datasource the given description refers",
+    "instruction": "Which Mitre datasource does the below description refers to: A malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims",
     "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Active Directory (DS0026)'",
+    "output": "datasource: Persona (DS0021)",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Consider the following description: A database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Active Directory (DS0026)'",
+      "question": "Which Mitre datasource does the below description refers to: A malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims",
+      "answer": "datasource: Persona (DS0021)",
       "category": [
         "MITREFlan"
       ],
@@ -30,14 +30,89 @@
     }
   },
   {
-    "instruction": "Which Mitre ATT&CK datasource meets the following description: Information obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)?",
+    "instruction": "Consider the following description: Computer software that provides low-level control for the hardware and device(s) of a host, such as BIOS or UEFI/EFI\n\nTo which MITRE datasource the given description refers",
     "context": "",
-    "output": "The datasource that meets the above description is Domain Name (DS0038)",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Firmware (DS0001)'",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Which Mitre ATT&CK datasource meets the following description: Information obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)",
-      "answer": "The datasource that meets the above description is Domain Name (DS0038)",
+      "question": "Consider the following description: Computer software that provides low-level control for the hardware and device(s) of a host, such as BIOS or UEFI/EFI\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Firmware (DS0001)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK datasource meets the following description: Instances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures",
+    "context": "",
+    "output": "The datasource that meets the above description is Process (DS0009)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK datasource meets the following description: Instances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures",
+      "answer": "The datasource that meets the above description is Process (DS0009)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Consider the following description: A computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in\n\nTo which MITRE datasource the given description refers",
+    "context": "",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Service (DS0019)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Consider the following description: A computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Service (DS0019)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Which Mitre datasource does the below description refers to: A computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).",
+    "context": "",
+    "output": "datasource: File (DS0022)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Which Mitre datasource does the below description refers to: A computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).",
+      "answer": "datasource: File (DS0022)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Consider the following description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights\n\nTo which MITRE datasource the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Group (DS0036)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Consider the following description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Group (DS0036)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Consider the following description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components\n\nTo which MITRE datasource the given description refers",
+    "context": "",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Kernel (DS0008)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Consider the following description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Kernel (DS0008)'",
       "category": [
         "MITREFlan"
       ],
@@ -75,21 +150,6 @@
     }
   },
   {
-    "instruction": "Which Mitre datasource meets the following description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services",
-    "context": "",
-    "output": "The datasource that meets the above description is Web Credential (DS0006)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Which Mitre datasource meets the following description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services",
-      "answer": "The datasource that meets the above description is Web Credential (DS0006)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
     "instruction": "To which Mitre datasource does the following description refers: A virtual server environment which runs workloads, hosted on-premise or by third-party cloud providers",
     "context": "",
     "output": "The datasource that refer to the above description is Instance (DS0030)",
@@ -105,14 +165,14 @@
     }
   },
   {
-    "instruction": "Which Mitre ATT&CK datasource meets the following description: A storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
+    "instruction": "Which Mitre ATT&CK datasource meets the following description: Information from host telemetry providing insights about system status, errors, or other notable functional activity?",
     "context": "",
-    "output": "The datasource that meets the above description is Network Share (DS0033)",
+    "output": "The datasource that meets the above description is Sensor Health (DS0013)",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Which Mitre ATT&CK datasource meets the following description: A storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
-      "answer": "The datasource that meets the above description is Network Share (DS0033)",
+      "question": "Which Mitre ATT&CK datasource meets the following description: Information from host telemetry providing insights about system status, errors, or other notable functional activity",
+      "answer": "The datasource that meets the above description is Sensor Health (DS0013)",
       "category": [
         "MITREFlan"
       ],
@@ -120,14 +180,74 @@
     }
   },
   {
-    "instruction": "Consider the following description: A computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in\n\nTo which MITRE datasource the given description refers",
+    "instruction": "Which Mitre datasource meets the following description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services",
     "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Service (DS0019)'",
+    "output": "The datasource that meets the above description is Web Credential (DS0006)",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Consider the following description: A computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Service (DS0019)'",
+      "question": "Which Mitre datasource meets the following description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services",
+      "answer": "The datasource that meets the above description is Web Credential (DS0006)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Consider the following description: Infrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs\n\nTo which MITRE datasource the given description refers",
+    "context": "",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Cloud Service (DS0025)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Consider the following description: Infrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Cloud Service (DS0025)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK datasource meets the following description: A network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
+    "context": "",
+    "output": "The datasource that meets the above description is Firewall (DS0018)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK datasource meets the following description: A network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
+      "answer": "The datasource that meets the above description is Firewall (DS0018)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Which Mitre ATT&CK datasource meets the following description: Information obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)?",
+    "context": "",
+    "output": "The datasource that meets the above description is Domain Name (DS0038)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Which Mitre ATT&CK datasource meets the following description: Information obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)",
+      "answer": "The datasource that meets the above description is Domain Name (DS0038)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "To which Mitre datasource does the following description refers: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries?",
+    "context": "",
+    "output": "The datasource that refer to the above description is Module (DS0011)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "To which Mitre datasource does the following description refers: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries",
+      "answer": "The datasource that refer to the above description is Module (DS0011)",
       "category": [
         "MITREFlan"
       ],
@@ -143,6 +263,51 @@
     "parsed_raw_data": {
       "question": "To which Mitre datasource does the following description refers: Data transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)",
       "answer": "The datasource that refer to the above description is Network Traffic (DS0029)",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Consider the following description: A single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment\n\nTo which MITRE datasource the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Image (DS0007)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Consider the following description: A single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Image (DS0007)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Consider the following description: A non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter\n\nTo which MITRE datasource the given description refers",
+    "context": "",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Drive (DS0016)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Consider the following description: A non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Drive (DS0016)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
+    "instruction": "Which Mitre datasource does the below description refers to: Mechanisms that allow inter-process communication locally or over the network. A the datasource is usually found as a file and processes attach to it?",
+    "context": "",
+    "output": "datasource: Named Pipe (DS0023)",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Which Mitre datasource does the below description refers to: Mechanisms that allow inter-process communication locally or over the network. A the datasource is usually found as a file and processes attach to it",
+      "answer": "datasource: Named Pipe (DS0023)",
       "category": [
         "MITREFlan"
       ],
@@ -180,14 +345,14 @@
     }
   },
   {
-    "instruction": "Which Mitre datasource does the below description refers to: Mechanisms that allow inter-process communication locally or over the network. A the datasource is usually found as a file and processes attach to it?",
+    "instruction": "Consider the following description: A database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)\n\nTo which MITRE datasource the given description refers",
     "context": "",
-    "output": "datasource: Named Pipe (DS0023)",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Active Directory (DS0026)'",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Which Mitre datasource does the below description refers to: Mechanisms that allow inter-process communication locally or over the network. A the datasource is usually found as a file and processes attach to it",
-      "answer": "datasource: Named Pipe (DS0023)",
+      "question": "Consider the following description: A database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Active Directory (DS0026)'",
       "category": [
         "MITREFlan"
       ],
@@ -195,119 +360,14 @@
     }
   },
   {
-    "instruction": "Which Mitre ATT&CK datasource meets the following description: Information from host telemetry providing insights about system status, errors, or other notable functional activity?",
+    "instruction": "Which Mitre ATT&CK datasource meets the following description: A storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
     "context": "",
-    "output": "The datasource that meets the above description is Sensor Health (DS0013)",
+    "output": "The datasource that meets the above description is Network Share (DS0033)",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Which Mitre ATT&CK datasource meets the following description: Information from host telemetry providing insights about system status, errors, or other notable functional activity",
-      "answer": "The datasource that meets the above description is Sensor Health (DS0013)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Consider the following description: A single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment\n\nTo which MITRE datasource the given description refers?",
-    "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Image (DS0007)'",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Consider the following description: A single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Image (DS0007)'",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Which Mitre datasource does the below description refers to: A computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).",
-    "context": "",
-    "output": "datasource: File (DS0022)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Which Mitre datasource does the below description refers to: A computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).",
-      "answer": "datasource: File (DS0022)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Consider the following description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task\n\nTo which MITRE datasource the given description refers?",
-    "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Command (DS0017)'",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Consider the following description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Command (DS0017)'",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Which Mitre ATT&CK datasource meets the following description: Instances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures",
-    "context": "",
-    "output": "The datasource that meets the above description is Process (DS0009)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Which Mitre ATT&CK datasource meets the following description: Instances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures",
-      "answer": "The datasource that meets the above description is Process (DS0009)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "To which Mitre datasource does the following description refers: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries?",
-    "context": "",
-    "output": "The datasource that refer to the above description is Module (DS0011)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "To which Mitre datasource does the following description refers: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries",
-      "answer": "The datasource that refer to the above description is Module (DS0011)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Consider the following description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights\n\nTo which MITRE datasource the given description refers?",
-    "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Group (DS0036)'",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Consider the following description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Group (DS0036)'",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Consider the following description: Computer software that provides low-level control for the hardware and device(s) of a host, such as BIOS or UEFI/EFI\n\nTo which MITRE datasource the given description refers",
-    "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Firmware (DS0001)'",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Consider the following description: Computer software that provides low-level control for the hardware and device(s) of a host, such as BIOS or UEFI/EFI\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Firmware (DS0001)'",
+      "question": "Which Mitre ATT&CK datasource meets the following description: A storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
+      "answer": "The datasource that meets the above description is Network Share (DS0033)",
       "category": [
         "MITREFlan"
       ],
@@ -330,6 +390,21 @@
     }
   },
   {
+    "instruction": "Consider the following description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task\n\nTo which MITRE datasource the given description refers?",
+    "context": "",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Command (DS0017)'",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_mapping_datasource",
+    "parsed_raw_data": {
+      "question": "Consider the following description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Command (DS0017)'",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_mapping_datasource"
+    }
+  },
+  {
     "instruction": "Which Mitre datasource meets the following description: Information obtained (commonly via active network traffic probes or web crawling) regarding various types of resources and servers connected to the public Internet",
     "context": "",
     "output": "The datasource that meets the above description is Internet Scan (DS0035)",
@@ -345,89 +420,14 @@
     }
   },
   {
-    "instruction": "Consider the following description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components\n\nTo which MITRE datasource the given description refers",
+    "instruction": "Consider the following description: A single unit of shared resources within a cluster, comprised of one or more containers\n\nTo which MITRE datasource the given description refers?",
     "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Kernel (DS0008)'",
+    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Pod (DS0014)'",
     "category": "MitreFlan",
     "instruction_type": "mitre_mapping_datasource",
     "parsed_raw_data": {
-      "question": "Consider the following description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Kernel (DS0008)'",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Which Mitre ATT&CK datasource meets the following description: A network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
-    "context": "",
-    "output": "The datasource that meets the above description is Firewall (DS0018)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Which Mitre ATT&CK datasource meets the following description: A network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
-      "answer": "The datasource that meets the above description is Firewall (DS0018)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Consider the following description: A non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter\n\nTo which MITRE datasource the given description refers",
-    "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Drive (DS0016)'",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Consider the following description: A non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Drive (DS0016)'",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "To which Mitre datasource does the following description refers: Automated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)",
-    "context": "",
-    "output": "The datasource that refer to the above description is Scheduled Job (DS0003)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "To which Mitre datasource does the following description refers: Automated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)",
-      "answer": "The datasource that refer to the above description is Scheduled Job (DS0003)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Consider the following description: Infrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs\n\nTo which MITRE datasource the given description refers",
-    "context": "",
-    "output": "The MITRE ATT&CK datasource that is related to the given description is: 'Cloud Service (DS0025)'",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Consider the following description: Infrastructure, platforms, or software that are hosted on-premise or by third-party providers, made available to users through network connections and/or APIs\n\nTo which MITRE datasource the given description refers",
-      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Cloud Service (DS0025)'",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_datasource"
-    }
-  },
-  {
-    "instruction": "Which Mitre datasource does the below description refers to: A malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims",
-    "context": "",
-    "output": "datasource: Persona (DS0021)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_datasource",
-    "parsed_raw_data": {
-      "question": "Which Mitre datasource does the below description refers to: A malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims",
-      "answer": "datasource: Persona (DS0021)",
+      "question": "Consider the following description: A single unit of shared resources within a cluster, comprised of one or more containers\n\nTo which MITRE datasource the given description refers",
+      "answer": "The MITRE ATT&CK datasource that is related to the given description is: 'Pod (DS0014)'",
       "category": [
         "MITREFlan"
       ],

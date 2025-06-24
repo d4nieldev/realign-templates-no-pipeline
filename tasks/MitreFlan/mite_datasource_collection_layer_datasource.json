@@ -1,13 +1,133 @@
 [
   {
-    "instruction": "List the collection layers of Mitre Data Source File?",
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Internet Scan",
     "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source File includes: Host",
+    "output": "The collection layers of MITRE ATT&CK Data Source Internet Scan are: OSINT",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source File",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source File includes: Host",
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Internet Scan",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Internet Scan are: OSINT",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source WMI",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source WMI includes: Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source WMI",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source WMI includes: Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Service?",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Service are: Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Service",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Service are: Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Group?",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Group are: Cloud Control Plane, Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Group",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Group are: Cloud Control Plane, Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Logon Session",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Logon Session are: Cloud Control Plane, Host, Network",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Logon Session",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Logon Session are: Cloud Control Plane, Host, Network",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source Image",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Image includes: Cloud Control Plane",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source Image",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Image includes: Cloud Control Plane",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Kernel",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Kernel are: Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Kernel",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Kernel are: Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source Pod?",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Pod includes: Container",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source Pod",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Pod includes: Container",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source Sensor Health",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Sensor Health includes: Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source Sensor Health",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Sensor Health includes: Host",
       "category": [
         "MITREFlan"
       ],
@@ -30,14 +150,14 @@
     }
   },
   {
-    "instruction": "List the collection layers of Mitre Data Source Script",
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Firmware",
     "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Script includes: Host",
+    "output": "The collection layers of MITRE ATT&CK Data Source Firmware are: Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Script",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Script includes: Host",
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Firmware",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Firmware are: Host",
       "category": [
         "MITREFlan"
       ],
@@ -45,14 +165,59 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source User Account?",
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Application Log",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source User Account are: Cloud Control Plane, Container, Host",
+    "output": "The collection layers of MITRE ATT&CK Data Source Application Log are: Cloud Control Plane, Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source User Account",
-      "answer": "The collection layers of MITRE ATT&CK Data Source User Account are: Cloud Control Plane, Container, Host",
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Application Log",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Application Log are: Cloud Control Plane, Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Drive?",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Drive are: Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Drive",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Drive are: Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Cloud Service?",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Cloud Service are: Cloud Control Plane",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Cloud Service",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Cloud Service are: Cloud Control Plane",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source Volume?",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Volume includes: Cloud Control Plane, Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source Volume",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Volume includes: Cloud Control Plane, Host",
       "category": [
         "MITREFlan"
       ],
@@ -90,6 +255,36 @@
     }
   },
   {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Scheduled Job",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Scheduled Job are: Container, Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Scheduled Job",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Scheduled Job are: Container, Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source Named Pipe?",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Named Pipe includes: Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source Named Pipe",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Named Pipe includes: Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
     "instruction": "List the collection layers of Mitre Data Source Network Traffic?",
     "context": "",
     "output": "The list of collection layers of MITRE ATT&CK Data Source Network Traffic includes: Cloud Control Plane, Host, Network",
@@ -105,14 +300,14 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Windows Registry",
+    "instruction": "List the collection layers of Mitre Data Source Script",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Windows Registry are: Host",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Script includes: Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Windows Registry",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Windows Registry are: Host",
+      "question": "List the collection layers of Mitre Data Source Script",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Script includes: Host",
       "category": [
         "MITREFlan"
       ],
@@ -120,29 +315,14 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Application Log",
+    "instruction": "List the collection layers of Mitre Data Source Driver",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Application Log are: Cloud Control Plane, Host",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Driver includes: Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Application Log",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Application Log are: Cloud Control Plane, Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Group?",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Group are: Cloud Control Plane, Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Group",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Group are: Cloud Control Plane, Host",
+      "question": "List the collection layers of Mitre Data Source Driver",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Driver includes: Host",
       "category": [
         "MITREFlan"
       ],
@@ -165,14 +345,14 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Cloud Service?",
+    "instruction": "List the collection layers of Mitre Data Source Instance?",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Cloud Service are: Cloud Control Plane",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Instance includes: Cloud Control Plane",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Cloud Service",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Cloud Service are: Cloud Control Plane",
+      "question": "List the collection layers of Mitre Data Source Instance",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Instance includes: Cloud Control Plane",
       "category": [
         "MITREFlan"
       ],
@@ -180,44 +360,14 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Process?",
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Malware Repository",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Process are: Host",
+    "output": "The collection layers of MITRE ATT&CK Data Source Malware Repository are: OSINT",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Process",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Process are: Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Module?",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Module includes: Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Module",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Module includes: Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Logon Session",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Logon Session are: Cloud Control Plane, Host, Network",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Logon Session",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Logon Session are: Cloud Control Plane, Host, Network",
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Malware Repository",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Malware Repository are: OSINT",
       "category": [
         "MITREFlan"
       ],
@@ -240,14 +390,14 @@
     }
   },
   {
-    "instruction": "List the collection layers of Mitre Data Source Volume?",
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Persona",
     "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Volume includes: Cloud Control Plane, Host",
+    "output": "The collection layers of MITRE ATT&CK Data Source Persona are: OSINT",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Volume",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Volume includes: Cloud Control Plane, Host",
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Persona",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Persona are: OSINT",
       "category": [
         "MITREFlan"
       ],
@@ -255,14 +405,74 @@
     }
   },
   {
-    "instruction": "List the collection layers of Mitre Data Source WMI",
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Windows Registry",
     "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source WMI includes: Host",
+    "output": "The collection layers of MITRE ATT&CK Data Source Windows Registry are: Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source WMI",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source WMI includes: Host",
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Windows Registry",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Windows Registry are: Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source Web Credential?",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Web Credential includes: Cloud Control Plane, Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source Web Credential",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Web Credential includes: Cloud Control Plane, Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Container",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source Container are: Container",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Container",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Container are: Container",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source User Account?",
+    "context": "",
+    "output": "The collection layers of MITRE ATT&CK Data Source User Account are: Cloud Control Plane, Container, Host",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "What are the collection layers of MITRE ATT&CK Data Source User Account",
+      "answer": "The collection layers of MITRE ATT&CK Data Source User Account are: Cloud Control Plane, Container, Host",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_datasource_collection_layer_datasource"
+    }
+  },
+  {
+    "instruction": "List the collection layers of Mitre Data Source Snapshot",
+    "context": "",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Snapshot includes: Cloud Control Plane",
+    "category": "MitreFlan",
+    "instruction_type": "mite_datasource_collection_layer_datasource",
+    "parsed_raw_data": {
+      "question": "List the collection layers of Mitre Data Source Snapshot",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Snapshot includes: Cloud Control Plane",
       "category": [
         "MITREFlan"
       ],
@@ -300,14 +510,14 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Container",
+    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Process?",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Container are: Container",
+    "output": "The collection layers of MITRE ATT&CK Data Source Process are: Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Container",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Container are: Container",
+      "question": "What are the collection layers of MITRE ATT&CK Data Source Process",
+      "answer": "The collection layers of MITRE ATT&CK Data Source Process are: Host",
       "category": [
         "MITREFlan"
       ],
@@ -315,14 +525,14 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Service?",
+    "instruction": "List the collection layers of Mitre Data Source Module?",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Service are: Host",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source Module includes: Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Service",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Service are: Host",
+      "question": "List the collection layers of Mitre Data Source Module",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source Module includes: Host",
       "category": [
         "MITREFlan"
       ],
@@ -330,224 +540,14 @@
     }
   },
   {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Scheduled Job",
+    "instruction": "List the collection layers of Mitre Data Source File?",
     "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Scheduled Job are: Container, Host",
+    "output": "The list of collection layers of MITRE ATT&CK Data Source File includes: Host",
     "category": "MitreFlan",
     "instruction_type": "mite_datasource_collection_layer_datasource",
     "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Scheduled Job",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Scheduled Job are: Container, Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Kernel",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Kernel are: Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Kernel",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Kernel are: Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Image",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Image includes: Cloud Control Plane",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Image",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Image includes: Cloud Control Plane",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Persona",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Persona are: OSINT",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Persona",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Persona are: OSINT",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Sensor Health",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Sensor Health includes: Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Sensor Health",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Sensor Health includes: Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Internet Scan",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Internet Scan are: OSINT",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Internet Scan",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Internet Scan are: OSINT",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Driver",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Driver includes: Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Driver",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Driver includes: Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Drive?",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Drive are: Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Drive",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Drive are: Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Named Pipe?",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Named Pipe includes: Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Named Pipe",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Named Pipe includes: Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Pod?",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Pod includes: Container",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Pod",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Pod includes: Container",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Malware Repository",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Malware Repository are: OSINT",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Malware Repository",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Malware Repository are: OSINT",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Snapshot",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Snapshot includes: Cloud Control Plane",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Snapshot",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Snapshot includes: Cloud Control Plane",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Web Credential?",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Web Credential includes: Cloud Control Plane, Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Web Credential",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Web Credential includes: Cloud Control Plane, Host",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "List the collection layers of Mitre Data Source Instance?",
-    "context": "",
-    "output": "The list of collection layers of MITRE ATT&CK Data Source Instance includes: Cloud Control Plane",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "List the collection layers of Mitre Data Source Instance",
-      "answer": "The list of collection layers of MITRE ATT&CK Data Source Instance includes: Cloud Control Plane",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_datasource_collection_layer_datasource"
-    }
-  },
-  {
-    "instruction": "What are the collection layers of MITRE ATT&CK Data Source Firmware",
-    "context": "",
-    "output": "The collection layers of MITRE ATT&CK Data Source Firmware are: Host",
-    "category": "MitreFlan",
-    "instruction_type": "mite_datasource_collection_layer_datasource",
-    "parsed_raw_data": {
-      "question": "What are the collection layers of MITRE ATT&CK Data Source Firmware",
-      "answer": "The collection layers of MITRE ATT&CK Data Source Firmware are: Host",
+      "question": "List the collection layers of Mitre Data Source File",
+      "answer": "The list of collection layers of MITRE ATT&CK Data Source File includes: Host",
       "category": [
         "MITREFlan"
       ],

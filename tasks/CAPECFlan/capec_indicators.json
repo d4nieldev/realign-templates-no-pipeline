@@ -1,16 +1,118 @@
 [
   {
-    "instruction": "How can I detect attack pattern: NoSQL Injection",
+    "instruction": "Are there any indicators for attack: Fuzzing",
     "context": "",
-    "output": "The indicators of NoSQL Injection are: Too many false or invalid queries to the database, especially those caused by malformed input.\n- Executed queries or commands that appear to malicious in nature or originating from an untrustworthy source.",
+    "output": "Yes. to detect the attack pattern Fuzzing, you can look at the following indicator: A lot of invalid data is fed to the system. Data that cannot have been generated through a legitimate transaction/request. Data is coming into the system within a short period of time and potentially from the same IP.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "A lot of invalid data is fed to the system. Data that cannot have been generated through a legitimate transaction/request. Data is coming into the system within a short period of time and potentially from the same IP.",
+      "@Name": "Fuzzing"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: Serialized Data with Nested Payloads, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: Bad data is passed to the data parser (possibly repeatedly), possibly making it crash or execute arbitrary code.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Bad data is passed to the data parser (possibly repeatedly), possibly making it crash or execute arbitrary code.",
+      "@Name": "Serialized Data with Nested Payloads"
+    }
+  },
+  {
+    "instruction": "What are the possible indicators of capec - Postfix, Null Terminate, and Backslash",
+    "context": "",
+    "output": "Possible indicators: Null characters are observed by the filter. The filter needs to be able to understand various encodings of the Null character, or only canonical data should be passed to it.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Null characters are observed by the filter. The filter needs to be able to understand various encodings of the Null character, or only canonical data should be passed to it.",
+      "@Name": "Postfix, Null Terminate, and Backslash"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: Manipulating User-Controlled Variables, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: A web penetration tool probing a web server may generate abnormal activities recorded on log files. Abnormal traffic such as a high number of request coming from the same client may also rise the warnings from a monitoring system or an intrusion detection tool.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "A web penetration tool probing a web server may generate abnormal activities recorded on log files. Abnormal traffic such as a high number of request coming from the same client may also rise the warnings from a monitoring system or an intrusion detection tool.",
+      "@Name": "Manipulating User-Controlled Variables"
+    }
+  },
+  {
+    "instruction": "Give me an indicator example for attack pattern - Phishing",
+    "context": "",
+    "output": "You receive an e-mail from an entity that you are not even a customer of prompting you to log into your account.\n* You receive any e-mail that provides you with a link which takes you to a website on which you need to enter your log in information.",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
       "Indicators": [
-        "Too many false or invalid queries to the database, especially those caused by malformed input.",
-        "Executed queries or commands that appear to malicious in nature or originating from an untrustworthy source."
+        "You receive an e-mail from an entity that you are not even a customer of prompting you to log into your account.",
+        "You receive any e-mail that provides you with a link which takes you to a website on which you need to enter your log in information."
       ],
-      "@Name": "NoSQL Injection"
+      "@Name": "Phishing"
+    }
+  },
+  {
+    "instruction": "Give me an indicator example for attack pattern - Task Impersonation",
+    "context": "",
+    "output": "Credential or permission elevation prompts that appear illegitimate or unexpected.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Credential or permission elevation prompts that appear illegitimate or unexpected.",
+      "@Name": "Task Impersonation"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Try Common or Default Usernames and Passwords",
+    "context": "",
+    "output": "The indicators of Try Common or Default Usernames and Passwords are: Many incorrect login attempts are detected by the system.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Many incorrect login attempts are detected by the system.",
+      "@Name": "Try Common or Default Usernames and Passwords"
+    }
+  },
+  {
+    "instruction": "What are the possible indicators of capec - Password Brute Forcing",
+    "context": "",
+    "output": "Possible indicators: Many incorrect login attempts are detected by the system.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Many incorrect login attempts are detected by the system.",
+      "@Name": "Password Brute Forcing"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: Session Fixation, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: There are no indicators for the server since a fixated session identifier is similar to an ordinarily generated one. However, too many invalid sessions due to invalid session identifiers is a potential warning.\nA client can be suspicious if a received link contains preset session identifiers. However, this depends on the client's knowledge of such an issue. Also, fixation through Cross Site Scripting or hidden form fields is usually difficult to detect.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "There are no indicators for the server since a fixated session identifier is similar to an ordinarily generated one. However, too many invalid sessions due to invalid session identifiers is a potential warning.",
+        "A client can be suspicious if a received link contains preset session identifiers. However, this depends on the client's knowledge of such an issue. Also, fixation through Cross Site Scripting or hidden form fields is usually difficult to detect."
+      ],
+      "@Name": "Session Fixation"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: Client-side Injection-induced Buffer Overflow, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: An example of indicator is when the client software crashes after executing code downloaded from a hostile server.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "An example of indicator is when the client software crashes after executing code downloaded from a hostile server.",
+      "@Name": "Client-side Injection-induced Buffer Overflow"
     }
   },
   {
@@ -29,25 +131,212 @@
     }
   },
   {
-    "instruction": "How can I detect attack pattern: Target Programs with Elevated Privileges",
+    "instruction": "How can I detect attack pattern: Credential Prompt Impersonation",
     "context": "",
-    "output": "The indicators of Target Programs with Elevated Privileges are: The log can have a trace of abnormal activity. Also if abnormal activity is detected on the host target. For instance flooding should be seen as abnormal activity and the target host may decide to take appropriate action in order to mitigate the attack (data filtering or blocking). Resource exhaustion is also a sign of abnormal activity.",
+    "output": "The indicators of Credential Prompt Impersonation are: Credential prompts that appear illegitimate or unexpected.",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": "The log can have a trace of abnormal activity. Also if abnormal activity is detected on the host target. For instance flooding should be seen as abnormal activity and the target host may decide to take appropriate action in order to mitigate the attack (data filtering or blocking). Resource exhaustion is also a sign of abnormal activity.",
-      "@Name": "Target Programs with Elevated Privileges"
+      "Indicators": "Credential prompts that appear illegitimate or unexpected.",
+      "@Name": "Credential Prompt Impersonation"
     }
   },
   {
-    "instruction": "Are there any indicators for attack: Using Escaped Slashes in Alternate Encoding",
+    "instruction": "How can I detect attack pattern: Filter Failure through Buffer Overflow",
     "context": "",
-    "output": "Yes. to detect the attack pattern Using Escaped Slashes in Alternate Encoding, you can look at the following indicator: An adversary can use a fuzzer in order to probe for this vulnerability. The fuzzer should generate suspicious network activity noticeable by an intrusion detection system.",
+    "output": "The indicators of Filter Failure through Buffer Overflow are: Many exceptions are thrown by the application's filter modules in a short period of time. Check the logs. See if the probes are coming from the same IP address.",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": "An adversary can use a fuzzer in order to probe for this vulnerability. The fuzzer should generate suspicious network activity noticeable by an intrusion detection system.",
-      "@Name": "Using Escaped Slashes in Alternate Encoding"
+      "Indicators": "Many exceptions are thrown by the application's filter modules in a short period of time. Check the logs. See if the probes are coming from the same IP address.",
+      "@Name": "Filter Failure through Buffer Overflow"
+    }
+  },
+  {
+    "instruction": "Are there any indicators for attack: HTTP Response Splitting",
+    "context": "",
+    "output": "Yes. to detect the attack pattern HTTP Response Splitting, you can look at the following indicator: Differences in responses processed by the two agents with multiple responses to a single request in the web logs. This requires careful monitoring or a capable log analysis tool.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Differences in responses processed by the two agents with multiple responses to a single request in the web logs. This requires careful monitoring or a capable log analysis tool.",
+      "@Name": "HTTP Response Splitting"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Voice Phishing",
+    "context": "",
+    "output": "The indicators of Voice Phishing are: You receive a call from an entity that you are not even a customer of prompting you to log into your account.\n- You receive any call that requests you provide sensitive information.\n- You are redirected to a website that instructs you to call the number on-screen to address the call-to-action.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "You receive a call from an entity that you are not even a customer of prompting you to log into your account.",
+        "You receive any call that requests you provide sensitive information.",
+        "You are redirected to a website that instructs you to call the number on-screen to address the call-to-action."
+      ],
+      "@Name": "Voice Phishing"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: URL Encoding",
+    "context": "",
+    "output": "The indicators of URL Encoding are: If the first decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.\n- Traffic filtering with IDS (or proxy) can detect requests with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "If the first decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.",
+        "Traffic filtering with IDS (or proxy) can detect requests with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks."
+      ],
+      "@Name": "URL Encoding"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Eavesdropping on a Monitor",
+    "context": "",
+    "output": "The indicators of Eavesdropping on a Monitor are: The target will not observe any indicators of the attack from the computer user\u2019s perspective. The only indication of this attack would be a visible SDR with antenna that can be seen in close proximity to a display cable which is not normally present. This requires that the target is aware of what SDRs look like and can recognize that it may be out of place.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "The target will not observe any indicators of the attack from the computer user\u2019s perspective. The only indication of this attack would be a visible SDR with antenna that can be seen in close proximity to a display cable which is not normally present. This requires that the target is aware of what SDRs look like and can recognize that it may be out of place.",
+      "@Name": "Eavesdropping on a Monitor"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: XPath Injection, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: Too many exceptions generated by the application as a result of malformed XPath queries",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Too many exceptions generated by the application as a result of malformed XPath queries",
+      "@Name": "XPath Injection"
+    }
+  },
+  {
+    "instruction": "What are the possible indicators of capec - Credential Stuffing",
+    "context": "",
+    "output": "Possible indicators: Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.\nThe login attempts use passwords that have been used previously by the user account in question.\nLogin attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.",
+        "The login attempts use passwords that have been used previously by the user account in question.",
+        "Login attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations."
+      ],
+      "@Name": "Credential Stuffing"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: XML Injection, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: Too many exceptions generated by the application as a result of malformed queries",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Too many exceptions generated by the application as a result of malformed queries",
+      "@Name": "XML Injection"
+    }
+  },
+  {
+    "instruction": "Give me an indicator example for attack pattern - Using Unicode Encoding to Bypass Validation Logic",
+    "context": "",
+    "output": "Unicode encoded data is passed to APIs where it is not expected",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Unicode encoded data is passed to APIs where it is not expected",
+      "@Name": "Using Unicode Encoding to Bypass Validation Logic"
+    }
+  },
+  {
+    "instruction": "Are there any indicators for attack: Altered Component Firmware",
+    "context": "",
+    "output": "Yes. to detect the attack pattern Altered Component Firmware, you can look at the following indicator: Output observed from processes, API calls, or Self-Monitoring, Analysis and Reporting Technology (SMART) may provide insight into malicious modifications of MBRs.\nDigital forensics tools may produce output that indicates an attack of this nature has occurred. Examples include unexpected disk partitions and/or unusual strings.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Output observed from processes, API calls, or Self-Monitoring, Analysis and Reporting Technology (SMART) may provide insight into malicious modifications of MBRs.",
+        "Digital forensics tools may produce output that indicates an attack of this nature has occurred. Examples include unexpected disk partitions and/or unusual strings."
+      ],
+      "@Name": "Altered Component Firmware"
+    }
+  },
+  {
+    "instruction": "Give me an indicator example for attack pattern - Dictionary-based Password Attack",
+    "context": "",
+    "output": "Many invalid login attempts are coming from the same machine (same IP address) or for the same log in name. The login attempts use passwords that are dictionary words.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Many invalid login attempts are coming from the same machine (same IP address) or for the same log in name. The login attempts use passwords that are dictionary words.",
+      "@Name": "Dictionary-based Password Attack"
+    }
+  },
+  {
+    "instruction": "What are the possible indicators of capec - Password Spraying",
+    "context": "",
+    "output": "Possible indicators: Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.\n- The login attempts use passwords that have been used previously by the user account in question.\n- Login attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.",
+        "The login attempts use passwords that have been used previously by the user account in question.",
+        "Login attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations."
+      ],
+      "@Name": "Password Spraying"
+    }
+  },
+  {
+    "instruction": "Give me an indicator example for attack pattern - HTTP Request Splitting",
+    "context": "",
+    "output": "Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
+      "@Name": "HTTP Request Splitting"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: Windows Admin Shares with Stolen Credentials, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: Data is being transferred and/or removed from administrative network shares.\nSuspicious or Malicious software is executed within administrative network shares.\nSuspicious or Malicious software is downloaded/installed on systems within the domain.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Data is being transferred and/or removed from administrative network shares.",
+        "Suspicious or Malicious software is executed within administrative network shares.",
+        "Suspicious or Malicious software is downloaded/installed on systems within the domain."
+      ],
+      "@Name": "Windows Admin Shares with Stolen Credentials"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Exploitation of Thunderbolt Protection Flaws",
+    "context": "",
+    "output": "The indicators of Exploitation of Thunderbolt Protection Flaws are: Windows Event logs may document the access of Thunderbolt port as a USB 3.0 event as well as any malicious actions taken upon target device as file system and memory events.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Windows Event logs may document the access of Thunderbolt port as a USB 3.0 event as well as any malicious actions taken upon target device as file system and memory events.",
+      "@Name": "Exploitation of Thunderbolt Protection Flaws"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Rainbow Table Password Cracking",
+    "context": "",
+    "output": "The indicators of Rainbow Table Password Cracking are: This is a completely offline attack that an attacker can perform at their leisure after the password hashes are obtained.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "This is a completely offline attack that an attacker can perform at their leisure after the password hashes are obtained.",
+      "@Name": "Rainbow Table Password Cracking"
     }
   },
   {
@@ -68,217 +357,6 @@
     }
   },
   {
-    "instruction": "Give me an indicator example for attack pattern - Exploitation of Transient Instruction Execution",
-    "context": "",
-    "output": "File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
-      "@Name": "Exploitation of Transient Instruction Execution"
-    }
-  },
-  {
-    "instruction": "Give me an indicator example for attack pattern - Phishing",
-    "context": "",
-    "output": "You receive an e-mail from an entity that you are not even a customer of prompting you to log into your account.\n* You receive any e-mail that provides you with a link which takes you to a website on which you need to enter your log in information.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "You receive an e-mail from an entity that you are not even a customer of prompting you to log into your account.",
-        "You receive any e-mail that provides you with a link which takes you to a website on which you need to enter your log in information."
-      ],
-      "@Name": "Phishing"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: Client-side Injection-induced Buffer Overflow, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: An example of indicator is when the client software crashes after executing code downloaded from a hostile server.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "An example of indicator is when the client software crashes after executing code downloaded from a hostile server.",
-      "@Name": "Client-side Injection-induced Buffer Overflow"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Rainbow Table Password Cracking",
-    "context": "",
-    "output": "The indicators of Rainbow Table Password Cracking are: This is a completely offline attack that an attacker can perform at their leisure after the password hashes are obtained.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "This is a completely offline attack that an attacker can perform at their leisure after the password hashes are obtained.",
-      "@Name": "Rainbow Table Password Cracking"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Voice Phishing",
-    "context": "",
-    "output": "The indicators of Voice Phishing are: You receive a call from an entity that you are not even a customer of prompting you to log into your account.\n- You receive any call that requests you provide sensitive information.\n- You are redirected to a website that instructs you to call the number on-screen to address the call-to-action.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "You receive a call from an entity that you are not even a customer of prompting you to log into your account.",
-        "You receive any call that requests you provide sensitive information.",
-        "You are redirected to a website that instructs you to call the number on-screen to address the call-to-action."
-      ],
-      "@Name": "Voice Phishing"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: Session Fixation, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: There are no indicators for the server since a fixated session identifier is similar to an ordinarily generated one. However, too many invalid sessions due to invalid session identifiers is a potential warning.\nA client can be suspicious if a received link contains preset session identifiers. However, this depends on the client's knowledge of such an issue. Also, fixation through Cross Site Scripting or hidden form fields is usually difficult to detect.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "There are no indicators for the server since a fixated session identifier is similar to an ordinarily generated one. However, too many invalid sessions due to invalid session identifiers is a potential warning.",
-        "A client can be suspicious if a received link contains preset session identifiers. However, this depends on the client's knowledge of such an issue. Also, fixation through Cross Site Scripting or hidden form fields is usually difficult to detect."
-      ],
-      "@Name": "Session Fixation"
-    }
-  },
-  {
-    "instruction": "Are there any indicators for attack: Encryption Brute Forcing",
-    "context": "",
-    "output": "Yes. to detect the attack pattern Encryption Brute Forcing, you can look at the following indicator: None. This attack happens offline.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "None. This attack happens offline.",
-      "@Name": "Encryption Brute Forcing"
-    }
-  },
-  {
-    "instruction": "Give me an indicator example for attack pattern - Using Unicode Encoding to Bypass Validation Logic",
-    "context": "",
-    "output": "Unicode encoded data is passed to APIs where it is not expected",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Unicode encoded data is passed to APIs where it is not expected",
-      "@Name": "Using Unicode Encoding to Bypass Validation Logic"
-    }
-  },
-  {
-    "instruction": "What are the possible indicators of capec - Password Brute Forcing",
-    "context": "",
-    "output": "Possible indicators: Many incorrect login attempts are detected by the system.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Many incorrect login attempts are detected by the system.",
-      "@Name": "Password Brute Forcing"
-    }
-  },
-  {
-    "instruction": "Are there any indicators for attack: HTTP Response Splitting",
-    "context": "",
-    "output": "Yes. to detect the attack pattern HTTP Response Splitting, you can look at the following indicator: Differences in responses processed by the two agents with multiple responses to a single request in the web logs. This requires careful monitoring or a capable log analysis tool.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Differences in responses processed by the two agents with multiple responses to a single request in the web logs. This requires careful monitoring or a capable log analysis tool.",
-      "@Name": "HTTP Response Splitting"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: XML Flood, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: A large amount of data is passed to the XML parser possibly making it crash or otherwise unavailable to end users.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "A large amount of data is passed to the XML parser possibly making it crash or otherwise unavailable to end users.",
-      "@Name": "XML Flood"
-    }
-  },
-  {
-    "instruction": "What are the possible indicators of capec - Credential Stuffing",
-    "context": "",
-    "output": "Possible indicators: Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.\nThe login attempts use passwords that have been used previously by the user account in question.\nLogin attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.",
-        "The login attempts use passwords that have been used previously by the user account in question.",
-        "Login attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations."
-      ],
-      "@Name": "Credential Stuffing"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Use of Known Domain Credentials",
-    "context": "",
-    "output": "The indicators of Use of Known Domain Credentials are: Authentication attempts use credentials that have been used previously by the account in question.\n* Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.\n* Data is being transferred and/or removed from systems/applications within the network.\n* Suspicious or Malicious software is downloaded/installed on systems within the domain.\n* Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "Authentication attempts use credentials that have been used previously by the account in question.",
-        "Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
-        "Data is being transferred and/or removed from systems/applications within the network.",
-        "Suspicious or Malicious software is downloaded/installed on systems within the domain.",
-        "Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior."
-      ],
-      "@Name": "Use of Known Domain Credentials"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: XPath Injection, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: Too many exceptions generated by the application as a result of malformed XPath queries",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Too many exceptions generated by the application as a result of malformed XPath queries",
-      "@Name": "XPath Injection"
-    }
-  },
-  {
-    "instruction": "Give me an indicator example for attack pattern - Buffer Overflow via Environment Variables",
-    "context": "",
-    "output": "If the application does bound checking, it should fail when the data source is larger than the size of the destination buffer. If the application's code is well written, that failure should trigger an alert.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "If the application does bound checking, it should fail when the data source is larger than the size of the destination buffer. If the application's code is well written, that failure should trigger an alert.",
-      "@Name": "Buffer Overflow via Environment Variables"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Load Value Injection",
-    "context": "",
-    "output": "The indicators of Load Value Injection are: File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
-      "@Name": "Load Value Injection"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Using Slashes in Alternate Encoding",
-    "context": "",
-    "output": "The indicators of Using Slashes in Alternate Encoding are: If the first path decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.\nTraffic filtering with IDS (or proxy) can detect request with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks.\nAn adversary can use a fuzzer in order to probe for a UTF-8 encoding vulnerability. The fuzzer should generate suspicious network activity.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "If the first path decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.",
-        "Traffic filtering with IDS (or proxy) can detect request with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks.",
-        "An adversary can use a fuzzer in order to probe for a UTF-8 encoding vulnerability. The fuzzer should generate suspicious network activity."
-      ],
-      "@Name": "Using Slashes in Alternate Encoding"
-    }
-  },
-  {
     "instruction": "Are there any indicators for attack: Use of Known Operating System Credentials",
     "context": "",
     "output": "Yes. to detect the attack pattern Use of Known Operating System Credentials, you can look at the following indicator: Authentication attempts use credentials that have been used previously by the account in question.\n- Authentication attempts are originating from IP addresses or locations that are inconsistent with a user's normal IP addresses or locations.\n- Data is being transferred and/or removed from systems/applications within the network.\n- Suspicious or Malicious software is downloaded/installed on systems within the domain.\n- Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior.",
@@ -296,55 +374,25 @@
     }
   },
   {
-    "instruction": "Give me an indicator example for attack pattern - Task Impersonation",
+    "instruction": "Give me an indicator example for attack pattern - Password Recovery Exploitation",
     "context": "",
-    "output": "Credential or permission elevation prompts that appear illegitimate or unexpected.",
+    "output": "Many incorrect attempts to answer the security question.",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": "Credential or permission elevation prompts that appear illegitimate or unexpected.",
-      "@Name": "Task Impersonation"
+      "Indicators": "Many incorrect attempts to answer the security question.",
+      "@Name": "Password Recovery Exploitation"
     }
   },
   {
-    "instruction": "Given the attack pattern: Windows Admin Shares with Stolen Credentials, give me an example of indicator for this pattern",
+    "instruction": "Give me an indicator example for attack pattern - Exploitation of Transient Instruction Execution",
     "context": "",
-    "output": "Sure. Indicators: Data is being transferred and/or removed from administrative network shares.\nSuspicious or Malicious software is executed within administrative network shares.\nSuspicious or Malicious software is downloaded/installed on systems within the domain.",
+    "output": "File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": [
-        "Data is being transferred and/or removed from administrative network shares.",
-        "Suspicious or Malicious software is executed within administrative network shares.",
-        "Suspicious or Malicious software is downloaded/installed on systems within the domain."
-      ],
-      "@Name": "Windows Admin Shares with Stolen Credentials"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Targeted Malware",
-    "context": "",
-    "output": "The indicators of Targeted Malware are: Software being run on a system matches a file signature found in a malware database\nA suspicious module is loaded that is not regularly loaded by a system\nSoftware on a system is making calls to \"GetProcAddress()\" which is a commonly used function to implement dynamic API resolution",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "Software being run on a system matches a file signature found in a malware database",
-        "A suspicious module is loaded that is not regularly loaded by a system",
-        "Software on a system is making calls to \"GetProcAddress()\" which is a commonly used function to implement dynamic API resolution"
-      ],
-      "@Name": "Targeted Malware"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Exploiting Multiple Input Interpretation Layers",
-    "context": "",
-    "output": "The indicators of Exploiting Multiple Input Interpretation Layers are: Control characters are being detected by the filters repeatedly.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Control characters are being detected by the filters repeatedly.",
-      "@Name": "Exploiting Multiple Input Interpretation Layers"
+      "Indicators": "File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
+      "@Name": "Exploitation of Transient Instruction Execution"
     }
   },
   {
@@ -356,68 +404,6 @@
     "parsed_raw_data": {
       "Indicators": "Bad data is passed to the serialized data parser (possibly repeatedly), possibly making it crash or execute arbitrary code.",
       "@Name": "Oversized Serialized Data Payloads"
-    }
-  },
-  {
-    "instruction": "Are there any indicators for attack: Fuzzing",
-    "context": "",
-    "output": "Yes. to detect the attack pattern Fuzzing, you can look at the following indicator: A lot of invalid data is fed to the system. Data that cannot have been generated through a legitimate transaction/request. Data is coming into the system within a short period of time and potentially from the same IP.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "A lot of invalid data is fed to the system. Data that cannot have been generated through a legitimate transaction/request. Data is coming into the system within a short period of time and potentially from the same IP.",
-      "@Name": "Fuzzing"
-    }
-  },
-  {
-    "instruction": "What are the possible indicators of capec - Password Spraying",
-    "context": "",
-    "output": "Possible indicators: Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.\n- The login attempts use passwords that have been used previously by the user account in question.\n- Login attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "Many invalid login attempts are coming from the same machine (same IP address) or for multiple user accounts within short succession.",
-        "The login attempts use passwords that have been used previously by the user account in question.",
-        "Login attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations."
-      ],
-      "@Name": "Password Spraying"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Try Common or Default Usernames and Passwords",
-    "context": "",
-    "output": "The indicators of Try Common or Default Usernames and Passwords are: Many incorrect login attempts are detected by the system.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Many incorrect login attempts are detected by the system.",
-      "@Name": "Try Common or Default Usernames and Passwords"
-    }
-  },
-  {
-    "instruction": "Are there any indicators for attack: Altered Component Firmware",
-    "context": "",
-    "output": "Yes. to detect the attack pattern Altered Component Firmware, you can look at the following indicator: Output observed from processes, API calls, or Self-Monitoring, Analysis and Reporting Technology (SMART) may provide insight into malicious modifications of MBRs.\nDigital forensics tools may produce output that indicates an attack of this nature has occurred. Examples include unexpected disk partitions and/or unusual strings.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "Output observed from processes, API calls, or Self-Monitoring, Analysis and Reporting Technology (SMART) may provide insight into malicious modifications of MBRs.",
-        "Digital forensics tools may produce output that indicates an attack of this nature has occurred. Examples include unexpected disk partitions and/or unusual strings."
-      ],
-      "@Name": "Altered Component Firmware"
-    }
-  },
-  {
-    "instruction": "Give me an indicator example for attack pattern - HTTP Response Smuggling",
-    "context": "",
-    "output": "Differences in responses processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Differences in responses processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
-      "@Name": "HTTP Response Smuggling"
     }
   },
   {
@@ -435,206 +421,25 @@
     }
   },
   {
-    "instruction": "Give me an indicator example for attack pattern - HTTP Request Splitting",
+    "instruction": "Give me an indicator example for attack pattern - HTTP Response Smuggling",
     "context": "",
-    "output": "Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
+    "output": "Differences in responses processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": "Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
-      "@Name": "HTTP Request Splitting"
+      "Indicators": "Differences in responses processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
+      "@Name": "HTTP Response Smuggling"
     }
   },
   {
-    "instruction": "Are there any indicators for attack: Brute Force",
+    "instruction": "How can I detect attack pattern: Load Value Injection",
     "context": "",
-    "output": "Yes. to detect the attack pattern Brute Force, you can look at the following indicator: Repeated submissions of incorrect secret values may indicate a brute force attack. For example, repeated bad passwords when accessing user accounts or repeated queries to databases using non-existent keys.\nAttempts to download files protected by secrets (usually using encryption) may be a precursor to an offline attack to break the file's encryption and read its contents. This is especially significant if the file itself contains other secret values, such as password files.\nIf the attacker is able to perform the checking offline then there will likely be no indication that an attack is ongoing.",
+    "output": "The indicators of Load Value Injection are: File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": [
-        "Repeated submissions of incorrect secret values may indicate a brute force attack. For example, repeated bad passwords when accessing user accounts or repeated queries to databases using non-existent keys.",
-        "Attempts to download files protected by secrets (usually using encryption) may be a precursor to an offline attack to break the file's encryption and read its contents. This is especially significant if the file itself contains other secret values, such as password files.",
-        "If the attacker is able to perform the checking offline then there will likely be no indication that an attack is ongoing."
-      ],
-      "@Name": "Brute Force"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: Serialized Data with Nested Payloads, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: Bad data is passed to the data parser (possibly repeatedly), possibly making it crash or execute arbitrary code.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Bad data is passed to the data parser (possibly repeatedly), possibly making it crash or execute arbitrary code.",
-      "@Name": "Serialized Data with Nested Payloads"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: Manipulating User-Controlled Variables, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: A web penetration tool probing a web server may generate abnormal activities recorded on log files. Abnormal traffic such as a high number of request coming from the same client may also rise the warnings from a monitoring system or an intrusion detection tool.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "A web penetration tool probing a web server may generate abnormal activities recorded on log files. Abnormal traffic such as a high number of request coming from the same client may also rise the warnings from a monitoring system or an intrusion detection tool.",
-      "@Name": "Manipulating User-Controlled Variables"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: URL Encoding",
-    "context": "",
-    "output": "The indicators of URL Encoding are: If the first decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.\n- Traffic filtering with IDS (or proxy) can detect requests with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "If the first decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.",
-        "Traffic filtering with IDS (or proxy) can detect requests with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks."
-      ],
-      "@Name": "URL Encoding"
-    }
-  },
-  {
-    "instruction": "Give me an indicator example for attack pattern - Password Recovery Exploitation",
-    "context": "",
-    "output": "Many incorrect attempts to answer the security question.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Many incorrect attempts to answer the security question.",
-      "@Name": "Password Recovery Exploitation"
-    }
-  },
-  {
-    "instruction": "What are the possible indicators of capec - Postfix, Null Terminate, and Backslash",
-    "context": "",
-    "output": "Possible indicators: Null characters are observed by the filter. The filter needs to be able to understand various encodings of the Null character, or only canonical data should be passed to it.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Null characters are observed by the filter. The filter needs to be able to understand various encodings of the Null character, or only canonical data should be passed to it.",
-      "@Name": "Postfix, Null Terminate, and Backslash"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: Blind SQL Injection, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: The only indicators of successful Blind SQL Injection are the application or database logs that show similar queries with slightly differing logical conditions that increase in complexity over time. However, this requires extensive logging as well as knowledge of the queries that can be used to perform such injection and return meaningful information from the database.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "The only indicators of successful Blind SQL Injection are the application or database logs that show similar queries with slightly differing logical conditions that increase in complexity over time. However, this requires extensive logging as well as knowledge of the queries that can be used to perform such injection and return meaningful information from the database.",
-      "@Name": "Blind SQL Injection"
-    }
-  },
-  {
-    "instruction": "Are there any indicators for attack: Use of Captured Hashes (Pass The Hash)",
-    "context": "",
-    "output": "Yes. to detect the attack pattern Use of Captured Hashes (Pass The Hash), you can look at the following indicator: Authentication attempts use credentials that have been used previously by the account in question.\n- Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.\n- Data is being transferred and/or removed from systems/applications within the network.\n- Suspicious or Malicious software is downloaded/installed on systems within the domain.\n- Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "Authentication attempts use credentials that have been used previously by the account in question.",
-        "Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
-        "Data is being transferred and/or removed from systems/applications within the network.",
-        "Suspicious or Malicious software is downloaded/installed on systems within the domain.",
-        "Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior."
-      ],
-      "@Name": "Use of Captured Hashes (Pass The Hash)"
-    }
-  },
-  {
-    "instruction": "Are there any indicators for attack: Mobile Phishing",
-    "context": "",
-    "output": "Yes. to detect the attack pattern Mobile Phishing, you can look at the following indicator: You receive a text message from an entity that you are not even a customer of prompting you to log into your account.\nYou receive any text message that provides you with a link that takes you to a website which requires you to enter your credentials.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": [
-        "You receive a text message from an entity that you are not even a customer of prompting you to log into your account.",
-        "You receive any text message that provides you with a link that takes you to a website which requires you to enter your credentials."
-      ],
-      "@Name": "Mobile Phishing"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: XML Injection, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: Too many exceptions generated by the application as a result of malformed queries",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Too many exceptions generated by the application as a result of malformed queries",
-      "@Name": "XML Injection"
-    }
-  },
-  {
-    "instruction": "Give me an indicator example for attack pattern - Query System for Information",
-    "context": "",
-    "output": "Repeated errors generated by the same piece of code are an indication, although it requires careful monitoring of the application and its associated error logs, if any.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Repeated errors generated by the same piece of code are an indication, although it requires careful monitoring of the application and its associated error logs, if any.",
-      "@Name": "Query System for Information"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Exploitation of Thunderbolt Protection Flaws",
-    "context": "",
-    "output": "The indicators of Exploitation of Thunderbolt Protection Flaws are: Windows Event logs may document the access of Thunderbolt port as a USB 3.0 event as well as any malicious actions taken upon target device as file system and memory events.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Windows Event logs may document the access of Thunderbolt port as a USB 3.0 event as well as any malicious actions taken upon target device as file system and memory events.",
-      "@Name": "Exploitation of Thunderbolt Protection Flaws"
-    }
-  },
-  {
-    "instruction": "Given the attack pattern: Overflow Buffers, give me an example of indicator for this pattern",
-    "context": "",
-    "output": "Sure. Indicators: An attack designed to leverage a buffer overflow and redirect execution as per the adversary's bidding is fairly difficult to detect. An attack aimed solely at bringing the system down is usually preceded by a barrage of long inputs that make no sense. In either case, it is likely that the adversary would have resorted to a few hit-or-miss attempts that will be recorded in the system event logs, if they exist.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "An attack designed to leverage a buffer overflow and redirect execution as per the adversary's bidding is fairly difficult to detect. An attack aimed solely at bringing the system down is usually preceded by a barrage of long inputs that make no sense. In either case, it is likely that the adversary would have resorted to a few hit-or-miss attempts that will be recorded in the system event logs, if they exist.",
-      "@Name": "Overflow Buffers"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: Filter Failure through Buffer Overflow",
-    "context": "",
-    "output": "The indicators of Filter Failure through Buffer Overflow are: Many exceptions are thrown by the application's filter modules in a short period of time. Check the logs. See if the probes are coming from the same IP address.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Many exceptions are thrown by the application's filter modules in a short period of time. Check the logs. See if the probes are coming from the same IP address.",
-      "@Name": "Filter Failure through Buffer Overflow"
-    }
-  },
-  {
-    "instruction": "How can I detect attack pattern: HTTP Request Smuggling",
-    "context": "",
-    "output": "The indicators of HTTP Request Smuggling are: Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
-      "@Name": "HTTP Request Smuggling"
-    }
-  },
-  {
-    "instruction": "Give me an indicator example for attack pattern - Dictionary-based Password Attack",
-    "context": "",
-    "output": "Many invalid login attempts are coming from the same machine (same IP address) or for the same log in name. The login attempts use passwords that are dictionary words.",
-    "category": "CAPECFlan",
-    "instruction_type": "capec_indicators",
-    "parsed_raw_data": {
-      "Indicators": "Many invalid login attempts are coming from the same machine (same IP address) or for the same log in name. The login attempts use passwords that are dictionary words.",
-      "@Name": "Dictionary-based Password Attack"
+      "Indicators": "File Signatures for Malicious Software capable of abusing Transient Instruction Set Execution",
+      "@Name": "Load Value Injection"
     }
   },
   {
@@ -649,14 +454,25 @@
     }
   },
   {
-    "instruction": "How can I detect attack pattern: Eavesdropping on a Monitor",
+    "instruction": "Given the attack pattern: XML Flood, give me an example of indicator for this pattern",
     "context": "",
-    "output": "The indicators of Eavesdropping on a Monitor are: The target will not observe any indicators of the attack from the computer user\u2019s perspective. The only indication of this attack would be a visible SDR with antenna that can be seen in close proximity to a display cable which is not normally present. This requires that the target is aware of what SDRs look like and can recognize that it may be out of place.",
+    "output": "Sure. Indicators: A large amount of data is passed to the XML parser possibly making it crash or otherwise unavailable to end users.",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": "The target will not observe any indicators of the attack from the computer user\u2019s perspective. The only indication of this attack would be a visible SDR with antenna that can be seen in close proximity to a display cable which is not normally present. This requires that the target is aware of what SDRs look like and can recognize that it may be out of place.",
-      "@Name": "Eavesdropping on a Monitor"
+      "Indicators": "A large amount of data is passed to the XML parser possibly making it crash or otherwise unavailable to end users.",
+      "@Name": "XML Flood"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: Blind SQL Injection, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: The only indicators of successful Blind SQL Injection are the application or database logs that show similar queries with slightly differing logical conditions that increase in complexity over time. However, this requires extensive logging as well as knowledge of the queries that can be used to perform such injection and return meaningful information from the database.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "The only indicators of successful Blind SQL Injection are the application or database logs that show similar queries with slightly differing logical conditions that increase in complexity over time. However, this requires extensive logging as well as knowledge of the queries that can be used to perform such injection and return meaningful information from the database.",
+      "@Name": "Blind SQL Injection"
     }
   },
   {
@@ -685,14 +501,198 @@
     }
   },
   {
-    "instruction": "How can I detect attack pattern: Credential Prompt Impersonation",
+    "instruction": "How can I detect attack pattern: Exploiting Multiple Input Interpretation Layers",
     "context": "",
-    "output": "The indicators of Credential Prompt Impersonation are: Credential prompts that appear illegitimate or unexpected.",
+    "output": "The indicators of Exploiting Multiple Input Interpretation Layers are: Control characters are being detected by the filters repeatedly.",
     "category": "CAPECFlan",
     "instruction_type": "capec_indicators",
     "parsed_raw_data": {
-      "Indicators": "Credential prompts that appear illegitimate or unexpected.",
-      "@Name": "Credential Prompt Impersonation"
+      "Indicators": "Control characters are being detected by the filters repeatedly.",
+      "@Name": "Exploiting Multiple Input Interpretation Layers"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: HTTP Request Smuggling",
+    "context": "",
+    "output": "The indicators of HTTP Request Smuggling are: Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Differences in requests processed by the two agents. This requires careful monitoring or a capable log analysis tool.",
+      "@Name": "HTTP Request Smuggling"
+    }
+  },
+  {
+    "instruction": "Are there any indicators for attack: Mobile Phishing",
+    "context": "",
+    "output": "Yes. to detect the attack pattern Mobile Phishing, you can look at the following indicator: You receive a text message from an entity that you are not even a customer of prompting you to log into your account.\nYou receive any text message that provides you with a link that takes you to a website which requires you to enter your credentials.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "You receive a text message from an entity that you are not even a customer of prompting you to log into your account.",
+        "You receive any text message that provides you with a link that takes you to a website which requires you to enter your credentials."
+      ],
+      "@Name": "Mobile Phishing"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Use of Known Domain Credentials",
+    "context": "",
+    "output": "The indicators of Use of Known Domain Credentials are: Authentication attempts use credentials that have been used previously by the account in question.\n* Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.\n* Data is being transferred and/or removed from systems/applications within the network.\n* Suspicious or Malicious software is downloaded/installed on systems within the domain.\n* Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Authentication attempts use credentials that have been used previously by the account in question.",
+        "Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
+        "Data is being transferred and/or removed from systems/applications within the network.",
+        "Suspicious or Malicious software is downloaded/installed on systems within the domain.",
+        "Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior."
+      ],
+      "@Name": "Use of Known Domain Credentials"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Using Slashes in Alternate Encoding",
+    "context": "",
+    "output": "The indicators of Using Slashes in Alternate Encoding are: If the first path decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.\nTraffic filtering with IDS (or proxy) can detect request with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks.\nAn adversary can use a fuzzer in order to probe for a UTF-8 encoding vulnerability. The fuzzer should generate suspicious network activity.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "If the first path decoding process has left some invalid or denylisted characters, that may be a sign that the request is malicious.",
+        "Traffic filtering with IDS (or proxy) can detect request with suspicious URLs. IDS may use signature based identification to reveal such URL based attacks.",
+        "An adversary can use a fuzzer in order to probe for a UTF-8 encoding vulnerability. The fuzzer should generate suspicious network activity."
+      ],
+      "@Name": "Using Slashes in Alternate Encoding"
+    }
+  },
+  {
+    "instruction": "Given the attack pattern: Overflow Buffers, give me an example of indicator for this pattern",
+    "context": "",
+    "output": "Sure. Indicators: An attack designed to leverage a buffer overflow and redirect execution as per the adversary's bidding is fairly difficult to detect. An attack aimed solely at bringing the system down is usually preceded by a barrage of long inputs that make no sense. In either case, it is likely that the adversary would have resorted to a few hit-or-miss attempts that will be recorded in the system event logs, if they exist.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "An attack designed to leverage a buffer overflow and redirect execution as per the adversary's bidding is fairly difficult to detect. An attack aimed solely at bringing the system down is usually preceded by a barrage of long inputs that make no sense. In either case, it is likely that the adversary would have resorted to a few hit-or-miss attempts that will be recorded in the system event logs, if they exist.",
+      "@Name": "Overflow Buffers"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: NoSQL Injection",
+    "context": "",
+    "output": "The indicators of NoSQL Injection are: Too many false or invalid queries to the database, especially those caused by malformed input.\n- Executed queries or commands that appear to malicious in nature or originating from an untrustworthy source.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Too many false or invalid queries to the database, especially those caused by malformed input.",
+        "Executed queries or commands that appear to malicious in nature or originating from an untrustworthy source."
+      ],
+      "@Name": "NoSQL Injection"
+    }
+  },
+  {
+    "instruction": "Are there any indicators for attack: Brute Force",
+    "context": "",
+    "output": "Yes. to detect the attack pattern Brute Force, you can look at the following indicator: Repeated submissions of incorrect secret values may indicate a brute force attack. For example, repeated bad passwords when accessing user accounts or repeated queries to databases using non-existent keys.\nAttempts to download files protected by secrets (usually using encryption) may be a precursor to an offline attack to break the file's encryption and read its contents. This is especially significant if the file itself contains other secret values, such as password files.\nIf the attacker is able to perform the checking offline then there will likely be no indication that an attack is ongoing.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Repeated submissions of incorrect secret values may indicate a brute force attack. For example, repeated bad passwords when accessing user accounts or repeated queries to databases using non-existent keys.",
+        "Attempts to download files protected by secrets (usually using encryption) may be a precursor to an offline attack to break the file's encryption and read its contents. This is especially significant if the file itself contains other secret values, such as password files.",
+        "If the attacker is able to perform the checking offline then there will likely be no indication that an attack is ongoing."
+      ],
+      "@Name": "Brute Force"
+    }
+  },
+  {
+    "instruction": "Are there any indicators for attack: Encryption Brute Forcing",
+    "context": "",
+    "output": "Yes. to detect the attack pattern Encryption Brute Forcing, you can look at the following indicator: None. This attack happens offline.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "None. This attack happens offline.",
+      "@Name": "Encryption Brute Forcing"
+    }
+  },
+  {
+    "instruction": "Give me an indicator example for attack pattern - Buffer Overflow via Environment Variables",
+    "context": "",
+    "output": "If the application does bound checking, it should fail when the data source is larger than the size of the destination buffer. If the application's code is well written, that failure should trigger an alert.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "If the application does bound checking, it should fail when the data source is larger than the size of the destination buffer. If the application's code is well written, that failure should trigger an alert.",
+      "@Name": "Buffer Overflow via Environment Variables"
+    }
+  },
+  {
+    "instruction": "Give me an indicator example for attack pattern - Query System for Information",
+    "context": "",
+    "output": "Repeated errors generated by the same piece of code are an indication, although it requires careful monitoring of the application and its associated error logs, if any.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "Repeated errors generated by the same piece of code are an indication, although it requires careful monitoring of the application and its associated error logs, if any.",
+      "@Name": "Query System for Information"
+    }
+  },
+  {
+    "instruction": "Are there any indicators for attack: Use of Captured Hashes (Pass The Hash)",
+    "context": "",
+    "output": "Yes. to detect the attack pattern Use of Captured Hashes (Pass The Hash), you can look at the following indicator: Authentication attempts use credentials that have been used previously by the account in question.\n- Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.\n- Data is being transferred and/or removed from systems/applications within the network.\n- Suspicious or Malicious software is downloaded/installed on systems within the domain.\n- Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Authentication attempts use credentials that have been used previously by the account in question.",
+        "Authentication attempts are originating from IP addresses or locations that are inconsistent with the user's normal IP addresses or locations.",
+        "Data is being transferred and/or removed from systems/applications within the network.",
+        "Suspicious or Malicious software is downloaded/installed on systems within the domain.",
+        "Messages from a legitimate user appear to contain suspicious links or communications not consistent with the user's normal behavior."
+      ],
+      "@Name": "Use of Captured Hashes (Pass The Hash)"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Targeted Malware",
+    "context": "",
+    "output": "The indicators of Targeted Malware are: Software being run on a system matches a file signature found in a malware database\nA suspicious module is loaded that is not regularly loaded by a system\nSoftware on a system is making calls to \"GetProcAddress()\" which is a commonly used function to implement dynamic API resolution",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": [
+        "Software being run on a system matches a file signature found in a malware database",
+        "A suspicious module is loaded that is not regularly loaded by a system",
+        "Software on a system is making calls to \"GetProcAddress()\" which is a commonly used function to implement dynamic API resolution"
+      ],
+      "@Name": "Targeted Malware"
+    }
+  },
+  {
+    "instruction": "How can I detect attack pattern: Target Programs with Elevated Privileges",
+    "context": "",
+    "output": "The indicators of Target Programs with Elevated Privileges are: The log can have a trace of abnormal activity. Also if abnormal activity is detected on the host target. For instance flooding should be seen as abnormal activity and the target host may decide to take appropriate action in order to mitigate the attack (data filtering or blocking). Resource exhaustion is also a sign of abnormal activity.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "The log can have a trace of abnormal activity. Also if abnormal activity is detected on the host target. For instance flooding should be seen as abnormal activity and the target host may decide to take appropriate action in order to mitigate the attack (data filtering or blocking). Resource exhaustion is also a sign of abnormal activity.",
+      "@Name": "Target Programs with Elevated Privileges"
+    }
+  },
+  {
+    "instruction": "Are there any indicators for attack: Using Escaped Slashes in Alternate Encoding",
+    "context": "",
+    "output": "Yes. to detect the attack pattern Using Escaped Slashes in Alternate Encoding, you can look at the following indicator: An adversary can use a fuzzer in order to probe for this vulnerability. The fuzzer should generate suspicious network activity noticeable by an intrusion detection system.",
+    "category": "CAPECFlan",
+    "instruction_type": "capec_indicators",
+    "parsed_raw_data": {
+      "Indicators": "An adversary can use a fuzzer in order to probe for this vulnerability. The fuzzer should generate suspicious network activity noticeable by an intrusion detection system.",
+      "@Name": "Using Escaped Slashes in Alternate Encoding"
     }
   }
 ]
