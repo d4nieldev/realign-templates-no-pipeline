@@ -122,7 +122,7 @@ def run_dgt(
         response: str,
         is_search: bool,
         grounding_doc: str | None
-    ) -> tuple[str, bool, int, list[str] | None, dict]:
+    ) -> tuple[str, bool, int, list[str] | None, dict, dict]:
     if not dataset:
         raise gr.Error("⚠️ Dataset is required!")
     if not task:
@@ -214,7 +214,8 @@ seed_datastore:
         True if dgt_output['judge_scores']['readability'] == 'rewritten' else False,
         dgt_output['judge_scores']['factuality'],
         dgt_output['search_results'],
-        gr.update(minimum=0, maximum=len(dgt_output['search_results']) - 1 if dgt_output['search_results'] else 0, value=0)
+        gr.update(minimum=0, maximum=len(dgt_output['search_results']) - 1 if dgt_output['search_results'] else 0, value=0),
+        gr.update(value=dgt_output['search_results'][0] if dgt_output['search_results'] else "No search results found.")
     )
 
 
@@ -361,7 +362,7 @@ with gr.Blocks() as demo:
     run_dgt_btn.click(
         run_dgt,
         inputs=[dataset, task, task_description, template, instruction, response, is_search, grounding_doc],
-        outputs=[realigned_response, preferred, factuality_score, search_results_state, search_results_slider]
+        outputs=[realigned_response, preferred, factuality_score, search_results_state, search_results_slider, search_result]
     )
     def my_task(idx, results):
         return results[idx]
