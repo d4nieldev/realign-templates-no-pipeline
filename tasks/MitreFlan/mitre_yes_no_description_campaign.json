@@ -1,27 +1,12 @@
 [
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Night Dragon (C0011) accurately described in the following description:\n\nC0011 was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.",
-    "context": "",
-    "output": "No.\nThe provided context is related to C0011",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_campaign",
-    "parsed_raw_data": {
-      "question": "Is campaign Night Dragon (C0011) accurately described in the following description:\n\nC0011 was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.",
-      "yes/no": "No.\nThe provided context is related to C0011",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_campaign"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - C0026 was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during C0026 were consistent with historic Turla operations..\n\nIs the following description related to campaign Operation CuckooBees (C0026)",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign C0032 (C0014) accurately described in the following description:\n\nOperation Wocao was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the Operation Wocao actors used similar TTPs and tools as APT20, suggesting a possible overlap. Operation Wocao was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.",
     "context": "",
     "output": "No",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - C0026 was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during C0026 were consistent with historic Turla operations..\n\nIs the following description related to campaign Operation CuckooBees (C0026)",
+      "question": "Is campaign C0032 (C0014) accurately described in the following description:\n\nOperation Wocao was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the Operation Wocao actors used similar TTPs and tools as APT20, suggesting a possible overlap. Operation Wocao was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.",
       "yes/no": "No",
       "category": [
         "MITREFlan"
@@ -30,14 +15,14 @@
     }
   },
   {
-    "instruction": "Q: Is campaign C0015 (C0028) accurately described in the following description:\n\n2015 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team..\n\nProvide your answer in Yes or No.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign CostaRicto (C0004) accurately described in the following description:\n\nCostaRicto was a suspected hacker-for-hire cyber espionage campaign that targeted multiple industries worldwide, with a large number being financial institutions. CostaRicto actors targeted organizations in Europe, the Americas, Asia, Australia, and Africa, with a large concentration in South Asia (especially India, Bangladesh, and Singapore), using custom malware, open source tools, and a complex network of proxies and SSH tunnels.",
     "context": "",
-    "output": "No.\nThe correct answer is 2015 Ukraine Electric Power Attack",
+    "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "Is campaign C0015 (C0028) accurately described in the following description:\n\n2015 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team.",
-      "yes/no": "No.\nThe correct answer is 2015 Ukraine Electric Power Attack",
+      "question": "Is campaign CostaRicto (C0004) accurately described in the following description:\n\nCostaRicto was a suspected hacker-for-hire cyber espionage campaign that targeted multiple industries worldwide, with a large number being financial institutions. CostaRicto actors targeted organizations in Europe, the Americas, Asia, Australia, and Africa, with a large concentration in South Asia (especially India, Bangladesh, and Singapore), using custom malware, open source tools, and a complex network of proxies and SSH tunnels.",
+      "yes/no": "Yes",
       "category": [
         "MITREFlan"
       ],
@@ -45,14 +30,29 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Operation Spalax (C0005) accurately described in the following description:\n\nOperation Spalax was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The Operation Spalax threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign C0027 (C0027) accurately described in the following description:\n\nC0027 was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During C0027 Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "Is campaign Operation Spalax (C0005) accurately described in the following description:\n\nOperation Spalax was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The Operation Spalax threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.",
+      "question": "Is campaign C0027 (C0027) accurately described in the following description:\n\nC0027 was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During C0027 Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
       "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_campaign"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Operation Honeybee was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. Operation Honeybee initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents..\n\nIs the following description related to campaign SolarWinds Compromise (C0006)",
+    "context": "",
+    "output": "No.\nThe provided context is related to Operation Honeybee",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_campaign",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Operation Honeybee was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. Operation Honeybee initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents..\n\nIs the following description related to campaign SolarWinds Compromise (C0006)",
+      "yes/no": "No.\nThe provided context is related to Operation Honeybee",
       "category": [
         "MITREFlan"
       ],
@@ -75,14 +75,59 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Operation CuckooBees (C0034) accurately described in the following description:\n\nThe 2022 Ukraine Electric Power Attack was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Operation Spalax (C0005) accurately described in the following description:\n\nOperation Spalax was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The Operation Spalax threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.",
     "context": "",
-    "output": "No.\nThe provided context is correlated with 2022 Ukraine Electric Power Attack",
+    "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "Is campaign Operation CuckooBees (C0034) accurately described in the following description:\n\nThe 2022 Ukraine Electric Power Attack was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
-      "yes/no": "No.\nThe provided context is correlated with 2022 Ukraine Electric Power Attack",
+      "question": "Is campaign Operation Spalax (C0005) accurately described in the following description:\n\nOperation Spalax was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The Operation Spalax threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_campaign"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Night Dragon (C0011) accurately described in the following description:\n\nC0011 was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.",
+    "context": "",
+    "output": "No.\nThe provided context is related to C0011",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_campaign",
+    "parsed_raw_data": {
+      "question": "Is campaign Night Dragon (C0011) accurately described in the following description:\n\nC0011 was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.",
+      "yes/no": "No.\nThe provided context is related to C0011",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Is campaign C0027 (C0023) accurately described in the following description:\n\nOperation Ghost was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During Operation Ghost, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_campaign",
+    "parsed_raw_data": {
+      "question": "Is campaign C0027 (C0023) accurately described in the following description:\n\nOperation Ghost was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During Operation Ghost, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.",
+      "yes/no": "No",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_campaign"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - C0026 was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during C0026 were consistent with historic Turla operations..\n\nIs the following description related to campaign Operation CuckooBees (C0026)",
+    "context": "",
+    "output": "No",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_campaign",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - C0026 was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during C0026 were consistent with historic Turla operations..\n\nIs the following description related to campaign Operation CuckooBees (C0026)",
+      "yes/no": "No",
       "category": [
         "MITREFlan"
       ],
@@ -105,14 +150,29 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign CostaRicto (C0017) accurately described in the following description:\n\nC0017 was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During C0017, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of C0017 are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).",
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - C0033 was a PROMETHIUM campaign during which they used StrongPity to target Android users. C0033 was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques..\n\nIs the following description related to campaign C0033 (C0033)",
     "context": "",
-    "output": "No",
+    "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "Is campaign CostaRicto (C0017) accurately described in the following description:\n\nC0017 was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During C0017, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of C0017 are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).",
-      "yes/no": "No",
+      "question": "You are given the following description:\nDescription - C0033 was a PROMETHIUM campaign during which they used StrongPity to target Android users. C0033 was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques..\n\nIs the following description related to campaign C0033 (C0033)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_campaign"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - The SolarWinds Compromise was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems..\n\nIs the following description related to campaign SolarWinds Compromise (C0024).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_campaign",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - The SolarWinds Compromise was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems..\n\nIs the following description related to campaign SolarWinds Compromise (C0024)",
+      "yes/no": "Yes",
       "category": [
         "MITREFlan"
       ],
@@ -127,6 +187,21 @@
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
       "question": "Is campaign Night Dragon (C0002) accurately described in the following description:\n\nNight Dragon was a cyber espionage campaign that targeted oil, energy, and petrochemical companies, along with individuals and executives in Kazakhstan, Taiwan, Greece, and the United States. The unidentified threat actors searched for information related to oil and gas field production systems, financials, and collected data from SCADA systems. Based on the observed techniques, tools, and network activities, security researchers assessed the campaign involved a threat group based in China.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_campaign"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Operation CuckooBees was a cyber espionage campaign targeting technology and manufacturing companies in East Asia, Western Europe, and North America since at least 2019. Security researchers noted the goal of Operation CuckooBees, which was still ongoing as of May 2022, was likely the theft of proprietary information, research and development documents, source code, and blueprints for various technologies. Researchers assessed Operation CuckooBees was conducted by actors affiliated with Winnti Group, APT41, and BARIUM..\n\nIs the following description related to campaign Operation CuckooBees (C0012).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_campaign",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Operation CuckooBees was a cyber espionage campaign targeting technology and manufacturing companies in East Asia, Western Europe, and North America since at least 2019. Security researchers noted the goal of Operation CuckooBees, which was still ongoing as of May 2022, was likely the theft of proprietary information, research and development documents, source code, and blueprints for various technologies. Researchers assessed Operation CuckooBees was conducted by actors affiliated with Winnti Group, APT41, and BARIUM..\n\nIs the following description related to campaign Operation CuckooBees (C0012)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -165,29 +240,14 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Operation Dust Storm was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the Operation Dust Storm threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nOperation Dust Storm threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea..\n\nIs the following description related to campaign Operation Dust Storm (C0016)",
+    "instruction": "Q: Is campaign C0033 (C0001) accurately described in the following description:\n\nFrankenstein was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components..\n\nProvide your answer in Yes or No.",
     "context": "",
-    "output": "Yes",
+    "output": "No.\nThe provided context is related to Frankenstein",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Operation Dust Storm was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the Operation Dust Storm threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nOperation Dust Storm threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea..\n\nIs the following description related to campaign Operation Dust Storm (C0016)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Is campaign FunnyDream (C0007) accurately described in the following description:\n\nFunnyDream was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the FunnyDream campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_campaign",
-    "parsed_raw_data": {
-      "question": "Is campaign FunnyDream (C0007) accurately described in the following description:\n\nFunnyDream was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the FunnyDream campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group.",
-      "yes/no": "Yes",
+      "question": "Is campaign C0033 (C0001) accurately described in the following description:\n\nFrankenstein was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.",
+      "yes/no": "No.\nThe provided context is related to Frankenstein",
       "category": [
         "MITREFlan"
       ],
@@ -210,28 +270,13 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Operation Dust Storm (C0025) accurately described in the following description:\n\n2016 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.",
-    "context": "",
-    "output": "No.\nThe provided context is correlated with 2016 Ukraine Electric Power Attack",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_campaign",
-    "parsed_raw_data": {
-      "question": "Is campaign Operation Dust Storm (C0025) accurately described in the following description:\n\n2016 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.",
-      "yes/no": "No.\nThe provided context is correlated with 2016 Ukraine Electric Power Attack",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_campaign"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign CostaRicto (C0004) accurately described in the following description:\n\nCostaRicto was a suspected hacker-for-hire cyber espionage campaign that targeted multiple industries worldwide, with a large number being financial institutions. CostaRicto actors targeted organizations in Europe, the Americas, Asia, Australia, and Africa, with a large concentration in South Asia (especially India, Bangladesh, and Singapore), using custom malware, open source tools, and a complex network of proxies and SSH tunnels.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Operation Dust Storm was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the Operation Dust Storm threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nOperation Dust Storm threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea..\n\nIs the following description related to campaign Operation Dust Storm (C0016)",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "Is campaign CostaRicto (C0004) accurately described in the following description:\n\nCostaRicto was a suspected hacker-for-hire cyber espionage campaign that targeted multiple industries worldwide, with a large number being financial institutions. CostaRicto actors targeted organizations in Europe, the Americas, Asia, Australia, and Africa, with a large concentration in South Asia (especially India, Bangladesh, and Singapore), using custom malware, open source tools, and a complex network of proxies and SSH tunnels.",
+      "question": "You are given the following description:\nDescription - Operation Dust Storm was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the Operation Dust Storm threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nOperation Dust Storm threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea..\n\nIs the following description related to campaign Operation Dust Storm (C0016)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -255,13 +300,13 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - Operation CuckooBees was a cyber espionage campaign targeting technology and manufacturing companies in East Asia, Western Europe, and North America since at least 2019. Security researchers noted the goal of Operation CuckooBees, which was still ongoing as of May 2022, was likely the theft of proprietary information, research and development documents, source code, and blueprints for various technologies. Researchers assessed Operation CuckooBees was conducted by actors affiliated with Winnti Group, APT41, and BARIUM..\n\nIs the following description related to campaign Operation CuckooBees (C0012).\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: You are given the following description:\nDescription - C0032 was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack..\n\nIs the following description related to campaign C0032 (C0032).\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Operation CuckooBees was a cyber espionage campaign targeting technology and manufacturing companies in East Asia, Western Europe, and North America since at least 2019. Security researchers noted the goal of Operation CuckooBees, which was still ongoing as of May 2022, was likely the theft of proprietary information, research and development documents, source code, and blueprints for various technologies. Researchers assessed Operation CuckooBees was conducted by actors affiliated with Winnti Group, APT41, and BARIUM..\n\nIs the following description related to campaign Operation CuckooBees (C0012)",
+      "question": "You are given the following description:\nDescription - C0032 was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack..\n\nIs the following description related to campaign C0032 (C0032)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -270,59 +315,14 @@
     }
   },
   {
-    "instruction": "Q: Is campaign C0027 (C0023) accurately described in the following description:\n\nOperation Ghost was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During Operation Ghost, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim..\n\nProvide your answer in Yes or No.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign CostaRicto (C0017) accurately described in the following description:\n\nC0017 was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During C0017, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of C0017 are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).",
     "context": "",
     "output": "No",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "Is campaign C0027 (C0023) accurately described in the following description:\n\nOperation Ghost was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During Operation Ghost, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.",
+      "question": "Is campaign CostaRicto (C0017) accurately described in the following description:\n\nC0017 was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During C0017, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of C0017 are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).",
       "yes/no": "No",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_campaign"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign C0033 (C0029) accurately described in the following description:\n\nCutting Edge was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. Cutting Edge targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. Cutting Edge featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.",
-    "context": "",
-    "output": "No.\nThe correct answer is Cutting Edge",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_campaign",
-    "parsed_raw_data": {
-      "question": "Is campaign C0033 (C0029) accurately described in the following description:\n\nCutting Edge was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. Cutting Edge targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. Cutting Edge featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.",
-      "yes/no": "No.\nThe correct answer is Cutting Edge",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_campaign"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign C0032 (C0014) accurately described in the following description:\n\nOperation Wocao was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the Operation Wocao actors used similar TTPs and tools as APT20, suggesting a possible overlap. Operation Wocao was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.",
-    "context": "",
-    "output": "No",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_campaign",
-    "parsed_raw_data": {
-      "question": "Is campaign C0032 (C0014) accurately described in the following description:\n\nOperation Wocao was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the Operation Wocao actors used similar TTPs and tools as APT20, suggesting a possible overlap. Operation Wocao was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.",
-      "yes/no": "No",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_campaign"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign C0027 (C0027) accurately described in the following description:\n\nC0027 was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During C0027 Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_campaign",
-    "parsed_raw_data": {
-      "question": "Is campaign C0027 (C0027) accurately described in the following description:\n\nC0027 was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During C0027 Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
-      "yes/no": "Yes",
       "category": [
         "MITREFlan"
       ],
@@ -345,14 +345,14 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Operation Honeybee was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. Operation Honeybee initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents..\n\nIs the following description related to campaign SolarWinds Compromise (C0006)",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Operation Dust Storm (C0025) accurately described in the following description:\n\n2016 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.",
     "context": "",
-    "output": "No.\nThe provided context is related to Operation Honeybee",
+    "output": "No.\nThe provided context is correlated with 2016 Ukraine Electric Power Attack",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Operation Honeybee was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. Operation Honeybee initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents..\n\nIs the following description related to campaign SolarWinds Compromise (C0006)",
-      "yes/no": "No.\nThe provided context is related to Operation Honeybee",
+      "question": "Is campaign Operation Dust Storm (C0025) accurately described in the following description:\n\n2016 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.",
+      "yes/no": "No.\nThe provided context is correlated with 2016 Ukraine Electric Power Attack",
       "category": [
         "MITREFlan"
       ],
@@ -360,13 +360,28 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - C0032 was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack..\n\nIs the following description related to campaign C0032 (C0032).\n\nProvide your answer in Yes or No.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign C0033 (C0029) accurately described in the following description:\n\nCutting Edge was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. Cutting Edge targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. Cutting Edge featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.",
+    "context": "",
+    "output": "No.\nThe correct answer is Cutting Edge",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_campaign",
+    "parsed_raw_data": {
+      "question": "Is campaign C0033 (C0029) accurately described in the following description:\n\nCutting Edge was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. Cutting Edge targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. Cutting Edge featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.",
+      "yes/no": "No.\nThe correct answer is Cutting Edge",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Is campaign FunnyDream (C0007) accurately described in the following description:\n\nFunnyDream was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the FunnyDream campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group..\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - C0032 was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack..\n\nIs the following description related to campaign C0032 (C0032)",
+      "question": "Is campaign FunnyDream (C0007) accurately described in the following description:\n\nFunnyDream was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the FunnyDream campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group.",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -375,14 +390,14 @@
     }
   },
   {
-    "instruction": "Q: Is campaign C0033 (C0001) accurately described in the following description:\n\nFrankenstein was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components..\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: Is campaign C0015 (C0028) accurately described in the following description:\n\n2015 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team..\n\nProvide your answer in Yes or No.",
     "context": "",
-    "output": "No.\nThe provided context is related to Frankenstein",
+    "output": "No.\nThe correct answer is 2015 Ukraine Electric Power Attack",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "Is campaign C0033 (C0001) accurately described in the following description:\n\nFrankenstein was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.",
-      "yes/no": "No.\nThe provided context is related to Frankenstein",
+      "question": "Is campaign C0015 (C0028) accurately described in the following description:\n\n2015 Ukraine Electric Power Attack was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team.",
+      "yes/no": "No.\nThe correct answer is 2015 Ukraine Electric Power Attack",
       "category": [
         "MITREFlan"
       ],
@@ -390,29 +405,14 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - The SolarWinds Compromise was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems..\n\nIs the following description related to campaign SolarWinds Compromise (C0024).\n\nProvide your answer in Yes or No.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is campaign Operation CuckooBees (C0034) accurately described in the following description:\n\nThe 2022 Ukraine Electric Power Attack was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
     "context": "",
-    "output": "Yes",
+    "output": "No.\nThe provided context is correlated with 2022 Ukraine Electric Power Attack",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_campaign",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - The SolarWinds Compromise was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the SolarWinds Compromise to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems..\n\nIs the following description related to campaign SolarWinds Compromise (C0024)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_campaign"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - C0033 was a PROMETHIUM campaign during which they used StrongPity to target Android users. C0033 was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques..\n\nIs the following description related to campaign C0033 (C0033)",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_campaign",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - C0033 was a PROMETHIUM campaign during which they used StrongPity to target Android users. C0033 was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques..\n\nIs the following description related to campaign C0033 (C0033)",
-      "yes/no": "Yes",
+      "question": "Is campaign Operation CuckooBees (C0034) accurately described in the following description:\n\nThe 2022 Ukraine Electric Power Attack was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
+      "yes/no": "No.\nThe provided context is correlated with 2022 Ukraine Electric Power Attack",
       "category": [
         "MITREFlan"
       ],

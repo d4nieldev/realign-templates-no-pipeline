@@ -15,36 +15,6 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Active Directory",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Active Directory include: Azure AD, Windows",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Active Directory",
-      "answer": "The platforms of MITRE ATT&CK data source Active Directory include: Azure AD, Windows",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Firewall?",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Firewall include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Firewall",
-      "answer": "The platforms of MITRE ATT&CK data source Firewall include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
     "instruction": "List the platforms related to Mitre data source Web Credential",
     "context": "",
     "output": "The platforms of MITRE ATT&CK data source Web Credential include: Azure AD, Google Workspace, Linux, Office 365, SaaS, Windows, macOS",
@@ -60,14 +30,14 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Logon Session",
+    "instruction": "List the platforms related to Mitre data source Cloud Service?",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Logon Session include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Cloud Service include: Azure AD, Google Workspace, IaaS, Office 365, SaaS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Logon Session",
-      "answer": "The platforms of MITRE ATT&CK data source Logon Session include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
+      "question": "List the platforms related to Mitre data source Cloud Service",
+      "answer": "The platforms of MITRE ATT&CK data source Cloud Service include: Azure AD, Google Workspace, IaaS, Office 365, SaaS",
       "category": [
         "MITREFlan"
       ],
@@ -75,14 +45,14 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Persona",
+    "instruction": "List the platforms related to Mitre data source Instance",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Persona include: PRE",
+    "output": "The platforms of MITRE ATT&CK data source Instance include: IaaS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Persona",
-      "answer": "The platforms of MITRE ATT&CK data source Persona include: PRE",
+      "question": "List the platforms related to Mitre data source Instance",
+      "answer": "The platforms of MITRE ATT&CK data source Instance include: IaaS",
       "category": [
         "MITREFlan"
       ],
@@ -90,14 +60,59 @@
     }
   },
   {
-    "instruction": "What are the platforms of MITRE data source Network Share",
+    "instruction": "List the platforms related to Mitre data source Command?",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Network Share are: Linux, Windows, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Command include: Android, Containers, Linux, Network, Windows, iOS, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Network Share",
-      "answer": "The platforms of MITRE ATT&CK data source Network Share are: Linux, Windows, macOS",
+      "question": "List the platforms related to Mitre data source Command",
+      "answer": "The platforms of MITRE ATT&CK data source Command include: Android, Containers, Linux, Network, Windows, iOS, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "What are the platforms of MITRE data source Process",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Process are: Android, Linux, Windows, iOS, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "What are the platforms of MITRE data source Process",
+      "answer": "The platforms of MITRE ATT&CK data source Process are: Android, Linux, Windows, iOS, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "What are the platforms of MITRE data source Drive?",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Drive are: Linux, Windows, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "What are the platforms of MITRE data source Drive",
+      "answer": "The platforms of MITRE ATT&CK data source Drive are: Linux, Windows, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "What are the platforms of MITRE data source Cloud Storage?",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Cloud Storage are: IaaS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "What are the platforms of MITRE data source Cloud Storage",
+      "answer": "The platforms of MITRE ATT&CK data source Cloud Storage are: IaaS",
       "category": [
         "MITREFlan"
       ],
@@ -120,14 +135,14 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Internet Scan",
+    "instruction": "List the platforms related to Mitre data source Scheduled Job",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Internet Scan include: PRE",
+    "output": "The platforms of MITRE ATT&CK data source Scheduled Job include: Containers, Linux, Windows, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Internet Scan",
-      "answer": "The platforms of MITRE ATT&CK data source Internet Scan include: PRE",
+      "question": "List the platforms related to Mitre data source Scheduled Job",
+      "answer": "The platforms of MITRE ATT&CK data source Scheduled Job include: Containers, Linux, Windows, macOS",
       "category": [
         "MITREFlan"
       ],
@@ -135,44 +150,14 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Volume",
+    "instruction": "What are the platforms of MITRE data source Service?",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Volume include: IaaS, Linux, Windows, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Service are: Linux, Windows, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Volume",
-      "answer": "The platforms of MITRE ATT&CK data source Volume include: IaaS, Linux, Windows, macOS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Malware Repository",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Malware Repository include: PRE",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Malware Repository",
-      "answer": "The platforms of MITRE ATT&CK data source Malware Repository include: PRE",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source File?",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source File include: Linux, Network, Windows, macOS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source File",
-      "answer": "The platforms of MITRE ATT&CK data source File include: Linux, Network, Windows, macOS",
+      "question": "What are the platforms of MITRE data source Service",
+      "answer": "The platforms of MITRE ATT&CK data source Service are: Linux, Windows, macOS",
       "category": [
         "MITREFlan"
       ],
@@ -195,14 +180,14 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Windows Registry",
+    "instruction": "List the platforms related to Mitre data source Pod",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Windows Registry include: Windows",
+    "output": "The platforms of MITRE ATT&CK data source Pod include: Containers",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Windows Registry",
-      "answer": "The platforms of MITRE ATT&CK data source Windows Registry include: Windows",
+      "question": "List the platforms related to Mitre data source Pod",
+      "answer": "The platforms of MITRE ATT&CK data source Pod include: Containers",
       "category": [
         "MITREFlan"
       ],
@@ -210,14 +195,14 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Driver",
+    "instruction": "What are the platforms of MITRE data source Named Pipe",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Driver include: Linux, Windows, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Named Pipe are: Linux, Windows, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Driver",
-      "answer": "The platforms of MITRE ATT&CK data source Driver include: Linux, Windows, macOS",
+      "question": "What are the platforms of MITRE data source Named Pipe",
+      "answer": "The platforms of MITRE ATT&CK data source Named Pipe are: Linux, Windows, macOS",
       "category": [
         "MITREFlan"
       ],
@@ -225,29 +210,14 @@
     }
   },
   {
-    "instruction": "List the platforms related to Mitre data source Scheduled Job",
+    "instruction": "List the platforms related to Mitre data source Kernel",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Scheduled Job include: Containers, Linux, Windows, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Kernel include: Linux, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Scheduled Job",
-      "answer": "The platforms of MITRE ATT&CK data source Scheduled Job include: Containers, Linux, Windows, macOS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Application Log",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Application Log include: Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Application Log",
-      "answer": "The platforms of MITRE ATT&CK data source Application Log include: Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
+      "question": "List the platforms related to Mitre data source Kernel",
+      "answer": "The platforms of MITRE ATT&CK data source Kernel include: Linux, macOS",
       "category": [
         "MITREFlan"
       ],
@@ -270,14 +240,119 @@
     }
   },
   {
-    "instruction": "What are the platforms of MITRE data source Process",
+    "instruction": "List the platforms related to Mitre data source Driver",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Process are: Android, Linux, Windows, iOS, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Driver include: Linux, Windows, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Process",
-      "answer": "The platforms of MITRE ATT&CK data source Process are: Android, Linux, Windows, iOS, macOS",
+      "question": "List the platforms related to Mitre data source Driver",
+      "answer": "The platforms of MITRE ATT&CK data source Driver include: Linux, Windows, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source Certificate",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Certificate include: PRE",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source Certificate",
+      "answer": "The platforms of MITRE ATT&CK data source Certificate include: PRE",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source Malware Repository",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Malware Repository include: PRE",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source Malware Repository",
+      "answer": "The platforms of MITRE ATT&CK data source Malware Repository include: PRE",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source Application Log",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Application Log include: Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source Application Log",
+      "answer": "The platforms of MITRE ATT&CK data source Application Log include: Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source File?",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source File include: Linux, Network, Windows, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source File",
+      "answer": "The platforms of MITRE ATT&CK data source File include: Linux, Network, Windows, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "What are the platforms of MITRE data source Sensor Health?",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Sensor Health are: Android, Linux, Windows, iOS, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "What are the platforms of MITRE data source Sensor Health",
+      "answer": "The platforms of MITRE ATT&CK data source Sensor Health are: Android, Linux, Windows, iOS, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "What are the platforms of MITRE data source Network Share",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Network Share are: Linux, Windows, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "What are the platforms of MITRE data source Network Share",
+      "answer": "The platforms of MITRE ATT&CK data source Network Share are: Linux, Windows, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source Windows Registry",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Windows Registry include: Windows",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source Windows Registry",
+      "answer": "The platforms of MITRE ATT&CK data source Windows Registry include: Windows",
       "category": [
         "MITREFlan"
       ],
@@ -315,59 +390,14 @@
     }
   },
   {
-    "instruction": "What are the platforms of MITRE data source Sensor Health?",
+    "instruction": "List the platforms related to Mitre data source Firewall?",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Sensor Health are: Android, Linux, Windows, iOS, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Firewall include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Sensor Health",
-      "answer": "The platforms of MITRE ATT&CK data source Sensor Health are: Android, Linux, Windows, iOS, macOS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Kernel",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Kernel include: Linux, macOS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Kernel",
-      "answer": "The platforms of MITRE ATT&CK data source Kernel include: Linux, macOS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Command?",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Command include: Android, Containers, Linux, Network, Windows, iOS, macOS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Command",
-      "answer": "The platforms of MITRE ATT&CK data source Command include: Android, Containers, Linux, Network, Windows, iOS, macOS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Cloud Service?",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Cloud Service include: Azure AD, Google Workspace, IaaS, Office 365, SaaS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Cloud Service",
-      "answer": "The platforms of MITRE ATT&CK data source Cloud Service include: Azure AD, Google Workspace, IaaS, Office 365, SaaS",
+      "question": "List the platforms related to Mitre data source Firewall",
+      "answer": "The platforms of MITRE ATT&CK data source Firewall include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
       "category": [
         "MITREFlan"
       ],
@@ -390,44 +420,14 @@
     }
   },
   {
-    "instruction": "What are the platforms of MITRE data source Network Traffic?",
+    "instruction": "List the platforms related to Mitre data source Internet Scan",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Network Traffic are: Android, IaaS, Linux, Windows, iOS, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Internet Scan include: PRE",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Network Traffic",
-      "answer": "The platforms of MITRE ATT&CK data source Network Traffic are: Android, IaaS, Linux, Windows, iOS, macOS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "What are the platforms of MITRE data source Cloud Storage?",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Cloud Storage are: IaaS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Cloud Storage",
-      "answer": "The platforms of MITRE ATT&CK data source Cloud Storage are: IaaS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Snapshot?",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Snapshot include: IaaS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Snapshot",
-      "answer": "The platforms of MITRE ATT&CK data source Snapshot include: IaaS",
+      "question": "List the platforms related to Mitre data source Internet Scan",
+      "answer": "The platforms of MITRE ATT&CK data source Internet Scan include: PRE",
       "category": [
         "MITREFlan"
       ],
@@ -450,14 +450,14 @@
     }
   },
   {
-    "instruction": "What are the platforms of MITRE data source Drive?",
+    "instruction": "List the platforms related to Mitre data source Active Directory",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Drive are: Linux, Windows, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Active Directory include: Azure AD, Windows",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Drive",
-      "answer": "The platforms of MITRE ATT&CK data source Drive are: Linux, Windows, macOS",
+      "question": "List the platforms related to Mitre data source Active Directory",
+      "answer": "The platforms of MITRE ATT&CK data source Active Directory include: Azure AD, Windows",
       "category": [
         "MITREFlan"
       ],
@@ -465,14 +465,74 @@
     }
   },
   {
-    "instruction": "What are the platforms of MITRE data source Service?",
+    "instruction": "List the platforms related to Mitre data source Volume",
     "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Service are: Linux, Windows, macOS",
+    "output": "The platforms of MITRE ATT&CK data source Volume include: IaaS, Linux, Windows, macOS",
     "category": "MitreFlan",
     "instruction_type": "mitre_platform_datasource",
     "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Service",
-      "answer": "The platforms of MITRE ATT&CK data source Service are: Linux, Windows, macOS",
+      "question": "List the platforms related to Mitre data source Volume",
+      "answer": "The platforms of MITRE ATT&CK data source Volume include: IaaS, Linux, Windows, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "What are the platforms of MITRE data source Network Traffic?",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Network Traffic are: Android, IaaS, Linux, Windows, iOS, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "What are the platforms of MITRE data source Network Traffic",
+      "answer": "The platforms of MITRE ATT&CK data source Network Traffic are: Android, IaaS, Linux, Windows, iOS, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source Snapshot?",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Snapshot include: IaaS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source Snapshot",
+      "answer": "The platforms of MITRE ATT&CK data source Snapshot include: IaaS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source Logon Session",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Logon Session include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source Logon Session",
+      "answer": "The platforms of MITRE ATT&CK data source Logon Session include: Azure AD, Google Workspace, IaaS, Linux, Office 365, SaaS, Windows, macOS",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_platform_datasource"
+    }
+  },
+  {
+    "instruction": "List the platforms related to Mitre data source Persona",
+    "context": "",
+    "output": "The platforms of MITRE ATT&CK data source Persona include: PRE",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_platform_datasource",
+    "parsed_raw_data": {
+      "question": "List the platforms related to Mitre data source Persona",
+      "answer": "The platforms of MITRE ATT&CK data source Persona include: PRE",
       "category": [
         "MITREFlan"
       ],
@@ -488,66 +548,6 @@
     "parsed_raw_data": {
       "question": "List the platforms related to Mitre data source Domain Name",
       "answer": "The platforms of MITRE ATT&CK data source Domain Name include: PRE",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Instance",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Instance include: IaaS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Instance",
-      "answer": "The platforms of MITRE ATT&CK data source Instance include: IaaS",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Certificate",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Certificate include: PRE",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Certificate",
-      "answer": "The platforms of MITRE ATT&CK data source Certificate include: PRE",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "List the platforms related to Mitre data source Pod",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Pod include: Containers",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "List the platforms related to Mitre data source Pod",
-      "answer": "The platforms of MITRE ATT&CK data source Pod include: Containers",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_platform_datasource"
-    }
-  },
-  {
-    "instruction": "What are the platforms of MITRE data source Named Pipe",
-    "context": "",
-    "output": "The platforms of MITRE ATT&CK data source Named Pipe are: Linux, Windows, macOS",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_platform_datasource",
-    "parsed_raw_data": {
-      "question": "What are the platforms of MITRE data source Named Pipe",
-      "answer": "The platforms of MITRE ATT&CK data source Named Pipe are: Linux, Windows, macOS",
       "category": [
         "MITREFlan"
       ],

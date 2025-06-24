@@ -1,13 +1,13 @@
 [
   {
-    "instruction": "Which software was used by campaign C0027?",
+    "instruction": "What software was used by campaign Frankenstein",
     "context": "",
-    "output": "campaign C0027 used software Impacket",
+    "output": "The software that was used by campaign Frankenstein is Empire",
     "category": "MitreFlan",
     "instruction_type": "mite_used_by_correlation_campaign_software",
     "parsed_raw_data": {
-      "question": "Which software was used by campaign C0027",
-      "answer": "campaign C0027 used software Impacket",
+      "question": "What software was used by campaign Frankenstein",
+      "answer": "The software that was used by campaign Frankenstein is Empire",
       "category": [
         "MITREFlan"
       ],
@@ -15,14 +15,29 @@
     }
   },
   {
-    "instruction": "Which software was used by campaign C0017?",
+    "instruction": "Which software was used by campaign C0021",
     "context": "",
-    "output": "campaign C0017 used software Cobalt Strike, DEADEYE, KEYPLUG, Mimikatz, Ping, dsquery",
+    "output": "campaign C0021 used software Cobalt Strike",
     "category": "MitreFlan",
     "instruction_type": "mite_used_by_correlation_campaign_software",
     "parsed_raw_data": {
-      "question": "Which software was used by campaign C0017",
-      "answer": "campaign C0017 used software Cobalt Strike, DEADEYE, KEYPLUG, Mimikatz, Ping, dsquery",
+      "question": "Which software was used by campaign C0021",
+      "answer": "campaign C0021 used software Cobalt Strike",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign 2022 Ukraine Electric Power Attack?",
+    "context": "",
+    "output": "campaign 2022 Ukraine Electric Power Attack used software CaddyWiper",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign 2022 Ukraine Electric Power Attack",
+      "answer": "campaign 2022 Ukraine Electric Power Attack used software CaddyWiper",
       "category": [
         "MITREFlan"
       ],
@@ -45,29 +60,14 @@
     }
   },
   {
-    "instruction": "What software was used by campaign FunnyDream?",
+    "instruction": "Which software was used by campaign C0033",
     "context": "",
-    "output": "The software that was used by campaign FunnyDream is Chinoxy, FunnyDream, PcShare, Systeminfo, Tasklist, ccf32, ipconfig, netstat",
+    "output": "campaign C0033 used software StrongPity",
     "category": "MitreFlan",
     "instruction_type": "mite_used_by_correlation_campaign_software",
     "parsed_raw_data": {
-      "question": "What software was used by campaign FunnyDream",
-      "answer": "The software that was used by campaign FunnyDream is Chinoxy, FunnyDream, PcShare, Systeminfo, Tasklist, ccf32, ipconfig, netstat",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "What software was used by campaign C0032?",
-    "context": "",
-    "output": "The software that was used by campaign C0032 is Mimikatz",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "What software was used by campaign C0032",
-      "answer": "The software that was used by campaign C0032 is Mimikatz",
+      "question": "Which software was used by campaign C0033",
+      "answer": "campaign C0033 used software StrongPity",
       "category": [
         "MITREFlan"
       ],
@@ -105,6 +105,21 @@
     }
   },
   {
+    "instruction": "Which software was used by campaign C0027?",
+    "context": "",
+    "output": "campaign C0027 used software Impacket",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign C0027",
+      "answer": "campaign C0027 used software Impacket",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
     "instruction": "Which software was used by campaign Triton Safety Instrumented System Attack",
     "context": "",
     "output": "campaign Triton Safety Instrumented System Attack used software Mimikatz",
@@ -120,14 +135,14 @@
     }
   },
   {
-    "instruction": "Which software was used by campaign C0011?",
+    "instruction": "Which software was used by campaign C0018",
     "context": "",
-    "output": "campaign C0011 used software Crimson",
+    "output": "campaign C0018 used software AvosLocker, Cobalt Strike, Mimikatz, Ping, Sliver, netsh",
     "category": "MitreFlan",
     "instruction_type": "mite_used_by_correlation_campaign_software",
     "parsed_raw_data": {
-      "question": "Which software was used by campaign C0011",
-      "answer": "campaign C0011 used software Crimson",
+      "question": "Which software was used by campaign C0018",
+      "answer": "campaign C0018 used software AvosLocker, Cobalt Strike, Mimikatz, Ping, Sliver, netsh",
       "category": [
         "MITREFlan"
       ],
@@ -135,74 +150,14 @@
     }
   },
   {
-    "instruction": "Which software was used by campaign C0026?",
+    "instruction": "Which software was used by campaign SolarWinds Compromise?",
     "context": "",
-    "output": "campaign C0026 used software ANDROMEDA, Arp, KOPILUWAK, Net, QUIETCANARY, netstat",
+    "output": "campaign SolarWinds Compromise used software AdFind, Cobalt Strike, GoldFinder, GoldMax, Mimikatz, Raindrop, SUNBURST, SUNSPOT, Sibot, TEARDROP, TrailBlazer",
     "category": "MitreFlan",
     "instruction_type": "mite_used_by_correlation_campaign_software",
     "parsed_raw_data": {
-      "question": "Which software was used by campaign C0026",
-      "answer": "campaign C0026 used software ANDROMEDA, Arp, KOPILUWAK, Net, QUIETCANARY, netstat",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "What software was used by campaign Operation CuckooBees?",
-    "context": "",
-    "output": "The software that was used by campaign Operation CuckooBees is Systeminfo, dsquery",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "What software was used by campaign Operation CuckooBees",
-      "answer": "The software that was used by campaign Operation CuckooBees is Systeminfo, dsquery",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign 2022 Ukraine Electric Power Attack?",
-    "context": "",
-    "output": "campaign 2022 Ukraine Electric Power Attack used software CaddyWiper",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign 2022 Ukraine Electric Power Attack",
-      "answer": "campaign 2022 Ukraine Electric Power Attack used software CaddyWiper",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign C0015",
-    "context": "",
-    "output": "campaign C0015 used software AdFind, Bazar, Cobalt Strike, Conti, Rclone",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign C0015",
-      "answer": "campaign C0015 used software AdFind, Bazar, Cobalt Strike, Conti, Rclone",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign C0010?",
-    "context": "",
-    "output": "campaign C0010 used software SUGARDUMP, SUGARUSH",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign C0010",
-      "answer": "campaign C0010 used software SUGARDUMP, SUGARUSH",
+      "question": "Which software was used by campaign SolarWinds Compromise",
+      "answer": "campaign SolarWinds Compromise used software AdFind, Cobalt Strike, GoldFinder, GoldMax, Mimikatz, Raindrop, SUNBURST, SUNSPOT, Sibot, TEARDROP, TrailBlazer",
       "category": [
         "MITREFlan"
       ],
@@ -240,14 +195,14 @@
     }
   },
   {
-    "instruction": "Which software was used by campaign C0018",
+    "instruction": "Which software was used by campaign C0026?",
     "context": "",
-    "output": "campaign C0018 used software AvosLocker, Cobalt Strike, Mimikatz, Ping, Sliver, netsh",
+    "output": "campaign C0026 used software ANDROMEDA, Arp, KOPILUWAK, Net, QUIETCANARY, netstat",
     "category": "MitreFlan",
     "instruction_type": "mite_used_by_correlation_campaign_software",
     "parsed_raw_data": {
-      "question": "Which software was used by campaign C0018",
-      "answer": "campaign C0018 used software AvosLocker, Cobalt Strike, Mimikatz, Ping, Sliver, netsh",
+      "question": "Which software was used by campaign C0026",
+      "answer": "campaign C0026 used software ANDROMEDA, Arp, KOPILUWAK, Net, QUIETCANARY, netstat",
       "category": [
         "MITREFlan"
       ],
@@ -255,14 +210,164 @@
     }
   },
   {
-    "instruction": "What software was used by campaign Frankenstein",
+    "instruction": "What software was used by campaign C0032?",
     "context": "",
-    "output": "The software that was used by campaign Frankenstein is Empire",
+    "output": "The software that was used by campaign C0032 is Mimikatz",
     "category": "MitreFlan",
     "instruction_type": "mite_used_by_correlation_campaign_software",
     "parsed_raw_data": {
-      "question": "What software was used by campaign Frankenstein",
-      "answer": "The software that was used by campaign Frankenstein is Empire",
+      "question": "What software was used by campaign C0032",
+      "answer": "The software that was used by campaign C0032 is Mimikatz",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign C0011?",
+    "context": "",
+    "output": "campaign C0011 used software Crimson",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign C0011",
+      "answer": "campaign C0011 used software Crimson",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "What software was used by campaign FunnyDream?",
+    "context": "",
+    "output": "The software that was used by campaign FunnyDream is Chinoxy, FunnyDream, PcShare, Systeminfo, Tasklist, ccf32, ipconfig, netstat",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "What software was used by campaign FunnyDream",
+      "answer": "The software that was used by campaign FunnyDream is Chinoxy, FunnyDream, PcShare, Systeminfo, Tasklist, ccf32, ipconfig, netstat",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "What software was used by campaign Operation CuckooBees?",
+    "context": "",
+    "output": "The software that was used by campaign Operation CuckooBees is Systeminfo, dsquery",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "What software was used by campaign Operation CuckooBees",
+      "answer": "The software that was used by campaign Operation CuckooBees is Systeminfo, dsquery",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign C0010?",
+    "context": "",
+    "output": "campaign C0010 used software SUGARDUMP, SUGARUSH",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign C0010",
+      "answer": "campaign C0010 used software SUGARDUMP, SUGARUSH",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign C0015",
+    "context": "",
+    "output": "campaign C0015 used software AdFind, Bazar, Cobalt Strike, Conti, Rclone",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign C0015",
+      "answer": "campaign C0015 used software AdFind, Bazar, Cobalt Strike, Conti, Rclone",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign CostaRicto",
+    "context": "",
+    "output": "campaign CostaRicto used software CostaBricks, PS1, PowerSploit, PsExec, SombRAT, Tor",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign CostaRicto",
+      "answer": "campaign CostaRicto used software CostaBricks, PS1, PowerSploit, PsExec, SombRAT, Tor",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign Operation Wocao?",
+    "context": "",
+    "output": "campaign Operation Wocao used software BloodHound, Impacket, Mimikatz, PowerSploit, PsExec, Tor, Wevtutil, dsquery, netstat",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign Operation Wocao",
+      "answer": "campaign Operation Wocao used software BloodHound, Impacket, Mimikatz, PowerSploit, PsExec, Tor, Wevtutil, dsquery, netstat",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign 2015 Ukraine Electric Power Attack",
+    "context": "",
+    "output": "campaign 2015 Ukraine Electric Power Attack used software BlackEnergy, KillDisk",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign 2015 Ukraine Electric Power Attack",
+      "answer": "campaign 2015 Ukraine Electric Power Attack used software BlackEnergy, KillDisk",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "What software was used by campaign Operation Dream Job",
+    "context": "",
+    "output": "The software that was used by campaign Operation Dream Job is DRATzarus, Responder, Torisma",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "What software was used by campaign Operation Dream Job",
+      "answer": "The software that was used by campaign Operation Dream Job is DRATzarus, Responder, Torisma",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mite_used_by_correlation_campaign_software"
+    }
+  },
+  {
+    "instruction": "Which software was used by campaign C0017?",
+    "context": "",
+    "output": "campaign C0017 used software Cobalt Strike, DEADEYE, KEYPLUG, Mimikatz, Ping, dsquery",
+    "category": "MitreFlan",
+    "instruction_type": "mite_used_by_correlation_campaign_software",
+    "parsed_raw_data": {
+      "question": "Which software was used by campaign C0017",
+      "answer": "campaign C0017 used software Cobalt Strike, DEADEYE, KEYPLUG, Mimikatz, Ping, dsquery",
       "category": [
         "MITREFlan"
       ],
@@ -300,81 +405,6 @@
     }
   },
   {
-    "instruction": "Which software was used by campaign Operation Wocao?",
-    "context": "",
-    "output": "campaign Operation Wocao used software BloodHound, Impacket, Mimikatz, PowerSploit, PsExec, Tor, Wevtutil, dsquery, netstat",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign Operation Wocao",
-      "answer": "campaign Operation Wocao used software BloodHound, Impacket, Mimikatz, PowerSploit, PsExec, Tor, Wevtutil, dsquery, netstat",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign SolarWinds Compromise?",
-    "context": "",
-    "output": "campaign SolarWinds Compromise used software AdFind, Cobalt Strike, GoldFinder, GoldMax, Mimikatz, Raindrop, SUNBURST, SUNSPOT, Sibot, TEARDROP, TrailBlazer",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign SolarWinds Compromise",
-      "answer": "campaign SolarWinds Compromise used software AdFind, Cobalt Strike, GoldFinder, GoldMax, Mimikatz, Raindrop, SUNBURST, SUNSPOT, Sibot, TEARDROP, TrailBlazer",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "What software was used by campaign Operation Dream Job",
-    "context": "",
-    "output": "The software that was used by campaign Operation Dream Job is DRATzarus, Responder, Torisma",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "What software was used by campaign Operation Dream Job",
-      "answer": "The software that was used by campaign Operation Dream Job is DRATzarus, Responder, Torisma",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign C0021",
-    "context": "",
-    "output": "campaign C0021 used software Cobalt Strike",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign C0021",
-      "answer": "campaign C0021 used software Cobalt Strike",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign C0033",
-    "context": "",
-    "output": "campaign C0033 used software StrongPity",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign C0033",
-      "answer": "campaign C0033 used software StrongPity",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
     "instruction": "Which software was used by campaign Operation Sharpshooter?",
     "context": "",
     "output": "campaign Operation Sharpshooter used software Rising Sun",
@@ -383,36 +413,6 @@
     "parsed_raw_data": {
       "question": "Which software was used by campaign Operation Sharpshooter",
       "answer": "campaign Operation Sharpshooter used software Rising Sun",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign 2015 Ukraine Electric Power Attack",
-    "context": "",
-    "output": "campaign 2015 Ukraine Electric Power Attack used software BlackEnergy, KillDisk",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign 2015 Ukraine Electric Power Attack",
-      "answer": "campaign 2015 Ukraine Electric Power Attack used software BlackEnergy, KillDisk",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mite_used_by_correlation_campaign_software"
-    }
-  },
-  {
-    "instruction": "Which software was used by campaign CostaRicto",
-    "context": "",
-    "output": "campaign CostaRicto used software CostaBricks, PS1, PowerSploit, PsExec, SombRAT, Tor",
-    "category": "MitreFlan",
-    "instruction_type": "mite_used_by_correlation_campaign_software",
-    "parsed_raw_data": {
-      "question": "Which software was used by campaign CostaRicto",
-      "answer": "campaign CostaRicto used software CostaBricks, PS1, PowerSploit, PsExec, SombRAT, Tor",
       "category": [
         "MITREFlan"
       ],
