@@ -333,7 +333,7 @@ with gr.Blocks() as demo:
                                                 label="Results per query (limit)",
                                                 visible=False)
                     with gr.Column(scale=1, min_width=0):
-                        summarize_checkbox = gr.Checkbox(label="Summarize",
+                        summarize_checkbox = gr.Checkbox(label="Summarize Search Results with LLM",
                                                         value=True,
                                                         visible=False)
                 grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
