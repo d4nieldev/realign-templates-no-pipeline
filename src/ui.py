@@ -121,7 +121,10 @@ def run_dgt(
         instruction: str,
         response: str,
         is_search: bool,
-        grounding_doc: str | None
+        grounding_doc: str | None,
+        max_queries: int,
+        limit: int,
+        summarize: bool,
     ) -> tuple[str, bool, int, list[str] | None, dict, dict]:
     if not dataset:
         raise gr.Error("⚠️ Dataset is required!")
@@ -135,20 +138,22 @@ def run_dgt(
         raise gr.Error("⚠️ Response is required!")
 
     # Generate configuration
-    config = """
+    config = f"""
 task_name: UI
 created_by: IBM Research
 data_builder: realign
 task_description: Reformats the responses of a general instruction dataset (the one used in the original paper of ReAlign) into a format that better aligns with pre-established criteria and collected evidence.
 retriever:
   type: duckduckgo_search
-  limit: 4
+  limit: {limit}
   process_webpages: True
   deduplicate_sources: True
   reorder_organic: True
+max_queries_per_instruction: {max_queries}
+summarize_web_results: {summarize}
 seed_datastore:
   type: default
-  data_path: ${DGT_DATA_DIR}/research/realign/example_data_ui.json
+  data_path: ${{DGT_DATA_DIR}}/research/realign/example_data_ui.json
 """
     
     config_file_path = Path("fms-dgt/tasks/research/realign/ui/task.yaml")
@@ -316,8 +321,22 @@ with gr.Blocks() as demo:
         response = gr.Textbox(label="Original Response", placeholder="Response for ReAlign...", show_copy_button=True)
     with gr.Row():
         with gr.Column(scale=1):
-            is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
-            grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
+            with gr.Group():
+                is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
+                with gr.Row():
+                    with gr.Column(scale=2):
+                        max_queries = gr.Slider(1, 10, value=5, step=1,
+                                                label="Max queries / instruction",
+                                                visible=False)
+                    with gr.Column(scale=2):
+                        limit_slider = gr.Slider(1, 10, value=4, step=1,
+                                                label="Results per query (limit)",
+                                                visible=False)
+                    with gr.Column(scale=1, min_width=0):
+                        summarize_checkbox = gr.Checkbox(label="Summarize",
+                                                        value=True,
+                                                        visible=False)
+                grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
             run_dgt_btn = gr.Button("Re-Align", variant="primary")
         with gr.Column(scale=1):
             realigned_response = gr.Textbox(label="Realigned Response", show_copy_button=True)
@@ -361,8 +380,15 @@ with gr.Blocks() as demo:
     # When the run_dgt_btn is clicked, run the DGT command
     run_dgt_btn.click(
         run_dgt,
-        inputs=[dataset, task, task_description, template, instruction, response, is_search, grounding_doc],
-        outputs=[realigned_response, preferred, factuality_score, search_results_state, search_results_slider, search_result]
+        inputs=[
+            dataset, task, task_description, template,
+            instruction, response,
+            is_search, grounding_doc, max_queries, limit_slider, summarize_checkbox
+        ],
+        outputs=[
+            realigned_response, preferred, factuality_score,
+            search_results_state, search_results_slider, search_result
+        ]
     )
     def my_task(idx, results):
         return results[idx]
@@ -371,6 +397,20 @@ with gr.Blocks() as demo:
         my_task,
         inputs=[search_results_slider, search_results_state],
         outputs=[search_result]
+    )
+
+    def _toggle_search_opts(use_search: bool):
+        return (
+            gr.update(visible=use_search),   # max_queries
+            gr.update(visible=use_search),   # limit_slider
+            gr.update(visible=use_search),   # summarize_checkbox
+        )
+
+    # wire it up
+    is_search.change(
+        _toggle_search_opts,
+        inputs=is_search,
+        outputs=[max_queries, limit_slider, summarize_checkbox]
     )
 
 demo.launch()
