@@ -1,53 +1,5 @@
 [
   {
-    "instruction": "Q: Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to avoid being detected.\n\nThe tactic consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for the tactic include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.\n\nA. Defense Evasion, B. Impact, C. Privilege Escalation, D. Credential Access\nA:",
-    "context": "",
-    "output": "A. Defense Evasion",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to avoid being detected.\n\nThe tactic consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for the tactic include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
-      "options": "A. Defense Evasion, B. Impact, C. Privilege Escalation, D. Credential Access",
-      "choice": "A. Defense Evasion",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
-    "instruction": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to move through your environment.\n\nThe tactic consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish The tactic or use legitimate credentials with native network and operating system tools, which may be stealthier.\n\nPossible answers:\nA. Defense Evasion, B. Lateral Movement, C. Impact, D. Reconnaissance",
-    "context": "",
-    "output": "B. Lateral Movement",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to move through your environment.\n\nThe tactic consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish The tactic or use legitimate credentials with native network and operating system tools, which may be stealthier.",
-      "options": "A. Defense Evasion, B. Lateral Movement, C. Impact, D. Reconnaissance",
-      "choice": "B. Lateral Movement",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE tactic is referred to in the following description:\n\nThe adversary is trying to communicate with compromised systems to control them.\n\nThe tactic consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish the tactic with various levels of stealth depending on the victim\u2019s network structure and defenses.\n\nA. Discovery, B. Privilege Escalation, C. Initial Access, D. Command and Control\nA:",
-    "context": "",
-    "output": "D. Command and Control",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE tactic is referred to in the following description:\n\nThe adversary is trying to communicate with compromised systems to control them.\n\nThe tactic consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish the tactic with various levels of stealth depending on the victim\u2019s network structure and defenses.",
-      "options": "A. Discovery, B. Privilege Escalation, C. Initial Access, D. Command and Control",
-      "choice": "D. Command and Control",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
     "instruction": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to gain higher-level permissions.\n\nThe tactic consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.\n\nPossible answers:\nA. Lateral Movement, B. Reconnaissance, C. Privilege Escalation, D. Impact",
     "context": "",
     "output": "C. Privilege Escalation",
@@ -64,79 +16,15 @@
     }
   },
   {
-    "instruction": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to figure out your environment.\n\nThe tactic consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.\n\nA. Reconnaissance, B. Credential Access, C. Command and Control, D. Discovery\nAnswer:",
+    "instruction": "Q: Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to maintain their foothold.\n\nThe tactic consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for the tactic include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.\n\nOptions:\nA. Discovery, B. Privilege Escalation, C. Persistence, D. Reconnaissance",
     "context": "",
-    "output": "D. Discovery",
+    "output": "C. Persistence",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_tactic",
     "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to figure out your environment.\n\nThe tactic consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
-      "options": "A. Reconnaissance, B. Credential Access, C. Command and Control, D. Discovery",
-      "choice": "D. Discovery",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
-    "instruction": "Question: Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to steal data.\n\nThe tactic consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.\nA. Defense Evasion, B. Discovery, C. Command and Control, D. Exfiltration\nAnswer:",
-    "context": "",
-    "output": "D. Exfiltration",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to steal data.\n\nThe tactic consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
-      "options": "A. Defense Evasion, B. Discovery, C. Command and Control, D. Exfiltration",
-      "choice": "D. Exfiltration",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
-    "instruction": "Question: Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to gather data of interest to their goal.\n\nThe tactic consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common the tactic methods include capturing screenshots and keyboard input.\nA. Execution, B. Collection, C. Discovery, D. Persistence\nAnswer:",
-    "context": "",
-    "output": "B. Collection",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to gather data of interest to their goal.\n\nThe tactic consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common the tactic methods include capturing screenshots and keyboard input.",
-      "options": "A. Execution, B. Collection, C. Discovery, D. Persistence",
-      "choice": "B. Collection",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
-    "instruction": "Answer which mitre tactic is related to the description: The adversary is trying to establish resources they can use to support operations.\n\nThe tactic consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion.\nA. Lateral Movement, B. Resource Development, C. Reconnaissance, D. Discovery",
-    "context": "",
-    "output": "B. Resource Development",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Answer which mitre tactic is related to the description: The adversary is trying to establish resources they can use to support operations.\n\nThe tactic consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion.",
-      "options": "A. Lateral Movement, B. Resource Development, C. Reconnaissance, D. Discovery",
-      "choice": "B. Resource Development",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
-    "instruction": "Q: Answer which mitre tactic is related to the description: The adversary is trying to gather information they can use to plan future operations.\n\nThe tactic consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further The tactic efforts.\n\nA. Command and Control, B. Exfiltration, C. Reconnaissance, D. Persistence\nA:",
-    "context": "",
-    "output": "C. Reconnaissance",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Answer which mitre tactic is related to the description: The adversary is trying to gather information they can use to plan future operations.\n\nThe tactic consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further The tactic efforts.",
-      "options": "A. Command and Control, B. Exfiltration, C. Reconnaissance, D. Persistence",
-      "choice": "C. Reconnaissance",
+      "question": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to maintain their foothold.\n\nThe tactic consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for the tactic include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.",
+      "options": "A. Discovery, B. Privilege Escalation, C. Persistence, D. Reconnaissance",
+      "choice": "C. Persistence",
       "category": [
         "MITREFlan"
       ],
@@ -176,22 +64,6 @@
     }
   },
   {
-    "instruction": "Q: Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to maintain their foothold.\n\nThe tactic consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for the tactic include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.\n\nOptions:\nA. Discovery, B. Privilege Escalation, C. Persistence, D. Reconnaissance",
-    "context": "",
-    "output": "C. Persistence",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_tactic",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to maintain their foothold.\n\nThe tactic consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for the tactic include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.",
-      "options": "A. Discovery, B. Privilege Escalation, C. Persistence, D. Reconnaissance",
-      "choice": "C. Persistence",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_tactic"
-    }
-  },
-  {
     "instruction": "Question: Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to run malicious code.\n\nThe tactic consists of techniques that result in adversary-controlled code running on a local or remote system. Techniques that run malicious code are often paired with techniques from all other tactics to achieve broader goals, like exploring a network or stealing data. For example, an adversary might use a remote access tool to run a PowerShell script that does Remote System Discovery.\nA. Execution, B. Defense Evasion, C. Discovery, D. Exfiltration\nAnswer:",
     "context": "",
     "output": "A. Execution",
@@ -208,6 +80,118 @@
     }
   },
   {
+    "instruction": "Q: Tell me which MITRE tactic is referred to in the following description:\n\nThe adversary is trying to communicate with compromised systems to control them.\n\nThe tactic consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish the tactic with various levels of stealth depending on the victim\u2019s network structure and defenses.\n\nA. Discovery, B. Privilege Escalation, C. Initial Access, D. Command and Control\nA:",
+    "context": "",
+    "output": "D. Command and Control",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE tactic is referred to in the following description:\n\nThe adversary is trying to communicate with compromised systems to control them.\n\nThe tactic consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish the tactic with various levels of stealth depending on the victim\u2019s network structure and defenses.",
+      "options": "A. Discovery, B. Privilege Escalation, C. Initial Access, D. Command and Control",
+      "choice": "D. Command and Control",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
+    "instruction": "Q: Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to avoid being detected.\n\nThe tactic consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for the tactic include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.\n\nA. Defense Evasion, B. Impact, C. Privilege Escalation, D. Credential Access\nA:",
+    "context": "",
+    "output": "A. Defense Evasion",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to avoid being detected.\n\nThe tactic consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for the tactic include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
+      "options": "A. Defense Evasion, B. Impact, C. Privilege Escalation, D. Credential Access",
+      "choice": "A. Defense Evasion",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
+    "instruction": "Question: Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to gather data of interest to their goal.\n\nThe tactic consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common the tactic methods include capturing screenshots and keyboard input.\nA. Execution, B. Collection, C. Discovery, D. Persistence\nAnswer:",
+    "context": "",
+    "output": "B. Collection",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to gather data of interest to their goal.\n\nThe tactic consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common the tactic methods include capturing screenshots and keyboard input.",
+      "options": "A. Execution, B. Collection, C. Discovery, D. Persistence",
+      "choice": "B. Collection",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
+    "instruction": "Q: Answer which mitre tactic is related to the description: The adversary is trying to gather information they can use to plan future operations.\n\nThe tactic consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further The tactic efforts.\n\nA. Command and Control, B. Exfiltration, C. Reconnaissance, D. Persistence\nA:",
+    "context": "",
+    "output": "C. Reconnaissance",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Answer which mitre tactic is related to the description: The adversary is trying to gather information they can use to plan future operations.\n\nThe tactic consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further The tactic efforts.",
+      "options": "A. Command and Control, B. Exfiltration, C. Reconnaissance, D. Persistence",
+      "choice": "C. Reconnaissance",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to figure out your environment.\n\nThe tactic consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.\n\nA. Reconnaissance, B. Credential Access, C. Command and Control, D. Discovery\nAnswer:",
+    "context": "",
+    "output": "D. Discovery",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to figure out your environment.\n\nThe tactic consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
+      "options": "A. Reconnaissance, B. Credential Access, C. Command and Control, D. Discovery",
+      "choice": "D. Discovery",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to move through your environment.\n\nThe tactic consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish The tactic or use legitimate credentials with native network and operating system tools, which may be stealthier.\n\nPossible answers:\nA. Defense Evasion, B. Lateral Movement, C. Impact, D. Reconnaissance",
+    "context": "",
+    "output": "B. Lateral Movement",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to move through your environment.\n\nThe tactic consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish The tactic or use legitimate credentials with native network and operating system tools, which may be stealthier.",
+      "options": "A. Defense Evasion, B. Lateral Movement, C. Impact, D. Reconnaissance",
+      "choice": "B. Lateral Movement",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
+    "instruction": "Question: Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to steal data.\n\nThe tactic consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.\nA. Defense Evasion, B. Discovery, C. Command and Control, D. Exfiltration\nAnswer:",
+    "context": "",
+    "output": "D. Exfiltration",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK tactic relevant to the following:\nThe adversary is trying to steal data.\n\nThe tactic consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
+      "options": "A. Defense Evasion, B. Discovery, C. Command and Control, D. Exfiltration",
+      "choice": "D. Exfiltration",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
     "instruction": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to steal account names and passwords.\n\nThe tactic consists of techniques for stealing credentials like account names and passwords. Techniques used to get credentials include keylogging or credential dumping. Using legitimate credentials can give adversaries access to systems, make them harder to detect, and provide the opportunity to create more accounts to help achieve their goals.\n\nA. Resource Development, B. Credential Access, C. Command and Control, D. Execution\nAnswer:",
     "context": "",
     "output": "B. Credential Access",
@@ -217,6 +201,22 @@
       "question": "Which MITRE ATT&CK tactic is described in the following:\nThe adversary is trying to steal account names and passwords.\n\nThe tactic consists of techniques for stealing credentials like account names and passwords. Techniques used to get credentials include keylogging or credential dumping. Using legitimate credentials can give adversaries access to systems, make them harder to detect, and provide the opportunity to create more accounts to help achieve their goals.",
       "options": "A. Resource Development, B. Credential Access, C. Command and Control, D. Execution",
       "choice": "B. Credential Access",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_tactic"
+    }
+  },
+  {
+    "instruction": "Answer which mitre tactic is related to the description: The adversary is trying to establish resources they can use to support operations.\n\nThe tactic consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion.\nA. Lateral Movement, B. Resource Development, C. Reconnaissance, D. Discovery",
+    "context": "",
+    "output": "B. Resource Development",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_tactic",
+    "parsed_raw_data": {
+      "question": "Answer which mitre tactic is related to the description: The adversary is trying to establish resources they can use to support operations.\n\nThe tactic consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion.",
+      "options": "A. Lateral Movement, B. Resource Development, C. Reconnaissance, D. Discovery",
+      "choice": "B. Resource Development",
       "category": [
         "MITREFlan"
       ],

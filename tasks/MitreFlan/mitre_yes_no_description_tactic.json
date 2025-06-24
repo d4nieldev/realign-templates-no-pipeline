@@ -1,5 +1,20 @@
 [
   {
+    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code..\n\nIs the following description related to tactic Collection (TA0003).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Persistence",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_tactic",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code..\n\nIs the following description related to tactic Collection (TA0003)",
+      "yes/no": "No.\nThe provided context is correlated with Persistence",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_tactic"
+    }
+  },
+  {
     "instruction": "Answer in Yes or No.\n\nQuestion: Is tactic Execution (TA0011) accurately described in the following description:\n\nThe adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
     "context": "",
     "output": "No",
@@ -8,51 +23,6 @@
     "parsed_raw_data": {
       "question": "Is tactic Execution (TA0011) accurately described in the following description:\n\nThe adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
       "yes/no": "No",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_tactic"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is tactic Reconnaissance (TA0001) accurately described in the following description:\n\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
-    "context": "",
-    "output": "No.\nThe correct answer is Initial Access",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_tactic",
-    "parsed_raw_data": {
-      "question": "Is tactic Reconnaissance (TA0001) accurately described in the following description:\n\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
-      "yes/no": "No.\nThe correct answer is Initial Access",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_tactic"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier..\n\nIs the following description related to tactic Lateral Movement (TA0008).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_tactic",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - The adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier..\n\nIs the following description related to tactic Lateral Movement (TA0008)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_tactic"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach..\n\nIs the following description related to tactic Impact (TA0040).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_tactic",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - The adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach..\n\nIs the following description related to tactic Impact (TA0040)",
-      "yes/no": "Yes",
       "category": [
         "MITREFlan"
       ],
@@ -75,14 +45,14 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code..\n\nIs the following description related to tactic Collection (TA0003).\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective..\n\nIs the following description related to tactic Credential Access (TA0007).\n\nProvide your answer in Yes or No.",
     "context": "",
-    "output": "No.\nThe provided context is correlated with Persistence",
+    "output": "No.\nThe correct answer is Discovery",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_tactic",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code..\n\nIs the following description related to tactic Collection (TA0003)",
-      "yes/no": "No.\nThe provided context is correlated with Persistence",
+      "question": "You are given the following description:\nDescription - The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective..\n\nIs the following description related to tactic Credential Access (TA0007)",
+      "yes/no": "No.\nThe correct answer is Discovery",
       "category": [
         "MITREFlan"
       ],
@@ -90,13 +60,13 @@
     }
   },
   {
-    "instruction": "Q: Is tactic Defense Evasion (TA0005) accurately described in the following description:\n\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses..\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach..\n\nIs the following description related to tactic Impact (TA0040).\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_tactic",
     "parsed_raw_data": {
-      "question": "Is tactic Defense Evasion (TA0005) accurately described in the following description:\n\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
+      "question": "You are given the following description:\nDescription - The adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach..\n\nIs the following description related to tactic Impact (TA0040)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -105,14 +75,14 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context..\n\nIs the following description related to tactic Credential Access (TA0004).\n\nProvide your answer in Yes or No.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is tactic Reconnaissance (TA0001) accurately described in the following description:\n\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
     "context": "",
-    "output": "No.\nThe provided context is correlated with Privilege Escalation",
+    "output": "No.\nThe correct answer is Initial Access",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_tactic",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context..\n\nIs the following description related to tactic Credential Access (TA0004)",
-      "yes/no": "No.\nThe provided context is correlated with Privilege Escalation",
+      "question": "Is tactic Reconnaissance (TA0001) accurately described in the following description:\n\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
+      "yes/no": "No.\nThe correct answer is Initial Access",
       "category": [
         "MITREFlan"
       ],
@@ -135,13 +105,28 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to establish resources they can use to support operations.\n\nResource Development consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion..\n\nIs the following description related to tactic Resource Development (TA0042).\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: Is tactic Collection (TA0009) accurately described in the following description:\n\nThe adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common collection methods include capturing screenshots and keyboard input..\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_tactic",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - The adversary is trying to establish resources they can use to support operations.\n\nResource Development consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion..\n\nIs the following description related to tactic Resource Development (TA0042)",
+      "question": "Is tactic Collection (TA0009) accurately described in the following description:\n\nThe adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common collection methods include capturing screenshots and keyboard input.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_tactic"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier..\n\nIs the following description related to tactic Lateral Movement (TA0008).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_tactic",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - The adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier..\n\nIs the following description related to tactic Lateral Movement (TA0008)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -165,21 +150,6 @@
     }
   },
   {
-    "instruction": "Q: Is tactic Collection (TA0009) accurately described in the following description:\n\nThe adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common collection methods include capturing screenshots and keyboard input..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_tactic",
-    "parsed_raw_data": {
-      "question": "Is tactic Collection (TA0009) accurately described in the following description:\n\nThe adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to steal (exfiltrate) the data. Common target sources include various drive types, browsers, audio, video, and email. Common collection methods include capturing screenshots and keyboard input.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_tactic"
-    }
-  },
-  {
     "instruction": "Q: Is tactic Collection (TA0002) accurately described in the following description:\n\nThe adversary is trying to run malicious code.\n\nExecution consists of techniques that result in adversary-controlled code running on a local or remote system. Techniques that run malicious code are often paired with techniques from all other tactics to achieve broader goals, like exploring a network or stealing data. For example, an adversary might use a remote access tool to run a PowerShell script that does Remote System Discovery..\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "No.\nThe correct answer is Execution",
@@ -195,14 +165,44 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective..\n\nIs the following description related to tactic Credential Access (TA0007).\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to establish resources they can use to support operations.\n\nResource Development consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion..\n\nIs the following description related to tactic Resource Development (TA0042).\n\nProvide your answer in Yes or No.",
     "context": "",
-    "output": "No.\nThe correct answer is Discovery",
+    "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_tactic",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective..\n\nIs the following description related to tactic Credential Access (TA0007)",
-      "yes/no": "No.\nThe correct answer is Discovery",
+      "question": "You are given the following description:\nDescription - The adversary is trying to establish resources they can use to support operations.\n\nResource Development consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion..\n\nIs the following description related to tactic Resource Development (TA0042)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_tactic"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context..\n\nIs the following description related to tactic Credential Access (TA0004).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Privilege Escalation",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_tactic",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context..\n\nIs the following description related to tactic Credential Access (TA0004)",
+      "yes/no": "No.\nThe provided context is correlated with Privilege Escalation",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_tactic"
+    }
+  },
+  {
+    "instruction": "Q: Is tactic Defense Evasion (TA0005) accurately described in the following description:\n\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_tactic",
+    "parsed_raw_data": {
+      "question": "Is tactic Defense Evasion (TA0005) accurately described in the following description:\n\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
+      "yes/no": "Yes",
       "category": [
         "MITREFlan"
       ],

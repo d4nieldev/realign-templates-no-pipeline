@@ -1,290 +1,5 @@
 [
   {
-    "instruction": "Describe the following MITRE ATT&CK mitigation - Active Directory Configuration (M1015)?",
-    "context": "",
-    "output": "Description of MITRE ATT&CK 'Active Directory Configuration (M1015)' - Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE ATT&CK mitigation - Active Directory Configuration (M1015)",
-      "answer": "Description of MITRE ATT&CK 'Active Directory Configuration (M1015)' - Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Can you please describe the MITRE ATT&CK mitigation: Boot Integrity (M1046)",
-    "context": "",
-    "output": "Sure! Here is the description: Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Can you please describe the MITRE ATT&CK mitigation: Boot Integrity (M1046)",
-      "answer": "Sure! Here is the description: Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the following MITRE mitigation: Vulnerability Scanning - M1016?",
-    "context": "",
-    "output": "Description for the MITRE mitigation Vulnerability Scanning (M1016):\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE mitigation: Vulnerability Scanning - M1016",
-      "answer": "Description for the MITRE mitigation Vulnerability Scanning (M1016):\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "What is MITRE mitigation: Multi-factor Authentication - M1032?",
-    "context": "",
-    "output": "MITRE mitigation 'Multi-factor Authentication - M1032' can be described as follows:\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "What is MITRE mitigation: Multi-factor Authentication - M1032",
-      "answer": "MITRE mitigation 'Multi-factor Authentication - M1032' can be described as follows:\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the MITRE ATT&CK mitigation: Limit Software Installation (M1033)?",
-    "context": "",
-    "output": "Below is the description for the MITRE ATT&CK mitigation named 'Limit Software Installation (M1033)':\nBlock users or groups from installing unapproved software.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the MITRE ATT&CK mitigation: Limit Software Installation (M1033)",
-      "answer": "Below is the description for the MITRE ATT&CK mitigation named 'Limit Software Installation (M1033)':\nBlock users or groups from installing unapproved software.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Can you please describe the mitigation: Update Software (M1051)",
-    "context": "",
-    "output": "Certainly. Here is the description: Perform regular software updates to mitigate exploitation risk.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Can you please describe the mitigation: Update Software (M1051)",
-      "answer": "Certainly. Here is the description: Perform regular software updates to mitigate exploitation risk.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the following MITRE ATT&CK mitigation - Behavior Prevention on Endpoint (M1040)?",
-    "context": "",
-    "output": "Description of MITRE ATT&CK 'Behavior Prevention on Endpoint (M1040)' - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE ATT&CK mitigation - Behavior Prevention on Endpoint (M1040)",
-      "answer": "Description of MITRE ATT&CK 'Behavior Prevention on Endpoint (M1040)' - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe MITRE mitigation: 'Limit Access to Resource Over Network (M1035)'",
-    "context": "",
-    "output": "Certainly! Description for mitigation 'Limit Access to Resource Over Network (M1035)':\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe MITRE mitigation: 'Limit Access to Resource Over Network (M1035)'",
-      "answer": "Certainly! Description for mitigation 'Limit Access to Resource Over Network (M1035)':\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Can you please describe the MITRE ATT&CK mitigation: 'Data Backup (M1053)'?",
-    "context": "",
-    "output": "Indeed. Description for MITRE ATT&CK mitigation 'Data Backup (M1053)':\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Can you please describe the MITRE ATT&CK mitigation: 'Data Backup (M1053)'",
-      "answer": "Indeed. Description for MITRE ATT&CK mitigation 'Data Backup (M1053)':\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me about MITRE ATT&CK mitigation: Audit - M1047",
-    "context": "",
-    "output": "Ofcourse. Below is the description for MITRE mitigation 'Audit (M1047)':\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me about MITRE ATT&CK mitigation: Audit - M1047",
-      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Audit (M1047)':\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the MITRE ATT&CK mitigation: Pre-compromise (M1056)",
-    "context": "",
-    "output": "Below is the description for the MITRE ATT&CK mitigation named 'Pre-compromise (M1056)':\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the MITRE ATT&CK mitigation: Pre-compromise (M1056)",
-      "answer": "Below is the description for the MITRE ATT&CK mitigation named 'Pre-compromise (M1056)':\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Can you please describe the MITRE ATT&CK mitigation: Privileged Account Management (M1026)",
-    "context": "",
-    "output": "Sure! Here is the description: Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Can you please describe the MITRE ATT&CK mitigation: Privileged Account Management (M1026)",
-      "answer": "Sure! Here is the description: Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me about MITRE ATT&CK mitigation: Operating System Configuration - M1028",
-    "context": "",
-    "output": "Ofcourse. Below is the description for MITRE mitigation 'Operating System Configuration (M1028)':\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me about MITRE ATT&CK mitigation: Operating System Configuration - M1028",
-      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Operating System Configuration (M1028)':\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe MITRE mitigation: 'Account Use Policies (M1036)'",
-    "context": "",
-    "output": "Certainly! Description for mitigation 'Account Use Policies (M1036)':\nConfigure features related to account use like login attempt lockouts, specific login times, etc.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe MITRE mitigation: 'Account Use Policies (M1036)'",
-      "answer": "Certainly! Description for mitigation 'Account Use Policies (M1036)':\nConfigure features related to account use like login attempt lockouts, specific login times, etc.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Can you please describe the MITRE mitigation: SSL/TLS Inspection (M1020)",
-    "context": "",
-    "output": "Sure. Here is the description: Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Can you please describe the MITRE mitigation: SSL/TLS Inspection (M1020)",
-      "answer": "Sure. Here is the description: Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Provide a short description for the MITRE ATT&CK mitigation: Threat Intelligence Program (M1019)",
-    "context": "",
-    "output": "Sure. Short description for the requested MITRE ATT&CK:\n\nA threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Provide a short description for the MITRE ATT&CK mitigation: Threat Intelligence Program (M1019)",
-      "answer": "Sure. Short description for the requested MITRE ATT&CK:\n\nA threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Can you please describe the MITRE ATT&CK mitigation: Environment Variable Permissions (M1039)?",
-    "context": "",
-    "output": "Sure! Here is the description: Prevent modification of environment variables by unauthorized users and groups.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Can you please describe the MITRE ATT&CK mitigation: Environment Variable Permissions (M1039)",
-      "answer": "Sure! Here is the description: Prevent modification of environment variables by unauthorized users and groups.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "What is mitigation: 'Restrict Registry Permissions - M1024'?",
-    "context": "",
-    "output": "Mitre mitigation 'Restrict Registry Permissions - M1024':\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "What is mitigation: 'Restrict Registry Permissions - M1024'",
-      "answer": "Mitre mitigation 'Restrict Registry Permissions - M1024':\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "What is MITRE mitigation: Network Intrusion Prevention - M1031",
-    "context": "",
-    "output": "MITRE mitigation 'Network Intrusion Prevention - M1031' can be described as follows:\nUse intrusion detection signatures to block traffic at network boundaries.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "What is MITRE mitigation: Network Intrusion Prevention - M1031",
-      "answer": "MITRE mitigation 'Network Intrusion Prevention - M1031' can be described as follows:\nUse intrusion detection signatures to block traffic at network boundaries.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
     "instruction": "Describe MITRE mitigation 'Application Developer Guidance (M1013)'",
     "context": "",
     "output": "Here is the description for mitigation 'Application Developer Guidance (M1013)':\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
@@ -293,156 +8,6 @@
     "parsed_raw_data": {
       "question": "Describe MITRE mitigation 'Application Developer Guidance (M1013)'",
       "answer": "Here is the description for mitigation 'Application Developer Guidance (M1013)':\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the following MITRE ATT&CK mitigation - Filter Network Traffic (M1037)",
-    "context": "",
-    "output": "Description of MITRE ATT&CK 'Filter Network Traffic (M1037)' - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE ATT&CK mitigation - Filter Network Traffic (M1037)",
-      "answer": "Description of MITRE ATT&CK 'Filter Network Traffic (M1037)' - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me about mitigation: 'Code Signing - M1045'?",
-    "context": "",
-    "output": "Certainly! Here is the description for mitigation 'Code Signing (M1045)':\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me about mitigation: 'Code Signing - M1045'",
-      "answer": "Certainly! Here is the description for mitigation 'Code Signing (M1045)':\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the following mitigation - Restrict File and Directory Permissions (M1022)",
-    "context": "",
-    "output": "Description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following mitigation - Restrict File and Directory Permissions (M1022)",
-      "answer": "Description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Can you please describe the MITRE ATT&CK mitigation: 'Data Loss Prevention (M1057)'",
-    "context": "",
-    "output": "Indeed. Description for MITRE ATT&CK mitigation 'Data Loss Prevention (M1057)':\n\nUse a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Can you please describe the MITRE ATT&CK mitigation: 'Data Loss Prevention (M1057)'",
-      "answer": "Indeed. Description for MITRE ATT&CK mitigation 'Data Loss Prevention (M1057)':\n\nUse a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "What is mitigation: 'User Account Control - M1052'?",
-    "context": "",
-    "output": "Mitre mitigation 'User Account Control - M1052':\n\nConfigure Windows User Account Control to mitigate risk of adversaries obtaining elevated process access.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "What is mitigation: 'User Account Control - M1052'",
-      "answer": "Mitre mitigation 'User Account Control - M1052':\n\nConfigure Windows User Account Control to mitigate risk of adversaries obtaining elevated process access.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me about MITRE ATT&CK mitigation: Software Configuration - M1054?",
-    "context": "",
-    "output": "Ofcourse. Below is the description for MITRE mitigation 'Software Configuration (M1054)':\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me about MITRE ATT&CK mitigation: Software Configuration - M1054",
-      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Software Configuration (M1054)':\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the following MITRE ATT&CK mitigation - User Training (M1017)?",
-    "context": "",
-    "output": "Description of MITRE ATT&CK 'User Training (M1017)' - Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE ATT&CK mitigation - User Training (M1017)",
-      "answer": "Description of MITRE ATT&CK 'User Training (M1017)' - Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me about MITRE ATT&CK mitigation: Do Not Mitigate - M1055",
-    "context": "",
-    "output": "Ofcourse. Below is the description for MITRE mitigation 'Do Not Mitigate (M1055)':\nThis category is to associate techniques that mitigation might increase risk of compromise and therefore mitigation is not recommended.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me about MITRE ATT&CK mitigation: Do Not Mitigate - M1055",
-      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Do Not Mitigate (M1055)':\nThis category is to associate techniques that mitigation might increase risk of compromise and therefore mitigation is not recommended.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Provide a short description for the MITRE ATT&CK mitigation: Encrypt Sensitive Information (M1041)",
-    "context": "",
-    "output": "Sure. Short description for the requested MITRE ATT&CK:\n\nProtect sensitive information with strong encryption.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Provide a short description for the MITRE ATT&CK mitigation: Encrypt Sensitive Information (M1041)",
-      "answer": "Sure. Short description for the requested MITRE ATT&CK:\n\nProtect sensitive information with strong encryption.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the following mitigation - Network Segmentation (M1030)",
-    "context": "",
-    "output": "Description: Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following mitigation - Network Segmentation (M1030)",
-      "answer": "Description: Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
       "category": [
         "MITREFlan"
       ],
@@ -465,44 +30,14 @@
     }
   },
   {
-    "instruction": "Tell me about mitre mitigation: User Account Management (M1018)?",
+    "instruction": "What is mitigation: 'Restrict Registry Permissions - M1024'?",
     "context": "",
-    "output": "Sure! here is the description for mitre mitigation 'User Account Management (M1018)':\nManage the creation, modification, use, and permissions associated to user accounts.",
+    "output": "Mitre mitigation 'Restrict Registry Permissions - M1024':\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_mitigation",
     "parsed_raw_data": {
-      "question": "Tell me about mitre mitigation: User Account Management (M1018)",
-      "answer": "Sure! here is the description for mitre mitigation 'User Account Management (M1018)':\nManage the creation, modification, use, and permissions associated to user accounts.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "What is mitigation: 'Privileged Process Integrity - M1025'?",
-    "context": "",
-    "output": "Mitre mitigation 'Privileged Process Integrity - M1025':\n\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "What is mitigation: 'Privileged Process Integrity - M1025'",
-      "answer": "Mitre mitigation 'Privileged Process Integrity - M1025':\n\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me about mitre mitigation: Execution Prevention (M1038)",
-    "context": "",
-    "output": "Sure! here is the description for mitre mitigation 'Execution Prevention (M1038)':\nBlock execution of code on a system through application control, and/or script blocking.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me about mitre mitigation: Execution Prevention (M1038)",
-      "answer": "Sure! here is the description for mitre mitigation 'Execution Prevention (M1038)':\nBlock execution of code on a system through application control, and/or script blocking.",
+      "question": "What is mitigation: 'Restrict Registry Permissions - M1024'",
+      "answer": "Mitre mitigation 'Restrict Registry Permissions - M1024':\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.",
       "category": [
         "MITREFlan"
       ],
@@ -525,14 +60,74 @@
     }
   },
   {
-    "instruction": "Describe the following mitigation - Password Policies (M1027)?",
+    "instruction": "Can you please describe the MITRE ATT&CK mitigation: 'Data Loss Prevention (M1057)'",
     "context": "",
-    "output": "Description: Set and enforce secure password policies for accounts.",
+    "output": "Indeed. Description for MITRE ATT&CK mitigation 'Data Loss Prevention (M1057)':\n\nUse a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_mitigation",
     "parsed_raw_data": {
-      "question": "Describe the following mitigation - Password Policies (M1027)",
-      "answer": "Description: Set and enforce secure password policies for accounts.",
+      "question": "Can you please describe the MITRE ATT&CK mitigation: 'Data Loss Prevention (M1057)'",
+      "answer": "Indeed. Description for MITRE ATT&CK mitigation 'Data Loss Prevention (M1057)':\n\nUse a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Can you please describe the mitigation: Update Software (M1051)",
+    "context": "",
+    "output": "Certainly. Here is the description: Perform regular software updates to mitigate exploitation risk.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Can you please describe the mitigation: Update Software (M1051)",
+      "answer": "Certainly. Here is the description: Perform regular software updates to mitigate exploitation risk.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me about mitre mitigation: User Account Management (M1018)?",
+    "context": "",
+    "output": "Sure! here is the description for mitre mitigation 'User Account Management (M1018)':\nManage the creation, modification, use, and permissions associated to user accounts.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me about mitre mitigation: User Account Management (M1018)",
+      "answer": "Sure! here is the description for mitre mitigation 'User Account Management (M1018)':\nManage the creation, modification, use, and permissions associated to user accounts.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Can you please describe the MITRE ATT&CK mitigation: Privileged Account Management (M1026)",
+    "context": "",
+    "output": "Sure! Here is the description: Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Can you please describe the MITRE ATT&CK mitigation: Privileged Account Management (M1026)",
+      "answer": "Sure! Here is the description: Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Provide a short description for the MITRE ATT&CK mitigation: Encrypt Sensitive Information (M1041)",
+    "context": "",
+    "output": "Sure. Short description for the requested MITRE ATT&CK:\n\nProtect sensitive information with strong encryption.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Provide a short description for the MITRE ATT&CK mitigation: Encrypt Sensitive Information (M1041)",
+      "answer": "Sure. Short description for the requested MITRE ATT&CK:\n\nProtect sensitive information with strong encryption.",
       "category": [
         "MITREFlan"
       ],
@@ -555,44 +150,14 @@
     }
   },
   {
-    "instruction": "Describe the following MITRE mitigation: Exploit Protection - M1050",
+    "instruction": "Describe the MITRE ATT&CK mitigation: Pre-compromise (M1056)",
     "context": "",
-    "output": "Description for the MITRE mitigation Exploit Protection (M1050):\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+    "output": "Below is the description for the MITRE ATT&CK mitigation named 'Pre-compromise (M1056)':\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_mitigation",
     "parsed_raw_data": {
-      "question": "Describe the following MITRE mitigation: Exploit Protection - M1050",
-      "answer": "Description for the MITRE mitigation Exploit Protection (M1050):\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe mitigation: Credential Access Protection (M1043)",
-    "context": "",
-    "output": "Ofcourse. Description for mitigation 'Credential Access Protection (M1043)':\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe mitigation: Credential Access Protection (M1043)",
-      "answer": "Ofcourse. Description for mitigation 'Credential Access Protection (M1043)':\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Describe the following MITRE ATT&CK mitigation - Limit Hardware Installation (M1034)",
-    "context": "",
-    "output": "Description of MITRE ATT&CK 'Limit Hardware Installation (M1034)' - Block users or groups from installing or using unapproved hardware on systems, including USB devices.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE ATT&CK mitigation - Limit Hardware Installation (M1034)",
-      "answer": "Description of MITRE ATT&CK 'Limit Hardware Installation (M1034)' - Block users or groups from installing or using unapproved hardware on systems, including USB devices.",
+      "question": "Describe the MITRE ATT&CK mitigation: Pre-compromise (M1056)",
+      "answer": "Below is the description for the MITRE ATT&CK mitigation named 'Pre-compromise (M1056)':\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
       "category": [
         "MITREFlan"
       ],
@@ -615,14 +180,329 @@
     }
   },
   {
-    "instruction": "Describe MITRE mitigation: 'Disable or Remove Feature or Program (M1042)'",
+    "instruction": "What is MITRE mitigation: Multi-factor Authentication - M1032?",
     "context": "",
-    "output": "Certainly! Description for mitigation 'Disable or Remove Feature or Program (M1042)':\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+    "output": "MITRE mitigation 'Multi-factor Authentication - M1032' can be described as follows:\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_mitigation",
     "parsed_raw_data": {
-      "question": "Describe MITRE mitigation: 'Disable or Remove Feature or Program (M1042)'",
-      "answer": "Certainly! Description for mitigation 'Disable or Remove Feature or Program (M1042)':\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+      "question": "What is MITRE mitigation: Multi-factor Authentication - M1032",
+      "answer": "MITRE mitigation 'Multi-factor Authentication - M1032' can be described as follows:\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Provide a short description for the MITRE ATT&CK mitigation: Threat Intelligence Program (M1019)",
+    "context": "",
+    "output": "Sure. Short description for the requested MITRE ATT&CK:\n\nA threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Provide a short description for the MITRE ATT&CK mitigation: Threat Intelligence Program (M1019)",
+      "answer": "Sure. Short description for the requested MITRE ATT&CK:\n\nA threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE ATT&CK mitigation - Limit Hardware Installation (M1034)",
+    "context": "",
+    "output": "Description of MITRE ATT&CK 'Limit Hardware Installation (M1034)' - Block users or groups from installing or using unapproved hardware on systems, including USB devices.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE ATT&CK mitigation - Limit Hardware Installation (M1034)",
+      "answer": "Description of MITRE ATT&CK 'Limit Hardware Installation (M1034)' - Block users or groups from installing or using unapproved hardware on systems, including USB devices.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Can you please describe the MITRE ATT&CK mitigation: Environment Variable Permissions (M1039)?",
+    "context": "",
+    "output": "Sure! Here is the description: Prevent modification of environment variables by unauthorized users and groups.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Can you please describe the MITRE ATT&CK mitigation: Environment Variable Permissions (M1039)",
+      "answer": "Sure! Here is the description: Prevent modification of environment variables by unauthorized users and groups.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me about MITRE ATT&CK mitigation: Operating System Configuration - M1028",
+    "context": "",
+    "output": "Ofcourse. Below is the description for MITRE mitigation 'Operating System Configuration (M1028)':\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me about MITRE ATT&CK mitigation: Operating System Configuration - M1028",
+      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Operating System Configuration (M1028)':\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE ATT&CK mitigation - User Training (M1017)?",
+    "context": "",
+    "output": "Description of MITRE ATT&CK 'User Training (M1017)' - Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE ATT&CK mitigation - User Training (M1017)",
+      "answer": "Description of MITRE ATT&CK 'User Training (M1017)' - Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following mitigation - Password Policies (M1027)?",
+    "context": "",
+    "output": "Description: Set and enforce secure password policies for accounts.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following mitigation - Password Policies (M1027)",
+      "answer": "Description: Set and enforce secure password policies for accounts.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Can you please describe the MITRE ATT&CK mitigation: 'Data Backup (M1053)'?",
+    "context": "",
+    "output": "Indeed. Description for MITRE ATT&CK mitigation 'Data Backup (M1053)':\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Can you please describe the MITRE ATT&CK mitigation: 'Data Backup (M1053)'",
+      "answer": "Indeed. Description for MITRE ATT&CK mitigation 'Data Backup (M1053)':\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me about MITRE ATT&CK mitigation: Software Configuration - M1054?",
+    "context": "",
+    "output": "Ofcourse. Below is the description for MITRE mitigation 'Software Configuration (M1054)':\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me about MITRE ATT&CK mitigation: Software Configuration - M1054",
+      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Software Configuration (M1054)':\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "What is MITRE mitigation: Network Intrusion Prevention - M1031",
+    "context": "",
+    "output": "MITRE mitigation 'Network Intrusion Prevention - M1031' can be described as follows:\nUse intrusion detection signatures to block traffic at network boundaries.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "What is MITRE mitigation: Network Intrusion Prevention - M1031",
+      "answer": "MITRE mitigation 'Network Intrusion Prevention - M1031' can be described as follows:\nUse intrusion detection signatures to block traffic at network boundaries.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "What is mitigation: 'Privileged Process Integrity - M1025'?",
+    "context": "",
+    "output": "Mitre mitigation 'Privileged Process Integrity - M1025':\n\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "What is mitigation: 'Privileged Process Integrity - M1025'",
+      "answer": "Mitre mitigation 'Privileged Process Integrity - M1025':\n\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE mitigation: Vulnerability Scanning - M1016?",
+    "context": "",
+    "output": "Description for the MITRE mitigation Vulnerability Scanning (M1016):\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE mitigation: Vulnerability Scanning - M1016",
+      "answer": "Description for the MITRE mitigation Vulnerability Scanning (M1016):\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following mitigation - Network Segmentation (M1030)",
+    "context": "",
+    "output": "Description: Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following mitigation - Network Segmentation (M1030)",
+      "answer": "Description: Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe mitigation: Credential Access Protection (M1043)",
+    "context": "",
+    "output": "Ofcourse. Description for mitigation 'Credential Access Protection (M1043)':\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe mitigation: Credential Access Protection (M1043)",
+      "answer": "Ofcourse. Description for mitigation 'Credential Access Protection (M1043)':\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE ATT&CK mitigation - Behavior Prevention on Endpoint (M1040)?",
+    "context": "",
+    "output": "Description of MITRE ATT&CK 'Behavior Prevention on Endpoint (M1040)' - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE ATT&CK mitigation - Behavior Prevention on Endpoint (M1040)",
+      "answer": "Description of MITRE ATT&CK 'Behavior Prevention on Endpoint (M1040)' - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "What is mitigation: 'User Account Control - M1052'?",
+    "context": "",
+    "output": "Mitre mitigation 'User Account Control - M1052':\n\nConfigure Windows User Account Control to mitigate risk of adversaries obtaining elevated process access.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "What is mitigation: 'User Account Control - M1052'",
+      "answer": "Mitre mitigation 'User Account Control - M1052':\n\nConfigure Windows User Account Control to mitigate risk of adversaries obtaining elevated process access.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me about MITRE ATT&CK mitigation: Do Not Mitigate - M1055",
+    "context": "",
+    "output": "Ofcourse. Below is the description for MITRE mitigation 'Do Not Mitigate (M1055)':\nThis category is to associate techniques that mitigation might increase risk of compromise and therefore mitigation is not recommended.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me about MITRE ATT&CK mitigation: Do Not Mitigate - M1055",
+      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Do Not Mitigate (M1055)':\nThis category is to associate techniques that mitigation might increase risk of compromise and therefore mitigation is not recommended.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE ATT&CK mitigation - Filter Network Traffic (M1037)",
+    "context": "",
+    "output": "Description of MITRE ATT&CK 'Filter Network Traffic (M1037)' - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE ATT&CK mitigation - Filter Network Traffic (M1037)",
+      "answer": "Description of MITRE ATT&CK 'Filter Network Traffic (M1037)' - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me about mitre mitigation: Execution Prevention (M1038)",
+    "context": "",
+    "output": "Sure! here is the description for mitre mitigation 'Execution Prevention (M1038)':\nBlock execution of code on a system through application control, and/or script blocking.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me about mitre mitigation: Execution Prevention (M1038)",
+      "answer": "Sure! here is the description for mitre mitigation 'Execution Prevention (M1038)':\nBlock execution of code on a system through application control, and/or script blocking.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe MITRE mitigation: 'Account Use Policies (M1036)'",
+    "context": "",
+    "output": "Certainly! Description for mitigation 'Account Use Policies (M1036)':\nConfigure features related to account use like login attempt lockouts, specific login times, etc.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe MITRE mitigation: 'Account Use Policies (M1036)'",
+      "answer": "Certainly! Description for mitigation 'Account Use Policies (M1036)':\nConfigure features related to account use like login attempt lockouts, specific login times, etc.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the MITRE ATT&CK mitigation: Limit Software Installation (M1033)?",
+    "context": "",
+    "output": "Below is the description for the MITRE ATT&CK mitigation named 'Limit Software Installation (M1033)':\nBlock users or groups from installing unapproved software.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the MITRE ATT&CK mitigation: Limit Software Installation (M1033)",
+      "answer": "Below is the description for the MITRE ATT&CK mitigation named 'Limit Software Installation (M1033)':\nBlock users or groups from installing unapproved software.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following mitigation - Restrict File and Directory Permissions (M1022)",
+    "context": "",
+    "output": "Description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following mitigation - Restrict File and Directory Permissions (M1022)",
+      "answer": "Description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
       "category": [
         "MITREFlan"
       ],
@@ -638,6 +518,126 @@
     "parsed_raw_data": {
       "question": "Provide a short description for the MITRE ATT&CK mitigation: Restrict Library Loading (M1044)",
       "answer": "Sure. Short description for the requested MITRE ATT&CK:\n\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE ATT&CK mitigation - Active Directory Configuration (M1015)?",
+    "context": "",
+    "output": "Description of MITRE ATT&CK 'Active Directory Configuration (M1015)' - Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE ATT&CK mitigation - Active Directory Configuration (M1015)",
+      "answer": "Description of MITRE ATT&CK 'Active Directory Configuration (M1015)' - Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe MITRE mitigation: 'Limit Access to Resource Over Network (M1035)'",
+    "context": "",
+    "output": "Certainly! Description for mitigation 'Limit Access to Resource Over Network (M1035)':\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe MITRE mitigation: 'Limit Access to Resource Over Network (M1035)'",
+      "answer": "Certainly! Description for mitigation 'Limit Access to Resource Over Network (M1035)':\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE mitigation: Exploit Protection - M1050",
+    "context": "",
+    "output": "Description for the MITRE mitigation Exploit Protection (M1050):\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE mitigation: Exploit Protection - M1050",
+      "answer": "Description for the MITRE mitigation Exploit Protection (M1050):\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me about MITRE ATT&CK mitigation: Audit - M1047",
+    "context": "",
+    "output": "Ofcourse. Below is the description for MITRE mitigation 'Audit (M1047)':\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me about MITRE ATT&CK mitigation: Audit - M1047",
+      "answer": "Ofcourse. Below is the description for MITRE mitigation 'Audit (M1047)':\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Describe MITRE mitigation: 'Disable or Remove Feature or Program (M1042)'",
+    "context": "",
+    "output": "Certainly! Description for mitigation 'Disable or Remove Feature or Program (M1042)':\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Describe MITRE mitigation: 'Disable or Remove Feature or Program (M1042)'",
+      "answer": "Certainly! Description for mitigation 'Disable or Remove Feature or Program (M1042)':\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Can you please describe the MITRE ATT&CK mitigation: Boot Integrity (M1046)",
+    "context": "",
+    "output": "Sure! Here is the description: Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Can you please describe the MITRE ATT&CK mitigation: Boot Integrity (M1046)",
+      "answer": "Sure! Here is the description: Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Can you please describe the MITRE mitigation: SSL/TLS Inspection (M1020)",
+    "context": "",
+    "output": "Sure. Here is the description: Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Can you please describe the MITRE mitigation: SSL/TLS Inspection (M1020)",
+      "answer": "Sure. Here is the description: Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me about mitigation: 'Code Signing - M1045'?",
+    "context": "",
+    "output": "Certainly! Here is the description for mitigation 'Code Signing (M1045)':\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me about mitigation: 'Code Signing - M1045'",
+      "answer": "Certainly! Here is the description for mitigation 'Code Signing (M1045)':\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
       "category": [
         "MITREFlan"
       ],

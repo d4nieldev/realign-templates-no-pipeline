@@ -1,297 +1,12 @@
 [
   {
-    "instruction": "Q: Is mitigation Boot Integrity (M1046) accurately described in the following description:\n\nUse secure methods to boot a system and verify the integrity of the operating system and loading mechanisms..\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: You are given the following description:\nDescription - Block users or groups from installing unapproved software..\n\nIs the following description related to mitigation Limit Software Installation (M1033).\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
-      "question": "Is mitigation Boot Integrity (M1046) accurately described in the following description:\n\nUse secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - A threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk..\n\nIs the following description related to mitigation Threat Intelligence Program (M1019).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - A threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk..\n\nIs the following description related to mitigation Threat Intelligence Program (M1019)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Is mitigation Remote Data Storage (M1026) accurately described in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "No.\nThe correct answer is Privileged Account Management",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Remote Data Storage (M1026) accurately described in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
-      "yes/no": "No.\nThe correct answer is Privileged Account Management",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them..\n\nIs the following description related to mitigation Multi-factor Authentication (M1016)",
-    "context": "",
-    "output": "No.\nThe correct answer is Vulnerability Scanning",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them..\n\nIs the following description related to mitigation Multi-factor Authentication (M1016)",
-      "yes/no": "No.\nThe correct answer is Vulnerability Scanning",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - Use a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data..\n\nIs the following description related to mitigation Password Policies (M1057).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "No",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Use a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data..\n\nIs the following description related to mitigation Password Policies (M1057)",
-      "yes/no": "No",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates..\n\nIs the following description related to mitigation Privileged Process Integrity (M1054)",
-    "context": "",
-    "output": "No.\nThe correct answer is Software Configuration",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates..\n\nIs the following description related to mitigation Privileged Process Integrity (M1054)",
-      "yes/no": "No.\nThe correct answer is Software Configuration",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques..\n\nIs the following description related to mitigation Pre-compromise (M1056).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques..\n\nIs the following description related to mitigation Pre-compromise (M1056)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Encrypt Sensitive Information (M1041) accurately described in the following description:\n\nProtect sensitive information with strong encryption.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Encrypt Sensitive Information (M1041) accurately described in the following description:\n\nProtect sensitive information with strong encryption.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Code Signing (M1035) accurately described in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
-    "context": "",
-    "output": "No.\nThe provided context is correlated with Limit Access to Resource Over Network",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Code Signing (M1035) accurately described in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
-      "yes/no": "No.\nThe provided context is correlated with Limit Access to Resource Over Network",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic..\n\nIs the following description related to mitigation Filter Network Traffic (M1037)",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic..\n\nIs the following description related to mitigation Filter Network Traffic (M1037)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Operating System Configuration (M1045) accurately described in the following description:\n\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
-    "context": "",
-    "output": "No",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Operating System Configuration (M1045) accurately described in the following description:\n\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
-      "yes/no": "No",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information..\n\nIs the following description related to mitigation Remote Data Storage (M1029)",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Use remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information..\n\nIs the following description related to mitigation Remote Data Storage (M1029)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior..\n\nIs the following description related to mitigation Behavior Prevention on Endpoint (M1040)",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior..\n\nIs the following description related to mitigation Behavior Prevention on Endpoint (M1040)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - Manage the creation, modification, use, and permissions associated to user accounts..\n\nIs the following description related to mitigation User Account Management (M1018).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Manage the creation, modification, use, and permissions associated to user accounts..\n\nIs the following description related to mitigation User Account Management (M1018)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Data Backup (M1043) accurately described in the following description:\n\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
-    "context": "",
-    "output": "No.\nThe correct answer is Credential Access Protection",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Data Backup (M1043) accurately described in the following description:\n\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
-      "yes/no": "No.\nThe correct answer is Credential Access Protection",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Is mitigation Exploit Protection (M1050) accurately described in the following description:\n\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Exploit Protection (M1050) accurately described in the following description:\n\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Audit (M1013) accurately described in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
-    "context": "",
-    "output": "No.\nThe correct answer is Application Developer Guidance",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Audit (M1013) accurately described in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
-      "yes/no": "No.\nThe correct answer is Application Developer Guidance",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1030).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "No.\nThe correct answer is Network Segmentation",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1030)",
-      "yes/no": "No.\nThe correct answer is Network Segmentation",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Encrypt Sensitive Information (M1053) accurately described in the following description:\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
-    "context": "",
-    "output": "No.\nThe provided context is correlated with Data Backup",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Encrypt Sensitive Information (M1053) accurately described in the following description:\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
-      "yes/no": "No.\nThe provided context is correlated with Data Backup",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Perform regular software updates to mitigate exploitation risk..\n\nIs the following description related to mitigation Update Software (M1051)",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Perform regular software updates to mitigate exploitation risk..\n\nIs the following description related to mitigation Update Software (M1051)",
+      "question": "You are given the following description:\nDescription - Block users or groups from installing unapproved software..\n\nIs the following description related to mitigation Limit Software Installation (M1033)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -315,6 +30,111 @@
     }
   },
   {
+    "instruction": "Q: You are given the following description:\nDescription - Set and enforce secure password policies for accounts..\n\nIs the following description related to mitigation Password Policies (M1027).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Set and enforce secure password policies for accounts..\n\nIs the following description related to mitigation Password Policies (M1027)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Is mitigation Application Isolation and Sandboxing (M1048) accurately described in the following description:\n\nRestrict execution of code to a virtual environment on or in transit to an endpoint system..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Application Isolation and Sandboxing (M1048) accurately described in the following description:\n\nRestrict execution of code to a virtual environment on or in transit to an endpoint system.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Data Backup (M1043) accurately described in the following description:\n\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
+    "context": "",
+    "output": "No.\nThe correct answer is Credential Access Protection",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Data Backup (M1043) accurately described in the following description:\n\nUse capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
+      "yes/no": "No.\nThe correct answer is Credential Access Protection",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Is mitigation User Training (M1017) accurately described in the following description:\n\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation User Training (M1017) accurately described in the following description:\n\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Audit (M1013) accurately described in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
+    "context": "",
+    "output": "No.\nThe correct answer is Application Developer Guidance",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Audit (M1013) accurately described in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
+      "yes/no": "No.\nThe correct answer is Application Developer Guidance",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Perform regular software updates to mitigate exploitation risk..\n\nIs the following description related to mitigation Update Software (M1051)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Perform regular software updates to mitigate exploitation risk..\n\nIs the following description related to mitigation Update Software (M1051)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior..\n\nIs the following description related to mitigation Behavior Prevention on Endpoint (M1040)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior..\n\nIs the following description related to mitigation Behavior Prevention on Endpoint (M1040)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
     "instruction": "Q: You are given the following description:\nDescription - Configure features related to account use like login attempt lockouts, specific login times, etc..\n\nIs the following description related to mitigation Software Configuration (M1036).\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "No.\nThe provided context is related to Account Use Policies",
@@ -330,14 +150,29 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1020)",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Operating System Configuration (M1045) accurately described in the following description:\n\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
     "context": "",
-    "output": "Yes",
+    "output": "No",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1020)",
-      "yes/no": "Yes",
+      "question": "Is mitigation Operating System Configuration (M1045) accurately described in the following description:\n\nEnforce binary and application integrity with digital signature verification to prevent untrusted code from executing.",
+      "yes/no": "No",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Encrypt Sensitive Information (M1053) accurately described in the following description:\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
+    "context": "",
+    "output": "No.\nThe provided context is correlated with Data Backup",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Encrypt Sensitive Information (M1053) accurately described in the following description:\n\nTake and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.",
+      "yes/no": "No.\nThe provided context is correlated with Data Backup",
       "category": [
         "MITREFlan"
       ],
@@ -352,6 +187,81 @@
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
       "question": "You are given the following description:\nDescription - Use signatures or heuristics to detect malicious software..\n\nIs the following description related to mitigation Antivirus/Antimalware (M1049)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Is mitigation Exploit Protection (M1050) accurately described in the following description:\n\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Exploit Protection (M1050) accurately described in the following description:\n\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Is mitigation Disable or Remove Feature or Program (M1042) accurately described in the following description:\n\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Disable or Remove Feature or Program (M1042) accurately described in the following description:\n\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Is mitigation Remote Data Storage (M1026) accurately described in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe correct answer is Privileged Account Management",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Remote Data Storage (M1026) accurately described in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+      "yes/no": "No.\nThe correct answer is Privileged Account Management",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Protect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures..\n\nIs the following description related to mitigation Execution Prevention (M1025)",
+    "context": "",
+    "output": "No",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Protect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures..\n\nIs the following description related to mitigation Execution Prevention (M1025)",
+      "yes/no": "No",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1020)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1020)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -375,111 +285,6 @@
     }
   },
   {
-    "instruction": "Q: Is mitigation Restrict Library Loading (M1044) accurately described in the following description:\n\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Restrict Library Loading (M1044) accurately described in the following description:\n\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: You are given the following description:\nDescription - Block users or groups from installing or using unapproved hardware on systems, including USB devices..\n\nIs the following description related to mitigation Privileged Process Integrity (M1034).\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "No.\nThe correct answer is Limit Hardware Installation",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Block users or groups from installing or using unapproved hardware on systems, including USB devices..\n\nIs the following description related to mitigation Privileged Process Integrity (M1034)",
-      "yes/no": "No.\nThe correct answer is Limit Hardware Installation",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Is mitigation Disable or Remove Feature or Program (M1042) accurately described in the following description:\n\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Disable or Remove Feature or Program (M1042) accurately described in the following description:\n\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation User Training (M1022) accurately described in the following description:\n\nRestrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
-    "context": "",
-    "output": "No.\nThe correct answer is Restrict File and Directory Permissions",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation User Training (M1022) accurately described in the following description:\n\nRestrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
-      "yes/no": "No.\nThe correct answer is Restrict File and Directory Permissions",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Protect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures..\n\nIs the following description related to mitigation Execution Prevention (M1025)",
-    "context": "",
-    "output": "No",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Protect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures..\n\nIs the following description related to mitigation Execution Prevention (M1025)",
-      "yes/no": "No",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Antivirus/Antimalware (M1047) accurately described in the following description:\n\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
-    "context": "",
-    "output": "No.\nThe provided context is related to Audit",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Antivirus/Antimalware (M1047) accurately described in the following description:\n\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
-      "yes/no": "No.\nThe provided context is related to Audit",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Is mitigation Application Isolation and Sandboxing (M1048) accurately described in the following description:\n\nRestrict execution of code to a virtual environment on or in transit to an endpoint system..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Application Isolation and Sandboxing (M1048) accurately described in the following description:\n\nRestrict execution of code to a virtual environment on or in transit to an endpoint system.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
     "instruction": "Q: You are given the following description:\nDescription - Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc..\n\nIs the following description related to mitigation Application Developer Guidance (M1015).\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "No.\nThe correct answer is Active Directory Configuration",
@@ -488,6 +293,81 @@
     "parsed_raw_data": {
       "question": "You are given the following description:\nDescription - Configure Active Directory to prevent use of certain techniques; use SID Filtering, etc..\n\nIs the following description related to mitigation Application Developer Guidance (M1015)",
       "yes/no": "No.\nThe correct answer is Active Directory Configuration",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1030).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe correct answer is Network Segmentation",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems..\n\nIs the following description related to mitigation SSL/TLS Inspection (M1030)",
+      "yes/no": "No.\nThe correct answer is Network Segmentation",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use intrusion detection signatures to block traffic at network boundaries..\n\nIs the following description related to mitigation Network Intrusion Prevention (M1031)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Use intrusion detection signatures to block traffic at network boundaries..\n\nIs the following description related to mitigation Network Intrusion Prevention (M1031)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Is mitigation Boot Integrity (M1046) accurately described in the following description:\n\nUse secure methods to boot a system and verify the integrity of the operating system and loading mechanisms..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Boot Integrity (M1046) accurately described in the following description:\n\nUse secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates..\n\nIs the following description related to mitigation Privileged Process Integrity (M1054)",
+    "context": "",
+    "output": "No.\nThe correct answer is Software Configuration",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates..\n\nIs the following description related to mitigation Privileged Process Integrity (M1054)",
+      "yes/no": "No.\nThe correct answer is Software Configuration",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Manage the creation, modification, use, and permissions associated to user accounts..\n\nIs the following description related to mitigation User Account Management (M1018).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Manage the creation, modification, use, and permissions associated to user accounts..\n\nIs the following description related to mitigation User Account Management (M1018)",
+      "yes/no": "Yes",
       "category": [
         "MITREFlan"
       ],
@@ -510,13 +390,28 @@
     }
   },
   {
-    "instruction": "Q: Is mitigation User Training (M1017) accurately described in the following description:\n\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction..\n\nProvide your answer in Yes or No.",
+    "instruction": "Q: You are given the following description:\nDescription - Use a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data..\n\nIs the following description related to mitigation Password Policies (M1057).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Use a data loss prevention (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data..\n\nIs the following description related to mitigation Password Policies (M1057)",
+      "yes/no": "No",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Environment Variable Permissions (M1039) accurately described in the following description:\n\nPrevent modification of environment variables by unauthorized users and groups.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
-      "question": "Is mitigation User Training (M1017) accurately described in the following description:\n\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+      "question": "Is mitigation Environment Variable Permissions (M1039) accurately described in the following description:\n\nPrevent modification of environment variables by unauthorized users and groups.",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -540,6 +435,126 @@
     }
   },
   {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Encrypt Sensitive Information (M1041) accurately described in the following description:\n\nProtect sensitive information with strong encryption.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Encrypt Sensitive Information (M1041) accurately described in the following description:\n\nProtect sensitive information with strong encryption.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques..\n\nIs the following description related to mitigation Pre-compromise (M1056).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - This category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques..\n\nIs the following description related to mitigation Pre-compromise (M1056)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation User Training (M1022) accurately described in the following description:\n\nRestrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
+    "context": "",
+    "output": "No.\nThe correct answer is Restrict File and Directory Permissions",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation User Training (M1022) accurately described in the following description:\n\nRestrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
+      "yes/no": "No.\nThe correct answer is Restrict File and Directory Permissions",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Antivirus/Antimalware (M1047) accurately described in the following description:\n\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+    "context": "",
+    "output": "No.\nThe provided context is related to Audit",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Antivirus/Antimalware (M1047) accurately described in the following description:\n\nPerform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+      "yes/no": "No.\nThe provided context is related to Audit",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - A threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk..\n\nIs the following description related to mitigation Threat Intelligence Program (M1019).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - A threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk..\n\nIs the following description related to mitigation Threat Intelligence Program (M1019)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information..\n\nIs the following description related to mitigation Remote Data Storage (M1029)",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Use remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information..\n\nIs the following description related to mitigation Remote Data Storage (M1029)",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Is mitigation Restrict Library Loading (M1044) accurately described in the following description:\n\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software..\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "Yes",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "Is mitigation Restrict Library Loading (M1044) accurately described in the following description:\n\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
+      "yes/no": "Yes",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them..\n\nIs the following description related to mitigation Multi-factor Authentication (M1016)",
+    "context": "",
+    "output": "No.\nThe correct answer is Vulnerability Scanning",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them..\n\nIs the following description related to mitigation Multi-factor Authentication (M1016)",
+      "yes/no": "No.\nThe correct answer is Vulnerability Scanning",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
     "instruction": "Q: Is mitigation Restrict Registry Permissions (M1024) accurately described in the following description:\n\nRestrict the ability to modify certain hives or keys in the Windows Registry..\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "Yes",
@@ -555,13 +570,13 @@
     }
   },
   {
-    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use intrusion detection signatures to block traffic at network boundaries..\n\nIs the following description related to mitigation Network Intrusion Prevention (M1031)",
+    "instruction": "Q: Is mitigation Multi-factor Authentication (M1032) accurately described in the following description:\n\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator..\n\nProvide your answer in Yes or No.",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Use intrusion detection signatures to block traffic at network boundaries..\n\nIs the following description related to mitigation Network Intrusion Prevention (M1031)",
+      "question": "Is mitigation Multi-factor Authentication (M1032) accurately described in the following description:\n\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -570,13 +585,13 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - Set and enforce secure password policies for accounts..\n\nIs the following description related to mitigation Password Policies (M1027).\n\nProvide your answer in Yes or No.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: You are given the following description:\nDescription - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic..\n\nIs the following description related to mitigation Filter Network Traffic (M1037)",
     "context": "",
     "output": "Yes",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Set and enforce secure password policies for accounts..\n\nIs the following description related to mitigation Password Policies (M1027)",
+      "question": "You are given the following description:\nDescription - Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic..\n\nIs the following description related to mitigation Filter Network Traffic (M1037)",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"
@@ -585,14 +600,29 @@
     }
   },
   {
-    "instruction": "Q: You are given the following description:\nDescription - Block users or groups from installing unapproved software..\n\nIs the following description related to mitigation Limit Software Installation (M1033).\n\nProvide your answer in Yes or No.",
+    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Code Signing (M1035) accurately described in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
     "context": "",
-    "output": "Yes",
+    "output": "No.\nThe provided context is correlated with Limit Access to Resource Over Network",
     "category": "MitreFlan",
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
-      "question": "You are given the following description:\nDescription - Block users or groups from installing unapproved software..\n\nIs the following description related to mitigation Limit Software Installation (M1033)",
-      "yes/no": "Yes",
+      "question": "Is mitigation Code Signing (M1035) accurately described in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
+      "yes/no": "No.\nThe provided context is correlated with Limit Access to Resource Over Network",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_yes_no_description_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: You are given the following description:\nDescription - Block users or groups from installing or using unapproved hardware on systems, including USB devices..\n\nIs the following description related to mitigation Privileged Process Integrity (M1034).\n\nProvide your answer in Yes or No.",
+    "context": "",
+    "output": "No.\nThe correct answer is Limit Hardware Installation",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_yes_no_description_mitigation",
+    "parsed_raw_data": {
+      "question": "You are given the following description:\nDescription - Block users or groups from installing or using unapproved hardware on systems, including USB devices..\n\nIs the following description related to mitigation Privileged Process Integrity (M1034)",
+      "yes/no": "No.\nThe correct answer is Limit Hardware Installation",
       "category": [
         "MITREFlan"
       ],
@@ -607,36 +637,6 @@
     "instruction_type": "mitre_yes_no_description_mitigation",
     "parsed_raw_data": {
       "question": "You are given the following description:\nDescription - Configure Windows User Account Control to mitigate risk of adversaries obtaining elevated process access..\n\nIs the following description related to mitigation User Account Control (M1052)",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer in Yes or No.\n\nQuestion: Is mitigation Environment Variable Permissions (M1039) accurately described in the following description:\n\nPrevent modification of environment variables by unauthorized users and groups.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Environment Variable Permissions (M1039) accurately described in the following description:\n\nPrevent modification of environment variables by unauthorized users and groups.",
-      "yes/no": "Yes",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_yes_no_description_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Is mitigation Multi-factor Authentication (M1032) accurately described in the following description:\n\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator..\n\nProvide your answer in Yes or No.",
-    "context": "",
-    "output": "Yes",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_yes_no_description_mitigation",
-    "parsed_raw_data": {
-      "question": "Is mitigation Multi-factor Authentication (M1032) accurately described in the following description:\n\nUse two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.",
       "yes/no": "Yes",
       "category": [
         "MITREFlan"

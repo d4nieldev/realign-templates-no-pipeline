@@ -1,13 +1,43 @@
 [
   {
-    "instruction": "Describe the MITRE ATT&CK tactic: Initial Access (TA0001)?",
+    "instruction": "Describe the following MITRE tactic: Privilege Escalation - TA0004?",
     "context": "",
-    "output": "Below is the description for the MITRE ATT&CK tactic named 'Initial Access (TA0001)':\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
+    "output": "Description for the MITRE tactic Privilege Escalation (TA0004):\nThe adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_tactic",
     "parsed_raw_data": {
-      "question": "Describe the MITRE ATT&CK tactic: Initial Access (TA0001)",
-      "answer": "Below is the description for the MITRE ATT&CK tactic named 'Initial Access (TA0001)':\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
+      "question": "Describe the following MITRE tactic: Privilege Escalation - TA0004",
+      "answer": "Description for the MITRE tactic Privilege Escalation (TA0004):\nThe adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_tactic"
+    }
+  },
+  {
+    "instruction": "Describe tactic named Exfiltration - TA0010",
+    "context": "",
+    "output": "Sure. The description for the MITRE tactic named Exfiltration (TA0010) is:\nThe adversary is trying to steal data.\n\nExfiltration consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_tactic",
+    "parsed_raw_data": {
+      "question": "Describe tactic named Exfiltration - TA0010",
+      "answer": "Sure. The description for the MITRE tactic named Exfiltration (TA0010) is:\nThe adversary is trying to steal data.\n\nExfiltration consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_tactic"
+    }
+  },
+  {
+    "instruction": "Describe the following MITRE tactic: Persistence - TA0003",
+    "context": "",
+    "output": "Description for the MITRE tactic Persistence (TA0003):\nThe adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_tactic",
+    "parsed_raw_data": {
+      "question": "Describe the following MITRE tactic: Persistence - TA0003",
+      "answer": "Description for the MITRE tactic Persistence (TA0003):\nThe adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.",
       "category": [
         "MITREFlan"
       ],
@@ -30,14 +60,29 @@
     }
   },
   {
-    "instruction": "Tell me about MITRE ATT&CK tactic: Discovery - TA0007",
+    "instruction": "What is tactic: 'Impact - TA0040'",
     "context": "",
-    "output": "Ofcourse. Below is the description for MITRE tactic 'Discovery (TA0007)':\nThe adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
+    "output": "Mitre tactic 'Impact - TA0040':\n\nThe adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_tactic",
     "parsed_raw_data": {
-      "question": "Tell me about MITRE ATT&CK tactic: Discovery - TA0007",
-      "answer": "Ofcourse. Below is the description for MITRE tactic 'Discovery (TA0007)':\nThe adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
+      "question": "What is tactic: 'Impact - TA0040'",
+      "answer": "Mitre tactic 'Impact - TA0040':\n\nThe adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_tactic"
+    }
+  },
+  {
+    "instruction": "Describe MITRE tactic 'Lateral Movement (TA0008)'",
+    "context": "",
+    "output": "Here is the description for tactic 'Lateral Movement (TA0008)':\nThe adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_tactic",
+    "parsed_raw_data": {
+      "question": "Describe MITRE tactic 'Lateral Movement (TA0008)'",
+      "answer": "Here is the description for tactic 'Lateral Movement (TA0008)':\nThe adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier.",
       "category": [
         "MITREFlan"
       ],
@@ -75,74 +120,14 @@
     }
   },
   {
-    "instruction": "Describe MITRE tactic 'Lateral Movement (TA0008)'",
+    "instruction": "Describe the MITRE ATT&CK tactic: Initial Access (TA0001)?",
     "context": "",
-    "output": "Here is the description for tactic 'Lateral Movement (TA0008)':\nThe adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier.",
+    "output": "Below is the description for the MITRE ATT&CK tactic named 'Initial Access (TA0001)':\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_tactic",
     "parsed_raw_data": {
-      "question": "Describe MITRE tactic 'Lateral Movement (TA0008)'",
-      "answer": "Here is the description for tactic 'Lateral Movement (TA0008)':\nThe adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_tactic"
-    }
-  },
-  {
-    "instruction": "Describe the following MITRE tactic: Persistence - TA0003",
-    "context": "",
-    "output": "Description for the MITRE tactic Persistence (TA0003):\nThe adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_tactic",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE tactic: Persistence - TA0003",
-      "answer": "Description for the MITRE tactic Persistence (TA0003):\nThe adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_tactic"
-    }
-  },
-  {
-    "instruction": "What is tactic: 'Impact - TA0040'",
-    "context": "",
-    "output": "Mitre tactic 'Impact - TA0040':\n\nThe adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_tactic",
-    "parsed_raw_data": {
-      "question": "What is tactic: 'Impact - TA0040'",
-      "answer": "Mitre tactic 'Impact - TA0040':\n\nThe adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_tactic"
-    }
-  },
-  {
-    "instruction": "Describe the following MITRE ATT&CK tactic - Command and Control (TA0011)",
-    "context": "",
-    "output": "Description of MITRE ATT&CK 'Command and Control (TA0011)' - The adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_tactic",
-    "parsed_raw_data": {
-      "question": "Describe the following MITRE ATT&CK tactic - Command and Control (TA0011)",
-      "answer": "Description of MITRE ATT&CK 'Command and Control (TA0011)' - The adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_description_tactic"
-    }
-  },
-  {
-    "instruction": "Describe tactic named Exfiltration - TA0010",
-    "context": "",
-    "output": "Sure. The description for the MITRE tactic named Exfiltration (TA0010) is:\nThe adversary is trying to steal data.\n\nExfiltration consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_description_tactic",
-    "parsed_raw_data": {
-      "question": "Describe tactic named Exfiltration - TA0010",
-      "answer": "Sure. The description for the MITRE tactic named Exfiltration (TA0010) is:\nThe adversary is trying to steal data.\n\nExfiltration consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
+      "question": "Describe the MITRE ATT&CK tactic: Initial Access (TA0001)",
+      "answer": "Below is the description for the MITRE ATT&CK tactic named 'Initial Access (TA0001)':\nThe adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
       "category": [
         "MITREFlan"
       ],
@@ -165,14 +150,29 @@
     }
   },
   {
-    "instruction": "Describe MITRE tactic 'Defense Evasion (TA0005)'?",
+    "instruction": "Describe the following MITRE ATT&CK tactic - Command and Control (TA0011)",
     "context": "",
-    "output": "Here is the description for tactic 'Defense Evasion (TA0005)':\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
+    "output": "Description of MITRE ATT&CK 'Command and Control (TA0011)' - The adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_tactic",
     "parsed_raw_data": {
-      "question": "Describe MITRE tactic 'Defense Evasion (TA0005)'",
-      "answer": "Here is the description for tactic 'Defense Evasion (TA0005)':\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
+      "question": "Describe the following MITRE ATT&CK tactic - Command and Control (TA0011)",
+      "answer": "Description of MITRE ATT&CK 'Command and Control (TA0011)' - The adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_description_tactic"
+    }
+  },
+  {
+    "instruction": "Tell me about MITRE ATT&CK tactic: Discovery - TA0007",
+    "context": "",
+    "output": "Ofcourse. Below is the description for MITRE tactic 'Discovery (TA0007)':\nThe adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_description_tactic",
+    "parsed_raw_data": {
+      "question": "Tell me about MITRE ATT&CK tactic: Discovery - TA0007",
+      "answer": "Ofcourse. Below is the description for MITRE tactic 'Discovery (TA0007)':\nThe adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
       "category": [
         "MITREFlan"
       ],
@@ -195,14 +195,14 @@
     }
   },
   {
-    "instruction": "Describe the following MITRE tactic: Privilege Escalation - TA0004?",
+    "instruction": "Describe MITRE tactic 'Defense Evasion (TA0005)'?",
     "context": "",
-    "output": "Description for the MITRE tactic Privilege Escalation (TA0004):\nThe adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.",
+    "output": "Here is the description for tactic 'Defense Evasion (TA0005)':\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
     "category": "MitreFlan",
     "instruction_type": "mitre_description_tactic",
     "parsed_raw_data": {
-      "question": "Describe the following MITRE tactic: Privilege Escalation - TA0004",
-      "answer": "Description for the MITRE tactic Privilege Escalation (TA0004):\nThe adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.",
+      "question": "Describe MITRE tactic 'Defense Evasion (TA0005)'",
+      "answer": "Here is the description for tactic 'Defense Evasion (TA0005)':\nThe adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses.",
       "category": [
         "MITREFlan"
       ],

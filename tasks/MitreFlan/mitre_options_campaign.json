@@ -1,5 +1,21 @@
 [
   {
+    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during The campaign were consistent with historic Turla operations.\n\nOptions:\nA. C0032, B. C0026, C. Operation CuckooBees, D. Cutting Edge",
+    "context": "",
+    "output": "B. C0026",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during The campaign were consistent with historic Turla operations.",
+      "options": "A. C0032, B. C0026, C. Operation CuckooBees, D. Cutting Edge",
+      "choice": "B. C0026",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
     "instruction": "Q: Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a spearphishing campaign conducted in November 2018 that targeted public sector institutions, non-governmental organizations (NGOs), educational institutions, and private-sector corporations in the oil and gas, chemical, and hospitality industries. The majority of targets were located in the US, particularly in and around Washington D.C., with other targets located in Europe, Hong Kong, India, and Canada. The campaign's technical artifacts, tactics, techniques, and procedures (TTPs), and targeting overlap with previous suspected APT29 activity.\n\nOptions:\nA. C0010, B. Operation Dust Storm, C. 2015 Ukraine Electric Power Attack, D. C0021",
     "context": "",
     "output": "D. C0021",
@@ -9,326 +25,6 @@
       "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a spearphishing campaign conducted in November 2018 that targeted public sector institutions, non-governmental organizations (NGOs), educational institutions, and private-sector corporations in the oil and gas, chemical, and hospitality industries. The majority of targets were located in the US, particularly in and around Washington D.C., with other targets located in Europe, Hong Kong, India, and Canada. The campaign's technical artifacts, tactics, techniques, and procedures (TTPs), and targeting overlap with previous suspected APT29 activity.",
       "options": "A. C0010, B. Operation Dust Storm, C. 2015 Ukraine Electric Power Attack, D. C0021",
       "choice": "D. C0021",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a month-long ransomware intrusion that successfully deployed AvosLocker onto a compromised network. The unidentified actors gained initial access to the victim network through an exposed server and used a variety of open-source tools prior to executing AvosLocker.\n\nOptions:\nA. Operation Honeybee, B. Operation Dream Job, C. C0018, D. C0032",
-    "context": "",
-    "output": "C. C0018",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a month-long ransomware intrusion that successfully deployed AvosLocker onto a compromised network. The unidentified actors gained initial access to the victim network through an exposed server and used a variety of open-source tools prior to executing AvosLocker.",
-      "options": "A. Operation Honeybee, B. Operation Dream Job, C. C0018, D. C0032",
-      "choice": "C. C0018",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. The campaign targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. The campaign featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.\n\nA. Cutting Edge, B. Operation Ghost, C. C0027, D. Triton Safety Instrumented System Attack\nAnswer:",
-    "context": "",
-    "output": "A. Cutting Edge",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. The campaign targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. The campaign featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.",
-      "options": "A. Cutting Edge, B. Operation Ghost, C. C0027, D. Triton Safety Instrumented System Attack",
-      "choice": "A. Cutting Edge",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the The campaign campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group.\nA. Operation Ghost, B. FunnyDream, C. C0018, D. C0033",
-    "context": "",
-    "output": "B. FunnyDream",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the The campaign campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group.",
-      "options": "A. Operation Ghost, B. FunnyDream, C. C0018, D. C0033",
-      "choice": "B. FunnyDream",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Question: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.\nA. Frankenstein, B. C0021, C. FunnyDream, D. Operation Dream Job\nAnswer:",
-    "context": "",
-    "output": "A. Frankenstein",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.",
-      "options": "A. Frankenstein, B. C0021, C. FunnyDream, D. Operation Dream Job",
-      "choice": "A. Frankenstein",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a ransomware intrusion during which the unidentified attackers used Bazar, Cobalt Strike, and Conti, along with other tools, over a 5 day period. Security researchers assessed the actors likely used the widely-circulated Conti ransomware playbook based on the observed pattern of activity and operator errors.\n\nA. SolarWinds Compromise, B. Operation Spalax, C. C0017, D. C0015\nAnswer:",
-    "context": "",
-    "output": "D. C0015",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a ransomware intrusion during which the unidentified attackers used Bazar, Cobalt Strike, and Conti, along with other tools, over a 5 day period. Security researchers assessed the actors likely used the widely-circulated Conti ransomware playbook based on the observed pattern of activity and operator errors.",
-      "options": "A. SolarWinds Compromise, B. Operation Spalax, C. C0017, D. C0015",
-      "choice": "D. C0015",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the The campaign actors used similar TTPs and tools as APT20, suggesting a possible overlap. The campaign was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.\n\nA. C0010, B. Operation Wocao, C. CostaRicto, D. 2016 Ukraine Electric Power Attack\nA:",
-    "context": "",
-    "output": "B. Operation Wocao",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the The campaign actors used similar TTPs and tools as APT20, suggesting a possible overlap. The campaign was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.",
-      "options": "A. C0010, B. Operation Wocao, C. CostaRicto, D. 2016 Ukraine Electric Power Attack",
-      "choice": "B. Operation Wocao",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Answer which mitre campaign is related to the description: The campaign was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.\nA. 2022 Ukraine Electric Power Attack, B. 2016 Ukraine Electric Power Attack, C. C0027, D. Operation Wocao",
-    "context": "",
-    "output": "B. 2016 Ukraine Electric Power Attack",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Answer which mitre campaign is related to the description: The campaign was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.",
-      "options": "A. 2022 Ukraine Electric Power Attack, B. 2016 Ukraine Electric Power Attack, C. C0027, D. Operation Wocao",
-      "choice": "B. 2016 Ukraine Electric Power Attack",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage operation likely conducted by Lazarus Group that targeted the defense, aerospace, government, and other sectors in the United States, Israel, Australia, Russia, and India. In at least one case, the cyber actors tried to monetize their network access to conduct a business email compromise (BEC) operation. In 2020, security researchers noted overlapping TTPs, to include fake job lures and code similarities, between The campaign, Operation North Star, and Operation Interception; by 2022 security researchers described The campaign as an umbrella term covering both Operation Interception and Operation North Star.\nA. C0027, B. C0032, C. Operation Spalax, D. Operation Dream Job",
-    "context": "",
-    "output": "D. Operation Dream Job",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage operation likely conducted by Lazarus Group that targeted the defense, aerospace, government, and other sectors in the United States, Israel, Australia, Russia, and India. In at least one case, the cyber actors tried to monetize their network access to conduct a business email compromise (BEC) operation. In 2020, security researchers noted overlapping TTPs, to include fake job lures and code similarities, between The campaign, Operation North Star, and Operation Interception; by 2022 security researchers described The campaign as an umbrella term covering both Operation Interception and Operation North Star.",
-      "options": "A. C0027, B. C0032, C. Operation Spalax, D. Operation Dream Job",
-      "choice": "D. Operation Dream Job",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.\n\nOptions:\nA. C0026, B. Operation CuckooBees, C. C0011, D. 2022 Ukraine Electric Power Attack",
-    "context": "",
-    "output": "D. 2022 Ukraine Electric Power Attack",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
-      "options": "A. C0026, B. Operation CuckooBees, C. C0011, D. 2022 Ukraine Electric Power Attack",
-      "choice": "D. 2022 Ukraine Electric Power Attack",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Answer which mitre campaign is related to the description: The campaign was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.\n\nA. Operation Wocao, B. C0018, C. FunnyDream, D. C0011\nA:",
-    "context": "",
-    "output": "D. C0011",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Answer which mitre campaign is related to the description: The campaign was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.",
-      "options": "A. Operation Wocao, B. C0018, C. FunnyDream, D. C0011",
-      "choice": "D. C0011",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Answer which mitre campaign is related to the description: The campaign was a PROMETHIUM campaign during which they used StrongPity to target Android users. The campaign was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques.\n\nOptions:\nA. CostaRicto, B. C0033, C. Operation Honeybee, D. C0032",
-    "context": "",
-    "output": "B. C0033",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Answer which mitre campaign is related to the description: The campaign was a PROMETHIUM campaign during which they used StrongPity to target Android users. The campaign was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques.",
-      "options": "A. CostaRicto, B. C0033, C. Operation Honeybee, D. C0032",
-      "choice": "B. C0033",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the The campaign to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems.\nA. Operation Dust Storm, B. SolarWinds Compromise, C. C0017, D. 2015 Ukraine Electric Power Attack",
-    "context": "",
-    "output": "B. SolarWinds Compromise",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the The campaign to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems.",
-      "options": "A. Operation Dust Storm, B. SolarWinds Compromise, C. C0017, D. 2015 Ukraine Electric Power Attack",
-      "choice": "B. SolarWinds Compromise",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Question: Answer which mitre campaign is related to the description: The campaign was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During The campaign, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of The campaign are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).\nA. C0032, B. C0010, C. Operation Dust Storm, D. C0017\nAnswer:",
-    "context": "",
-    "output": "D. C0017",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Answer which mitre campaign is related to the description: The campaign was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During The campaign, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of The campaign are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).",
-      "options": "A. C0032, B. C0010, C. Operation Dust Storm, D. C0017",
-      "choice": "D. C0017",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack.\n\nA. C0026, B. C0032, C. Operation CuckooBees, D. Triton Safety Instrumented System Attack\nA:",
-    "context": "",
-    "output": "B. C0032",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack.",
-      "options": "A. C0026, B. C0032, C. Operation CuckooBees, D. Triton Safety Instrumented System Attack",
-      "choice": "B. C0032",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage campaign that targeted oil, energy, and petrochemical companies, along with individuals and executives in Kazakhstan, Taiwan, Greece, and the United States. The unidentified threat actors searched for information related to oil and gas field production systems, financials, and collected data from SCADA systems. Based on the observed techniques, tools, and network activities, security researchers assessed the campaign involved a threat group based in China.\n\nOptions:\nA. Operation Spalax, B. Night Dragon, C. Frankenstein, D. Operation Sharpshooter",
-    "context": "",
-    "output": "B. Night Dragon",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage campaign that targeted oil, energy, and petrochemical companies, along with individuals and executives in Kazakhstan, Taiwan, Greece, and the United States. The unidentified threat actors searched for information related to oil and gas field production systems, financials, and collected data from SCADA systems. Based on the observed techniques, tools, and network activities, security researchers assessed the campaign involved a threat group based in China.",
-      "options": "A. Operation Spalax, B. Night Dragon, C. Frankenstein, D. Operation Sharpshooter",
-      "choice": "B. Night Dragon",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Question: Answer which mitre campaign is related to the description: The campaign was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. The campaign initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents.\nA. C0027, B. Operation Honeybee, C. Operation Wocao, D. Operation Ghost\nAnswer:",
-    "context": "",
-    "output": "B. Operation Honeybee",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Answer which mitre campaign is related to the description: The campaign was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. The campaign initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents.",
-      "options": "A. C0027, B. Operation Honeybee, C. Operation Wocao, D. Operation Ghost",
-      "choice": "B. Operation Honeybee",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During The campaign Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.\nA. Triton Safety Instrumented System Attack, B. C0021, C. C0027, D. C0032",
-    "context": "",
-    "output": "C. C0027",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During The campaign Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
-      "options": "A. Triton Safety Instrumented System Attack, B. C0021, C. C0027, D. C0032",
-      "choice": "C. C0027",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Answer which mitre campaign is related to the description: The campaign was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the The campaign threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nThe campaign threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea.\n\nA. Operation Dust Storm, B. 2015 Ukraine Electric Power Attack, C. C0026, D. C0010\nA:",
-    "context": "",
-    "output": "A. Operation Dust Storm",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Answer which mitre campaign is related to the description: The campaign was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the The campaign threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nThe campaign threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea.",
-      "options": "A. Operation Dust Storm, B. 2015 Ukraine Electric Power Attack, C. C0026, D. C0010",
-      "choice": "A. Operation Dust Storm",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The The campaign threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.\n\nOptions:\nA. Operation Honeybee, B. Operation Spalax, C. 2015 Ukraine Electric Power Attack, D. CostaRicto",
-    "context": "",
-    "output": "B. Operation Spalax",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The The campaign threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.",
-      "options": "A. Operation Honeybee, B. Operation Spalax, C. 2015 Ukraine Electric Power Attack, D. CostaRicto",
-      "choice": "B. Operation Spalax",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_campaign"
-    }
-  },
-  {
-    "instruction": "Question: Which MITRE ATT&CK campaign is described in the following:\nThe campaign was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During The campaign, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.\nA. Operation CuckooBees, B. Operation Spalax, C. Operation Ghost, D. Operation Sharpshooter\nAnswer:",
-    "context": "",
-    "output": "C. Operation Ghost",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_campaign",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During The campaign, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.",
-      "options": "A. Operation CuckooBees, B. Operation Spalax, C. Operation Ghost, D. Operation Sharpshooter",
-      "choice": "C. Operation Ghost",
       "category": [
         "MITREFlan"
       ],
@@ -352,15 +48,31 @@
     }
   },
   {
-    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a global cyber espionage campaign that targeted nuclear, defense, government, energy, and financial companies, with many located in Germany, Turkey, the United Kingdom, and the United States. Security researchers noted the campaign shared many similarities with previous Lazarus Group operations, including fake job recruitment lures and shared malware code.\n\nA. Frankenstein, B. C0017, C. C0033, D. Operation Sharpshooter\nA:",
+    "instruction": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a ransomware intrusion during which the unidentified attackers used Bazar, Cobalt Strike, and Conti, along with other tools, over a 5 day period. Security researchers assessed the actors likely used the widely-circulated Conti ransomware playbook based on the observed pattern of activity and operator errors.\n\nA. SolarWinds Compromise, B. Operation Spalax, C. C0017, D. C0015\nAnswer:",
     "context": "",
-    "output": "D. Operation Sharpshooter",
+    "output": "D. C0015",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_campaign",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a global cyber espionage campaign that targeted nuclear, defense, government, energy, and financial companies, with many located in Germany, Turkey, the United Kingdom, and the United States. Security researchers noted the campaign shared many similarities with previous Lazarus Group operations, including fake job recruitment lures and shared malware code.",
-      "options": "A. Frankenstein, B. C0017, C. C0033, D. Operation Sharpshooter",
-      "choice": "D. Operation Sharpshooter",
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a ransomware intrusion during which the unidentified attackers used Bazar, Cobalt Strike, and Conti, along with other tools, over a 5 day period. Security researchers assessed the actors likely used the widely-circulated Conti ransomware playbook based on the observed pattern of activity and operator errors.",
+      "options": "A. SolarWinds Compromise, B. Operation Spalax, C. C0017, D. C0015",
+      "choice": "D. C0015",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.\n\nOptions:\nA. C0026, B. Operation CuckooBees, C. C0011, D. 2022 Ukraine Electric Power Attack",
+    "context": "",
+    "output": "D. 2022 Ukraine Electric Power Attack",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a Sandworm Team campaign that used a combination of GOGETTER, Neo-REGEORG, CaddyWiper, and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
+      "options": "A. C0026, B. Operation CuckooBees, C. C0011, D. 2022 Ukraine Electric Power Attack",
+      "choice": "D. 2022 Ukraine Electric Power Attack",
       "category": [
         "MITREFlan"
       ],
@@ -384,15 +96,15 @@
     }
   },
   {
-    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during The campaign were consistent with historic Turla operations.\n\nOptions:\nA. C0032, B. C0026, C. Operation CuckooBees, D. Cutting Edge",
+    "instruction": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. The campaign targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. The campaign featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.\n\nA. Cutting Edge, B. Operation Ghost, C. C0027, D. Triton Safety Instrumented System Attack\nAnswer:",
     "context": "",
-    "output": "B. C0026",
+    "output": "A. Cutting Edge",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_campaign",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign identified in September 2022 that included the selective distribution of KOPILUWAK and QUIETCANARY malware to previous ANDROMEDA malware victims in Ukraine through re-registered ANDROMEDA C2 domains. Several tools and tactics used during The campaign were consistent with historic Turla operations.",
-      "options": "A. C0032, B. C0026, C. Operation CuckooBees, D. Cutting Edge",
-      "choice": "B. C0026",
+      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. The campaign targeted the U.S. defense industrial base and multiple sectors globally including  telecommunications, financial, aerospace, and technology. The campaign featured the use of defense evasion and living-off-the-land (LoTL) techniques along with the deployment of web shells and other custom malware.",
+      "options": "A. Cutting Edge, B. Operation Ghost, C. C0027, D. Triton Safety Instrumented System Attack",
+      "choice": "A. Cutting Edge",
       "category": [
         "MITREFlan"
       ],
@@ -400,15 +112,175 @@
     }
   },
   {
-    "instruction": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign employed by TEMP.Veles which leveraged the Triton malware framework against a petrochemical organization. The malware and techniques used within this campaign targeted specific Triconex Safety Controllers within the environment. The incident was eventually discovered due to a safety trip that occurred as a result of an issue in the malware.\nA. Operation CuckooBees, B. C0026, C. Triton Safety Instrumented System Attack, D. C0021",
+    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a global cyber espionage campaign that targeted nuclear, defense, government, energy, and financial companies, with many located in Germany, Turkey, the United Kingdom, and the United States. Security researchers noted the campaign shared many similarities with previous Lazarus Group operations, including fake job recruitment lures and shared malware code.\n\nA. Frankenstein, B. C0017, C. C0033, D. Operation Sharpshooter\nA:",
     "context": "",
-    "output": "C. Triton Safety Instrumented System Attack",
+    "output": "D. Operation Sharpshooter",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_campaign",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign employed by TEMP.Veles which leveraged the Triton malware framework against a petrochemical organization. The malware and techniques used within this campaign targeted specific Triconex Safety Controllers within the environment. The incident was eventually discovered due to a safety trip that occurred as a result of an issue in the malware.",
-      "options": "A. Operation CuckooBees, B. C0026, C. Triton Safety Instrumented System Attack, D. C0021",
-      "choice": "C. Triton Safety Instrumented System Attack",
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a global cyber espionage campaign that targeted nuclear, defense, government, energy, and financial companies, with many located in Germany, Turkey, the United Kingdom, and the United States. Security researchers noted the campaign shared many similarities with previous Lazarus Group operations, including fake job recruitment lures and shared malware code.",
+      "options": "A. Frankenstein, B. C0017, C. C0033, D. Operation Sharpshooter",
+      "choice": "D. Operation Sharpshooter",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage operation likely conducted by Lazarus Group that targeted the defense, aerospace, government, and other sectors in the United States, Israel, Australia, Russia, and India. In at least one case, the cyber actors tried to monetize their network access to conduct a business email compromise (BEC) operation. In 2020, security researchers noted overlapping TTPs, to include fake job lures and code similarities, between The campaign, Operation North Star, and Operation Interception; by 2022 security researchers described The campaign as an umbrella term covering both Operation Interception and Operation North Star.\nA. C0027, B. C0032, C. Operation Spalax, D. Operation Dream Job",
+    "context": "",
+    "output": "D. Operation Dream Job",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage operation likely conducted by Lazarus Group that targeted the defense, aerospace, government, and other sectors in the United States, Israel, Australia, Russia, and India. In at least one case, the cyber actors tried to monetize their network access to conduct a business email compromise (BEC) operation. In 2020, security researchers noted overlapping TTPs, to include fake job lures and code similarities, between The campaign, Operation North Star, and Operation Interception; by 2022 security researchers described The campaign as an umbrella term covering both Operation Interception and Operation North Star.",
+      "options": "A. C0027, B. C0032, C. Operation Spalax, D. Operation Dream Job",
+      "choice": "D. Operation Dream Job",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack.\n\nA. C0026, B. C0032, C. Operation CuckooBees, D. Triton Safety Instrumented System Attack\nA:",
+    "context": "",
+    "output": "B. C0032",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was an extended campaign suspected to involve the Triton adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the Triton Safety Instrumented System Attack.",
+      "options": "A. C0026, B. C0032, C. Operation CuckooBees, D. Triton Safety Instrumented System Attack",
+      "choice": "B. C0032",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Answer which mitre campaign is related to the description: The campaign was a PROMETHIUM campaign during which they used StrongPity to target Android users. The campaign was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques.\n\nOptions:\nA. CostaRicto, B. C0033, C. Operation Honeybee, D. C0032",
+    "context": "",
+    "output": "B. C0033",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Answer which mitre campaign is related to the description: The campaign was a PROMETHIUM campaign during which they used StrongPity to target Android users. The campaign was the first publicly documented mobile campaign for PROMETHIUM, who previously used Windows-based techniques.",
+      "options": "A. CostaRicto, B. C0033, C. Operation Honeybee, D. C0032",
+      "choice": "B. C0033",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the The campaign actors used similar TTPs and tools as APT20, suggesting a possible overlap. The campaign was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.\n\nA. C0010, B. Operation Wocao, C. CostaRicto, D. 2016 Ukraine Electric Power Attack\nA:",
+    "context": "",
+    "output": "B. Operation Wocao",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy, finance, health care, insurance, offshore engineering, software development, and transportation companies.\n\nSecurity researchers assessed the The campaign actors used similar TTPs and tools as APT20, suggesting a possible overlap. The campaign was named after an observed command line entry by one of the threat actors, possibly out of frustration from losing webshell access.",
+      "options": "A. C0010, B. Operation Wocao, C. CostaRicto, D. 2016 Ukraine Electric Power Attack",
+      "choice": "B. Operation Wocao",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team.\n\nPossible answers:\nA. 2016 Ukraine Electric Power Attack, B. Triton Safety Instrumented System Attack, C. 2015 Ukraine Electric Power Attack, D. C0011",
+    "context": "",
+    "output": "C. 2015 Ukraine Electric Power Attack",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team.",
+      "options": "A. 2016 Ukraine Electric Power Attack, B. Triton Safety Instrumented System Attack, C. 2015 Ukraine Electric Power Attack, D. C0011",
+      "choice": "C. 2015 Ukraine Electric Power Attack",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During The campaign Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.\nA. Triton Safety Instrumented System Attack, B. C0021, C. C0027, D. C0032",
+    "context": "",
+    "output": "C. C0027",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a financially-motivated campaign linked to Scattered Spider that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During The campaign Scattered Spider used various forms of social engineering, performed SIM swapping, and attempted to leverage access from victim environments to mobile carrier networks.",
+      "options": "A. Triton Safety Instrumented System Attack, B. C0021, C. C0027, D. C0032",
+      "choice": "C. C0027",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a month-long ransomware intrusion that successfully deployed AvosLocker onto a compromised network. The unidentified actors gained initial access to the victim network through an exposed server and used a variety of open-source tools prior to executing AvosLocker.\n\nOptions:\nA. Operation Honeybee, B. Operation Dream Job, C. C0018, D. C0032",
+    "context": "",
+    "output": "C. C0018",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a month-long ransomware intrusion that successfully deployed AvosLocker onto a compromised network. The unidentified actors gained initial access to the victim network through an exposed server and used a variety of open-source tools prior to executing AvosLocker.",
+      "options": "A. Operation Honeybee, B. Operation Dream Job, C. C0018, D. C0032",
+      "choice": "C. C0018",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Question: Which MITRE ATT&CK campaign is described in the following:\nThe campaign was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During The campaign, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.\nA. Operation CuckooBees, B. Operation Spalax, C. Operation Ghost, D. Operation Sharpshooter\nAnswer:",
+    "context": "",
+    "output": "C. Operation Ghost",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was an APT29 campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During The campaign, APT29 used new families of malware and leveraged web services, steganography, and unique C2 infrastructure for each victim.",
+      "options": "A. Operation CuckooBees, B. Operation Spalax, C. Operation Ghost, D. Operation Sharpshooter",
+      "choice": "C. Operation Ghost",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Question: Answer which mitre campaign is related to the description: The campaign was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During The campaign, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of The campaign are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).\nA. C0032, B. C0010, C. Operation Dust Storm, D. C0017\nAnswer:",
+    "context": "",
+    "output": "D. C0017",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Answer which mitre campaign is related to the description: The campaign was an APT41 campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During The campaign, APT41 was quick to adapt and use publicly-disclosed as well as zero-day vulnerabilities for initial access, and in at least two cases re-compromised victims following remediation efforts. The goals of The campaign are unknown, however APT41 was observed exfiltrating Personal Identifiable Information (PII).",
+      "options": "A. C0032, B. C0010, C. Operation Dust Storm, D. C0017",
+      "choice": "D. C0017",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Answer which mitre campaign is related to the description: The campaign was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.\nA. 2022 Ukraine Electric Power Attack, B. 2016 Ukraine Electric Power Attack, C. C0027, D. Operation Wocao",
+    "context": "",
+    "output": "B. 2016 Ukraine Electric Power Attack",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Answer which mitre campaign is related to the description: The campaign was a Sandworm Team campaign during which they used Industroyer malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by Sandworm Team.",
+      "options": "A. 2022 Ukraine Electric Power Attack, B. 2016 Ukraine Electric Power Attack, C. C0027, D. Operation Wocao",
+      "choice": "B. 2016 Ukraine Electric Power Attack",
       "category": [
         "MITREFlan"
       ],
@@ -432,15 +304,143 @@
     }
   },
   {
-    "instruction": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team.\n\nPossible answers:\nA. 2016 Ukraine Electric Power Attack, B. Triton Safety Instrumented System Attack, C. 2015 Ukraine Electric Power Attack, D. C0011",
+    "instruction": "Q: Answer which mitre campaign is related to the description: The campaign was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the The campaign threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nThe campaign threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea.\n\nA. Operation Dust Storm, B. 2015 Ukraine Electric Power Attack, C. C0026, D. C0010\nA:",
     "context": "",
-    "output": "C. 2015 Ukraine Electric Power Attack",
+    "output": "A. Operation Dust Storm",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_campaign",
     "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK campaign relevant to the following:\nThe campaign was a Sandworm Team campaign during which they used BlackEnergy (specifically BlackEnergy3) and KillDisk to target and disrupt transmission and distribution substations within the Ukrainian power grid. This campaign was the first major public attack conducted against the Ukrainian power grid by Sandworm Team.",
-      "options": "A. 2016 Ukraine Electric Power Attack, B. Triton Safety Instrumented System Attack, C. 2015 Ukraine Electric Power Attack, D. C0011",
-      "choice": "C. 2015 Ukraine Electric Power Attack",
+      "question": "Answer which mitre campaign is related to the description: The campaign was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the The campaign threat actors shifted from government and defense-related intelligence targets to Japanese companies or Japanese subdivisions of larger foreign organizations supporting Japan's critical infrastructure, including electricity generation, oil and natural gas, finance, transportation, and construction.\n\nThe campaign threat actors also began to use Android backdoors in their operations by 2015, with all identified victims at the time residing in Japan or South Korea.",
+      "options": "A. Operation Dust Storm, B. 2015 Ukraine Electric Power Attack, C. C0026, D. C0010",
+      "choice": "A. Operation Dust Storm",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Answer which mitre campaign is related to the description: The campaign was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.\n\nA. Operation Wocao, B. C0018, C. FunnyDream, D. C0011\nA:",
+    "context": "",
+    "output": "D. C0011",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Answer which mitre campaign is related to the description: The campaign was a suspected cyber espionage campaign conducted by Transparent Tribe that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from Transparent Tribe's historic targeting Indian government, military, and think tank personnel, and assessed it was still ongoing as of July 2022.",
+      "options": "A. Operation Wocao, B. C0018, C. FunnyDream, D. C0011",
+      "choice": "D. C0011",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Question: Answer which mitre campaign is related to the description: The campaign was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. The campaign initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents.\nA. C0027, B. Operation Honeybee, C. Operation Wocao, D. Operation Ghost\nAnswer:",
+    "context": "",
+    "output": "B. Operation Honeybee",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Answer which mitre campaign is related to the description: The campaign was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. The campaign initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assessed the threat actors were likely Korean speakers based on metadata used in both lure documents and executables, and named the campaign \"Honeybee\" after the author name discovered in malicious Word documents.",
+      "options": "A. C0027, B. Operation Honeybee, C. Operation Wocao, D. Operation Ghost",
+      "choice": "B. Operation Honeybee",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Question: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.\nA. Frankenstein, B. C0021, C. FunnyDream, D. Operation Dream Job\nAnswer:",
+    "context": "",
+    "output": "A. Frankenstein",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including Empire. The campaign name refers to the actors' ability to piece together several unrelated open-source tool components.",
+      "options": "A. Frankenstein, B. C0021, C. FunnyDream, D. Operation Dream Job",
+      "choice": "A. Frankenstein",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign employed by TEMP.Veles which leveraged the Triton malware framework against a petrochemical organization. The malware and techniques used within this campaign targeted specific Triconex Safety Controllers within the environment. The incident was eventually discovered due to a safety trip that occurred as a result of an issue in the malware.\nA. Operation CuckooBees, B. C0026, C. Triton Safety Instrumented System Attack, D. C0021",
+    "context": "",
+    "output": "C. Triton Safety Instrumented System Attack",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign employed by TEMP.Veles which leveraged the Triton malware framework against a petrochemical organization. The malware and techniques used within this campaign targeted specific Triconex Safety Controllers within the environment. The incident was eventually discovered due to a safety trip that occurred as a result of an issue in the malware.",
+      "options": "A. Operation CuckooBees, B. C0026, C. Triton Safety Instrumented System Attack, D. C0021",
+      "choice": "C. Triton Safety Instrumented System Attack",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the The campaign campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group.\nA. Operation Ghost, B. FunnyDream, C. C0018, D. C0033",
+    "context": "",
+    "output": "B. FunnyDream",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the The campaign campaign to possible Chinese-speaking threat actors through the use of the Chinoxy backdoor and noted infrastructure overlap with the TAG-16 threat group.",
+      "options": "A. Operation Ghost, B. FunnyDream, C. C0018, D. C0033",
+      "choice": "B. FunnyDream",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The The campaign threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.\n\nOptions:\nA. Operation Honeybee, B. Operation Spalax, C. 2015 Ukraine Electric Power Attack, D. CostaRicto",
+    "context": "",
+    "output": "B. Operation Spalax",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE campaign is referred to in the following description:\n\nThe campaign was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The The campaign threat actors distributed commodity malware and tools using generic phishing topics related to COVID-19, banking, and law enforcement action. Security researchers noted indicators of compromise and some infrastructure overlaps with other campaigns dating back to April 2018, including at least one separately attributed to APT-C-36, however identified enough differences to report this as separate, unattributed activity.",
+      "options": "A. Operation Honeybee, B. Operation Spalax, C. 2015 Ukraine Electric Power Attack, D. CostaRicto",
+      "choice": "B. Operation Spalax",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the The campaign to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems.\nA. Operation Dust Storm, B. SolarWinds Compromise, C. C0017, D. 2015 Ukraine Electric Power Attack",
+    "context": "",
+    "output": "B. SolarWinds Compromise",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe The campaign was a sophisticated supply chain cyber operation conducted by APT29 that was discovered in mid-December 2020. APT29 used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through a normal software update; they also used password spraying, token theft, API abuse, spear phishing, and other supply chain attacks to compromise user accounts and leverage their associated access. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting initially referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, Dark Halo, and SolarStorm. \n\nIn April 2021, the US and UK governments attributed the The campaign to Russia's Foreign Intelligence Service (SVR); public statements included citations to APT29, Cozy Bear, and The Dukes. The US government assessed that of the approximately 18,000 affected public and private sector customers of Solar Winds\u2019 Orion product, a much smaller number were compromised by follow-on APT29 activity on their systems.",
+      "options": "A. Operation Dust Storm, B. SolarWinds Compromise, C. C0017, D. 2015 Ukraine Electric Power Attack",
+      "choice": "B. SolarWinds Compromise",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_campaign"
+    }
+  },
+  {
+    "instruction": "Q: Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage campaign that targeted oil, energy, and petrochemical companies, along with individuals and executives in Kazakhstan, Taiwan, Greece, and the United States. The unidentified threat actors searched for information related to oil and gas field production systems, financials, and collected data from SCADA systems. Based on the observed techniques, tools, and network activities, security researchers assessed the campaign involved a threat group based in China.\n\nOptions:\nA. Operation Spalax, B. Night Dragon, C. Frankenstein, D. Operation Sharpshooter",
+    "context": "",
+    "output": "B. Night Dragon",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_campaign",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK campaign is described in the following:\nThe campaign was a cyber espionage campaign that targeted oil, energy, and petrochemical companies, along with individuals and executives in Kazakhstan, Taiwan, Greece, and the United States. The unidentified threat actors searched for information related to oil and gas field production systems, financials, and collected data from SCADA systems. Based on the observed techniques, tools, and network activities, security researchers assessed the campaign involved a threat group based in China.",
+      "options": "A. Operation Spalax, B. Night Dragon, C. Frankenstein, D. Operation Sharpshooter",
+      "choice": "B. Night Dragon",
       "category": [
         "MITREFlan"
       ],
