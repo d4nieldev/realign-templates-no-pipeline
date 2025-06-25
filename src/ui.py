@@ -310,7 +310,7 @@ with gr.Blocks() as demo:
         prompt_file = gr.FileExplorer(label="Prompt Template", root_dir="prompts", file_count="single", value=lambda: DEFAULT_PROMPT_FILE)
     prompt_preview = gr.HTML(label="Prompt Template Preview (placeholders highlighted)", value=preview_prompt(DEFAULT_PROMPT_FILE))
     with gr.Row():
-        task_description = gr.Textbox(label="Task Description", placeholder="Short description of the task and the dataset...")
+        task_description = gr.Textbox(label="Task Description", placeholder="Short description of the task and the dataset...", show_copy_button=True)
         template = gr.Textbox(label="Generated Template", show_copy_button=True)
     with gr.Row():
         generate_btn = gr.Button("Generate Template")
