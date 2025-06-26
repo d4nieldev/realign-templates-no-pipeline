@@ -1,5 +1,37 @@
 [
   {
+    "instruction": "Which MITRE ATT&CK datasource is described in the following:\nA non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter\n\nPossible answers:\nA. Web Credential: Web Credential Usage, B. Drive, C. Instance, D. Persona",
+    "context": "",
+    "output": "B. Drive",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK datasource is described in the following:\nA non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter",
+      "options": "A. Web Credential: Web Credential Usage, B. Drive, C. Instance, D. Persona",
+      "choice": "B. Drive",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Question: Tell me which MITRE datasource is referred to in the following description:\n\nA computer program that operates or controls a particular type of device that is attached to a computer. Provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used\nA. Windows Registry: Windows Registry Key Creation, B. Domain Name: Domain Registration, C. Kernel, D. Driver\nAnswer:",
+    "context": "",
+    "output": "D. Driver",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer program that operates or controls a particular type of device that is attached to a computer. Provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used",
+      "options": "A. Windows Registry: Windows Registry Key Creation, B. Domain Name: Domain Registration, C. Kernel, D. Driver",
+      "choice": "D. Driver",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
     "instruction": "Answer which mitre datasource is related to the description: Mechanisms that allow inter-process communication locally or over the network. A the datasource is usually found as a file and processes attach to it\nA. Named Pipe, B. Active Directory: Active Directory Credential Request, C. Script, D. Cloud Service",
     "context": "",
     "output": "A. Named Pipe",
@@ -32,127 +64,15 @@
     }
   },
   {
-    "instruction": "Answer which mitre datasource is related to the description: A single unit of shared resources within a cluster, comprised of one or more containers\n\nPossible answers:\nA. Pod, B. Cloud Service, C. Active Directory: Active Directory Object Access, D. Cloud Storage: Cloud Storage Creation",
+    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nEvents collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)\nA. Process: Process Metadata, B. Application Log, C. Certificate: Certificate Registration, D. Firewall: Firewall Disable",
     "context": "",
-    "output": "A. Pod",
+    "output": "B. Application Log",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: A single unit of shared resources within a cluster, comprised of one or more containers",
-      "options": "A. Pod, B. Cloud Service, C. Active Directory: Active Directory Object Access, D. Cloud Storage: Cloud Storage Creation",
-      "choice": "A. Pod",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Question: Give the MITRE ATT&CK datasource relevant to the following:\nA profile representing a user, device, service, or application used to authenticate and access resources\nA. Active Directory: Active Directory Object Deletion, B. User Account, C. Volume: Volume Metadata, D. Instance: Instance Deletion\nAnswer:",
-    "context": "",
-    "output": "B. User Account",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nA profile representing a user, device, service, or application used to authenticate and access resources",
-      "options": "A. Active Directory: Active Directory Object Deletion, B. User Account, C. Volume: Volume Metadata, D. Instance: Instance Deletion",
-      "choice": "B. User Account",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Answer which mitre datasource is related to the description: A file or stream containing a list of commands, allowing them to be launched in sequence\nA. Pod: Pod Creation, B. Cloud Service: Cloud Service Metadata, C. Script, D. Cloud Storage: Cloud Storage Enumeration",
-    "context": "",
-    "output": "C. Script",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: A file or stream containing a list of commands, allowing them to be launched in sequence",
-      "options": "A. Pod: Pod Creation, B. Cloud Service: Cloud Service Metadata, C. Script, D. Cloud Storage: Cloud Storage Enumeration",
-      "choice": "C. Script",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nA virtual server environment which runs workloads, hosted on-premise or by third-party cloud providers\nA. Logon Session, B. Domain Name, C. Instance, D. File: File Access",
-    "context": "",
-    "output": "C. Instance",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA virtual server environment which runs workloads, hosted on-premise or by third-party cloud providers",
-      "options": "A. Logon Session, B. Domain Name, C. Instance, D. File: File Access",
-      "choice": "C. Instance",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Q: Answer which mitre datasource is related to the description: Logon occurring on a system or resource (local, domain, or cloud) to which a user/device is gaining access after successful authentication and authorization\n\nOptions:\nA. Logon Session, B. Cloud Storage, C. Script, D. Container: Container Start",
-    "context": "",
-    "output": "A. Logon Session",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: Logon occurring on a system or resource (local, domain, or cloud) to which a user/device is gaining access after successful authentication and authorization",
-      "options": "A. Logon Session, B. Cloud Storage, C. Script, D. Container: Container Start",
-      "choice": "A. Logon Session",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Question: Answer which mitre datasource is related to the description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights\nA. File: File Modification, B. Group, C. Cloud Storage: Cloud Storage Access, D. Network Traffic: Network Connection Creation\nAnswer:",
-    "context": "",
-    "output": "B. Group",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights",
-      "options": "A. File: File Modification, B. Group, C. Cloud Storage: Cloud Storage Access, D. Network Traffic: Network Connection Creation",
-      "choice": "B. Group",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Question: Tell me which MITRE datasource is referred to in the following description:\n\nA computer program that operates or controls a particular type of device that is attached to a computer. Provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used\nA. Windows Registry: Windows Registry Key Creation, B. Domain Name: Domain Registration, C. Kernel, D. Driver\nAnswer:",
-    "context": "",
-    "output": "D. Driver",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer program that operates or controls a particular type of device that is attached to a computer. Provides a software interface to hardware devices, enabling operating systems and other computer programs to access hardware functions without needing to know precise details about the hardware being used",
-      "options": "A. Windows Registry: Windows Registry Key Creation, B. Domain Name: Domain Registration, C. Kernel, D. Driver",
-      "choice": "D. Driver",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nAutomated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)\n\nOptions:\nA. Cloud Storage: Cloud Storage Access, B. Process, C. Scheduled Job, D. Snapshot: Snapshot Modification",
-    "context": "",
-    "output": "C. Scheduled Job",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nAutomated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)",
-      "options": "A. Cloud Storage: Cloud Storage Access, B. Process, C. Scheduled Job, D. Snapshot: Snapshot Modification",
-      "choice": "C. Scheduled Job",
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nEvents collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)",
+      "options": "A. Process: Process Metadata, B. Application Log, C. Certificate: Certificate Registration, D. Firewall: Firewall Disable",
+      "choice": "B. Application Log",
       "category": [
         "MITREFlan"
       ],
@@ -176,15 +96,15 @@
     }
   },
   {
-    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in\n\nA. Service, B. Sensor Health, C. Active Directory: Active Directory Object Access, D. Domain Name\nAnswer:",
+    "instruction": "Give the MITRE ATT&CK datasource relevant to the following:\nThe infrastructure for management data and operations that enables local and remote management of Windows personal computers and servers\nA. WMI, B. Pod, C. Cloud Storage: Cloud Storage Creation, D. Container: Container Creation",
     "context": "",
-    "output": "A. Service",
+    "output": "A. WMI",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in",
-      "options": "A. Service, B. Sensor Health, C. Active Directory: Active Directory Object Access, D. Domain Name",
-      "choice": "A. Service",
+      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nThe infrastructure for management data and operations that enables local and remote management of Windows personal computers and servers",
+      "options": "A. WMI, B. Pod, C. Cloud Storage: Cloud Storage Creation, D. Container: Container Creation",
+      "choice": "A. WMI",
       "category": [
         "MITREFlan"
       ],
@@ -192,15 +112,15 @@
     }
   },
   {
-    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).\n\nPossible answers:\nA. Process, B. Certificate, C. File, D. File: File Access",
+    "instruction": "Answer which mitre datasource is related to the description: A file or stream containing a list of commands, allowing them to be launched in sequence\nA. Pod: Pod Creation, B. Cloud Service: Cloud Service Metadata, C. Script, D. Cloud Storage: Cloud Storage Enumeration",
     "context": "",
-    "output": "C. File",
+    "output": "C. Script",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).",
-      "options": "A. Process, B. Certificate, C. File, D. File: File Access",
-      "choice": "C. File",
+      "question": "Answer which mitre datasource is related to the description: A file or stream containing a list of commands, allowing them to be launched in sequence",
+      "options": "A. Pod: Pod Creation, B. Cloud Service: Cloud Service Metadata, C. Script, D. Cloud Storage: Cloud Storage Enumeration",
+      "choice": "C. Script",
       "category": [
         "MITREFlan"
       ],
@@ -208,95 +128,15 @@
     }
   },
   {
-    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nBlock object storage hosted on-premise or by third-party providers, typically made available to resources as virtualized hard drives\n\nOptions:\nA. Application Log: Application Log Content, B. Windows Registry: Windows Registry Key Modification, C. Volume, D. Firewall",
+    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nAutomated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)\n\nOptions:\nA. Cloud Storage: Cloud Storage Access, B. Process, C. Scheduled Job, D. Snapshot: Snapshot Modification",
     "context": "",
-    "output": "C. Volume",
+    "output": "C. Scheduled Job",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nBlock object storage hosted on-premise or by third-party providers, typically made available to resources as virtualized hard drives",
-      "options": "A. Application Log: Application Log Content, B. Windows Registry: Windows Registry Key Modification, C. Volume, D. Firewall",
-      "choice": "C. Volume",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nA storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)\n\nOptions:\nA. Service: Service Metadata, B. Network Share, C. Volume: Volume Modification, D. Image: Image Deletion",
-    "context": "",
-    "output": "B. Network Share",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
-      "options": "A. Service: Service Metadata, B. Network Share, C. Volume: Volume Modification, D. Image: Image Deletion",
-      "choice": "B. Network Share",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Q: Give the MITRE ATT&CK datasource relevant to the following:\nInformation obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)\n\nOptions:\nA. Domain Name, B. Cloud Storage: Cloud Storage Enumeration, C. Instance: Instance Creation, D. File: File Metadata",
-    "context": "",
-    "output": "A. Domain Name",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nInformation obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)",
-      "options": "A. Domain Name, B. Cloud Storage: Cloud Storage Enumeration, C. Instance: Instance Creation, D. File: File Metadata",
-      "choice": "A. Domain Name",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nInstances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures\n\nA. Container: Container Start, B. Cloud Storage: Cloud Storage Enumeration, C. Container: Container Creation, D. Process\nAnswer:",
-    "context": "",
-    "output": "D. Process",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nInstances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures",
-      "options": "A. Container: Container Start, B. Cloud Storage: Cloud Storage Enumeration, C. Container: Container Creation, D. Process",
-      "choice": "D. Process",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Answer which mitre datasource is related to the description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components\nA. Kernel, B. Active Directory: Active Directory Object Creation, C. Sensor Health: Host Status, D. Command: Command Execution",
-    "context": "",
-    "output": "A. Kernel",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components",
-      "options": "A. Kernel, B. Active Directory: Active Directory Object Creation, C. Sensor Health: Host Status, D. Command: Command Execution",
-      "choice": "A. Kernel",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Answer which mitre datasource is related to the description: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries\n\nPossible answers:\nA. Process: Process Creation, B. Service: Service Modification, C. Active Directory, D. Module",
-    "context": "",
-    "output": "D. Module",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries",
-      "options": "A. Process: Process Creation, B. Service: Service Modification, C. Active Directory, D. Module",
-      "choice": "D. Module",
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nAutomated tasks that can be executed at a specific time or on a recurring schedule running in the background (ex: Cron daemon, task scheduler, BITS)",
+      "options": "A. Cloud Storage: Cloud Storage Access, B. Process, C. Scheduled Job, D. Snapshot: Snapshot Modification",
+      "choice": "C. Scheduled Job",
       "category": [
         "MITREFlan"
       ],
@@ -320,134 +160,6 @@
     }
   },
   {
-    "instruction": "Q: Which MITRE ATT&CK datasource is described in the following:\nA standard unit of virtualized software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another\n\nOptions:\nA. Container, B. Group: Group Metadata, C. Firmware: Firmware Modification, D. Application Log: Application Log Content",
-    "context": "",
-    "output": "A. Container",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK datasource is described in the following:\nA standard unit of virtualized software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another",
-      "options": "A. Container, B. Group: Group Metadata, C. Firmware: Firmware Modification, D. Application Log: Application Log Content",
-      "choice": "A. Container",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Q: Answer which mitre datasource is related to the description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task\n\nOptions:\nA. File, B. Windows Registry: Windows Registry Key Modification, C. Command, D. Instance: Instance Deletion",
-    "context": "",
-    "output": "C. Command",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task",
-      "options": "A. File, B. Windows Registry: Windows Registry Key Modification, C. Command, D. Instance: Instance Deletion",
-      "choice": "C. Command",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Give the MITRE ATT&CK datasource relevant to the following:\nA database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)\nA. Network Traffic: Network Connection Creation, B. Active Directory, C. Kernel, D. User Account",
-    "context": "",
-    "output": "B. Active Directory",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nA database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)",
-      "options": "A. Network Traffic: Network Connection Creation, B. Active Directory, C. Kernel, D. User Account",
-      "choice": "B. Active Directory",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Which MITRE ATT&CK datasource is described in the following:\nInformation from host telemetry providing insights about system status, errors, or other notable functional activity\n\nPossible answers:\nA. File: File Access, B. Cloud Storage, C. Logon Session: Logon Session Creation, D. Sensor Health",
-    "context": "",
-    "output": "D. Sensor Health",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK datasource is described in the following:\nInformation from host telemetry providing insights about system status, errors, or other notable functional activity",
-      "options": "A. File: File Access, B. Cloud Storage, C. Logon Session: Logon Session Creation, D. Sensor Health",
-      "choice": "D. Sensor Health",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nA malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims\n\nOptions:\nA. Application Log: Application Log Content, B. User Account: User Account Creation, C. Cloud Service, D. Persona",
-    "context": "",
-    "output": "D. Persona",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims",
-      "options": "A. Application Log: Application Log Content, B. User Account: User Account Creation, C. Cloud Service, D. Persona",
-      "choice": "D. Persona",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Give the MITRE ATT&CK datasource relevant to the following:\nThe infrastructure for management data and operations that enables local and remote management of Windows personal computers and servers\nA. WMI, B. Pod, C. Cloud Storage: Cloud Storage Creation, D. Container: Container Creation",
-    "context": "",
-    "output": "A. WMI",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nThe infrastructure for management data and operations that enables local and remote management of Windows personal computers and servers",
-      "options": "A. WMI, B. Pod, C. Cloud Storage: Cloud Storage Creation, D. Container: Container Creation",
-      "choice": "A. WMI",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Question: Which MITRE ATT&CK datasource is described in the following:\nData transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)\nA. Network Traffic, B. Cloud Storage: Cloud Storage Metadata, C. Firewall: Firewall Disable, D. Active Directory: Active Directory Object Creation\nAnswer:",
-    "context": "",
-    "output": "A. Network Traffic",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK datasource is described in the following:\nData transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)",
-      "options": "A. Network Traffic, B. Cloud Storage: Cloud Storage Metadata, C. Firewall: Firewall Disable, D. Active Directory: Active Directory Object Creation",
-      "choice": "A. Network Traffic",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
-    "instruction": "Question: Answer which mitre datasource is related to the description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services\nA. Image: Image Modification, B. File: File Metadata, C. Web Credential, D. Active Directory: Active Directory Credential Request\nAnswer:",
-    "context": "",
-    "output": "C. Web Credential",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_datasource",
-    "parsed_raw_data": {
-      "question": "Answer which mitre datasource is related to the description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services",
-      "options": "A. Image: Image Modification, B. File: File Metadata, C. Web Credential, D. Active Directory: Active Directory Credential Request",
-      "choice": "C. Web Credential",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_datasource"
-    }
-  },
-  {
     "instruction": "Q: Give the MITRE ATT&CK datasource relevant to the following:\nData object storage infrastructure hosted on-premise or by third-party providers, made available to users through network connections and/or APIs\n\nA. Cloud Storage, B. Service, C. Group: Group Modification, D. Group: Group Enumeration\nA:",
     "context": "",
     "output": "A. Cloud Storage",
@@ -464,15 +176,95 @@
     }
   },
   {
-    "instruction": "Which MITRE ATT&CK datasource is described in the following:\nA non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter\n\nPossible answers:\nA. Web Credential: Web Credential Usage, B. Drive, C. Instance, D. Persona",
+    "instruction": "Which MITRE ATT&CK datasource is described in the following:\nA network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules\n\nA. Network Share, B. Firewall, C. Command, D. Instance: Instance Start\nAnswer:",
     "context": "",
-    "output": "B. Drive",
+    "output": "B. Firewall",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK datasource is described in the following:\nA non-volatile data storage device (hard the datasource, floppy disk, USB flash the datasource) with at least one formatted partition, typically mounted to the file system and/or assigned a the datasource letter",
-      "options": "A. Web Credential: Web Credential Usage, B. Drive, C. Instance, D. Persona",
-      "choice": "B. Drive",
+      "question": "Which MITRE ATT&CK datasource is described in the following:\nA network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
+      "options": "A. Network Share, B. Firewall, C. Command, D. Instance: Instance Start",
+      "choice": "B. Firewall",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Answer which mitre datasource is related to the description: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries\n\nPossible answers:\nA. Process: Process Creation, B. Service: Service Modification, C. Active Directory, D. Module",
+    "context": "",
+    "output": "D. Module",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Answer which mitre datasource is related to the description: Executable files consisting of one or more shared classes and interfaces, such as portable executable (PE) format binaries/dynamic link libraries (DLL), executable and linkable format (ELF) binaries/shared libraries, and Mach-O format binaries/shared libraries",
+      "options": "A. Process: Process Creation, B. Service: Service Modification, C. Active Directory, D. Module",
+      "choice": "D. Module",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Which MITRE ATT&CK datasource is described in the following:\nA standard unit of virtualized software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another\n\nOptions:\nA. Container, B. Group: Group Metadata, C. Firmware: Firmware Modification, D. Application Log: Application Log Content",
+    "context": "",
+    "output": "A. Container",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK datasource is described in the following:\nA standard unit of virtualized software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another",
+      "options": "A. Container, B. Group: Group Metadata, C. Firmware: Firmware Modification, D. Application Log: Application Log Content",
+      "choice": "A. Container",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK datasource relevant to the following:\nA single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment\n\nA. Image, B. Network Traffic: Network Connection Creation, C. User Account: User Account Modification, D. Firmware\nAnswer:",
+    "context": "",
+    "output": "A. Image",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nA single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment",
+      "options": "A. Image, B. Network Traffic: Network Connection Creation, C. User Account: User Account Modification, D. Firmware",
+      "choice": "A. Image",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).\n\nPossible answers:\nA. Process, B. Certificate, C. File, D. File: File Access",
+    "context": "",
+    "output": "C. File",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer resource object, managed by the I/O system, for storing data (such as images, text, videos, computer programs, or any wide variety of other media).",
+      "options": "A. Process, B. Certificate, C. File, D. File: File Access",
+      "choice": "C. File",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK datasource relevant to the following:\nA database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)\nA. Network Traffic: Network Connection Creation, B. Active Directory, C. Kernel, D. User Account",
+    "context": "",
+    "output": "B. Active Directory",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nA database and set of services that allows administrators to manage permissions, access to network resources, and stored data objects (user, group, application, or devices)",
+      "options": "A. Network Traffic: Network Connection Creation, B. Active Directory, C. Kernel, D. User Account",
+      "choice": "B. Active Directory",
       "category": [
         "MITREFlan"
       ],
@@ -512,6 +304,150 @@
     }
   },
   {
+    "instruction": "Question: Give the MITRE ATT&CK datasource relevant to the following:\nA profile representing a user, device, service, or application used to authenticate and access resources\nA. Active Directory: Active Directory Object Deletion, B. User Account, C. Volume: Volume Metadata, D. Instance: Instance Deletion\nAnswer:",
+    "context": "",
+    "output": "B. User Account",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nA profile representing a user, device, service, or application used to authenticate and access resources",
+      "options": "A. Active Directory: Active Directory Object Deletion, B. User Account, C. Volume: Volume Metadata, D. Instance: Instance Deletion",
+      "choice": "B. User Account",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nInstances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures\n\nA. Container: Container Start, B. Cloud Storage: Cloud Storage Enumeration, C. Container: Container Creation, D. Process\nAnswer:",
+    "context": "",
+    "output": "D. Process",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nInstances of computer programs that are being executed by at least one thread. The datasourcees have memory space for the datasource executables, loaded modules (DLLs or shared libraries), and allocated memory regions containing everything from user input to application-specific data structures",
+      "options": "A. Container: Container Start, B. Cloud Storage: Cloud Storage Enumeration, C. Container: Container Creation, D. Process",
+      "choice": "D. Process",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Answer which mitre datasource is related to the description: Logon occurring on a system or resource (local, domain, or cloud) to which a user/device is gaining access after successful authentication and authorization\n\nOptions:\nA. Logon Session, B. Cloud Storage, C. Script, D. Container: Container Start",
+    "context": "",
+    "output": "A. Logon Session",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Answer which mitre datasource is related to the description: Logon occurring on a system or resource (local, domain, or cloud) to which a user/device is gaining access after successful authentication and authorization",
+      "options": "A. Logon Session, B. Cloud Storage, C. Script, D. Container: Container Start",
+      "choice": "A. Logon Session",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nA virtual server environment which runs workloads, hosted on-premise or by third-party cloud providers\nA. Logon Session, B. Domain Name, C. Instance, D. File: File Access",
+    "context": "",
+    "output": "C. Instance",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA virtual server environment which runs workloads, hosted on-premise or by third-party cloud providers",
+      "options": "A. Logon Session, B. Domain Name, C. Instance, D. File: File Access",
+      "choice": "C. Instance",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Answer which mitre datasource is related to the description: A single unit of shared resources within a cluster, comprised of one or more containers\n\nPossible answers:\nA. Pod, B. Cloud Service, C. Active Directory: Active Directory Object Access, D. Cloud Storage: Cloud Storage Creation",
+    "context": "",
+    "output": "A. Pod",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Answer which mitre datasource is related to the description: A single unit of shared resources within a cluster, comprised of one or more containers",
+      "options": "A. Pod, B. Cloud Service, C. Active Directory: Active Directory Object Access, D. Cloud Storage: Cloud Storage Creation",
+      "choice": "A. Pod",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nBlock object storage hosted on-premise or by third-party providers, typically made available to resources as virtualized hard drives\n\nOptions:\nA. Application Log: Application Log Content, B. Windows Registry: Windows Registry Key Modification, C. Volume, D. Firewall",
+    "context": "",
+    "output": "C. Volume",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nBlock object storage hosted on-premise or by third-party providers, typically made available to resources as virtualized hard drives",
+      "options": "A. Application Log: Application Log Content, B. Windows Registry: Windows Registry Key Modification, C. Volume, D. Firewall",
+      "choice": "C. Volume",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Answer which mitre datasource is related to the description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task\n\nOptions:\nA. File, B. Windows Registry: Windows Registry Key Modification, C. Command, D. Instance: Instance Deletion",
+    "context": "",
+    "output": "C. Command",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Answer which mitre datasource is related to the description: A directive given to a computer program, acting as an interpreter of some kind, in order to perform a specific task",
+      "options": "A. File, B. Windows Registry: Windows Registry Key Modification, C. Command, D. Instance: Instance Deletion",
+      "choice": "C. Command",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in\n\nA. Service, B. Sensor Health, C. Active Directory: Active Directory Object Access, D. Domain Name\nAnswer:",
+    "context": "",
+    "output": "A. Service",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA computer process that is configured to execute continuously in the background and perform system tasks, in some cases before any user has logged in",
+      "options": "A. Service, B. Sensor Health, C. Active Directory: Active Directory Object Access, D. Domain Name",
+      "choice": "A. Service",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Question: Answer which mitre datasource is related to the description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services\nA. Image: Image Modification, B. File: File Metadata, C. Web Credential, D. Active Directory: Active Directory Credential Request\nAnswer:",
+    "context": "",
+    "output": "C. Web Credential",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Answer which mitre datasource is related to the description: Credential material, such as session cookies or tokens, used to authenticate to web applications and services",
+      "options": "A. Image: Image Modification, B. File: File Metadata, C. Web Credential, D. Active Directory: Active Directory Credential Request",
+      "choice": "C. Web Credential",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
     "instruction": "Which MITRE ATT&CK datasource is described in the following:\nA point-in-time copy of cloud volumes (files, settings, etc.) that can be created and/or deployed in cloud environments\n\nPossible answers:\nA. Scheduled Job: Scheduled Job Metadata, B. Persona, C. File: File Access, D. Snapshot",
     "context": "",
     "output": "D. Snapshot",
@@ -528,15 +464,79 @@
     }
   },
   {
-    "instruction": "Give the MITRE ATT&CK datasource relevant to the following:\nA single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment\n\nA. Image, B. Network Traffic: Network Connection Creation, C. User Account: User Account Modification, D. Firmware\nAnswer:",
+    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nA malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims\n\nOptions:\nA. Application Log: Application Log Content, B. User Account: User Account Creation, C. Cloud Service, D. Persona",
     "context": "",
-    "output": "A. Image",
+    "output": "D. Persona",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nA single file used to deploy a virtual machine/bootable disk into an on-premise or third-party cloud environment",
-      "options": "A. Image, B. Network Traffic: Network Connection Creation, C. User Account: User Account Modification, D. Firmware",
-      "choice": "A. Image",
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA malicious online profile representing a user commonly used by adversaries to social engineer or otherwise target victims",
+      "options": "A. Application Log: Application Log Content, B. User Account: User Account Creation, C. Cloud Service, D. Persona",
+      "choice": "D. Persona",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Q: Give the MITRE ATT&CK datasource relevant to the following:\nInformation obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)\n\nOptions:\nA. Domain Name, B. Cloud Storage: Cloud Storage Enumeration, C. Instance: Instance Creation, D. File: File Metadata",
+    "context": "",
+    "output": "A. Domain Name",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK datasource relevant to the following:\nInformation obtained (commonly through registration or activity logs) regarding one or more IP addresses registered with human readable names (ex: mitre.org)",
+      "options": "A. Domain Name, B. Cloud Storage: Cloud Storage Enumeration, C. Instance: Instance Creation, D. File: File Metadata",
+      "choice": "A. Domain Name",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Question: Which MITRE ATT&CK datasource is described in the following:\nData transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)\nA. Network Traffic, B. Cloud Storage: Cloud Storage Metadata, C. Firewall: Firewall Disable, D. Active Directory: Active Directory Object Creation\nAnswer:",
+    "context": "",
+    "output": "A. Network Traffic",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK datasource is described in the following:\nData transmitted across a network (ex: Web, DNS, Mail, File, etc.), that is either summarized (ex: Netflow) and/or captured as raw data in an analyzable format (ex: PCAP)",
+      "options": "A. Network Traffic, B. Cloud Storage: Cloud Storage Metadata, C. Firewall: Firewall Disable, D. Active Directory: Active Directory Object Creation",
+      "choice": "A. Network Traffic",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Answer which mitre datasource is related to the description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components\nA. Kernel, B. Active Directory: Active Directory Object Creation, C. Sensor Health: Host Status, D. Command: Command Execution",
+    "context": "",
+    "output": "A. Kernel",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Answer which mitre datasource is related to the description: A computer program, at the core of a computer OS, that resides in memory and facilitates interactions between hardware and software components",
+      "options": "A. Kernel, B. Active Directory: Active Directory Object Creation, C. Sensor Health: Host Status, D. Command: Command Execution",
+      "choice": "A. Kernel",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_datasource"
+    }
+  },
+  {
+    "instruction": "Which MITRE ATT&CK datasource is described in the following:\nInformation from host telemetry providing insights about system status, errors, or other notable functional activity\n\nPossible answers:\nA. File: File Access, B. Cloud Storage, C. Logon Session: Logon Session Creation, D. Sensor Health",
+    "context": "",
+    "output": "D. Sensor Health",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_datasource",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK datasource is described in the following:\nInformation from host telemetry providing insights about system status, errors, or other notable functional activity",
+      "options": "A. File: File Access, B. Cloud Storage, C. Logon Session: Logon Session Creation, D. Sensor Health",
+      "choice": "D. Sensor Health",
       "category": [
         "MITREFlan"
       ],
@@ -560,15 +560,15 @@
     }
   },
   {
-    "instruction": "Tell me which MITRE datasource is referred to in the following description:\n\nEvents collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)\nA. Process: Process Metadata, B. Application Log, C. Certificate: Certificate Registration, D. Firewall: Firewall Disable",
+    "instruction": "Question: Answer which mitre datasource is related to the description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights\nA. File: File Modification, B. Group, C. Cloud Storage: Cloud Storage Access, D. Network Traffic: Network Connection Creation\nAnswer:",
     "context": "",
-    "output": "B. Application Log",
+    "output": "B. Group",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nEvents collected by third-party services such as mail servers, web applications, or other appliances (not by the native OS or platform)",
-      "options": "A. Process: Process Metadata, B. Application Log, C. Certificate: Certificate Registration, D. Firewall: Firewall Disable",
-      "choice": "B. Application Log",
+      "question": "Answer which mitre datasource is related to the description: A collection of multiple user accounts that share the same access rights to the computer and/or network resources and have common security rights",
+      "options": "A. File: File Modification, B. Group, C. Cloud Storage: Cloud Storage Access, D. Network Traffic: Network Connection Creation",
+      "choice": "B. Group",
       "category": [
         "MITREFlan"
       ],
@@ -576,15 +576,15 @@
     }
   },
   {
-    "instruction": "Which MITRE ATT&CK datasource is described in the following:\nA network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules\n\nA. Network Share, B. Firewall, C. Command, D. Instance: Instance Start\nAnswer:",
+    "instruction": "Q: Tell me which MITRE datasource is referred to in the following description:\n\nA storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)\n\nOptions:\nA. Service: Service Metadata, B. Network Share, C. Volume: Volume Modification, D. Image: Image Deletion",
     "context": "",
-    "output": "B. Firewall",
+    "output": "B. Network Share",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_datasource",
     "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK datasource is described in the following:\nA network security system, running locally on an endpoint or remotely as a service (ex: cloud environment), that monitors and controls incoming/outgoing network traffic based on predefined rules",
-      "options": "A. Network Share, B. Firewall, C. Command, D. Instance: Instance Start",
-      "choice": "B. Firewall",
+      "question": "Tell me which MITRE datasource is referred to in the following description:\n\nA storage resource (typically a folder or drive) made available from one host to others using network protocols, such as Server Message Block (SMB) or Network File System (NFS)",
+      "options": "A. Service: Service Metadata, B. Network Share, C. Volume: Volume Modification, D. Image: Image Deletion",
+      "choice": "B. Network Share",
       "category": [
         "MITREFlan"
       ],

@@ -1,73 +1,5 @@
 [
   {
-    "instruction": "Write an answer to the following question: What are Polymorphic viruses?",
-    "context": "",
-    "output": "Polymorphic viruses are sophisticated file infectors that may build changed versions of themselves in order to avoid detection while maintaining the same fundamental behaviors after each infection. Polymorphic viruses encrypt their programming and employ various encryption keys each time to alter their physical file makeup throughout each infection.\nMutation engines are used by polymorphic viruses to change their decryption routines every time they infect a machine. Because typical security solutions do not use a static, unchanging code, traditional security solutions may miss them. They are considerably more difficult to detect because they use complicated mutation engines that generate billions of decryption routines.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What are Polymorphic viruses?",
-      "answer": "Polymorphic viruses are sophisticated file infectors that may build changed versions of themselves in order to avoid detection while maintaining the same fundamental behaviors after each infection. Polymorphic viruses encrypt their programming and employ various encryption keys each time to alter their physical file makeup throughout each infection.\nMutation engines are used by polymorphic viruses to change their decryption routines every time they infect a machine. Because typical security solutions do not use a static, unchanging code, traditional security solutions may miss them. They are considerably more difficult to detect because they use complicated mutation engines that generate billions of decryption routines."
-    }
-  },
-  {
-    "instruction": "In our computing labs, print billing is often tied to the user\u2019s login. Sometimes people call to complain about bills for printing they never did only to find out that the bills are, indeed, correct.\nRead the text above and answer this question: What do you infer from this situation? Justify.",
-    "context": "",
-    "output": "Sometimes they realize they loaned their account to a friend who couldn\u2019t remember his/her password, and the friend did the printing. Thus the charges. It\u2019s also possible that somebody came in behind them and used their account\n\nThis is an issue with shared or public computers in general. If you don\u2019t log out of the computer properly when you leave, someone else can come in behind you and retrieve what you were doing, use your accounts, etc. Always log out of all accounts, quit programs, and close browser windows before you walk away.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "context": "In our computing labs, print billing is often tied to the user\u2019s login. Sometimes people call to complain about bills for printing they never did only to find out that the bills are, indeed, correct.",
-      "question": "What do you infer from this situation? Justify.",
-      "answer": "Sometimes they realize they loaned their account to a friend who couldn\u2019t remember his/her password, and the friend did the printing. Thus the charges. It\u2019s also possible that somebody came in behind them and used their account\n\nThis is an issue with shared or public computers in general. If you don\u2019t log out of the computer properly when you leave, someone else can come in behind you and retrieve what you were doing, use your accounts, etc. Always log out of all accounts, quit programs, and close browser windows before you walk away."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Differentiate between spear phishing and phishing?",
-    "context": "",
-    "output": "Spear phishing is a type of phishing assault that targets a small number of high-value targets, usually just one. Phishing usually entails sending a bulk email or message to a big group of people. It implies that spear-phishing will be much more personalized and perhaps more well-researched (for the individual), whereas phishing will be more like a real fishing trip where whoever eats the hook is caught",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Differentiate between spear phishing and phishing?",
-      "answer": "Spear phishing is a type of phishing assault that targets a small number of high-value targets, usually just one. Phishing usually entails sending a bulk email or message to a big group of people. It implies that spear-phishing will be much more personalized and perhaps more well-researched (for the individual), whereas phishing will be more like a real fishing trip where whoever eats the hook is caught"
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Explain what SNMP is",
-    "context": "",
-    "output": "SNMP stands for simple network management protocol, which is considered an internet standard protocol and application layer protocol.\nThe SNMP is used to collect and organize information for managed devices on IP networks. It's also used to modify that information so you can change the device's behavior.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Explain what SNMP is",
-      "answer": "SNMP stands for simple network management protocol, which is considered an internet standard protocol and application layer protocol.\nThe SNMP is used to collect and organize information for managed devices on IP networks. It's also used to modify that information so you can change the device's behavior."
-    }
-  },
-  {
-    "instruction": "A friend of yours sends an e-card to your mail. You have to click on the attachment to get the card\n\nAnswer this question based on the above context: What do you do? Justify your answer",
-    "context": "",
-    "output": "There are four risks here:\n\nSome attachments contain viruses or other malicious programs, so just in general, it\u2019s risky to open unknown or unsolicited attachments.\nAlso, in some cases just clicking on a malicious link can infect a computer, so unless you are sure a link is safe, don\u2019t click on it.\nEmail addresses can be faked, so just because the email says it is from someone you know, you can\u2019t be certain of this without checking with the person.\nFinally, some websites and links look legitimate, but they\u2019re really hoaxes designed to steal your information.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "context": "A friend of yours sends an e-card to your mail. You have to click on the attachment to get the card",
-      "question": "What do you do? Justify your answer",
-      "answer": "There are four risks here:\n\nSome attachments contain viruses or other malicious programs, so just in general, it\u2019s risky to open unknown or unsolicited attachments.\nAlso, in some cases just clicking on a malicious link can infect a computer, so unless you are sure a link is safe, don\u2019t click on it.\nEmail addresses can be faked, so just because the email says it is from someone you know, you can\u2019t be certain of this without checking with the person.\nFinally, some websites and links look legitimate, but they\u2019re really hoaxes designed to steal your information."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: How to reset a password-protected BIOS configuration?",
-    "context": "",
-    "output": "There are various ways to reset BIOS password. Some of them are as follows:\n\nRemove CMOS battery.\nBy utilizing the software.\nBy utilizing a motherboard jumper.\nBy utilizing MS-DOS.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "How to reset a password-protected BIOS configuration?",
-      "answer": "There are various ways to reset BIOS password. Some of them are as follows:\n\nRemove CMOS battery.\nBy utilizing the software.\nBy utilizing a motherboard jumper.\nBy utilizing MS-DOS."
-    }
-  },
-  {
     "instruction": "Write an answer to the following question: Explain XSS attack and how to prevent it?",
     "context": "",
     "output": "XSS(Cross-Site Scripting) is a cyberattack that enables hackers to inject malicious client-side scripts into web pages. XSS can be used to hijack sessions and steal cookies, modify DOM, remote code execution, crash the server etc.\nYou can prevent XSS attacks by using the following practices:\nValidate user inputs\nSanitize user inputs\nEncode special characters\nUse Anti-XSS services/tools\nUse XSS  HTML Filter",
@@ -79,215 +11,14 @@
     }
   },
   {
-    "instruction": "Write an answer to the following question: Distinguish between HIDS and NIDS.",
+    "instruction": "Write an answer to the following question: What are Polymorphic viruses?",
     "context": "",
-    "output": "Host Intrusion Detection System: Detects the attacks that involve hosts, Analyzes what a particular host/application is doing, Discovers hackers only after the machine is breached.\nNetwork Intrusion Detection System: Detects attacks that involve networks, Examines the network traffic of all devices, Discovers hackers at the time they generate unauthorized attacks.",
+    "output": "Polymorphic viruses are sophisticated file infectors that may build changed versions of themselves in order to avoid detection while maintaining the same fundamental behaviors after each infection. Polymorphic viruses encrypt their programming and employ various encryption keys each time to alter their physical file makeup throughout each infection.\nMutation engines are used by polymorphic viruses to change their decryption routines every time they infect a machine. Because typical security solutions do not use a static, unchanging code, traditional security solutions may miss them. They are considerably more difficult to detect because they use complicated mutation engines that generate billions of decryption routines.",
     "category": "SecurityInterviewFlan",
     "instruction_type": "retrieval1",
     "parsed_raw_data": {
-      "question": "Distinguish between HIDS and NIDS.",
-      "answer": "Host Intrusion Detection System: Detects the attacks that involve hosts, Analyzes what a particular host/application is doing, Discovers hackers only after the machine is breached.\nNetwork Intrusion Detection System: Detects attacks that involve networks, Examines the network traffic of all devices, Discovers hackers at the time they generate unauthorized attacks."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What kind of cookie can be used in a spyware attack?",
-    "context": "",
-    "output": "Tracking cookies are most commonly-used in spyware attacks because they can last through multiple sessions, unlike the session cookie which lasts for only one session.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What kind of cookie can be used in a spyware attack?",
-      "answer": "Tracking cookies are most commonly-used in spyware attacks because they can last through multiple sessions, unlike the session cookie which lasts for only one session."
-    }
-  },
-  {
-    "instruction": "Two different offices on campus are working to straighten out an error in an employee\u2019s bank account due to a direct deposit mistake.Office #1 emails the correct account and deposit information to office #2, which promptly fixes the problem.\n\nThe employee confirms with the bank that everything has, indeed, been straightened out.\nQ: What is wrong here?",
-    "context": "",
-    "output": "Account and deposit information is sensitive data that could be used for identity theft. Sending this or any kind of sensitive information by email is very risky because email is typically not private or secure. Anyone who knows how can access it anywhere along its route.\n\nAs an alternative, the two offices could have called each other or worked with ITS to send the information a more secure way.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "context": "Two different offices on campus are working to straighten out an error in an employee\u2019s bank account due to a direct deposit mistake.Office #1 emails the correct account and deposit information to office #2, which promptly fixes the problem.\n\nThe employee confirms with the bank that everything has, indeed, been straightened out.",
-      "question": "What is wrong here?",
-      "answer": "Account and deposit information is sensitive data that could be used for identity theft. Sending this or any kind of sensitive information by email is very risky because email is typically not private or secure. Anyone who knows how can access it anywhere along its route.\n\nAs an alternative, the two offices could have called each other or worked with ITS to send the information a more secure way."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What is a security auditing?",
-    "context": "",
-    "output": "Security auditing is an internal inspection of applications and operating systems for security flaws. An audit can also be done via line by line inspection of code.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What is a security auditing?",
-      "answer": "Security auditing is an internal inspection of applications and operating systems for security flaws. An audit can also be done via line by line inspection of code."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What is MAC spoofing?",
-    "context": "",
-    "output": "The MAC address is virtually etched to the hardware by the device manufacturer, which means users cannot change or rewrite the MAC address. However, it's possible to mask the address on the software side. This masking is called MAC spoofing.\nHackers use MAC spoofing to hide their identity and imitate others. In network terminology, spoofing is manipulating or infiltrating the address system in computer networks. Other targets that hackers can spoof or manipulate are internet protocol (IP), address resolution protocol (ARP), and the domain name system (DNS).",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What is MAC spoofing?",
-      "answer": "The MAC address is virtually etched to the hardware by the device manufacturer, which means users cannot change or rewrite the MAC address. However, it's possible to mask the address on the software side. This masking is called MAC spoofing.\nHackers use MAC spoofing to hide their identity and imitate others. In network terminology, spoofing is manipulating or infiltrating the address system in computer networks. Other targets that hackers can spoof or manipulate are internet protocol (IP), address resolution protocol (ARP), and the domain name system (DNS)."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What is Data Encryption? Why it is important in network security?",
-    "context": "",
-    "output": "Data encryption is a technique in which the sender converts the message into a code. It allows only authorized user to gain access.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What is Data Encryption? Why it is important in network security?",
-      "answer": "Data encryption is a technique in which the sender converts the message into a code. It allows only authorized user to gain access."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What is port blocking within LAN?",
-    "context": "",
-    "output": "Restricting the users from accessing a set of services within the local area network is called port blocking.\nStopping the source to not to access the destination node via ports. As the application works on the ports, so ports are blocked to restricts the access filling up the security holes in the network infrastructure.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What is port blocking within LAN?",
-      "answer": "Restricting the users from accessing a set of services within the local area network is called port blocking.\nStopping the source to not to access the destination node via ports. As the application works on the ports, so ports are blocked to restricts the access filling up the security holes in the network infrastructure."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Explain the concept of session hijacking",
-    "context": "",
-    "output": "TCP session hijacking is the misuse of a valid computer session. IP spoofing is the most common method of session hijacking. In this method, attackers use IP packets to insert a command between two nodes of the network",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Explain the concept of session hijacking",
-      "answer": "TCP session hijacking is the misuse of a valid computer session. IP spoofing is the most common method of session hijacking. In this method, attackers use IP packets to insert a command between two nodes of the network"
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What is a Botnet?",
-    "context": "",
-    "output": "A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What is a Botnet?",
-      "answer": "A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What is a three-way handshake?",
-    "context": "",
-    "output": "It is a process that happens in a TCP/IP network when you make a connection between a local host and the server. It is a three-step process to negotiate the acknowledgment and synchronization of packets before communication starts.\nStep 1: The client makes a connection with the server with SYN.\nStep 2: The server responds to the client\u2019s request with SYN+ACK.\nStep 3: The client acknowledges the server\u2019s response with ACK, and the actual data transmission begins.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What is a three-way handshake?",
-      "answer": "It is a process that happens in a TCP/IP network when you make a connection between a local host and the server. It is a three-step process to negotiate the acknowledgment and synchronization of packets before communication starts.\nStep 1: The client makes a connection with the server with SYN.\nStep 2: The server responds to the client\u2019s request with SYN+ACK.\nStep 3: The client acknowledges the server\u2019s response with ACK, and the actual data transmission begins."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Explain CIA triad",
-    "context": "",
-    "output": "CIA stands for Confidentiality, Integrity, and Availability. CIA is a model that is designed to guide policies for Information Security. It is one of the most popular models used by organizations.\nConfidentiality: The information should be accessible and readable only to authorized personnel. It should not be accessible by unauthorized personnel. The information should be strongly encrypted just in case someone uses hacking to access the data so that even if the data is accessed, it is not readable or understandable.\nIntegrity: Making sure the data has not been modified by an unauthorized entity. Integrity ensures that data is not corrupted or modified by unauthorized personnel. If an authorized individual/system is trying to modify the data and the modification wasn\u2019t successful, then the data should be reversed back and should not be corrupted.\nAvailability: The data should be available to the user whenever the user requires it. Maintaining of Hardware, upgrading regularly, Data Backups and Recovery, Network Bottlenecks should be taken care of.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Explain CIA triad",
-      "answer": "CIA stands for Confidentiality, Integrity, and Availability. CIA is a model that is designed to guide policies for Information Security. It is one of the most popular models used by organizations.\nConfidentiality: The information should be accessible and readable only to authorized personnel. It should not be accessible by unauthorized personnel. The information should be strongly encrypted just in case someone uses hacking to access the data so that even if the data is accessed, it is not readable or understandable.\nIntegrity: Making sure the data has not been modified by an unauthorized entity. Integrity ensures that data is not corrupted or modified by unauthorized personnel. If an authorized individual/system is trying to modify the data and the modification wasn\u2019t successful, then the data should be reversed back and should not be corrupted.\nAvailability: The data should be available to the user whenever the user requires it. Maintaining of Hardware, upgrading regularly, Data Backups and Recovery, Network Bottlenecks should be taken care of."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Explain steps to secure web server.",
-    "context": "",
-    "output": "Follow the following steps to secure your web server:\n\nUpdate ownership of file.\nKeep your webserver updated.\nDisable extra modules in the webserver.\nDelete default scripts.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Explain steps to secure web server.",
-      "answer": "Follow the following steps to secure your web server:\n\nUpdate ownership of file.\nKeep your webserver updated.\nDisable extra modules in the webserver.\nDelete default scripts."
-    }
-  },
-  {
-    "instruction": "A while back, the IT folks got a number of complaints that one of our campus computers was sending out Viagra spam. They checked it out, and the reports were true: a hacker had installed a program on the computer that made it automatically send out tons of spam email without the computer owner\u2019s knowledge.\n\nHow do you think the hacker got into the computer to set this up?",
-    "context": "",
-    "output": "A: This was actually the result of a hacked password. Using passwords that can\u2019t be easily guessed, and protecting your passwords by not sharing them or writing them down can help to prevent this. Passwords should be at least 8 characters in length and use a mixture of upper and lower case letters, numbers, and symbols.\n\nEven though in this case it was a hacked password, other things that could possibly lead to this are:\n\nOut of date patches/updates\nNo anti-virus software or out of date anti-virus software",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "context": "A while back, the IT folks got a number of complaints that one of our campus computers was sending out Viagra spam. They checked it out, and the reports were true: a hacker had installed a program on the computer that made it automatically send out tons of spam email without the computer owner\u2019s knowledge.",
-      "question": "How do you think the hacker got into the computer to set this up?",
-      "answer": "This was actually the result of a hacked password. Using passwords that can\u2019t be easily guessed, and protecting your passwords by not sharing them or writing them down can help to prevent this. Passwords should be at least 8 characters in length and use a mixture of upper and lower case letters, numbers, and symbols.\n\nEven though in this case it was a hacked password, other things that could possibly lead to this are:\n\nOut of date patches/updates\nNo anti-virus software or out of date anti-virus software"
-    }
-  },
-  {
-    "instruction": "There is this case that happened in my computer lab. A friend of mine used their yahoo account at a computer lab on campus. She ensured that her account was not left open before she left the lab. Someone came after her and used the same browser to re-access her account. and they started sending emails from it.\n\nBased on the above text, answer a question. What do you think might be going on here?",
-    "context": "",
-    "output": "The first person probably didn\u2019t log out of her account, so the new person could just go to history and access her account.\n\nAnother possibility is that she did log out, but didn\u2019t clear her web cache. (This is done through the browser menu to clear pages that the browser has saved for future use.)",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "context": "There is this case that happened in my computer lab. A friend of mine used their yahoo account at a computer lab on campus. She ensured that her account was not left open before she left the lab. Someone came after her and used the same browser to re-access her account. and they started sending emails from it.",
-      "question": "What do you think might be going on here?",
-      "answer": "The first person probably didn\u2019t log out of her account, so the new person could just go to history and access her account.\n\nAnother possibility is that she did log out, but didn\u2019t clear her web cache. (This is done through the browser menu to clear pages that the browser has saved for future use.)"
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Explain SSL and TLS.",
-    "context": "",
-    "output": "Secure Sockets Layer (SSL)\nIt employs encryption algorithms to keep any sensitive data that is sent between a client and a server by scrambling the data in transit. This helps prevent hackers from reading any data, such as credit card details and personal and other financial information; it is done by keeping the internet connection secure.\nTransport Layer Security (TLS)\nTLS is the successor of SSL. It is an improved protocol version that works just like SSL to protect information transfer. However, to provide better security, both TLS and SSL are often implemented together.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Explain SSL and TLS.",
-      "answer": "Secure Sockets Layer (SSL)\nIt employs encryption algorithms to keep any sensitive data that is sent between a client and a server by scrambling the data in transit. This helps prevent hackers from reading any data, such as credit card details and personal and other financial information; it is done by keeping the internet connection secure.\nTransport Layer Security (TLS)\nTLS is the successor of SSL. It is an improved protocol version that works just like SSL to protect information transfer. However, to provide better security, both TLS and SSL are often implemented together."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: How would you secure the company's server?",
-    "context": "",
-    "output": "To secure the company's server, I'll first need to ensure that all of the company's passwords \u2013 for both root and administrative users \u2013 are secure.\n\nAfter that, I'd create new users that I'll use to manage the system and take away remote access from root accounts and the default administrator.\n\nAfter completing this step, I'd create firewall boundaries for remote access.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "How would you secure the company's server?",
-      "answer": "To secure the company's server, I'll first need to ensure that all of the company's passwords \u2013 for both root and administrative users \u2013 are secure.\n\nAfter that, I'd create new users that I'll use to manage the system and take away remote access from root accounts and the default administrator.\n\nAfter completing this step, I'd create firewall boundaries for remote access."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Explain what SSDP is",
-    "context": "",
-    "output": "SSDP stands for Simple Service Discovery Protocol, which is a network protocol that uses the internet protocol suite to discover network services and information and for advertisement purposes.",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Explain what SSDP is",
-      "answer": "SSDP stands for Simple Service Discovery Protocol, which is a network protocol that uses the internet protocol suite to discover network services and information and for advertisement purposes."
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: Which is more reliable: SSL or HTTPS?",
-    "context": "",
-    "output": "SSL (Secure Sockets Layer) is a secure technology that allows two or more parties to communicate securely over the internet. To provide security, it works on top of HTTP. It works at the Presentation layer.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL that uses encryption to create a more secure surfing experience. The working of HTTPS involves the top 4 layers of the OSI model, i.e, Application Layer, Presentation Layer, Session Layer, and Transport Layer.\nSSL is more secure than HTTPS in terms of security. ",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "Which is more reliable: SSL or HTTPS?",
-      "answer": "SSL (Secure Sockets Layer) is a secure technology that allows two or more parties to communicate securely over the internet. To provide security, it works on top of HTTP. It works at the Presentation layer.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL that uses encryption to create a more secure surfing experience. The working of HTTPS involves the top 4 layers of the OSI model, i.e, Application Layer, Presentation Layer, Session Layer, and Transport Layer.\nSSL is more secure than HTTPS in terms of security. "
-    }
-  },
-  {
-    "instruction": "Write an answer to the following question: What are the elements of cybersecurity?",
-    "context": "",
-    "output": "Major elements of cybersecurity are:\n\nInformation security\nNetwork security\nOperational security\nApplication security\nEnd-user education\nBusiness continuity planning",
-    "category": "SecurityInterviewFlan",
-    "instruction_type": "retrieval1",
-    "parsed_raw_data": {
-      "question": "What are the elements of cybersecurity?",
-      "answer": "Major elements of cybersecurity are:\n\nInformation security\nNetwork security\nOperational security\nApplication security\nEnd-user education\nBusiness continuity planning"
+      "question": "What are Polymorphic viruses?",
+      "answer": "Polymorphic viruses are sophisticated file infectors that may build changed versions of themselves in order to avoid detection while maintaining the same fundamental behaviors after each infection. Polymorphic viruses encrypt their programming and employ various encryption keys each time to alter their physical file makeup throughout each infection.\nMutation engines are used by polymorphic viruses to change their decryption routines every time they infect a machine. Because typical security solutions do not use a static, unchanging code, traditional security solutions may miss them. They are considerably more difficult to detect because they use complicated mutation engines that generate billions of decryption routines."
     }
   },
   {
@@ -314,15 +45,217 @@
     }
   },
   {
-    "instruction": "One of the staff members in XYZ subscribes to many free magazines. Now, to activate her subscriptions one of the magazines asked for her month of birth, second asked for her year of birth, the other one asked for her maiden name.\n\nBased on the above text, answer a question. What do you infer from this situation? Justify.",
+    "instruction": "Write an answer to the following question: Define Spyware",
     "context": "",
-    "output": "All three newsletters probably have the same parent company or are distributed through the same service. The parent company or service can combine individual pieces of seemingly-harmless information and use or sell it for identity theft\n\nIt is even possible that there is a fourth newsletter that asks for a day of birth as one of the activation questions\n\nOften questions about personal information are optional. In addition to being suspicious about situations like the one described here, never provide personal information when it is not legitimately necessary, or to people or companies, you don\u2019t personally know.",
+    "output": "Spyware is a malware that aims to steal data about the organization or person. This malware can damage the organization\u2019s computer system",
     "category": "SecurityInterviewFlan",
     "instruction_type": "retrieval1",
     "parsed_raw_data": {
-      "context": "One of the staff members in XYZ subscribes to many free magazines. Now, to activate her subscriptions one of the magazines asked for her month of birth, second asked for her year of birth, the other one asked for her maiden name.",
+      "question": "Define Spyware",
+      "answer": "Spyware is a malware that aims to steal data about the organization or person. This malware can damage the organization\u2019s computer system"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is a Botnet?",
+    "context": "",
+    "output": "A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a Botnet?",
+      "answer": "A Botnet is a number of devices connected to the internet where each device has one or more bots running on it. The bots on the devices and malicious scripts used to hack a victim. Botnets can be used to steal data, send spams and execute a DDOS attack."
+    }
+  },
+  {
+    "instruction": "In our computing labs, print billing is often tied to the user\u2019s login. Sometimes people call to complain about bills for printing they never did only to find out that the bills are, indeed, correct.\nRead the text above and answer this question: What do you infer from this situation? Justify.",
+    "context": "",
+    "output": "Sometimes they realize they loaned their account to a friend who couldn\u2019t remember his/her password, and the friend did the printing. Thus the charges. It\u2019s also possible that somebody came in behind them and used their account\n\nThis is an issue with shared or public computers in general. If you don\u2019t log out of the computer properly when you leave, someone else can come in behind you and retrieve what you were doing, use your accounts, etc. Always log out of all accounts, quit programs, and close browser windows before you walk away.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "In our computing labs, print billing is often tied to the user\u2019s login. Sometimes people call to complain about bills for printing they never did only to find out that the bills are, indeed, correct.",
       "question": "What do you infer from this situation? Justify.",
-      "answer": "All three newsletters probably have the same parent company or are distributed through the same service. The parent company or service can combine individual pieces of seemingly-harmless information and use or sell it for identity theft\n\nIt is even possible that there is a fourth newsletter that asks for a day of birth as one of the activation questions\n\nOften questions about personal information are optional. In addition to being suspicious about situations like the one described here, never provide personal information when it is not legitimately necessary, or to people or companies, you don\u2019t personally know."
+      "answer": "Sometimes they realize they loaned their account to a friend who couldn\u2019t remember his/her password, and the friend did the printing. Thus the charges. It\u2019s also possible that somebody came in behind them and used their account\n\nThis is an issue with shared or public computers in general. If you don\u2019t log out of the computer properly when you leave, someone else can come in behind you and retrieve what you were doing, use your accounts, etc. Always log out of all accounts, quit programs, and close browser windows before you walk away."
+    }
+  },
+  {
+    "instruction": "There is this case that happened in my computer lab. A friend of mine used their yahoo account at a computer lab on campus. She ensured that her account was not left open before she left the lab. Someone came after her and used the same browser to re-access her account. and they started sending emails from it.\n\nBased on the above text, answer a question. What do you think might be going on here?",
+    "context": "",
+    "output": "The first person probably didn\u2019t log out of her account, so the new person could just go to history and access her account.\n\nAnother possibility is that she did log out, but didn\u2019t clear her web cache. (This is done through the browser menu to clear pages that the browser has saved for future use.)",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "There is this case that happened in my computer lab. A friend of mine used their yahoo account at a computer lab on campus. She ensured that her account was not left open before she left the lab. Someone came after her and used the same browser to re-access her account. and they started sending emails from it.",
+      "question": "What do you think might be going on here?",
+      "answer": "The first person probably didn\u2019t log out of her account, so the new person could just go to history and access her account.\n\nAnother possibility is that she did log out, but didn\u2019t clear her web cache. (This is done through the browser menu to clear pages that the browser has saved for future use.)"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is MAC spoofing?",
+    "context": "",
+    "output": "The MAC address is virtually etched to the hardware by the device manufacturer, which means users cannot change or rewrite the MAC address. However, it's possible to mask the address on the software side. This masking is called MAC spoofing.\nHackers use MAC spoofing to hide their identity and imitate others. In network terminology, spoofing is manipulating or infiltrating the address system in computer networks. Other targets that hackers can spoof or manipulate are internet protocol (IP), address resolution protocol (ARP), and the domain name system (DNS).",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is MAC spoofing?",
+      "answer": "The MAC address is virtually etched to the hardware by the device manufacturer, which means users cannot change or rewrite the MAC address. However, it's possible to mask the address on the software side. This masking is called MAC spoofing.\nHackers use MAC spoofing to hide their identity and imitate others. In network terminology, spoofing is manipulating or infiltrating the address system in computer networks. Other targets that hackers can spoof or manipulate are internet protocol (IP), address resolution protocol (ARP), and the domain name system (DNS)."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: How to reset a password-protected BIOS configuration?",
+    "context": "",
+    "output": "There are various ways to reset BIOS password. Some of them are as follows:\n\nRemove CMOS battery.\nBy utilizing the software.\nBy utilizing a motherboard jumper.\nBy utilizing MS-DOS.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "How to reset a password-protected BIOS configuration?",
+      "answer": "There are various ways to reset BIOS password. Some of them are as follows:\n\nRemove CMOS battery.\nBy utilizing the software.\nBy utilizing a motherboard jumper.\nBy utilizing MS-DOS."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What kind of cookie can be used in a spyware attack?",
+    "context": "",
+    "output": "Tracking cookies are most commonly-used in spyware attacks because they can last through multiple sessions, unlike the session cookie which lasts for only one session.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What kind of cookie can be used in a spyware attack?",
+      "answer": "Tracking cookies are most commonly-used in spyware attacks because they can last through multiple sessions, unlike the session cookie which lasts for only one session."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain what SSDP is",
+    "context": "",
+    "output": "SSDP stands for Simple Service Discovery Protocol, which is a network protocol that uses the internet protocol suite to discover network services and information and for advertisement purposes.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain what SSDP is",
+      "answer": "SSDP stands for Simple Service Discovery Protocol, which is a network protocol that uses the internet protocol suite to discover network services and information and for advertisement purposes."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain steps to secure web server.",
+    "context": "",
+    "output": "Follow the following steps to secure your web server:\n\nUpdate ownership of file.\nKeep your webserver updated.\nDisable extra modules in the webserver.\nDelete default scripts.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain steps to secure web server.",
+      "answer": "Follow the following steps to secure your web server:\n\nUpdate ownership of file.\nKeep your webserver updated.\nDisable extra modules in the webserver.\nDelete default scripts."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is Data Encryption? Why it is important in network security?",
+    "context": "",
+    "output": "Data encryption is a technique in which the sender converts the message into a code. It allows only authorized user to gain access.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is Data Encryption? Why it is important in network security?",
+      "answer": "Data encryption is a technique in which the sender converts the message into a code. It allows only authorized user to gain access."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain what SNMP is",
+    "context": "",
+    "output": "SNMP stands for simple network management protocol, which is considered an internet standard protocol and application layer protocol.\nThe SNMP is used to collect and organize information for managed devices on IP networks. It's also used to modify that information so you can change the device's behavior.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain what SNMP is",
+      "answer": "SNMP stands for simple network management protocol, which is considered an internet standard protocol and application layer protocol.\nThe SNMP is used to collect and organize information for managed devices on IP networks. It's also used to modify that information so you can change the device's behavior."
+    }
+  },
+  {
+    "instruction": "A friend of yours sends an e-card to your mail. You have to click on the attachment to get the card\n\nAnswer this question based on the above context: What do you do? Justify your answer",
+    "context": "",
+    "output": "There are four risks here:\n\nSome attachments contain viruses or other malicious programs, so just in general, it\u2019s risky to open unknown or unsolicited attachments.\nAlso, in some cases just clicking on a malicious link can infect a computer, so unless you are sure a link is safe, don\u2019t click on it.\nEmail addresses can be faked, so just because the email says it is from someone you know, you can\u2019t be certain of this without checking with the person.\nFinally, some websites and links look legitimate, but they\u2019re really hoaxes designed to steal your information.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "A friend of yours sends an e-card to your mail. You have to click on the attachment to get the card",
+      "question": "What do you do? Justify your answer",
+      "answer": "There are four risks here:\n\nSome attachments contain viruses or other malicious programs, so just in general, it\u2019s risky to open unknown or unsolicited attachments.\nAlso, in some cases just clicking on a malicious link can infect a computer, so unless you are sure a link is safe, don\u2019t click on it.\nEmail addresses can be faked, so just because the email says it is from someone you know, you can\u2019t be certain of this without checking with the person.\nFinally, some websites and links look legitimate, but they\u2019re really hoaxes designed to steal your information."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain the concept of session hijacking",
+    "context": "",
+    "output": "TCP session hijacking is the misuse of a valid computer session. IP spoofing is the most common method of session hijacking. In this method, attackers use IP packets to insert a command between two nodes of the network",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain the concept of session hijacking",
+      "answer": "TCP session hijacking is the misuse of a valid computer session. IP spoofing is the most common method of session hijacking. In this method, attackers use IP packets to insert a command between two nodes of the network"
+    }
+  },
+  {
+    "instruction": "A while back, the IT folks got a number of complaints that one of our campus computers was sending out Viagra spam. They checked it out, and the reports were true: a hacker had installed a program on the computer that made it automatically send out tons of spam email without the computer owner\u2019s knowledge.\n\nHow do you think the hacker got into the computer to set this up?",
+    "context": "",
+    "output": "A: This was actually the result of a hacked password. Using passwords that can\u2019t be easily guessed, and protecting your passwords by not sharing them or writing them down can help to prevent this. Passwords should be at least 8 characters in length and use a mixture of upper and lower case letters, numbers, and symbols.\n\nEven though in this case it was a hacked password, other things that could possibly lead to this are:\n\nOut of date patches/updates\nNo anti-virus software or out of date anti-virus software",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "A while back, the IT folks got a number of complaints that one of our campus computers was sending out Viagra spam. They checked it out, and the reports were true: a hacker had installed a program on the computer that made it automatically send out tons of spam email without the computer owner\u2019s knowledge.",
+      "question": "How do you think the hacker got into the computer to set this up?",
+      "answer": "This was actually the result of a hacked password. Using passwords that can\u2019t be easily guessed, and protecting your passwords by not sharing them or writing them down can help to prevent this. Passwords should be at least 8 characters in length and use a mixture of upper and lower case letters, numbers, and symbols.\n\nEven though in this case it was a hacked password, other things that could possibly lead to this are:\n\nOut of date patches/updates\nNo anti-virus software or out of date anti-virus software"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Which is more reliable: SSL or HTTPS?",
+    "context": "",
+    "output": "SSL (Secure Sockets Layer) is a secure technology that allows two or more parties to communicate securely over the internet. To provide security, it works on top of HTTP. It works at the Presentation layer.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL that uses encryption to create a more secure surfing experience. The working of HTTPS involves the top 4 layers of the OSI model, i.e, Application Layer, Presentation Layer, Session Layer, and Transport Layer.\nSSL is more secure than HTTPS in terms of security. ",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Which is more reliable: SSL or HTTPS?",
+      "answer": "SSL (Secure Sockets Layer) is a secure technology that allows two or more parties to communicate securely over the internet. To provide security, it works on top of HTTP. It works at the Presentation layer.\nHTTPS (Hypertext Transfer Protocol Secure) is a combination of HTTP and SSL that uses encryption to create a more secure surfing experience. The working of HTTPS involves the top 4 layers of the OSI model, i.e, Application Layer, Presentation Layer, Session Layer, and Transport Layer.\nSSL is more secure than HTTPS in terms of security. "
+    }
+  },
+  {
+    "instruction": "Two different offices on campus are working to straighten out an error in an employee\u2019s bank account due to a direct deposit mistake.Office #1 emails the correct account and deposit information to office #2, which promptly fixes the problem.\n\nThe employee confirms with the bank that everything has, indeed, been straightened out.\nQ: What is wrong here?",
+    "context": "",
+    "output": "Account and deposit information is sensitive data that could be used for identity theft. Sending this or any kind of sensitive information by email is very risky because email is typically not private or secure. Anyone who knows how can access it anywhere along its route.\n\nAs an alternative, the two offices could have called each other or worked with ITS to send the information a more secure way.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "Two different offices on campus are working to straighten out an error in an employee\u2019s bank account due to a direct deposit mistake.Office #1 emails the correct account and deposit information to office #2, which promptly fixes the problem.\n\nThe employee confirms with the bank that everything has, indeed, been straightened out.",
+      "question": "What is wrong here?",
+      "answer": "Account and deposit information is sensitive data that could be used for identity theft. Sending this or any kind of sensitive information by email is very risky because email is typically not private or secure. Anyone who knows how can access it anywhere along its route.\n\nAs an alternative, the two offices could have called each other or worked with ITS to send the information a more secure way."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: How would you secure the company's server?",
+    "context": "",
+    "output": "To secure the company's server, I'll first need to ensure that all of the company's passwords \u2013 for both root and administrative users \u2013 are secure.\n\nAfter that, I'd create new users that I'll use to manage the system and take away remote access from root accounts and the default administrator.\n\nAfter completing this step, I'd create firewall boundaries for remote access.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "How would you secure the company's server?",
+      "answer": "To secure the company's server, I'll first need to ensure that all of the company's passwords \u2013 for both root and administrative users \u2013 are secure.\n\nAfter that, I'd create new users that I'll use to manage the system and take away remote access from root accounts and the default administrator.\n\nAfter completing this step, I'd create firewall boundaries for remote access."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Explain CIA triad",
+    "context": "",
+    "output": "CIA stands for Confidentiality, Integrity, and Availability. CIA is a model that is designed to guide policies for Information Security. It is one of the most popular models used by organizations.\nConfidentiality: The information should be accessible and readable only to authorized personnel. It should not be accessible by unauthorized personnel. The information should be strongly encrypted just in case someone uses hacking to access the data so that even if the data is accessed, it is not readable or understandable.\nIntegrity: Making sure the data has not been modified by an unauthorized entity. Integrity ensures that data is not corrupted or modified by unauthorized personnel. If an authorized individual/system is trying to modify the data and the modification wasn\u2019t successful, then the data should be reversed back and should not be corrupted.\nAvailability: The data should be available to the user whenever the user requires it. Maintaining of Hardware, upgrading regularly, Data Backups and Recovery, Network Bottlenecks should be taken care of.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Explain CIA triad",
+      "answer": "CIA stands for Confidentiality, Integrity, and Availability. CIA is a model that is designed to guide policies for Information Security. It is one of the most popular models used by organizations.\nConfidentiality: The information should be accessible and readable only to authorized personnel. It should not be accessible by unauthorized personnel. The information should be strongly encrypted just in case someone uses hacking to access the data so that even if the data is accessed, it is not readable or understandable.\nIntegrity: Making sure the data has not been modified by an unauthorized entity. Integrity ensures that data is not corrupted or modified by unauthorized personnel. If an authorized individual/system is trying to modify the data and the modification wasn\u2019t successful, then the data should be reversed back and should not be corrupted.\nAvailability: The data should be available to the user whenever the user requires it. Maintaining of Hardware, upgrading regularly, Data Backups and Recovery, Network Bottlenecks should be taken care of."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What are the elements of cybersecurity?",
+    "context": "",
+    "output": "Major elements of cybersecurity are:\n\nInformation security\nNetwork security\nOperational security\nApplication security\nEnd-user education\nBusiness continuity planning",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What are the elements of cybersecurity?",
+      "answer": "Major elements of cybersecurity are:\n\nInformation security\nNetwork security\nOperational security\nApplication security\nEnd-user education\nBusiness continuity planning"
     }
   },
   {
@@ -337,14 +270,81 @@
     }
   },
   {
-    "instruction": "Write an answer to the following question: Define Spyware",
+    "instruction": "Write an answer to the following question: Explain SSL and TLS.",
     "context": "",
-    "output": "Spyware is a malware that aims to steal data about the organization or person. This malware can damage the organization\u2019s computer system",
+    "output": "Secure Sockets Layer (SSL)\nIt employs encryption algorithms to keep any sensitive data that is sent between a client and a server by scrambling the data in transit. This helps prevent hackers from reading any data, such as credit card details and personal and other financial information; it is done by keeping the internet connection secure.\nTransport Layer Security (TLS)\nTLS is the successor of SSL. It is an improved protocol version that works just like SSL to protect information transfer. However, to provide better security, both TLS and SSL are often implemented together.",
     "category": "SecurityInterviewFlan",
     "instruction_type": "retrieval1",
     "parsed_raw_data": {
-      "question": "Define Spyware",
-      "answer": "Spyware is a malware that aims to steal data about the organization or person. This malware can damage the organization\u2019s computer system"
+      "question": "Explain SSL and TLS.",
+      "answer": "Secure Sockets Layer (SSL)\nIt employs encryption algorithms to keep any sensitive data that is sent between a client and a server by scrambling the data in transit. This helps prevent hackers from reading any data, such as credit card details and personal and other financial information; it is done by keeping the internet connection secure.\nTransport Layer Security (TLS)\nTLS is the successor of SSL. It is an improved protocol version that works just like SSL to protect information transfer. However, to provide better security, both TLS and SSL are often implemented together."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is port blocking within LAN?",
+    "context": "",
+    "output": "Restricting the users from accessing a set of services within the local area network is called port blocking.\nStopping the source to not to access the destination node via ports. As the application works on the ports, so ports are blocked to restricts the access filling up the security holes in the network infrastructure.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is port blocking within LAN?",
+      "answer": "Restricting the users from accessing a set of services within the local area network is called port blocking.\nStopping the source to not to access the destination node via ports. As the application works on the ports, so ports are blocked to restricts the access filling up the security holes in the network infrastructure."
+    }
+  },
+  {
+    "instruction": "One of the staff members in XYZ subscribes to many free magazines. Now, to activate her subscriptions one of the magazines asked for her month of birth, second asked for her year of birth, the other one asked for her maiden name.\n\nBased on the above text, answer a question. What do you infer from this situation? Justify.",
+    "context": "",
+    "output": "All three newsletters probably have the same parent company or are distributed through the same service. The parent company or service can combine individual pieces of seemingly-harmless information and use or sell it for identity theft\n\nIt is even possible that there is a fourth newsletter that asks for a day of birth as one of the activation questions\n\nOften questions about personal information are optional. In addition to being suspicious about situations like the one described here, never provide personal information when it is not legitimately necessary, or to people or companies, you don\u2019t personally know.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "context": "One of the staff members in XYZ subscribes to many free magazines. Now, to activate her subscriptions one of the magazines asked for her month of birth, second asked for her year of birth, the other one asked for her maiden name.",
+      "question": "What do you infer from this situation? Justify.",
+      "answer": "All three newsletters probably have the same parent company or are distributed through the same service. The parent company or service can combine individual pieces of seemingly-harmless information and use or sell it for identity theft\n\nIt is even possible that there is a fourth newsletter that asks for a day of birth as one of the activation questions\n\nOften questions about personal information are optional. In addition to being suspicious about situations like the one described here, never provide personal information when it is not legitimately necessary, or to people or companies, you don\u2019t personally know."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is a security auditing?",
+    "context": "",
+    "output": "Security auditing is an internal inspection of applications and operating systems for security flaws. An audit can also be done via line by line inspection of code.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a security auditing?",
+      "answer": "Security auditing is an internal inspection of applications and operating systems for security flaws. An audit can also be done via line by line inspection of code."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Differentiate between spear phishing and phishing?",
+    "context": "",
+    "output": "Spear phishing is a type of phishing assault that targets a small number of high-value targets, usually just one. Phishing usually entails sending a bulk email or message to a big group of people. It implies that spear-phishing will be much more personalized and perhaps more well-researched (for the individual), whereas phishing will be more like a real fishing trip where whoever eats the hook is caught",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Differentiate between spear phishing and phishing?",
+      "answer": "Spear phishing is a type of phishing assault that targets a small number of high-value targets, usually just one. Phishing usually entails sending a bulk email or message to a big group of people. It implies that spear-phishing will be much more personalized and perhaps more well-researched (for the individual), whereas phishing will be more like a real fishing trip where whoever eats the hook is caught"
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: Distinguish between HIDS and NIDS.",
+    "context": "",
+    "output": "Host Intrusion Detection System: Detects the attacks that involve hosts, Analyzes what a particular host/application is doing, Discovers hackers only after the machine is breached.\nNetwork Intrusion Detection System: Detects attacks that involve networks, Examines the network traffic of all devices, Discovers hackers at the time they generate unauthorized attacks.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "Distinguish between HIDS and NIDS.",
+      "answer": "Host Intrusion Detection System: Detects the attacks that involve hosts, Analyzes what a particular host/application is doing, Discovers hackers only after the machine is breached.\nNetwork Intrusion Detection System: Detects attacks that involve networks, Examines the network traffic of all devices, Discovers hackers at the time they generate unauthorized attacks."
+    }
+  },
+  {
+    "instruction": "Write an answer to the following question: What is a three-way handshake?",
+    "context": "",
+    "output": "It is a process that happens in a TCP/IP network when you make a connection between a local host and the server. It is a three-step process to negotiate the acknowledgment and synchronization of packets before communication starts.\nStep 1: The client makes a connection with the server with SYN.\nStep 2: The server responds to the client\u2019s request with SYN+ACK.\nStep 3: The client acknowledges the server\u2019s response with ACK, and the actual data transmission begins.",
+    "category": "SecurityInterviewFlan",
+    "instruction_type": "retrieval1",
+    "parsed_raw_data": {
+      "question": "What is a three-way handshake?",
+      "answer": "It is a process that happens in a TCP/IP network when you make a connection between a local host and the server. It is a three-step process to negotiate the acknowledgment and synchronization of packets before communication starts.\nStep 1: The client makes a connection with the server with SYN.\nStep 2: The server responds to the client\u2019s request with SYN+ACK.\nStep 3: The client acknowledges the server\u2019s response with ACK, and the actual data transmission begins."
     }
   }
 ]

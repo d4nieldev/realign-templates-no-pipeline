@@ -1,14 +1,14 @@
 [
   {
-    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.\n\nPossible answers:\nA. User Account Management, B. Environment Variable Permissions, C. User Training, D. Pre-compromise",
+    "instruction": "Question: Give the MITRE ATT&CK mitigation relevant to the following:\nBlock execution of code on a system through application control, and/or script blocking.\nA. Execution Prevention, B. Application Isolation and Sandboxing, C. Network Intrusion Prevention, D. Threat Intelligence Program\nAnswer:",
     "context": "",
-    "output": "D. Pre-compromise",
+    "output": "A. Execution Prevention",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
-      "options": "A. User Account Management, B. Environment Variable Permissions, C. User Training, D. Pre-compromise",
-      "choice": "D. Pre-compromise",
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nBlock execution of code on a system through application control, and/or script blocking.",
+      "options": "A. Execution Prevention, B. Application Isolation and Sandboxing, C. Network Intrusion Prevention, D. Threat Intelligence Program",
+      "choice": "A. Execution Prevention",
       "category": [
         "MITREFlan"
       ],
@@ -16,63 +16,15 @@
     }
   },
   {
-    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure features related to account use like login attempt lockouts, specific login times, etc.\n\nPossible answers:\nA. Account Use Policies, B. Remote Data Storage, C. Software Configuration, D. Environment Variable Permissions",
+    "instruction": "Q: Which MITRE ATT&CK mitigation is described in the following:\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.\n\nOptions:\nA. Restrict Library Loading, B. Do Not Mitigate, C. Software Configuration, D. Exploit Protection",
     "context": "",
-    "output": "A. Account Use Policies",
+    "output": "A. Restrict Library Loading",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure features related to account use like login attempt lockouts, specific login times, etc.",
-      "options": "A. Account Use Policies, B. Remote Data Storage, C. Software Configuration, D. Environment Variable Permissions",
-      "choice": "A. Account Use Policies",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.\nA. Code Signing, B. Software Configuration, C. Boot Integrity, D. Password Policies",
-    "context": "",
-    "output": "B. Software Configuration",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
-      "options": "A. Code Signing, B. Software Configuration, C. Boot Integrity, D. Password Policies",
-      "choice": "B. Software Configuration",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nBlock users or groups from installing or using unapproved hardware on systems, including USB devices.\nA. Restrict Web-Based Content, B. User Training, C. Limit Hardware Installation, D. Filter Network Traffic\nAnswer:",
-    "context": "",
-    "output": "C. Limit Hardware Installation",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nBlock users or groups from installing or using unapproved hardware on systems, including USB devices.",
-      "options": "A. Restrict Web-Based Content, B. User Training, C. Limit Hardware Installation, D. Filter Network Traffic",
-      "choice": "C. Limit Hardware Installation",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nPerform the mitigations or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.\n\nA. Limit Hardware Installation, B. Audit, C. Application Isolation and Sandboxing, D. Application Developer Guidance\nA:",
-    "context": "",
-    "output": "B. Audit",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nPerform the mitigations or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
-      "options": "A. Limit Hardware Installation, B. Audit, C. Application Isolation and Sandboxing, D. Application Developer Guidance",
-      "choice": "B. Audit",
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
+      "options": "A. Restrict Library Loading, B. Do Not Mitigate, C. Software Configuration, D. Exploit Protection",
+      "choice": "A. Restrict Library Loading",
       "category": [
         "MITREFlan"
       ],
@@ -96,102 +48,6 @@
     }
   },
   {
-    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure Active Directory to prevent use of certain techniques; use SID Filtering, etc.\nA. Active Directory Configuration, B. Disable or Remove Feature or Program, C. Remote Data Storage, D. Vulnerability Scanning",
-    "context": "",
-    "output": "A. Active Directory Configuration",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
-      "options": "A. Active Directory Configuration, B. Disable or Remove Feature or Program, C. Remote Data Storage, D. Vulnerability Scanning",
-      "choice": "A. Active Directory Configuration",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Tell me which MITRE mitigation is referred to in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.\nA. Privileged Account Management, B. Operating System Configuration, C. Privileged Process Integrity, D. Filter Network Traffic\nAnswer:",
-    "context": "",
-    "output": "A. Privileged Account Management",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
-      "options": "A. Privileged Account Management, B. Operating System Configuration, C. Privileged Process Integrity, D. Filter Network Traffic",
-      "choice": "A. Privileged Account Management",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nRestrict execution of code to a virtual environment on or in transit to an endpoint system.\nA. Application Isolation and Sandboxing, B. Application Developer Guidance, C. Pre-compromise, D. Restrict Web-Based Content\nAnswer:",
-    "context": "",
-    "output": "A. Application Isolation and Sandboxing",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nRestrict execution of code to a virtual environment on or in transit to an endpoint system.",
-      "options": "A. Application Isolation and Sandboxing, B. Application Developer Guidance, C. Pre-compromise, D. Restrict Web-Based Content",
-      "choice": "A. Application Isolation and Sandboxing",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.\nA. Threat Intelligence Program, B. User Account Management, C. Restrict Registry Permissions, D. Privileged Process Integrity\nAnswer:",
-    "context": "",
-    "output": "D. Privileged Process Integrity",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
-      "options": "A. Threat Intelligence Program, B. User Account Management, C. Restrict Registry Permissions, D. Privileged Process Integrity",
-      "choice": "D. Privileged Process Integrity",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.\n\nOptions:\nA. Remote Data Storage, B. Environment Variable Permissions, C. Behavior Prevention on Endpoint, D. Restrict Web-Based Content",
-    "context": "",
-    "output": "D. Restrict Web-Based Content",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.",
-      "options": "A. Remote Data Storage, B. Environment Variable Permissions, C. Behavior Prevention on Endpoint, D. Restrict Web-Based Content",
-      "choice": "D. Restrict Web-Based Content",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.\n\nA. User Training, B. Antivirus/Antimalware, C. Audit, D. Limit Hardware Installation\nA:",
-    "context": "",
-    "output": "A. User Training",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
-      "options": "A. User Training, B. Antivirus/Antimalware, C. Audit, D. Limit Hardware Installation",
-      "choice": "A. User Training",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
     "instruction": "Question: Answer which mitre mitigation is related to the description: Use two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.\nA. Credential Access Protection, B. Multi-factor Authentication, C. Boot Integrity, D. Limit Software Installation\nAnswer:",
     "context": "",
     "output": "B. Multi-factor Authentication",
@@ -208,15 +64,15 @@
     }
   },
   {
-    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nArchitect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.\n\nOptions:\nA. Network Segmentation, B. Credential Access Protection, C. Threat Intelligence Program, D. Environment Variable Permissions",
+    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nBlock users or groups from installing unapproved software.\nA. Restrict Web-Based Content, B. Limit Access to Resource Over Network, C. Limit Software Installation, D. Application Isolation and Sandboxing",
     "context": "",
-    "output": "A. Network Segmentation",
+    "output": "C. Limit Software Installation",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nArchitect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
-      "options": "A. Network Segmentation, B. Credential Access Protection, C. Threat Intelligence Program, D. Environment Variable Permissions",
-      "choice": "A. Network Segmentation",
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nBlock users or groups from installing unapproved software.",
+      "options": "A. Restrict Web-Based Content, B. Limit Access to Resource Over Network, C. Limit Software Installation, D. Application Isolation and Sandboxing",
+      "choice": "C. Limit Software Installation",
       "category": [
         "MITREFlan"
       ],
@@ -224,63 +80,15 @@
     }
   },
   {
-    "instruction": "Question: Answer which mitre mitigation is related to the description: Use a the mitigation (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.\nA. User Account Control, B. Network Segmentation, C. Data Loss Prevention, D. Multi-factor Authentication\nAnswer:",
+    "instruction": "Q: Answer which mitre mitigation is related to the description: Use signatures or heuristics to detect malicious software.\n\nOptions:\nA. SSL/TLS Inspection, B. Antivirus/Antimalware, C. Audit, D. User Training",
     "context": "",
-    "output": "C. Data Loss Prevention",
+    "output": "B. Antivirus/Antimalware",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Answer which mitre mitigation is related to the description: Use a the mitigation (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.",
-      "options": "A. User Account Control, B. Network Segmentation, C. Data Loss Prevention, D. Multi-factor Authentication",
-      "choice": "C. Data Loss Prevention",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Give the MITRE ATT&CK mitigation relevant to the following:\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.\nA. Restrict Registry Permissions, B. Password Policies, C. Environment Variable Permissions, D. Exploit Protection\nAnswer:",
-    "context": "",
-    "output": "D. Exploit Protection",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
-      "options": "A. Restrict Registry Permissions, B. Password Policies, C. Environment Variable Permissions, D. Exploit Protection",
-      "choice": "D. Exploit Protection",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nUse intrusion detection signatures to block traffic at network boundaries.\nA. Pre-compromise, B. Limit Software Installation, C. Network Segmentation, D. Network Intrusion Prevention\nAnswer:",
-    "context": "",
-    "output": "D. Network Intrusion Prevention",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nUse intrusion detection signatures to block traffic at network boundaries.",
-      "options": "A. Pre-compromise, B. Limit Software Installation, C. Network Segmentation, D. Network Intrusion Prevention",
-      "choice": "D. Network Intrusion Prevention",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.\n\nA. Operating System Configuration, B. Code Signing, C. Audit, D. Limit Access to Resource Over Network\nAnswer:",
-    "context": "",
-    "output": "A. Operating System Configuration",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.",
-      "options": "A. Operating System Configuration, B. Code Signing, C. Audit, D. Limit Access to Resource Over Network",
-      "choice": "A. Operating System Configuration",
+      "question": "Answer which mitre mitigation is related to the description: Use signatures or heuristics to detect malicious software.",
+      "options": "A. SSL/TLS Inspection, B. Antivirus/Antimalware, C. Audit, D. User Training",
+      "choice": "B. Antivirus/Antimalware",
       "category": [
         "MITREFlan"
       ],
@@ -304,15 +112,79 @@
     }
   },
   {
-    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.\n\nPossible answers:\nA. Privileged Account Management, B. Disable or Remove Feature or Program, C. Application Developer Guidance, D. Data Backup",
+    "instruction": "Q: Tell me which MITRE mitigation is referred to in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.\n\nOptions:\nA. Limit Access to Resource Over Network, B. SSL/TLS Inspection, C. Privileged Process Integrity, D. Filter Network Traffic",
     "context": "",
-    "output": "B. Disable or Remove Feature or Program",
+    "output": "A. Limit Access to Resource Over Network",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
-      "options": "A. Privileged Account Management, B. Disable or Remove Feature or Program, C. Application Developer Guidance, D. Data Backup",
-      "choice": "B. Disable or Remove Feature or Program",
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
+      "options": "A. Limit Access to Resource Over Network, B. SSL/TLS Inspection, C. Privileged Process Integrity, D. Filter Network Traffic",
+      "choice": "A. Limit Access to Resource Over Network",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer which mitre mitigation is related to the description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.\nA. Restrict File and Directory Permissions, B. Network Intrusion Prevention, C. Exploit Protection, D. Network Segmentation",
+    "context": "",
+    "output": "A. Restrict File and Directory Permissions",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Answer which mitre mitigation is related to the description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
+      "options": "A. Restrict File and Directory Permissions, B. Network Intrusion Prevention, C. Exploit Protection, D. Network Segmentation",
+      "choice": "A. Restrict File and Directory Permissions",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Which MITRE ATT&CK mitigation is described in the following:\nManage the creation, modification, use, and permissions associated to user accounts.\n\nA. Remote Data Storage, B. User Account Management, C. Data Loss Prevention, D. Vulnerability Scanning\nA:",
+    "context": "",
+    "output": "B. User Account Management",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nManage the creation, modification, use, and permissions associated to user accounts.",
+      "options": "A. Remote Data Storage, B. User Account Management, C. Data Loss Prevention, D. Vulnerability Scanning",
+      "choice": "B. User Account Management",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure features related to account use like login attempt lockouts, specific login times, etc.\n\nPossible answers:\nA. Account Use Policies, B. Remote Data Storage, C. Software Configuration, D. Environment Variable Permissions",
+    "context": "",
+    "output": "A. Account Use Policies",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure features related to account use like login attempt lockouts, specific login times, etc.",
+      "options": "A. Account Use Policies, B. Remote Data Storage, C. Software Configuration, D. Environment Variable Permissions",
+      "choice": "A. Account Use Policies",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Tell me which MITRE mitigation is referred to in the following description:\n\nA the mitigation helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.\n\nA. Credential Access Protection, B. Network Intrusion Prevention, C. Threat Intelligence Program, D. Restrict File and Directory Permissions\nA:",
+    "context": "",
+    "output": "C. Threat Intelligence Program",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nA the mitigation helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.",
+      "options": "A. Credential Access Protection, B. Network Intrusion Prevention, C. Threat Intelligence Program, D. Restrict File and Directory Permissions",
+      "choice": "C. Threat Intelligence Program",
       "category": [
         "MITREFlan"
       ],
@@ -336,15 +208,207 @@
     }
   },
   {
-    "instruction": "Q: Tell me which MITRE mitigation is referred to in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.\n\nOptions:\nA. Limit Access to Resource Over Network, B. SSL/TLS Inspection, C. Privileged Process Integrity, D. Filter Network Traffic",
+    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.\n\nA. Vulnerability Scanning, B. Data Backup, C. Password Policies, D. Limit Software Installation\nAnswer:",
     "context": "",
-    "output": "A. Limit Access to Resource Over Network",
+    "output": "A. Vulnerability Scanning",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nPrevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc.",
-      "options": "A. Limit Access to Resource Over Network, B. SSL/TLS Inspection, C. Privileged Process Integrity, D. Filter Network Traffic",
-      "choice": "A. Limit Access to Resource Over Network",
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
+      "options": "A. Vulnerability Scanning, B. Data Backup, C. Password Policies, D. Limit Software Installation",
+      "choice": "A. Vulnerability Scanning",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Answer which mitre mitigation is related to the description: Use capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.\nA. Credential Access Protection, B. Code Signing, C. Restrict File and Directory Permissions, D. Application Isolation and Sandboxing",
+    "context": "",
+    "output": "A. Credential Access Protection",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Answer which mitre mitigation is related to the description: Use capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
+      "options": "A. Credential Access Protection, B. Code Signing, C. Restrict File and Directory Permissions, D. Application Isolation and Sandboxing",
+      "choice": "A. Credential Access Protection",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.\nA. Threat Intelligence Program, B. User Account Management, C. Restrict Registry Permissions, D. Privileged Process Integrity\nAnswer:",
+    "context": "",
+    "output": "D. Privileged Process Integrity",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nProtect processes with high privileges that can be used to interact with critical system components through use of protected process light, anti-process injection defenses, or other process integrity enforcement measures.",
+      "options": "A. Threat Intelligence Program, B. User Account Management, C. Restrict Registry Permissions, D. Privileged Process Integrity",
+      "choice": "D. Privileged Process Integrity",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Question: Answer which mitre mitigation is related to the description: Use a the mitigation (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.\nA. User Account Control, B. Network Segmentation, C. Data Loss Prevention, D. Multi-factor Authentication\nAnswer:",
+    "context": "",
+    "output": "C. Data Loss Prevention",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Answer which mitre mitigation is related to the description: Use a the mitigation (DLP) strategy to categorize sensitive data, identify data formats indicative of personal identifiable information (PII), and restrict exfiltration of sensitive data.",
+      "options": "A. User Account Control, B. Network Segmentation, C. Data Loss Prevention, D. Multi-factor Authentication",
+      "choice": "C. Data Loss Prevention",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.\n\nA. User Training, B. Antivirus/Antimalware, C. Audit, D. Limit Hardware Installation\nA:",
+    "context": "",
+    "output": "A. User Training",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nTrain users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",
+      "options": "A. User Training, B. Antivirus/Antimalware, C. Audit, D. Limit Hardware Installation",
+      "choice": "A. User Training",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nSet and enforce secure the mitigation for accounts.\n\nA. Update Software, B. Password Policies, C. Software Configuration, D. Boot Integrity\nA:",
+    "context": "",
+    "output": "B. Password Policies",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nSet and enforce secure the mitigation for accounts.",
+      "options": "A. Update Software, B. Password Policies, C. Software Configuration, D. Boot Integrity",
+      "choice": "B. Password Policies",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.\n\nPossible answers:\nA. User Account Management, B. Environment Variable Permissions, C. User Training, D. Pre-compromise",
+    "context": "",
+    "output": "D. Pre-compromise",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nThis category is used for any applicable mitigation activities that apply to techniques occurring before an adversary gains Initial Access, such as Reconnaissance and Resource Development techniques.",
+      "options": "A. User Account Management, B. Environment Variable Permissions, C. User Training, D. Pre-compromise",
+      "choice": "D. Pre-compromise",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Question: Give the MITRE ATT&CK mitigation relevant to the following:\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.\nA. Restrict Registry Permissions, B. Password Policies, C. Environment Variable Permissions, D. Exploit Protection\nAnswer:",
+    "context": "",
+    "output": "D. Exploit Protection",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nUse capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
+      "options": "A. Restrict Registry Permissions, B. Password Policies, C. Environment Variable Permissions, D. Exploit Protection",
+      "choice": "D. Exploit Protection",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nArchitect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.\n\nOptions:\nA. Network Segmentation, B. Credential Access Protection, C. Threat Intelligence Program, D. Environment Variable Permissions",
+    "context": "",
+    "output": "A. Network Segmentation",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nArchitect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network. Configure separate virtual private cloud (VPC) instances to isolate critical cloud systems.",
+      "options": "A. Network Segmentation, B. Credential Access Protection, C. Threat Intelligence Program, D. Environment Variable Permissions",
+      "choice": "A. Network Segmentation",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.\n\nA. Boot Integrity, B. Code Signing, C. Disable or Remove Feature or Program, D. Behavior Prevention on Endpoint\nAnswer:",
+    "context": "",
+    "output": "D. Behavior Prevention on Endpoint",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
+      "options": "A. Boot Integrity, B. Code Signing, C. Disable or Remove Feature or Program, D. Behavior Prevention on Endpoint",
+      "choice": "D. Behavior Prevention on Endpoint",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.\n\nPossible answers:\nA. Application Developer Guidance, B. Data Loss Prevention, C. Privileged Account Management, D. Threat Intelligence Program",
+    "context": "",
+    "output": "A. Application Developer Guidance",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
+      "options": "A. Application Developer Guidance, B. Data Loss Prevention, C. Privileged Account Management, D. Threat Intelligence Program",
+      "choice": "A. Application Developer Guidance",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nUse remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information.\nA. Application Isolation and Sandboxing, B. Pre-compromise, C. Remote Data Storage, D. Behavior Prevention on Endpoint",
+    "context": "",
+    "output": "C. Remote Data Storage",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nUse remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information.",
+      "options": "A. Application Isolation and Sandboxing, B. Pre-compromise, C. Remote Data Storage, D. Behavior Prevention on Endpoint",
+      "choice": "C. Remote Data Storage",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.\n\nPossible answers:\nA. Privileged Account Management, B. Disable or Remove Feature or Program, C. Application Developer Guidance, D. Data Backup",
+    "context": "",
+    "output": "B. Disable or Remove Feature or Program",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nRemove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
+      "options": "A. Privileged Account Management, B. Disable or Remove Feature or Program, C. Application Developer Guidance, D. Data Backup",
+      "choice": "B. Disable or Remove Feature or Program",
       "category": [
         "MITREFlan"
       ],
@@ -384,191 +448,15 @@
     }
   },
   {
-    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nProtect sensitive information with strong encryption.\nA. Encrypt Sensitive Information, B. Network Segmentation, C. Data Loss Prevention, D. Software Configuration",
+    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nUse intrusion detection signatures to block traffic at network boundaries.\nA. Pre-compromise, B. Limit Software Installation, C. Network Segmentation, D. Network Intrusion Prevention\nAnswer:",
     "context": "",
-    "output": "A. Encrypt Sensitive Information",
+    "output": "D. Network Intrusion Prevention",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nProtect sensitive information with strong encryption.",
-      "options": "A. Encrypt Sensitive Information, B. Network Segmentation, C. Data Loss Prevention, D. Software Configuration",
-      "choice": "A. Encrypt Sensitive Information",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer which mitre mitigation is related to the description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.\nA. Restrict File and Directory Permissions, B. Network Intrusion Prevention, C. Exploit Protection, D. Network Segmentation",
-    "context": "",
-    "output": "A. Restrict File and Directory Permissions",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Answer which mitre mitigation is related to the description: Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.",
-      "options": "A. Restrict File and Directory Permissions, B. Network Intrusion Prevention, C. Exploit Protection, D. Network Segmentation",
-      "choice": "A. Restrict File and Directory Permissions",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nBlock users or groups from installing unapproved software.\nA. Restrict Web-Based Content, B. Limit Access to Resource Over Network, C. Limit Software Installation, D. Application Isolation and Sandboxing",
-    "context": "",
-    "output": "C. Limit Software Installation",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nBlock users or groups from installing unapproved software.",
-      "options": "A. Restrict Web-Based Content, B. Limit Access to Resource Over Network, C. Limit Software Installation, D. Application Isolation and Sandboxing",
-      "choice": "C. Limit Software Installation",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to the mitigation.\nA. Filter Network Traffic, B. Limit Software Installation, C. User Training, D. Exploit Protection",
-    "context": "",
-    "output": "A. Filter Network Traffic",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to the mitigation.",
-      "options": "A. Filter Network Traffic, B. Limit Software Installation, C. User Training, D. Exploit Protection",
-      "choice": "A. Filter Network Traffic",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.\n\nPossible answers:\nA. Application Developer Guidance, B. Data Loss Prevention, C. Privileged Account Management, D. Threat Intelligence Program",
-    "context": "",
-    "output": "A. Application Developer Guidance",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nThis mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.",
-      "options": "A. Application Developer Guidance, B. Data Loss Prevention, C. Privileged Account Management, D. Threat Intelligence Program",
-      "choice": "A. Application Developer Guidance",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Give the MITRE ATT&CK mitigation relevant to the following:\nBlock execution of code on a system through application control, and/or script blocking.\nA. Execution Prevention, B. Application Isolation and Sandboxing, C. Network Intrusion Prevention, D. Threat Intelligence Program\nAnswer:",
-    "context": "",
-    "output": "A. Execution Prevention",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nBlock execution of code on a system through application control, and/or script blocking.",
-      "options": "A. Execution Prevention, B. Application Isolation and Sandboxing, C. Network Intrusion Prevention, D. Threat Intelligence Program",
-      "choice": "A. Execution Prevention",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nPerform regular software updates to mitigate exploitation risk.\n\nPossible answers:\nA. Network Segmentation, B. Restrict Web-Based Content, C. User Training, D. Update Software",
-    "context": "",
-    "output": "D. Update Software",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nPerform regular software updates to mitigate exploitation risk.",
-      "options": "A. Network Segmentation, B. Restrict Web-Based Content, C. User Training, D. Update Software",
-      "choice": "D. Update Software",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Which MITRE ATT&CK mitigation is described in the following:\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.\n\nOptions:\nA. Restrict Library Loading, B. Do Not Mitigate, C. Software Configuration, D. Exploit Protection",
-    "context": "",
-    "output": "A. Restrict Library Loading",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nPrevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.",
-      "options": "A. Restrict Library Loading, B. Do Not Mitigate, C. Software Configuration, D. Exploit Protection",
-      "choice": "A. Restrict Library Loading",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Answer which mitre mitigation is related to the description: Use capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.\nA. Credential Access Protection, B. Code Signing, C. Restrict File and Directory Permissions, D. Application Isolation and Sandboxing",
-    "context": "",
-    "output": "A. Credential Access Protection",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Answer which mitre mitigation is related to the description: Use capabilities to prevent successful credential access by adversaries; including blocking forms of credential dumping.",
-      "options": "A. Credential Access Protection, B. Code Signing, C. Restrict File and Directory Permissions, D. Application Isolation and Sandboxing",
-      "choice": "A. Credential Access Protection",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.\n\nA. Vulnerability Scanning, B. Data Backup, C. Password Policies, D. Limit Software Installation\nAnswer:",
-    "context": "",
-    "output": "A. Vulnerability Scanning",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nVulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.",
-      "options": "A. Vulnerability Scanning, B. Data Backup, C. Password Policies, D. Limit Software Installation",
-      "choice": "A. Vulnerability Scanning",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Answer which mitre mitigation is related to the description: Use signatures or heuristics to detect malicious software.\n\nOptions:\nA. SSL/TLS Inspection, B. Antivirus/Antimalware, C. Audit, D. User Training",
-    "context": "",
-    "output": "B. Antivirus/Antimalware",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Answer which mitre mitigation is related to the description: Use signatures or heuristics to detect malicious software.",
-      "options": "A. SSL/TLS Inspection, B. Antivirus/Antimalware, C. Audit, D. User Training",
-      "choice": "B. Antivirus/Antimalware",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Question: Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.\nA. Pre-compromise, B. Code Signing, C. Restrict Registry Permissions, D. Active Directory Configuration\nAnswer:",
-    "context": "",
-    "output": "C. Restrict Registry Permissions",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.",
-      "options": "A. Pre-compromise, B. Code Signing, C. Restrict Registry Permissions, D. Active Directory Configuration",
-      "choice": "C. Restrict Registry Permissions",
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nUse intrusion detection signatures to block traffic at network boundaries.",
+      "options": "A. Pre-compromise, B. Limit Software Installation, C. Network Segmentation, D. Network Intrusion Prevention",
+      "choice": "D. Network Intrusion Prevention",
       "category": [
         "MITREFlan"
       ],
@@ -592,15 +480,15 @@
     }
   },
   {
-    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nUse remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information.\nA. Application Isolation and Sandboxing, B. Pre-compromise, C. Remote Data Storage, D. Behavior Prevention on Endpoint",
+    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to the mitigation.\nA. Filter Network Traffic, B. Limit Software Installation, C. User Training, D. Exploit Protection",
     "context": "",
-    "output": "C. Remote Data Storage",
+    "output": "A. Filter Network Traffic",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nUse remote security log and sensitive file storage where access can be controlled better to prevent exposure of intrusion detection log data or sensitive information.",
-      "options": "A. Application Isolation and Sandboxing, B. Pre-compromise, C. Remote Data Storage, D. Behavior Prevention on Endpoint",
-      "choice": "C. Remote Data Storage",
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to the mitigation.",
+      "options": "A. Filter Network Traffic, B. Limit Software Installation, C. User Training, D. Exploit Protection",
+      "choice": "A. Filter Network Traffic",
       "category": [
         "MITREFlan"
       ],
@@ -608,47 +496,15 @@
     }
   },
   {
-    "instruction": "Q: Which MITRE ATT&CK mitigation is described in the following:\nManage the creation, modification, use, and permissions associated to user accounts.\n\nA. Remote Data Storage, B. User Account Management, C. Data Loss Prevention, D. Vulnerability Scanning\nA:",
+    "instruction": "Question: Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.\nA. Pre-compromise, B. Code Signing, C. Restrict Registry Permissions, D. Active Directory Configuration\nAnswer:",
     "context": "",
-    "output": "B. User Account Management",
+    "output": "C. Restrict Registry Permissions",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Which MITRE ATT&CK mitigation is described in the following:\nManage the creation, modification, use, and permissions associated to user accounts.",
-      "options": "A. Remote Data Storage, B. User Account Management, C. Data Loss Prevention, D. Vulnerability Scanning",
-      "choice": "B. User Account Management",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Tell me which MITRE mitigation is referred to in the following description:\n\nA the mitigation helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.\n\nA. Credential Access Protection, B. Network Intrusion Prevention, C. Threat Intelligence Program, D. Restrict File and Directory Permissions\nA:",
-    "context": "",
-    "output": "C. Threat Intelligence Program",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nA the mitigation helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.",
-      "options": "A. Credential Access Protection, B. Network Intrusion Prevention, C. Threat Intelligence Program, D. Restrict File and Directory Permissions",
-      "choice": "C. Threat Intelligence Program",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_options_mitigation"
-    }
-  },
-  {
-    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nSet and enforce secure the mitigation for accounts.\n\nA. Update Software, B. Password Policies, C. Software Configuration, D. Boot Integrity\nA:",
-    "context": "",
-    "output": "B. Password Policies",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_options_mitigation",
-    "parsed_raw_data": {
-      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nSet and enforce secure the mitigation for accounts.",
-      "options": "A. Update Software, B. Password Policies, C. Software Configuration, D. Boot Integrity",
-      "choice": "B. Password Policies",
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict the ability to modify certain hives or keys in the Windows Registry.",
+      "options": "A. Pre-compromise, B. Code Signing, C. Restrict Registry Permissions, D. Active Directory Configuration",
+      "choice": "C. Restrict Registry Permissions",
       "category": [
         "MITREFlan"
       ],
@@ -672,15 +528,159 @@
     }
   },
   {
-    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.\n\nA. Boot Integrity, B. Code Signing, C. Disable or Remove Feature or Program, D. Behavior Prevention on Endpoint\nAnswer:",
+    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.\n\nA. Operating System Configuration, B. Code Signing, C. Audit, D. Limit Access to Resource Over Network\nAnswer:",
     "context": "",
-    "output": "D. Behavior Prevention on Endpoint",
+    "output": "A. Operating System Configuration",
     "category": "MitreFlan",
     "instruction_type": "mitre_options_mitigation",
     "parsed_raw_data": {
-      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nUse capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",
-      "options": "A. Boot Integrity, B. Code Signing, C. Disable or Remove Feature or Program, D. Behavior Prevention on Endpoint",
-      "choice": "D. Behavior Prevention on Endpoint",
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nMake configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.",
+      "options": "A. Operating System Configuration, B. Code Signing, C. Audit, D. Limit Access to Resource Over Network",
+      "choice": "A. Operating System Configuration",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.\n\nOptions:\nA. Remote Data Storage, B. Environment Variable Permissions, C. Behavior Prevention on Endpoint, D. Restrict Web-Based Content",
+    "context": "",
+    "output": "D. Restrict Web-Based Content",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nRestrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.",
+      "options": "A. Remote Data Storage, B. Environment Variable Permissions, C. Behavior Prevention on Endpoint, D. Restrict Web-Based Content",
+      "choice": "D. Restrict Web-Based Content",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure Active Directory to prevent use of certain techniques; use SID Filtering, etc.\nA. Active Directory Configuration, B. Disable or Remove Feature or Program, C. Remote Data Storage, D. Vulnerability Scanning",
+    "context": "",
+    "output": "A. Active Directory Configuration",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nConfigure Active Directory to prevent use of certain techniques; use SID Filtering, etc.",
+      "options": "A. Active Directory Configuration, B. Disable or Remove Feature or Program, C. Remote Data Storage, D. Vulnerability Scanning",
+      "choice": "A. Active Directory Configuration",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nBlock users or groups from installing or using unapproved hardware on systems, including USB devices.\nA. Restrict Web-Based Content, B. User Training, C. Limit Hardware Installation, D. Filter Network Traffic\nAnswer:",
+    "context": "",
+    "output": "C. Limit Hardware Installation",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nBlock users or groups from installing or using unapproved hardware on systems, including USB devices.",
+      "options": "A. Restrict Web-Based Content, B. User Training, C. Limit Hardware Installation, D. Filter Network Traffic",
+      "choice": "C. Limit Hardware Installation",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Q: Give the MITRE ATT&CK mitigation relevant to the following:\nPerform the mitigations or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.\n\nA. Limit Hardware Installation, B. Audit, C. Application Isolation and Sandboxing, D. Application Developer Guidance\nA:",
+    "context": "",
+    "output": "B. Audit",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nPerform the mitigations or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",
+      "options": "A. Limit Hardware Installation, B. Audit, C. Application Isolation and Sandboxing, D. Application Developer Guidance",
+      "choice": "B. Audit",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Tell me which MITRE mitigation is referred to in the following description:\n\nPerform regular software updates to mitigate exploitation risk.\n\nPossible answers:\nA. Network Segmentation, B. Restrict Web-Based Content, C. User Training, D. Update Software",
+    "context": "",
+    "output": "D. Update Software",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nPerform regular software updates to mitigate exploitation risk.",
+      "options": "A. Network Segmentation, B. Restrict Web-Based Content, C. User Training, D. Update Software",
+      "choice": "D. Update Software",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Which MITRE ATT&CK mitigation is described in the following:\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.\nA. Code Signing, B. Software Configuration, C. Boot Integrity, D. Password Policies",
+    "context": "",
+    "output": "B. Software Configuration",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nImplement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.",
+      "options": "A. Code Signing, B. Software Configuration, C. Boot Integrity, D. Password Policies",
+      "choice": "B. Software Configuration",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Question: Which MITRE ATT&CK mitigation is described in the following:\nRestrict execution of code to a virtual environment on or in transit to an endpoint system.\nA. Application Isolation and Sandboxing, B. Application Developer Guidance, C. Pre-compromise, D. Restrict Web-Based Content\nAnswer:",
+    "context": "",
+    "output": "A. Application Isolation and Sandboxing",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Which MITRE ATT&CK mitigation is described in the following:\nRestrict execution of code to a virtual environment on or in transit to an endpoint system.",
+      "options": "A. Application Isolation and Sandboxing, B. Application Developer Guidance, C. Pre-compromise, D. Restrict Web-Based Content",
+      "choice": "A. Application Isolation and Sandboxing",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Question: Tell me which MITRE mitigation is referred to in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.\nA. Privileged Account Management, B. Operating System Configuration, C. Privileged Process Integrity, D. Filter Network Traffic\nAnswer:",
+    "context": "",
+    "output": "A. Privileged Account Management",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Tell me which MITRE mitigation is referred to in the following description:\n\nManage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",
+      "options": "A. Privileged Account Management, B. Operating System Configuration, C. Privileged Process Integrity, D. Filter Network Traffic",
+      "choice": "A. Privileged Account Management",
+      "category": [
+        "MITREFlan"
+      ],
+      "instruction_type": "mitre_options_mitigation"
+    }
+  },
+  {
+    "instruction": "Give the MITRE ATT&CK mitigation relevant to the following:\nProtect sensitive information with strong encryption.\nA. Encrypt Sensitive Information, B. Network Segmentation, C. Data Loss Prevention, D. Software Configuration",
+    "context": "",
+    "output": "A. Encrypt Sensitive Information",
+    "category": "MitreFlan",
+    "instruction_type": "mitre_options_mitigation",
+    "parsed_raw_data": {
+      "question": "Give the MITRE ATT&CK mitigation relevant to the following:\nProtect sensitive information with strong encryption.",
+      "options": "A. Encrypt Sensitive Information, B. Network Segmentation, C. Data Loss Prevention, D. Software Configuration",
+      "choice": "A. Encrypt Sensitive Information",
       "category": [
         "MITREFlan"
       ],
