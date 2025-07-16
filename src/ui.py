@@ -16,7 +16,7 @@ from openai import OpenAI
 load_dotenv()
 
 TASKS_PATH = Path("tasks")
-DEFAULT_MODEL = "openai/gpt-4.1"
+DEFAULT_MODEL = "mistralai/mistral-medium-2505"
 DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/fewshot.txt"
 
 
@@ -144,7 +144,7 @@ created_by: IBM Research
 data_builder: realign
 task_description: Reformats the responses of a general instruction dataset (the one used in the original paper of ReAlign) into a format that better aligns with pre-established criteria and collected evidence.
 retriever:
-  type: duckduckgo_search
+  type: core/web/duckduckgo
   limit: {limit}
   process_webpages: True
   deduplicate_sources: True
