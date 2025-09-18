@@ -1,0 +1,902 @@
+[
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAn issue was discovered in Elspec G5 digital fault recorder versions 1.1.4.15 and before. Privilege escalation can occur via world writable files. The network configuration script has weak filesystem permissions. This results in write access for all authenticated users and the possibility to escalate from user privileges to administrative privileges.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-22078"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Sheet to Table Live Sync for Google Sheet plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's STWT_Sheet_Table shortcode in all versions up to, and including, 1.0.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-6532"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in PBN Hosting SL Page Builder Sandwich \u2013 Front-End Page Builder allows Stored XSS.This issue affects Page Builder Sandwich \u2013 Front-End Page Builder: from n/a through 5.1.0.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-37219"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Eric-Oliver M\u00e4chler DSGVO Youtube allows Stored XSS.This issue affects DSGVO Youtube: from n/a through 1.4.5.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-32596"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAdobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an admin attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim\u2019s browser when they browse to the page containing the vulnerable field.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-34105"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Tribulant Newsletters allows Reflected XSS.This issue affects Newsletters: from n/a through 4.9.9.1.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-47346"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nJenkins Script Security Plugin 1367.vdf2fc45f229c and earlier, except 1365.1367.va_3b_b_89f8a_95b_ and 1362.1364.v4cf2dc5d8776, does not perform a permission check in a method implementing form validation, allowing attackers with Overall/Read permission to check for the existence of files on the controller file system.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-52549"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability was found in MAGESH-K21 Online-College-Event-Hall-Reservation-System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /admin/rooms.php. The manipulation of the argument room_id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-256964. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-2527"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIncorrect default permission in AppLock prior to SMR MAr-2024 Release 1 allows local attackers to configure AppLock settings.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-20830"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAnyDesk through 8.1.0 on Windows, when Allow Direct Connections is enabled, inadvertently exposes a public IP address within network traffic. The attacker must know the victim's AnyDesk ID.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-52940"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability has been found in SourceCodester Best Employee Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/profile.php. The manipulation of the argument website_image leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The initial researcher disclosure contains confusing vulnerability classes.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-11214"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Post Grid and Gutenberg Blocks plugin for WordPress is vulnerable to privilege escalation in versions 2.2.85 to 2.3.3. This is due to the plugin not properly restricting what user meta can be updated during profile registration. This makes it possible for unauthenticated attackers to register on the site as an administrator.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-9636"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nRace condition in the installer for Zoom Rooms Client for Windows before version 5.17.5 may allow an authenticated user to conduct a denial of service via local access.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-24692"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nSAP Marketing (Contacts App) - version 160, allows an attacker with low privileges to trick a user to open malicious page which could lead to a very convincing phishing attack with low impact on confidentiality and integrity of the application.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-21734"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability classified as critical has been found in ESAFENET CDG 5. Affected is the function actionViewCDGRenewFile of the file /com/esafenet/servlet/client/CDGRenewApplicationService.java. The manipulation of the argument CDGRenewFileId leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-10378"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nsunniwell HT3300 before 1.0.0.B022.2 is vulnerable to Insecure Permissions. The /usr/local/bin/update program, which is responsible for updating the software in the HT3300 device, is given the execution mode of sudo NOPASSWD. This program is vulnerable to a command injection vulnerability, which could allow an attacker to pass commands to this program via command line arguments to gain elevated root privileges.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-48073"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Blue Triad EZAnalytics plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'bt_webid' parameter in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-1782"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability has been identified in SIMATIC RTLS Locating Manager (6GT2780-0DA00) (All versions < V3.0.1.1), SIMATIC RTLS Locating Manager (6GT2780-0DA10) (All versions < V3.0.1.1), SIMATIC RTLS Locating Manager (6GT2780-0DA20) (All versions < V3.0.1.1), SIMATIC RTLS Locating Manager (6GT2780-0DA30) (All versions < V3.0.1.1), SIMATIC RTLS Locating Manager (6GT2780-1EA10) (All versions < V3.0.1.1), SIMATIC RTLS Locating Manager (6GT2780-1EA20) (All versions < V3.0.1.1), SIMATIC RTLS Locating Manager (6GT2780-1EA30) (All versions < V3.0.1.1). The \"DBTest\" tool of SIMATIC RTLS Locating Manager does not properly enforce access restriction. This could allow an authenticated local attacker to extract sensitive information from memory.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-30208"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nPath traversal vulnerability exists in UTAU versions prior to v0.4.19. If a user of the product installs a crafted UTAU voicebank installer (.uar file, .zip file) to UTAU, an arbitrary file may be placed.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-32944"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAn issue in Wifire Hotspot v.4.5.3 allows a local attacker to execute arbitrary code via a crafted payload to the dst parameter.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-26504"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability in the web-based management interface of Cisco AppDynamics Controller could allow an authenticated, remote attacker to perform a reflected cross-site scripting (XSS) attack against a user of the interface of an affected device. This vulnerability is due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit this vulnerability by persuading a user to click a malicious link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-20346"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability was found in SourceCodester School Fees Payment System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /manage_user.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-272582 is the identifier assigned to this vulnerability.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-7168"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA denial of service vulnerability due to a deadlock was found in sctp_auto_asconf_init in net/sctp/socket.c in the Linux kernel\u2019s SCTP subsystem. This flaw allows guests with local user privileges to trigger a deadlock and potentially crash the system.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-0639"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAn issue was discovered in Kape CyberGhostVPN 8.4.3.12823 on Windows. After a successful logout, user credentials remain in memory while the process is still open, and can be obtained by dumping the process memory and parsing it.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-26330"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nShopware 6 is an open commerce platform based on Symfony Framework and Vue. Starting in version 6.3.5.0 and prior to versions 6.6.1.0 and 6.5.8.8, when a authenticated request is made to `POST /store-api/account/logout`, the cart will be cleared, but the User won't be logged out. This affects only the direct store-api usage, as the PHP Storefront listens additionally on `CustomerLogoutEvent` and invalidates the session additionally. The problem has been fixed in Shopware 6.6.1.0 and 6.5.8.8. Those who are unable to update can install the latest version of the Shopware Security Plugin as a workaround.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-31447"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThis issue was addressed through improved state management. This issue is fixed in iOS 18 and iPadOS 18. A remote attacker may be able to cause a denial-of-service.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-27874"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nCloudStack account-users by default use username and password based authentication for API and UI access. Account-users can generate and register randomised API and secret keys and use them for the purpose of API-based automation and integrations. Due to an access permission validation issue that affects Apache CloudStack versions 4.10.0 up to 4.19.1.0, domain admin accounts were found to be able to query all registered account-users API and secret keys in an environment, including that of a root admin. An attacker who has domain admin access can exploit this to gain root admin and other-account privileges and perform malicious operations that can result in compromise of resources integrity and confidentiality, data loss, denial of service and availability of CloudStack managed infrastructure. Users are recommended to upgrade to Apache CloudStack 4.18.2.3 or 4.19.1.1, or later, which addresses this issue. Additionally, all account-user API and secret keys should be regenerated.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-42062"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nTenda F1202 v1.2.0.20(408) has a stack overflow vulnerability in the page parameter of fromAddressNat function.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-30639"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIn btif_to_bta_response of btif_gatt_util.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-0030"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIn setForceHideNonSystemOverlayWindowIfNeeded of WindowState.java, there is a possible way for message content to be visible on the screensaver while lock screen visibility settings are restricted by the user due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-34741"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nQuickJS commit 3b45d15 was discovered to contain an Assertion Failure via JS_FreeRuntime(JSRuntime *) at quickjs.c.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-33263"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Media Library Folders plugin for WordPress is vulnerable to unauthorized access due to missing capability checks on several AJAX functions in the media-library-plus.php file in all versions up to, and including, 8.2.3. This makes it possible for authenticated attackers, with subscriber-level access and above, to perform several actions related to managing media files and folder along with controlling settings.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-7858"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nECOVACS robot lawnmowers store the anti-theft PIN in cleartext on the device filesystem. An attacker can steal a lawnmower, read the PIN, and reset the anti-theft mechanism.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-12079"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability was found in SingMR HouseRent 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file src/main/java/com/house/wym/controller/AdminController.java. The manipulation leads to improper access controls. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-13211"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThis issue was addressed with improved redaction of sensitive information. This issue is fixed in watchOS 11.1, visionOS 2.1, iOS 18.1 and iPadOS 18.1. An app may be able to access sensitive user data.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-44194"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability was found in Beijing Longda Jushang Technology DBShop\u5546\u57ce\u7cfb\u7edf 3.3 Release 231225. It has been declared as problematic. This vulnerability affects unknown code of the file /home-order. The manipulation of the argument orderStatus with the input %22%3E%3Csvg%20onload=alert(5888)%3E leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-12991"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe WooEvents - Calendar and Event Booking plugin for WordPress is vulnerable to arbitrary file overwrite due to insufficient file path validation in the inc/barcode.php file in all versions up to, and including, 4.1.2. This makes it possible for unauthenticated attackers to overwrite arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-8671"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability has been found in SourceCodester Online Courseware 1.0 and classified as problematic. This vulnerability affects unknown code of the file edit.php. The manipulation of the argument id leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-259600.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-3428"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nllama.cpp provides LLM inference in C/C++. The unsafe `data` pointer member in the `rpc_tensor` structure can cause arbitrary address reading. This vulnerability is fixed in b3561.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-42478"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nEnvoy is a cloud-native, open source edge and service proxy. There is a use-after-free in `HttpConnectionManager` (HCM) with `EnvoyQuicServerStream` that can crash Envoy. An attacker can exploit this vulnerability by sending a request without `FIN`, then a `RESET_STREAM` frame, and then after receiving the response, closing the connection.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-34362"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA Cross Site Scripting (XSS) vulnerability in Symphony CMS 2.7.10 allows remote attackers to inject arbitrary web script or HTML by editing note.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-41613"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nDefault credentials are used in the above listed BD Diagnostic Solutions products. If exploited, threat actors may be able to access, modify or delete data, including sensitive information such as protected health information (PHI) and personally identifiable information (PII). Exploitation of this vulnerability may allow an attacker to shut down or otherwise impact the availability of the system. Note: BD Synapsys\u2122 Informatics Solution is only in scope of this vulnerability when installed on a NUC server. BD Synapsys\u2122 Informatics Solution installed on a customer-provided virtual machine or on the BD Kiestra\u2122 SCU hardware is not in scope.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-10476"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAn issue in the exp_ref component of MonetDB Server v11.49.1 allows attackers to cause a Denial of Service (DoS) via crafted SQL statements.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-57631"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nVulnerability in the MySQL Server product of Oracle MySQL (component: Server: DDL). Supported versions that are affected are 8.0.37 and prior and 8.4.0 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-21127"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in jgadbois CalculatorPro Calculators allows Reflected XSS.This issue affects CalculatorPro Calculators: from n/a through 1.1.7.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-24847"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAn issue in the login page of Seclore v3.27.5.0 allows attackers to bypass authentication via a brute force attack.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-53591"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nOn affected versions of the Arista CloudVision Portal (CVP on-prem), the time-bound device onboarding token can be used to gain admin privileges on CloudVision.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-8100"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability was found in Tenda FH1203 2.0.1.6 and classified as critical. This issue affects the function formSetCfm of the file /goform/setcfm. The manipulation of the argument funcpara1 leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-258161 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-2992"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nTransient DOS while processing the CU information from RNR IE.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-38405"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA SQL injection vulnerability in /model/get_subject.php in campcodes Complete Web-Based School Management System 1.0 allows an attacker to execute arbitrary SQL commands via the id parameter.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-33804"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Happy Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Photo Stack Widget in all versions up to, and including, 3.10.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-1498"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe NitroPack plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'nitropack_dismiss_notice_forever' AJAX action in all versions up to, and including, 1.17.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to update arbitrary options to a fixed value of '1' which can activate certain options (e.g., enable user registration) or modify certain options in a way that leads to a denial of service condition.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-11848"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nTOTOLINK A6000R V1.0.1-B20201211.2000 was discovered to contain a command injection vulnerability via the ifname parameter in the apcli_wps_gen_pincode function.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-41318"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA guest user could exploit a chart data REST API and send arbitrary SQL statements that on error could leak information from the underlying analytics database.This issue affects Apache Superset: before 3.0.4, from 3.1.0 before 3.1.1. Users are recommended to upgrade to version 3.1.1 or 3.0.4, which fixes the issue.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-24772"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Product Expiry for WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'save_settings' function in versions up to, and including, 2.5. This makes it possible for authenticated attackers, with subscriber-level permissions or above to update plugin settings.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-0201"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability was found in SourceCodester Employee Task Management System 1.0. It has been classified as critical. This affects an unknown part of the file /edit-task.php. The manipulation leads to execution after redirect. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-257073 was assigned to this vulnerability.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-2570"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIn the Linux kernel, the following vulnerability has been resolved: drm/amdkfd: amdkfd_free_gtt_mem clear the correct pointer Pass pointer reference to amdgpu_bo_unref to clear the correct pointer, otherwise amdgpu_bo_unref clear the local variable, the original pointer not set to NULL, this could cause use-after-free bug.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-49991"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIrfanView DXF File Parsing Memory Corruption Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of IrfanView. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DXF files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-24598.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-11524"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Drupal SVG Embed allows Cross-Site Scripting (XSS).This issue affects SVG Embed: from 0.0.0 before 2.1.2.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-13286"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nvirtualenv before 20.26.6 allows command injection through the activation scripts for a virtual environment. Magic template strings are not quoted correctly when replacing. NOTE: this is not the same as CVE-2024-9287.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-53899"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIn Apache ActiveMQ 6.x, the default configuration doesn't secure the API web context (where the Jolokia JMX REST API and the Message REST API are located). It means that anyone can use these layers without any required authentication. Potentially, anyone can interact with the broker (using Jolokia JMX REST API) and/or produce/consume messages or purge/delete destinations (using the Message REST API). To mitigate, users can update the default conf/jetty.xml configuration file to add authentication requirement: <bean id=\"securityConstraintMapping\" class=\"org.eclipse.jetty.security.ConstraintMapping\"> <property name=\"constraint\" ref=\"securityConstraint\" /> <property name=\"pathSpec\" value=\"/\" /> </bean> Or we encourage users to upgrade to Apache ActiveMQ 6.1.2 where the default configuration has been updated with authentication by default.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-32114"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe RomethemeKit For Elementor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the save_options and reset_widgets functions in all versions up to, and including, 1.5.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to modify plugin settings or reset plugin widgets to their default state (all enabled). NOTE: This vulnerability was partially fixed in version 1.5.3.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-10326"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Team Heateor Heateor Social Login allows Cross-Site Scripting (XSS).This issue affects Heateor Social Login: from n/a through 1.1.32.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-35706"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIn the Linux kernel, the following vulnerability has been resolved: PCI: keystone: Fix if-statement expression in ks_pcie_quirk() This code accidentally uses && where || was intended. It potentially results in a NULL dereference. Thus, fix the if-statement expression to use the correct condition. [kwilczynski: commit log]\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-47756"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nUnrestricted Upload of File with dangerous type vulnerability in Apache StreamPipes. Such a dangerous type might be an executable file that may lead to a remote code execution (RCE). The unrestricted upload is only possible for authenticated and authorized users. This issue affects Apache StreamPipes: through 0.93.0. Users are recommended to upgrade to version 0.95.0, which fixes the issue.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-31411"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nFirefox Android allowed immediate interaction with permission prompts. This could be used for tapjacking. This vulnerability affects Firefox < 128.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-6605"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nRemote Desktop Client Remote Code Execution Vulnerability\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-21307"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nZoho ManageEngine PAM360 is vulnerable to Stored XSS vulnerability. This vulnerability is applicable only in the version 6610.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-27313"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nRaspAP before 3.1.5 allows an attacker to escalate privileges: the www-data user has write access to the restapi.service file and also possesses Sudo privileges to execute several critical commands without a password.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-41637"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nmoby v25.0.0 - v26.0.2 is vulnerable to NULL Pointer Dereference via daemon/images/image_history.go.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-36620"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nNVIDIA CUDA Toolkit for Windows and Linux contains a vulnerability in the nvdisam command line tool, where a user can cause a NULL pointer dereference by running nvdisasm on a malformed ELF file. A successful exploit of this vulnerability might lead to a limited denial of service.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-0125"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nDell PowerScale OneFS Versions 8.2.2.x through 9.8.0.x contain an improper resource unlocking vulnerability. A remote low privileged attacker could potentially exploit this vulnerability, leading to denial of service.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-49602"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA Reflected Cross-site scripting (XSS) vulnerability exists in '/search' in microweber 2.0.15 and earlier allowing unauthenticated remote attackers to inject arbitrary web script or HTML via the 'keywords' parameter.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-40101"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Related Posts, Inline Related Posts, Contextual Related Posts, Related Content By PickPlugins plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including 2.0.59. This is due to missing nonce validation on a function. This makes it possible for unauthenticated attackers to inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-12634"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nWindows Resume Extensible Firmware Interface Security Feature Bypass Vulnerability\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-37982"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe Squelch Tabs and Accordions Shortcodes plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.4.7. This is due to missing or incorrect nonce validation when saving plugin settings. This makes it possible for unauthenticated attackers to modify plugin settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-4463"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe LTL Freight Quotes \u2013 Worldwide Express Edition plugin for WordPress is vulnerable to SQL Injection via the 'dropship_edit_id' and 'edit_id' parameter in all versions up to, and including, 5.0.20 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-13473"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nThe \"BuddyPress WooCommerce My Account Integration. Create WooCommerce Member Pages\" plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.4.20 via deserialization of untrusted input in the get_simple_request function. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject a PHP Object. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-2025"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAn improper access control vulnerability has been identified in the SonicWall SonicOS management access, potentially leading to unauthorized resource access and in specific conditions, causing the firewall to crash. This issue affects SonicWall Firewall Gen 5 and Gen 6 devices, as well as Gen 7 devices running SonicOS 7.0.1-5035 and older versions.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-40766"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nCode-projects Hotel Managment System 1.0, allows SQL Injection via the 'rid' parameter in Hotel/admin/roombook.php?rid=2.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-25315"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Lemonade Coding Studio Lemonade Social Networks Autoposter Pinterest allows Reflected XSS.This issue affects Lemonade Social Networks Autoposter Pinterest: from n/a through 2.0.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-56028"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability found in Xerox Workplace Suite allows arbitrary file read, upload, and deletion on the server through crafted header manipulation. By exploiting improper validation of headers, attackers can gain unauthorized access to data\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-55926"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nAn authenticated data.all user is able to manipulate a getDataset query to fetch additional information regarding the parent Environment resource that the user otherwise would not able to fetch by directly querying the object via getEnvironment in data.all.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-52313"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nMemory corruption while sound model registration for voice activation with audio kernel driver.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-45581"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Copy Content Protection Team Secure Copy Content Protection and Content Locking allows Stored XSS.This issue affects Secure Copy Content Protection and Content Locking: from n/a through 4.2.3.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-47306"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nMissing authorization vulnerability in GetLiveViewPath webapi component in Synology Surveillance Station before 9.2.0-9289 and 9.2.0-11289 allows remote authenticated users to obtain sensitive information via unspecified vectors.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-29229"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability has been found in ESAFENET CDG 5 and classified as critical. This vulnerability affects the function getOneFileDirectory of the file /com/esafenet/servlet/fileManagement/FileDirectoryService.java. The manipulation of the argument directoryId leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-10502"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability classified as problematic was found in funnyzpc Mee-Admin up to 1.6. This vulnerability affects unknown code of the file /mee/login of the component Login. The manipulation of the argument username leads to observable response discrepancy. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-12663"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nDell PowerScale OneFS versions 8.2.x through 9.7.0.2 contains a use of a broken or risky cryptographic algorithm vulnerability. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to information disclosure.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-25968"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability has been identified in SINEC NMS (All versions < V2.0 SP1). The affected application is vulnerable to SQL injection. This could allow an unauthenticated remote attacker to execute arbitrary SQL queries on the server database.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-23810"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability was found in SourceCodester Employee and Visitor Gate Pass Logging System 1.0. It has been classified as critical. Affected is the function log_employee of the file /classes/Master.php?f=log_employee. The manipulation of the argument employee_code leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-268422 is the identifier assigned to this vulnerability.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-5976"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA flaw was found in Feedback. Bulk messaging in the activity's non-respondents report did not verify message recipients belonging to the set of users returned by the report.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-43438"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nNVIDIA GPU Display Driver for Linux contains a vulnerability where an attacker may access a memory location after the end of the buffer. A successful exploit of this vulnerability may lead to denial of service and data tampering.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-0074"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nCross Site Scripting vulnerability in Martin Kucej i-librarian v.5.11.0 and before allows a local attacker to execute arbitrary code via the search function in the import component.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-40500"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nImproper neutralization of input during web page generation ('Cross-site Scripting') vulnerability in file station functionality in Synology Router Manager (SRM) before 1.3.1-9346-10 allows remote authenticated users with administrator privileges to read or write specific files containing non-sensitive information and conduct limited denial-of-service attacks by injecting arbitrary web script or HTML.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-53279"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA denial-of-service vulnerability exists in specific Rockwell Automation ControlLogix ang GuardLogix controllers. If exploited, the product could potentially experience a major nonrecoverable fault (MNRF). The device will restart itself to recover from the MNRF.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-21916"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA improper neutralization of special elements used in a command ('command injection') in Fortinet FortiManager versions 7.4.1 through 7.4.3, FortiManager Cloud versions 7.4.1 through 7.4.3 allows attacker to escalation of privilege via specifically crafted packets\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-46662"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIn the Linux kernel, the following vulnerability has been resolved: scsi: qedf: Ensure the copied buf is NUL terminated Currently, we allocate a count-sized kernel buffer and copy count from userspace to that buffer. Later, we use kstrtouint on this buffer but we don't ensure that the string is terminated inside the buffer, this can lead to OOB read when using kstrtouint. Fix this issue by using memdup_user_nul instead of memdup_user.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-38559"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nIn the Linux kernel, the following vulnerability has been resolved: netfilter: nf_tables: flush pending destroy work before exit_net release Similar to 2c9f0293280e (\"netfilter: nf_tables: flush pending destroy work before netlink notifier\") to address a race between exit_net and the destroy workqueue. The trace below shows an element to be released via destroy workqueue while exit_net path (triggered via module removal) has already released the set that is used in such transaction. [ 1360.547789] BUG: KASAN: slab-use-after-free in nf_tables_trans_destroy_work+0x3f5/0x590 [nf_tables] [ 1360.547861] Read of size 8 at addr ffff888140500cc0 by task kworker/4:1/152465 [ 1360.547870] CPU: 4 PID: 152465 Comm: kworker/4:1 Not tainted 6.8.0+ #359 [ 1360.547882] Workqueue: events nf_tables_trans_destroy_work [nf_tables] [ 1360.547984] Call Trace: [ 1360.547991] <TASK> [ 1360.547998] dump_stack_lvl+0x53/0x70 [ 1360.548014] print_report+0xc4/0x610 [ 1360.548026] ? __virt_addr_valid+0xba/0x160 [ 1360.548040] ? __pfx__raw_spin_lock_irqsave+0x10/0x10 [ 1360.548054] ? nf_tables_trans_destroy_work+0x3f5/0x590 [nf_tables] [ 1360.548176] kasan_report+0xae/0xe0 [ 1360.548189] ? nf_tables_trans_destroy_work+0x3f5/0x590 [nf_tables] [ 1360.548312] nf_tables_trans_destroy_work+0x3f5/0x590 [nf_tables] [ 1360.548447] ? __pfx_nf_tables_trans_destroy_work+0x10/0x10 [nf_tables] [ 1360.548577] ? _raw_spin_unlock_irq+0x18/0x30 [ 1360.548591] process_one_work+0x2f1/0x670 [ 1360.548610] worker_thread+0x4d3/0x760 [ 1360.548627] ? __pfx_worker_thread+0x10/0x10 [ 1360.548640] kthread+0x16b/0x1b0 [ 1360.548653] ? __pfx_kthread+0x10/0x10 [ 1360.548665] ret_from_fork+0x2f/0x50 [ 1360.548679] ? __pfx_kthread+0x10/0x10 [ 1360.548690] ret_from_fork_asm+0x1a/0x30 [ 1360.548707] </TASK> [ 1360.548719] Allocated by task 192061: [ 1360.548726] kasan_save_stack+0x20/0x40 [ 1360.548739] kasan_save_track+0x14/0x30 [ 1360.548750] __kasan_kmalloc+0x8f/0xa0 [ 1360.548760] __kmalloc_node+0x1f1/0x450 [ 1360.548771] nf_tables_newset+0x10c7/0x1b50 [nf_tables] [ 1360.548883] nfnetlink_rcv_batch+0xbc4/0xdc0 [nfnetlink] [ 1360.548909] nfnetlink_rcv+0x1a8/0x1e0 [nfnetlink] [ 1360.548927] netlink_unicast+0x367/0x4f0 [ 1360.548935] netlink_sendmsg+0x34b/0x610 [ 1360.548944] ____sys_sendmsg+0x4d4/0x510 [ 1360.548953] ___sys_sendmsg+0xc9/0x120 [ 1360.548961] __sys_sendmsg+0xbe/0x140 [ 1360.548971] do_syscall_64+0x55/0x120 [ 1360.548982] entry_SYSCALL_64_after_hwframe+0x55/0x5d [ 1360.548994] Freed by task 192222: [ 1360.548999] kasan_save_stack+0x20/0x40 [ 1360.549009] kasan_save_track+0x14/0x30 [ 1360.549019] kasan_save_free_info+0x3b/0x60 [ 1360.549028] poison_slab_object+0x100/0x180 [ 1360.549036] __kasan_slab_free+0x14/0x30 [ 1360.549042] kfree+0xb6/0x260 [ 1360.549049] __nft_release_table+0x473/0x6a0 [nf_tables] [ 1360.549131] nf_tables_exit_net+0x170/0x240 [nf_tables] [ 1360.549221] ops_exit_list+0x50/0xa0 [ 1360.549229] free_exit_list+0x101/0x140 [ 1360.549236] unregister_pernet_operations+0x107/0x160 [ 1360.549245] unregister_pernet_subsys+0x1c/0x30 [ 1360.549254] nf_tables_module_exit+0x43/0x80 [nf_tables] [ 1360.549345] __do_sys_delete_module+0x253/0x370 [ 1360.549352] do_syscall_64+0x55/0x120 [ 1360.549360] entry_SYSCALL_64_after_hwframe+0x55/0x5d (gdb) list *__nft_release_table+0x473 0x1e033 is in __nft_release_table (net/netfilter/nf_tables_api.c:11354). 11349 list_for_each_entry_safe(flowtable, nf, &table->flowtables, list) { 11350 list_del(&flowtable->list); 11351 nft_use_dec(&table->use); 11352 nf_tables_flowtable_destroy(flowtable); 11353 } 11354 list_for_each_entry_safe(set, ns, &table->sets, list) { 11355 list_del(&set->list); 11356 nft_use_dec(&table->use); 11357 if (set->flags & (NFT_SET_MAP | NFT_SET_OBJECT)) 11358 nft_map_deactivat ---truncated---\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-35899"
+    }
+  },
+  {
+    "instruction": "Analyze the following CVE description and calculate the CVSS v3.1 Base Score. Determine the values for each base metric: AV, AC, PR, UI, S, C, I, and A. Summarize each metric's value and provide the final CVSS v3.1 vector string.\nValid options for each metric are as follows:\n- Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)\n- Attack Complexity (AC): Low (L), High (H)\n- Privileges Required (PR): None (N), Low (L), High (H)\n- User Interaction (UI): None (N), Required (R)\n- Scope (S): Unchanged (U), Changed (C)\n- Confidentiality (C): None (N), Low (L), High (H)\n- Integrity (I): None (N), Low (L), High (H)\n- Availability (A): None (N), Low (L), High (H)\n\nGiven the following CVE description:\nA vulnerability classified as problematic was found in Xlightftpd Xlight FTP Server 1.1. This vulnerability affects unknown code of the component Login. The manipulation of the argument user leads to denial of service. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-251560.\n\nEnsure the final line of your response contains only the CVSS v3.1 Vector String in the format:\nCVSS:3.1/AV:*/AC:*/PR:*/UI:*/S:*/C:*/I:*/A:*",
+    "output": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "category": "CVEBasic",
+    "instruction_type": "CVSS",
+    "parsed_raw_data": {
+      "ID": "CVE-2024-0737"
+    }
+  }
+]
