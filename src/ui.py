@@ -37,7 +37,7 @@ def preview_prompt(prompt_file):
     highlighted = highlight_placeholders(prompt_text)
     # Make line breaks visible in HTML
     highlighted = highlighted.replace('\n', '<br>')
-    return f"<h2>Template Generation Prompt Preview</h2><div style='font-family: monospace; font-size: 1em; background-color: azure'>{highlighted}</div>"
+    return f"<h2>Format Generation Prompt Preview</h2><div style='font-family: monospace; font-size: 1em; background-color: azure'>{highlighted}</div>"
 
 
 def generate_template(model_id: str, prompt_path: str, dataset_description: str, examples_table: list[list]) -> str:
@@ -91,7 +91,7 @@ def get_example(dataset: str, task: str) -> tuple[str, str]:
     return instr, resp
 
 
-def run_dgt(
+def run_secknowledge_2(
         dataset: str,
         task: str,
         task_description: str,
@@ -115,91 +115,7 @@ def run_dgt(
     if not response:
         raise gr.Error("⚠️ Response is required!")
 
-    # Generate configuration
-    config = f"""
-task_name: UI
-created_by: IBM Research
-data_builder: realign
-task_description: Reformats the responses of a general instruction dataset (the one used in the original paper of ReAlign) into a format that better aligns with pre-established criteria and collected evidence.
-retriever:
-  type: core/web/duckduckgo
-  limit: {limit}
-  process_webpages: True
-  deduplicate_sources: True
-  reorder_organic: True
-max_queries_per_instruction: {max_queries}
-summarize_web_results: {summarize}
-seed_datastore:
-  type: default
-  data_path: ${{DGT_DATA_DIR}}/research/realign/example_data_ui.json
-"""
-    
-    config_file_path = Path("fms-dgt/tasks/research/realign/ui/task.yaml")
-    config_file_path.parent.mkdir(parents=True, exist_ok=True)
-    config_file_path.write_text(config)
-
-    # Example data
-    data_path = Path("fms-dgt/data/research/realign/example_data_ui.json")
-    data_example = {
-        "instruction": instruction,
-        "answer": response,
-        "category": "UI",
-        "subcategory": f'{dataset}:{task}',
-    }
-    if grounding_doc:
-        data_example["grounding_doc"] = grounding_doc
-
-    data_path.parent.mkdir(parents=True, exist_ok=True)
-    data_path.write_text(json.dumps([data_example], indent=2))
-
-    # Template
-    template_path = Path("fms-dgt/data/research/realign/templates/ui.json")
-    template_data = {
-        'name': 'UI',
-        'subcategories': [{
-            'name': f'{dataset}:{task}',
-            'description': task_description,
-            'structure': template,
-            'requires_search': is_search,
-            'requires_grounding_doc': bool(grounding_doc),
-            'requires_rewrite': True
-        }]
-    }
-    template_path.parent.mkdir(parents=True, exist_ok=True)
-    template_path.write_text(json.dumps([template_data], indent=2))
-
-    # Run the DGT command
-    fms_dgt_path = Path("fms-dgt")
-    cmd = "python3 -m fms_dgt.research --task-paths ./tasks/research/realign/ui --restart-generation --num-outputs-to-generate 1"
-    with subprocess.Popen(
-        shlex.split(cmd),
-        cwd=fms_dgt_path,                        # run *as if* we had cd-ed
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        text=True,
-        bufsize=1,
-        env=dict(os.environ, PYTHONBUFFERED="1")
-    ) as proc:
-        if proc.stdout is None:
-            raise gr.Error("⚠️ Failed to run the DGT command. Please check the logs.")
-        for line in proc.stdout:                    # stream live output
-            print("\033[32m"+line, end="\033[0m", flush=True)
-    
-    exit_code = proc.wait()
-    if exit_code != 0:
-        raise gr.Error(f"⚠️ DGT command failed with exit code {exit_code}. Please check the logs.")
-
-    output_path = Path("fms-dgt/output/UI/data.jsonl")
-    dgt_output = json.loads(output_path.read_text())
-
-    return (
-        dgt_output['rewritten_answer'],
-        dgt_output['judge_scores']['readability'],
-        dgt_output['judge_scores']['factuality'],
-        dgt_output['search_results'],
-        gr.update(minimum=0, maximum=len(dgt_output['search_results']) - 1 if dgt_output['search_results'] else 0, value=0),
-        gr.update(value=dgt_output['search_results'][0] if dgt_output['search_results'] else "No search results found.")
-    )
+    raise NotImplementedError("Logic is currently hidden because SecKnowledge 2.0 code is not yet released.")
 
 
 def sample_examples(dataset: str, task: str, n: int) -> list[list]:
@@ -251,7 +167,7 @@ def first_checked(table):
     for checked, instr, resp in rows:
         if checked:
             return instr, resp
-    raise gr.Error("⚠️ Please tick at least one example before running ReAlign.")
+    raise gr.Error("⚠️ Please tick at least one example before running SecKnowledge 2.0.")
 
 
 def push_first_selected(table):
@@ -263,14 +179,14 @@ def push_first_selected(table):
 
 
 with gr.Blocks() as demo:
-    gr.Markdown("# WatsonX Prompt Generator with Template Preview")
+    gr.Markdown("# Format Generation Framework")
 
-    gr.Markdown("## View Data")
+    gr.Markdown("## Data Exploration & Example Selection")
     with gr.Row():
-        dataset = gr.Dropdown(choices=sorted(ds_to_task.keys()), label="Dataset", value=sorted(ds_to_task.keys())[0])
+        dataset = gr.Dropdown(choices=sorted(ds_to_task.keys()), label="Category", value=sorted(ds_to_task.keys())[0])
         task = gr.Dropdown(choices=ds_to_task[dataset.value], label="Task", value=ds_to_task[dataset.value][0], interactive=True)
     with gr.Row():
-        num_examples = gr.Slider(0, 10, step=1, value=1, label="Number of random examples to sample")
+        num_examples = gr.Slider(0, 10, step=1, value=1, label="Number of examples to sample randomally")
         sample_btn = gr.Button("Sample")
     
     examples_df = gr.Dataframe(
@@ -282,32 +198,32 @@ with gr.Blocks() as demo:
 
     deselect_all_btn = gr.Button("Deselect all") 
     
-    gr.Markdown("## Create Template")
+    gr.Markdown("## Format Generation")
     with gr.Row():
         model_id = gr.Dropdown(choices=models, label="Model ID", value=DEFAULT_MODEL)
         prompt_file = gr.FileExplorer(label="Prompt Template", root_dir="prompts", file_count="single", value=lambda: DEFAULT_PROMPT_FILE)
     prompt_preview = gr.HTML(label="Prompt Template Preview (placeholders highlighted)", value=preview_prompt(DEFAULT_PROMPT_FILE))
     with gr.Row():
         task_description = gr.Textbox(label="Task Description", placeholder="Short description of the task and the dataset...", show_copy_button=True)
-        template = gr.Textbox(label="Generated Template", show_copy_button=True)
+        template = gr.Textbox(label="Generated Format", show_copy_button=True)
     with gr.Row():
-        generate_btn = gr.Button("Generate Template")
+        generate_btn = gr.Button("Generate Format")
 
-    gr.Markdown("## Run ReAlign Pipeline")
+    gr.Markdown("## Evaluation Through Pipeline Execution (Currently Disabled)")
     with gr.Row():
-        instruction = gr.Textbox(label="Instruction", placeholder="Instruction for ReAlign...", show_copy_button=True)
-        response = gr.Textbox(label="Original Response", placeholder="Response for ReAlign...", show_copy_button=True)
+        instruction = gr.Textbox(label="Instruction", placeholder="Instruction for SecKnowledge 2.0...", show_copy_button=True)
+        response = gr.Textbox(label="Original Response", placeholder="Response for SecKnowledge 2.0...", show_copy_button=True)
     with gr.Row():
         with gr.Column(scale=1):
             with gr.Group():
                 is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
                 with gr.Row():
                     with gr.Column(scale=2):
-                        max_queries = gr.Slider(1, 10, value=5, step=1,
+                        max_queries = gr.Slider(1, 10, value=2, step=1,
                                                 label="Max queries / instruction",
                                                 visible=False)
                     with gr.Column(scale=2):
-                        limit_slider = gr.Slider(1, 10, value=4, step=1,
+                        limit_slider = gr.Slider(1, 10, value=2, step=1,
                                                 label="Results per query (limit)",
                                                 visible=False)
                     with gr.Column(scale=1, min_width=0):
@@ -315,9 +231,9 @@ with gr.Blocks() as demo:
                                                         value=True,
                                                         visible=False)
                 grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
-            run_dgt_btn = gr.Button("Re-Align", variant="primary", interactive=False)
+            run_pipeline_btn = gr.Button("Run SecKnowledge 2.0", variant="primary", interactive=False)
         with gr.Column(scale=1):
-            realigned_response = gr.Textbox(label="Realigned Response", show_copy_button=True)
+            rewritten_response = gr.Textbox(label="Rewritten Response", show_copy_button=True)
             preferred = gr.Textbox(label="Preferred Answer")
             factuality_score = gr.Slider(1, 10, step=1, label="Factuality Score")
             search_results_slider = gr.Slider(0, 0, step=1, label="Search Query Index")
@@ -355,16 +271,15 @@ with gr.Blocks() as demo:
         outputs=[instruction, response]
     )
 
-    # When the run_dgt_btn is clicked, run the DGT command
-    run_dgt_btn.click(
-        run_dgt,
+    run_pipeline_btn.click(
+        run_secknowledge_2,
         inputs=[
             dataset, task, task_description, template,
             instruction, response,
             is_search, grounding_doc, max_queries, limit_slider, summarize_checkbox
         ],
         outputs=[
-            realigned_response, preferred, factuality_score,
+            rewritten_response, preferred, factuality_score,
             search_results_state, search_results_slider, search_result
         ]
     )
