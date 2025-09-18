@@ -148,35 +148,5 @@
       ],
       "instruction_type": "mitre_mapping_tactic"
     }
-  },
-  {
-    "instruction": "Which Mitre tactic does the below description refers to: The adversary is trying to communicate with compromised systems to control them.\n\nThe tactic consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish the tactic with various levels of stealth depending on the victim\u2019s network structure and defenses.?",
-    "context": "",
-    "output": "tactic: Command and Control (TA0011)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_tactic",
-    "parsed_raw_data": {
-      "question": "Which Mitre tactic does the below description refers to: The adversary is trying to communicate with compromised systems to control them.\n\nThe tactic consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish the tactic with various levels of stealth depending on the victim\u2019s network structure and defenses.",
-      "answer": "tactic: Command and Control (TA0011)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_tactic"
-    }
-  },
-  {
-    "instruction": "Which Mitre tactic meets the following description: The adversary is trying to figure out your environment.\n\nThe tactic consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
-    "context": "",
-    "output": "The tactic that meets the above description is Discovery (TA0007)",
-    "category": "MitreFlan",
-    "instruction_type": "mitre_mapping_tactic",
-    "parsed_raw_data": {
-      "question": "Which Mitre tactic meets the following description: The adversary is trying to figure out your environment.\n\nThe tactic consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.",
-      "answer": "The tactic that meets the above description is Discovery (TA0007)",
-      "category": [
-        "MITREFlan"
-      ],
-      "instruction_type": "mitre_mapping_tactic"
-    }
   }
 ]

@@ -174,41 +174,5 @@
       "context": "\n\nAn organization has a data center manned 24 hours a day that processes highly sensitive information. The data center includes email servers, and email older than six months is regularly purged. Access to the data center is controlled, and all systems that process sensitive information are marked. Administrators routinely back up data processed in the data center. They keep a copy of the backups on site and also keep a copy off site on unmarked media at one of their warehouses. The media is organized at the offsite location by date and includes backups from the last 20 years. Employees work at the warehouse during the day and it is locked at night and on weekends. Recently a theft at the warehouse resulted in the loss of all of the offsite backup tapes. Later, copies of their data, including sensitive emails from years ago, began appearing on Internet sites exposing the organization\u2019s internal sensitive data\n",
       "answer": "D.\n\nExplanation:  Backup media should be protected with the same level of protection afforded the data it contains, and using a secure offsite storage facility would ensure this. The media should be marked, but that won\u2019t protect it if it is stored in an unmanned warehouse. A copy of backups should be stored off site to ensure availability if a catastrophe affects the primary location. If copies of data are not stored off site, or offsite backups are destroyed, security is sacrificed by risking availability"
     }
-  },
-  {
-    "instruction": "Answer based on context:\n\n\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n\n\nWhat should have been done before the web server was rebooted?\nA. Review the incident\n- B. Perform remediation steps\n- C. Recovery\n- D. Gather evidence",
-    "context": "",
-    "output": "D.\n\nExplanation:  Evidence should have been gathered that could be used against the attacker at a later time if necessary. The first response after an incident is detected and verified is to contain the incident, but it could have been contained without rebooting the server. Review and remediation are done as the last stage. Recovery is done after reporting the incident, but the administrator did not report the incident and instead rebooted the system, which may have been required for a full recovery",
-    "category": "CISSFlan",
-    "instruction_type": "retrieval1_multiple_choice",
-    "parsed_raw_data": {
-      "question": "What should have been done before the web server was rebooted?",
-      "options_": [
-        "A. Review the incident",
-        "B. Perform remediation steps",
-        "C. Recovery",
-        "D. Gather evidence"
-      ],
-      "context": "\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n",
-      "answer": "D.\n\nExplanation:  Evidence should have been gathered that could be used against the attacker at a later time if necessary. The first response after an incident is detected and verified is to contain the incident, but it could have been contained without rebooting the server. Review and remediation are done as the last stage. Recovery is done after reporting the incident, but the administrator did not report the incident and instead rebooted the system, which may have been required for a full recovery"
-    }
-  },
-  {
-    "instruction": "Answer based on context:\n\n\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n\n\nWhat is the most serious mistake made by the server administrator in this incident?\nA. Rebooting the server\n* B. Not reporting the incident\n* C. Attacking the IP address\n* D. Resetting the connection",
-    "context": "",
-    "output": "C.\n\nExplanation:  Attacking the IP address was the most serious mistake because it is illegal in most locations. Additionally, because attackers often use spoofing techniques, it probably isn\u2019t the actual IP address of the attacker. Rebooting the server without gathering evidence and not reporting the incident were mistakes but won\u2019t have a potential lasting negative effect on the organization. Resetting the connection to isolate the incident would have been a good step if it was done without rebooting the server",
-    "category": "CISSFlan",
-    "instruction_type": "retrieval1_multiple_choice",
-    "parsed_raw_data": {
-      "question": "What is the most serious mistake made by the server administrator in this incident?",
-      "options_": [
-        "A. Rebooting the server",
-        "B. Not reporting the incident",
-        "C. Attacking the IP address",
-        "D. Resetting the connection"
-      ],
-      "context": "\n\nAn organization has an incident response plan that requires reporting incidents when they are discovered. For security purposes, the plan is not published and the contents are only known to the members of the incident response team. Recently, a server administrator noticed that a web server he manages was running slower than normal. After a quick investigation, he realized an attack was coming from a specific IP address. He immediately rebooted the web server to reset the connection and stop the attack. He then used a utility he found on the Internet to launch a protracted attack against this IP address for several hours. Because attacks from this IP address stopped, he didn\u2019t report the incident\n",
-      "answer": "C.\n\nExplanation:  Attacking the IP address was the most serious mistake because it is illegal in most locations. Additionally, because attackers often use spoofing techniques, it probably isn\u2019t the actual IP address of the attacker. Rebooting the server without gathering evidence and not reporting the incident were mistakes but won\u2019t have a potential lasting negative effect on the organization. Resetting the connection to isolate the incident would have been a good step if it was done without rebooting the server"
-    }
   }
 ]
