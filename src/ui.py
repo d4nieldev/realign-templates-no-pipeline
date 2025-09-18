@@ -228,7 +228,7 @@ with gr.Blocks() as demo:
                                                 visible=False)
                     with gr.Column(scale=1, min_width=0):
                         summarize_checkbox = gr.Checkbox(label="Summarize Search Results with LLM",
-                                                        value=True,
+                                                        value=False,
                                                         visible=False)
                 grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
             run_pipeline_btn = gr.Button("Run SecKnowledge 2.0", variant="primary", interactive=False)
