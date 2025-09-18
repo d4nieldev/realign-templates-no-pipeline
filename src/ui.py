@@ -9,21 +9,17 @@ import shlex
 import pandas as pd
 import gradio as gr
 from dotenv import load_dotenv
-from ibm_watsonx_ai import APIClient, Credentials
-from ibm_watsonx_ai.foundation_models import ModelInference
 from openai import OpenAI
 
 load_dotenv()
 
 TASKS_PATH = Path("tasks")
-DEFAULT_MODEL = "mistralai/mistral-medium-2505"
+DEFAULT_MODEL = "gpt-5-mini"
 DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/fewshot.txt"
 
 
-creds = Credentials(url=os.getenv("WATSONX_URL"), api_key=os.getenv("WATSONX_API_KEY"))
-client = APIClient(credentials=creds, project_id=os.getenv("WATSONX_PROJECT_ID"))
-
-models = ["openai/gpt-4.1"] + [e.value for e in client.foundation_models.TextModels]
+assert "OPENAI_API_KEY" in os.environ, "Please set the `OPENAI_API_KEY` environment variable."
+models = [m.id for m in OpenAI().models.list().data]
 
 ds_to_task = {
     ds_path.name: sorted([task_path.stem for task_path in ds_path.iterdir() if task_path.is_file() and task_path.suffix == '.json'])
@@ -62,30 +58,12 @@ def generate_template(model_id: str, prompt_path: str, dataset_description: str,
         example_questions=examples_questions
     )
     
-    if model_id.startswith("openai/"):
-        client = OpenAI(
-            # This is the default and can be omitted
-            api_key=os.environ.get("OPENAI_API_KEY"),
-        )
-        response = client.responses.create(
-            model=model_id.replace("openai/", ""),
-            instructions="You are a helpful assistant.",
-            input=prompt,
-            tools=[{"type": "web_search_preview"}]
-        ).output_text
-    else:
-        model = ModelInference(
-            model_id=model_id,
-            credentials=creds,
-            project_id=os.getenv("WATSONX_PROJECT_ID")
-        )
-        response = model.chat(
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt}
-            ],
-            params={"max_tokens": 4096}
-        )['choices'][0]['message']['content']
+    response = OpenAI().responses.create(
+        model=model_id,
+        instructions="You are a helpful assistant.",
+        input=prompt,
+        tools=[{"type": "web_search_preview"}]
+    ).output_text
 
     return response
 
@@ -337,7 +315,7 @@ with gr.Blocks() as demo:
                                                         value=True,
                                                         visible=False)
                 grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
-            run_dgt_btn = gr.Button("Re-Align", variant="primary")
+            run_dgt_btn = gr.Button("Re-Align", variant="primary", interactive=False)
         with gr.Column(scale=1):
             realigned_response = gr.Textbox(label="Realigned Response", show_copy_button=True)
             preferred = gr.Textbox(label="Preferred Answer")
