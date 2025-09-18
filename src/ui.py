@@ -216,7 +216,7 @@ seed_datastore:
 
     return (
         dgt_output['rewritten_answer'],
-        True if dgt_output['judge_scores']['readability'] == 'rewritten' else False,
+        dgt_output['judge_scores']['readability'],
         dgt_output['judge_scores']['factuality'],
         dgt_output['search_results'],
         gr.update(minimum=0, maximum=len(dgt_output['search_results']) - 1 if dgt_output['search_results'] else 0, value=0),
@@ -340,7 +340,7 @@ with gr.Blocks() as demo:
             run_dgt_btn = gr.Button("Re-Align", variant="primary")
         with gr.Column(scale=1):
             realigned_response = gr.Textbox(label="Realigned Response", show_copy_button=True)
-            preferred = gr.Checkbox(label="Realign Preferred")
+            preferred = gr.Textbox(label="Preferred Answer")
             factuality_score = gr.Slider(1, 10, step=1, label="Factuality Score")
             search_results_slider = gr.Slider(0, 0, step=1, label="Search Query Index")
             search_result = gr.Markdown(label="Search Results", show_copy_button=True)
