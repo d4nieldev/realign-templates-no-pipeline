@@ -1940,7 +1940,7 @@ wheels = [
 ]
 
 [[package]]
-name = "secknowledge-2-templates-generation-ui"
+name = "secknowledge2-format-generation-ui"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

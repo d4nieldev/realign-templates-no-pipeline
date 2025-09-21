@@ -14,6 +14,8 @@ from secknowledge2_partial import run
 load_dotenv()
 
 TASKS_PATH = Path("tasks")
+DEFAULT_CATEGORY = 'cissp_evol'
+DEFAULT_TASK = 'external_natural_question'
 DEFAULT_MODEL = "gpt-4.1"
 DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/format-gen-prompts/fewshot.txt"
 
@@ -208,8 +210,8 @@ with gr.Blocks() as demo:
 
     gr.Markdown("## Data Exploration & Example Selection")
     with gr.Row():
-        dataset = gr.Dropdown(choices=sorted(ds_to_task.keys()), label="Category", value=sorted(ds_to_task.keys())[0])
-        task = gr.Dropdown(choices=ds_to_task[dataset.value], label="Task", value=ds_to_task[dataset.value][0], interactive=True)
+        dataset = gr.Dropdown(choices=sorted(ds_to_task.keys()), label="Category", value=DEFAULT_CATEGORY)
+        task = gr.Dropdown(choices=ds_to_task[dataset.value], label="Task", value=DEFAULT_TASK, interactive=True)
     with gr.Row():
         num_examples = gr.Slider(0, 10, step=1, value=1, label="Number of examples to sample randomally")
         sample_btn = gr.Button("Sample")
