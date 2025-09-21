@@ -232,7 +232,7 @@ with gr.Blocks() as demo:
     prompt_preview = gr.HTML(label="Prompt Template Preview (placeholders highlighted)", value=preview_prompt(DEFAULT_PROMPT_FILE))
     with gr.Row():
         task_description = gr.Textbox(label="Task Description", placeholder="Short description of the task and the dataset...", show_copy_button=True)
-        template = gr.Textbox(label="Generated Format", show_copy_button=True)
+        template = gr.Textbox(label="Generated Format", show_copy_button=True, lines=15)
     with gr.Row():
         generate_btn = gr.Button("Generate Format")
 
@@ -257,10 +257,10 @@ with gr.Blocks() as demo:
                         summarize_checkbox = gr.Checkbox(label="Summarize Search Results with LLM",
                                                         value=False,
                                                         visible=False)
-                grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
+                grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...", lines=15)
             run_pipeline_btn = gr.Button("Run SecKnowledge 2.0", variant="primary")
         with gr.Column(scale=1):
-            rewritten_response = gr.Textbox(label="Rewritten Response", show_copy_button=True)
+            rewritten_response = gr.Textbox(label="Rewritten Response", show_copy_button=True, lines=15)
             preferred = gr.Textbox(label="Preferred Answer")
             factuality_score = gr.Slider(1, 10, step=1, label="Factuality Score")
             search_results_slider = gr.Slider(0, 0, step=1, label="Search Query Index")
