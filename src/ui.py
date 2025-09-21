@@ -3,19 +3,19 @@ import re
 import json
 import random
 from pathlib import Path
-import subprocess
-import shlex
 
 import pandas as pd
 import gradio as gr
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from src.secknowledge2_partial import run
+
 load_dotenv()
 
 TASKS_PATH = Path("tasks")
-DEFAULT_MODEL = "gpt-5-mini"
-DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/prompts/fewshot.txt"
+DEFAULT_MODEL = "gpt-4.1"
+DEFAULT_PROMPT_FILE =  os.path.abspath(os.getcwd()) + "/format-gen-prompts/fewshot.txt"
 
 
 assert "OPENAI_API_KEY" in os.environ, "Please set the `OPENAI_API_KEY` environment variable."
@@ -103,7 +103,8 @@ def run_secknowledge_2(
         max_queries: int,
         limit: int,
         summarize: bool,
-    ) -> tuple[str, bool, int, list[str] | None, dict, dict]:
+        model_id: str
+    ) -> tuple[str, str, float, list[str] | None, dict, dict]:
     if not dataset:
         raise gr.Error("⚠️ Dataset is required!")
     if not task:
@@ -115,7 +116,31 @@ def run_secknowledge_2(
     if not response:
         raise gr.Error("⚠️ Response is required!")
 
-    raise NotImplementedError("Logic is currently hidden because SecKnowledge 2.0 code is not yet released.")
+    output = run(
+        question=instruction,
+        answer=response,
+        format=template,
+        is_search=is_search,
+        max_queries=max_queries,
+        limit=limit,
+        summarize=summarize,
+        grounding_doc=grounding_doc or "",
+        model_id=model_id
+    )
+
+    search_results = [
+        f"## Search Query: {query}\n\n{results}"
+        for query, results in output['search_results'].items()
+    ] if output.get('search_results') else ["No search results."]
+
+    return (
+        output['rewritten_answer'],
+        output['judge']['readability'],
+        output['judge']['factuality'],
+        search_results,
+        gr.update(minimum=0, maximum=len(search_results)-1, value=0),
+        gr.update(value=search_results[0]),
+    )
 
 
 def sample_examples(dataset: str, task: str, n: int) -> list[list]:
@@ -201,7 +226,7 @@ with gr.Blocks() as demo:
     gr.Markdown("## Format Generation")
     with gr.Row():
         model_id = gr.Dropdown(choices=models, label="Model ID", value=DEFAULT_MODEL)
-        prompt_file = gr.FileExplorer(label="Prompt Template", root_dir="prompts", file_count="single", value=lambda: DEFAULT_PROMPT_FILE)
+        prompt_file = gr.FileExplorer(label="Prompt Template", root_dir="format-gen-prompts", file_count="single", value=lambda: DEFAULT_PROMPT_FILE)
     prompt_preview = gr.HTML(label="Prompt Template Preview (placeholders highlighted)", value=preview_prompt(DEFAULT_PROMPT_FILE))
     with gr.Row():
         task_description = gr.Textbox(label="Task Description", placeholder="Short description of the task and the dataset...", show_copy_button=True)
@@ -209,14 +234,14 @@ with gr.Blocks() as demo:
     with gr.Row():
         generate_btn = gr.Button("Generate Format")
 
-    gr.Markdown("## Evaluation Through Pipeline Execution (Currently Disabled)")
+    gr.Markdown("## Evaluation Through Pipeline Execution (Without Search)")
     with gr.Row():
         instruction = gr.Textbox(label="Instruction", placeholder="Instruction for SecKnowledge 2.0...", show_copy_button=True)
         response = gr.Textbox(label="Original Response", placeholder="Response for SecKnowledge 2.0...", show_copy_button=True)
     with gr.Row():
         with gr.Column(scale=1):
             with gr.Group():
-                is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response.")
+                is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response")
                 with gr.Row():
                     with gr.Column(scale=2):
                         max_queries = gr.Slider(1, 10, value=2, step=1,
@@ -231,7 +256,7 @@ with gr.Blocks() as demo:
                                                         value=False,
                                                         visible=False)
                 grounding_doc = gr.Textbox(label="Grounding Document (optional)", placeholder="Document to ground the response...")
-            run_pipeline_btn = gr.Button("Run SecKnowledge 2.0", variant="primary", interactive=False)
+            run_pipeline_btn = gr.Button("Run SecKnowledge 2.0", variant="primary")
         with gr.Column(scale=1):
             rewritten_response = gr.Textbox(label="Rewritten Response", show_copy_button=True)
             preferred = gr.Textbox(label="Preferred Answer")
@@ -276,7 +301,8 @@ with gr.Blocks() as demo:
         inputs=[
             dataset, task, task_description, template,
             instruction, response,
-            is_search, grounding_doc, max_queries, limit_slider, summarize_checkbox
+            is_search, grounding_doc, max_queries, limit_slider, summarize_checkbox,
+            model_id
         ],
         outputs=[
             rewritten_response, preferred, factuality_score,
