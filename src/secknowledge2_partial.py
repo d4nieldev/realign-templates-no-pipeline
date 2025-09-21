@@ -3,8 +3,9 @@ import re
 from pathlib import Path
 from typing import TypedDict, Literal, Callable, Any
 from functools import partial
-from logger import logger
 from collections import defaultdict
+
+from logger import logger
 
 from openai import OpenAI
 from ddgs import DDGS

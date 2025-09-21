@@ -9,7 +9,7 @@ import gradio as gr
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from src.secknowledge2_partial import run
+from secknowledge2_partial import run
 
 load_dotenv()
 
