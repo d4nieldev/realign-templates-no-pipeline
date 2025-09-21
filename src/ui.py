@@ -236,7 +236,7 @@ with gr.Blocks() as demo:
     with gr.Row():
         generate_btn = gr.Button("Generate Format")
 
-    gr.Markdown("## Evaluation Through Pipeline Execution (Without Search)")
+    gr.Markdown("## Evaluation Through Pipeline Execution")
     with gr.Row():
         instruction = gr.Textbox(label="Instruction", placeholder="Instruction for SecKnowledge 2.0...", show_copy_button=True)
         response = gr.Textbox(label="Original Response", placeholder="Response for SecKnowledge 2.0...", show_copy_button=True)
@@ -245,15 +245,15 @@ with gr.Blocks() as demo:
             with gr.Group():
                 is_search = gr.Checkbox(label="Use Search", value=False, info="Whether to use search to ground the response")
                 with gr.Row():
-                    with gr.Column(scale=2):
+                    with gr.Column(scale=1):
                         max_queries = gr.Slider(1, 10, value=2, step=1,
                                                 label="Max queries / instruction",
                                                 visible=False)
-                    with gr.Column(scale=2):
+                    with gr.Column(scale=1):
                         limit_slider = gr.Slider(1, 10, value=2, step=1,
                                                 label="Results per query (limit)",
                                                 visible=False)
-                    with gr.Column(scale=1, min_width=0):
+                    with gr.Column(scale=2, min_width=0):
                         summarize_checkbox = gr.Checkbox(label="Summarize Search Results with LLM",
                                                         value=False,
                                                         visible=False)
