@@ -1,5 +1,5 @@
 [project]
-name = "secknowledge-2-templates-generation-ui"
+name = "secknowledge2_format_generation_ui"
 version = "0.1.0"
 description = "Simple UI to help generate formats for any seed dataset before feeding it to SecKnowledge 2."
 readme = "README.md"
