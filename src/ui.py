@@ -238,8 +238,8 @@ with gr.Blocks() as demo:
 
     gr.Markdown("## Evaluation Through Pipeline Execution")
     with gr.Row():
-        instruction = gr.Textbox(label="Instruction", placeholder="Instruction for SecKnowledge 2.0...", show_copy_button=True)
-        response = gr.Textbox(label="Original Response", placeholder="Response for SecKnowledge 2.0...", show_copy_button=True)
+        instruction = gr.Textbox(label="Instruction", placeholder="Instruction for SecKnowledge 2.0...", show_copy_button=True, lines=15)
+        response = gr.Textbox(label="Original Response", placeholder="Response for SecKnowledge 2.0...", show_copy_button=True, lines=15)
     with gr.Row():
         with gr.Column(scale=1):
             with gr.Group():
@@ -261,9 +261,10 @@ with gr.Blocks() as demo:
             run_pipeline_btn = gr.Button("Run SecKnowledge 2.0", variant="primary")
         with gr.Column(scale=1):
             rewritten_response = gr.Textbox(label="Rewritten Response", show_copy_button=True, lines=15)
-            preferred = gr.Textbox(label="Preferred Answer")
-            factuality_score = gr.Slider(1, 10, step=1, label="Factuality Score")
-            search_results_slider = gr.Slider(0, 0, step=1, label="Search Query Index")
+            with gr.Row():
+                preferred = gr.Textbox(label="Preferred Answer")
+                factuality_score = gr.Slider(1, 10, step=1, label="Factuality Score")
+            search_results_slider = gr.Slider(0, 0, step=1, label="Browse Search Queries")
             search_result = gr.Markdown(label="Search Results", show_copy_button=True)
             search_results_state = gr.State([])
     
